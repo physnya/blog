@@ -50,12 +50,12 @@ export default defineThemeConfig({
    * 公告板
    * @see https://theme-plume.vuejs.press/guide/features/bulletin/
    */
-  bulletin: {
-    layout: 'center',
-    contentType: 'markdown',
-    title: '公告',
-    content: '本站正在重构中，还有部分功能没有实现，敬请谅解.<br><p>todo: </p><ul><p>评论系统</p><p>站点统计</p><p>友链</p></ul>',
-  },
+  // bulletin: {
+  //   layout: 'center',
+  //   contentType: 'markdown',
+  //   title: '公告',
+  //   content: '本站正在重构中，还有部分功能没有实现，敬请谅解.<br><p>todo: </p><ul><p>评论系统</p><p>站点统计</p><p>友链</p></ul>',
+  // },
 
   /* 过渡动画 @see https://theme-plume.vuejs.press/config/basic/#transition */
   transition: {
