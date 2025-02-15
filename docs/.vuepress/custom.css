@@ -1,20 +1,8 @@
 :root {
     --vp-font-family-base:
         "LXGW WenKai Lite"
-        "Apple Color Emoji",
-        "Segoe UI Emoji",
-        "Segoe UI Symbol",
-        "Noto Color Emoji";
     --vp-font-family-mono:
         "LXGW WenKai Lite",
-        ui-monospace,
-        "Menlo",
-        "Monaco",
-        "Consolas",
-        "Liberation Mono",
-        "Courier New",
-        monospace;
-
     font-optical-sizing: auto;
 }
   
@@ -22,13 +10,6 @@
 :root:where(:lang(zh-CN)) {
     --vp-font-family-base:
         "LXGW WenKai Lite",
-        ui-sans-serif,
-        system-ui,
-        serif,
-        "Apple Color Emoji",
-        "Segoe UI Emoji",
-        "Segoe UI Symbol",
-        "Noto Color Emoji";
 }
 
 html {

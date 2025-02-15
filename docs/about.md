@@ -21,7 +21,7 @@ createTime: 2025/02/14 22:55:26
   * 博客名：菲兹克斯喵
   * 简介：Eclipse first, the rest nowhere.
   * 链接：https://physnya.top
-  * 图片：https://physnya.top/img/Physics_nya.jpg
+  * 图片：https://physnya.top/images/Physics_nya.jpg
 
 友链的一些要求：
   * 无不良内容，可在中国大陆大部分地区正常访问.

@@ -8,7 +8,7 @@ permalink: /Feynman-III/
 ---
 ## README
 
-这里是 [physnya](https://physnya.top/) 的 Feynman 物理学讲义 Vol.III 札记，是在上《费曼物理学 III》这门课程时，在课堂上做的记录，以及习题课的笔记.
+这里是 [physnya](/) 的 Feynman 物理学讲义 Vol.III 札记，是在上《费曼物理学 III》这门课程时，在课堂上做的记录，以及习题课的笔记.
 
 这门课程有关量子力学，又因为 Feynman 独特的教学风格和这门课的 [授课教师](https://xianyuzhongzhi.wordpress.com/) 的个人特色，这门课的授课内容和顺序都和传统的量子力学课程有些不一样，在我个人看来要更加困难. 因此，我在课堂上的快速记录有很大的出错可能，也请大家多多指正.
 

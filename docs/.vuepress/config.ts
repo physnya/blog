@@ -161,9 +161,10 @@ export default defineUserConfig({
        * 评论 comments
        * @see https://theme-plume.vuejs.press/guide/features/comments/
        */
-      // comment: {
-      //   provider: '', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
-      //   comment: true,
+      comment: {
+        provider: 'Twikoo', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
+        comment: true,
+        envId: 'https://physnya-twikoo.netlify.app/.netlify/functions/twikoo',
       //   repo: '',
       //   repoId: '',
       //   category: '',
@@ -171,7 +172,7 @@ export default defineUserConfig({
       //   mapping: 'pathname',
       //   reactionsEnabled: true,
       //   inputPosition: 'top',
-      // },
+      },
     },
 
     /**
