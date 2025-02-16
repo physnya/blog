@@ -5,7 +5,7 @@ permalink: /timeline/
 pageLayout: doc
 createTime: 2025/02/15 19:12:39
 ---
-:::: details Hexo-Fluid 时期的时间线
+:::: details Hexo - Fluid 时期的时间线
 ::: steps
     
 * 建立 2024-03-22 

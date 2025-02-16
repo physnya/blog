@@ -3,7 +3,7 @@ pageLayout: friends
 title: 友情链接
 draft: true
 description: 共同进步
-permalink: /links/
+permalink: /friends/
 list:
   -
     name: Bangumi

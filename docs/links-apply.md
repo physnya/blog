@@ -1,11 +1,9 @@
 ---
 title: 友链申请
 draft: true
-permalink: /links-apply/
+permalink: /links/
 pageLayout: doc
 ---
-## 友链申请
-
 如果你想要申请友链，请仔细阅读友链的申请规则，在符合规则之后再来本页面的评论区提出申请.
 
 首先，请按如下格式提供信息：
