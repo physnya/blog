@@ -1,9 +1,9 @@
 {
-  "name": "physnya-s-notes",
+  "name": "physnya-s-blog",
   "type": "module",
   "version": "1.0.0",
-  "description": "This is physnya's personal notebook.",
-  "author": "Physics_nya <676266673@qq.com>",
+  "description": "This is physnya's personal blog & notebook.",
+  "author": "physnya <676266673@qq.com>",
   "license": "MIT",
   "engines": {
     "node": "^18.20.0 || >=20.0.0"

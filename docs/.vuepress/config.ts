@@ -164,7 +164,7 @@ export default defineUserConfig({
       comment: {
         provider: 'Twikoo', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
         comment: true,
-        envId: 'https://physnya-twikoo.netlify.app/.netlify/functions/twikoo',
+        envId: 'https://twikoo.physnya.top/.netlify/functions/twikoo',
       //   repo: '',
       //   repoId: '',
       //   category: '',
