@@ -17,5 +17,10 @@ export const navbar = defineNavbarConfig([
       { text: '时间线', link: '/timeline/' },
     ]
   },
-  { text: '友链', link: '/links/' },
+  { text: '友链',
+    items: [
+      { text: '友情链接', link: '/links/' },
+      { text: '友链申请', link: '/links-apply/' },
+    ]
+  },
 ])
