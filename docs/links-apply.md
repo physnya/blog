@@ -3,6 +3,7 @@ title: 友链申请
 draft: true
 permalink: /links/
 pageLayout: doc
+copyright: false
 ---
 如果你想要申请友链，请仔细阅读友链的申请规则，在符合规则之后再来本页面的评论区提出申请.
 

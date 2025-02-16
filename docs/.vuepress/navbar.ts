@@ -2,6 +2,7 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export const navbar = defineNavbarConfig([
   { text: '首页', link: '/' },
+  { text: '博客', link: '/blog/' },
   {
     text: '笔记',
     items: [
@@ -9,7 +10,6 @@ export const navbar = defineNavbarConfig([
       { text: '高等微积分 (1)', link: '/notes/integral/README.md' },
     ]
   },
-  { text: '博客', link: '/blog/' },
   { 
     text: '关于',
     items: [
