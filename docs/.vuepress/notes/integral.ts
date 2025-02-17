@@ -5,7 +5,7 @@ export default defineNoteConfig({
   link: '/integral',
   sidebar: [
     {
-      text: '高等微积分(1)',
+      text: '高等微积分 (1)',
       link: '/integral/',
       collapsed: false,
       items: [
