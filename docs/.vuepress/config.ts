@@ -201,7 +201,7 @@ export default defineUserConfig({
       atomOutputFilename: 'atom.xml',
     }),
     googleAnalyticsPlugin({
-      id: 'G-XJDPF62ZD0',
+      id: 'G-H9YDWXK5P5',
       debug: true,
     }),
   ]
