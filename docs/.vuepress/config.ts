@@ -3,6 +3,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 import { notes } from './notes/index.ts'
 import { feedPlugin } from '@vuepress/plugin-feed'
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 
 export default defineUserConfig({
   base: '/',
@@ -198,6 +199,10 @@ export default defineUserConfig({
       devServer: true,
       devHostname: 'http://localhost:8080',
       atomOutputFilename: 'atom.xml',
+    }),
+    googleAnalyticsPlugin({
+      id: 'G-XJDPF62ZD0',
+      debug: true,
     }),
   ]
 })
