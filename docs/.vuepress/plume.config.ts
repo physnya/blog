@@ -27,7 +27,7 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
   footer: {
-    message: 'Powered by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
+    message: 'Powered by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a><div style="font-size: 0.75rem"><span id="timeDate">博客运行天数...</span><span id="times">载入时分秒...</span><script src="/js/duration.js"></script></div>',
     copyright: 'Copyright © 2024 - present by physnya',
   },
 

@@ -19,7 +19,7 @@ permalink: /cosmos/cosmos/9jmuwlyi/
 
 1. 《天体物理概论》向守平
 2. 《热大爆炸宇宙学》俞允强
-3. *Discovery of the Universe*  - Comins
+3. *Discovering the Universe*  - Comins
 
 建议看一看，但是还是一定要做课堂笔记.
 
