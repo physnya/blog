@@ -27,6 +27,7 @@ jobs:
           cache: pnpm
 
       - name: Cache node modules
+        id: pnpm-cache
         uses: actions/cache@v3
         with:
           path: ~/.pnpm-store
@@ -35,6 +36,10 @@ jobs:
             node-cache-${{ runner.os }}-pnpm-
             node-cache-${{ runner.os }}-
             node-cache-
+      
+      - name: Install dependencies
+        if: steps.pnpm-cache.outputs.cache-hit != 'true'
+        run: pnpm install
 
       - name: Build VuePress site
         run: |
