@@ -13,3 +13,7 @@
 ### math
 
 [高等微积分 (1)](/notes/integral/)
+
+### others
+
+[写作与沟通](/notes/writing/)
