@@ -1,7 +1,7 @@
 ---
 title: Lesson 17
 createTime: 2024/11/13 22:31:06
-permalink: /integral/integral/36p1qkec/
+permalink: /integral/36p1qkec/
 ---
 # 高等微积分 Lesson 17
 

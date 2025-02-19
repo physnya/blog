@@ -6,7 +6,6 @@ export default defineNoteConfig({
   sidebar: [
     {
       text: '电动力学',
-      link: '/electrodynamics/',
       collapsed: false,
       items: [
         'lesson-1',

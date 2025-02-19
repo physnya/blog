@@ -4,7 +4,7 @@ author:
   url: https://physnya.top/
 title: 札记 16
 createTime: 2024/12/23 17:00:21
-permalink: /Feynman-III/Feynman-III/vaxbasfn/
+permalink: /Feynman-III/vaxbasfn/
 ---
 ## 2024-12-23
 

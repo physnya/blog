@@ -6,7 +6,6 @@ export default defineNoteConfig({
   sidebar: [
     {
       text: 'Feynman III',
-      link: '/Feynman-III/',
       collapsed: false,
       items: [
         'feynman-3-mid-term',

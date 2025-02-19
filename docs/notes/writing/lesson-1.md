@@ -1,7 +1,7 @@
 ---
 title: Lesson 1 导论
 createTime: 2025/2/19 11:57:58
-permalink: /writing/writing/lesson-1/
+permalink: /writing/lesson-1/
 ---
 ## 偶像与粉丝？
 

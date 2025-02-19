@@ -1,7 +1,7 @@
 ---
 title: Lesson 18
 createTime: 2024/11/15 12:17:08
-permalink: /integral/integral/8o5d6t4b/
+permalink: /integral/8o5d6t4b/
 ---
 # 高等微积分 Lesson 18
 

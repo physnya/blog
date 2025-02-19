@@ -4,7 +4,7 @@ author:
   url: https://physnya.top/
 title: 札记 4
 createTime: 2024/11/14 00:57:18
-permalink: /Feynman-III/Feynman-III/1wkgdymv/
+permalink: /Feynman-III/1wkgdymv/
 ---
 ## 2024-11-13
 

@@ -1,7 +1,7 @@
 ---
 title: Lesson 16
 createTime: 2024/11/08 13:26:58
-permalink: /integral/integral/agjiig9l/
+permalink: /integral/agjiig9l/
 ---
 # 高等微积分 Lesson 16
 

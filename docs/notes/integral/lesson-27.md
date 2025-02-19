@@ -1,7 +1,7 @@
 ---
 title: Lesson 27
 createTime: 2024/12/20 16:31:26
-permalink: /integral/integral/lj9gfkk4/
+permalink: /integral/lj9gfkk4/
 ---
 # 高等微积分 Lesson 27
 

@@ -1,7 +1,7 @@
 ---
 title: Lesson 15
 createTime: 2024/11/06 15:22:30
-permalink: /integral/integral/vwpsibfe/
+permalink: /integral/vwpsibfe/
 ---
 # 高等微积分 Lesson 15
 

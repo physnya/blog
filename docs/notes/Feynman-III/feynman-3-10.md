@@ -4,7 +4,7 @@ author:
   url: https://physnya.top/
 title: 札记 10
 createTime: 2024/12/02 22:35:07
-permalink: /Feynman-III/Feynman-III/xtk112gy/
+permalink: /Feynman-III/xtk112gy/
 ---
 ## 2024-12-02
 

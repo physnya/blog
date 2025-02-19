@@ -1,7 +1,7 @@
 ---
 title: Lesson 29
 createTime: 2024/12/27 14:04:26
-permalink: /integral/integral/gx8v19r3/
+permalink: /integral/gx8v19r3/
 ---
 # 高等微积分 Lesson 29
 

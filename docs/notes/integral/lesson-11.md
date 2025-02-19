@@ -1,7 +1,7 @@
 ---
 title: Lesson 11
 createTime: 2024/10/23 15:32:36
-permalink: /integral/integral/eovrwwsw/
+permalink: /integral/eovrwwsw/
 ---
 # 高等微积分 Lesson 11
 

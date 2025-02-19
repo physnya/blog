@@ -4,7 +4,7 @@ author:
   url: https://physnya.top/
 title: 札记 14
 createTime: 2024/12/16 17:27:04
-permalink: /Feynman-III/Feynman-III/kclbcctr/
+permalink: /Feynman-III/kclbcctr/
 ---
 ## 2024-12-16
 
@@ -106,7 +106,7 @@ $$
 
 下课之后的问题：
 
-* [上节课](/Feynman-III/Feynman-III/rsa3he1a/)讲到，为了得到一个“真正的张量”，我们要用全反对称张量进行缩并，得到一个旋转不变的量.
+* [上节课](/Feynman-III/rsa3he1a/)讲到，为了得到一个“真正的张量”，我们要用全反对称张量进行缩并，得到一个旋转不变的量.
 
   那么，为什么一定要用全反对称张量$\begin{pmatrix}0&-1\\1&0\end{pmatrix}$，而不能使用其他的张量呢？实际上，如果用$\begin{pmatrix}0&2\\1&0\end{pmatrix}$做缩并，得到的量还是旋转不变量.
 

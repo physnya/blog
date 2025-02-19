@@ -1,7 +1,7 @@
 ---
 title: Lesson 12
 createTime: 2024/10/25 13:36:48
-permalink: /integral/integral/hnasnfk8/
+permalink: /integral/hnasnfk8/
 ---
 # 高等微积分 Lesson 12
 

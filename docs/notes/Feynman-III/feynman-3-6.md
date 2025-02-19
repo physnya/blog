@@ -4,7 +4,7 @@ author:
   url: https://physnya.top/
 title: 札记 6
 createTime: 2024/11/18 19:13:25
-permalink: /Feynman-III/Feynman-III/3zpgq7sp/
+permalink: /Feynman-III/3zpgq7sp/
 ---
 ## 2024-11-18	氢原子基态的超精细结构
 

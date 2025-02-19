@@ -1,7 +1,7 @@
 ---
 title: Lesson 1 导论
 createTime: 2025/2/17 21:54:39
-permalink: /cosmos/cosmos/9jmuwlyi/
+permalink: /cosmos/9jmuwlyi/
 ---
 ## 课程教学大纲
 

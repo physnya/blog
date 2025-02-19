@@ -1,7 +1,7 @@
 ---
 title: Lesson 28
 createTime: 2024/12/25 17:25:32
-permalink: /integral/integral/gpu4r2m9/
+permalink: /integral/gpu4r2m9/
 ---
 # 高等微积分 Lesson 28
 

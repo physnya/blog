@@ -4,7 +4,7 @@ author:
   url: https://physnya.top/
 title: 札记 mid-term
 createTime: 2024/11/04 18:16:32
-permalink: /Feynman-III/Feynman-III/zpmh77r9/
+permalink: /Feynman-III/zpmh77r9/
 ---
 ::: tip -
 

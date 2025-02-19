@@ -1,7 +1,7 @@
 ---
 title: Lesson 22
 createTime: 2024/12/06 12:20:28
-permalink: /integral/integral/e2ifaauu/
+permalink: /integral/e2ifaauu/
 ---
 # 高等微积分 Lesson 22
 

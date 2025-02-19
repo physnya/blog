@@ -1,7 +1,7 @@
 ---
 title: Lesson 23
 createTime: 2024/12/08 20:40:58
-permalink: /integral/integral/pli9qaav/
+permalink: /integral/pli9qaav/
 ---
 # 高等微积分 Lesson 23
 

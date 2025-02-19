@@ -1,7 +1,7 @@
 ---
 title: Lesson 8
 createTime: 2024/10/11 13:51:42
-permalink: /integral/integral/4n9oqj6x/
+permalink: /integral/4n9oqj6x/
 ---
 # 高等微积分 Lesson 8
 

@@ -6,7 +6,6 @@ export default defineNoteConfig({
   sidebar: [
     {
       text: '写作与沟通',
-      link: '/writing/',
       collapsed: false,
       items: [
         'lesson-1',

@@ -1,7 +1,7 @@
 ---
 title: Lesson 9
 createTime: 2024/10/16 16:58:06
-permalink: /integral/integral/ih4mtv5k/
+permalink: /integral/ih4mtv5k/
 ---
 # 高等微积分 Lesson 9
 

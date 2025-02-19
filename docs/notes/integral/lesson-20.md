@@ -1,7 +1,7 @@
 ---
 title: Lesson 20
 createTime: 2024/11/22 12:16:34
-permalink: /integral/integral/o2owinhc/
+permalink: /integral/o2owinhc/
 ---
 # 高等微积分 Lesson 20
 
@@ -128,7 +128,7 @@ $$
 > $$
 > R=\frac{(g\circ f)^{(m)}(0)}{m!}
 > $$
-> 用到我们之前在 [Lesson 16](/integral/integral/agjiig9l/) 中讲到过的高阶导数的链式法则，能够证明相等.
+> 用到我们之前在 [Lesson 16](/integral/agjiig9l/) 中讲到过的高阶导数的链式法则，能够证明相等.
 
 证毕.
 

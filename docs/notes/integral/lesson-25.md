@@ -1,7 +1,7 @@
 ---
 title: Lesson 25
 createTime: 2024/12/13 12:17:02
-permalink: /integral/integral/xa5ndm3u/
+permalink: /integral/xa5ndm3u/
 ---
 # 高等微积分 Lesson 25
 

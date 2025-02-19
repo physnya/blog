@@ -1,7 +1,7 @@
 ---
 title: Lesson 26
 createTime: 2024/12/18 15:06:44
-permalink: /integral/integral/fopt6uxl/
+permalink: /integral/fopt6uxl/
 ---
 # 高等微积分 Lesson 26
 

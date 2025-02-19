@@ -4,7 +4,7 @@ author:
   url: https://physnya.top/
 title: 札记 exercise
 createTime: 2024/12/28 20:21:23
-permalink: /Feynman-III/Feynman-III/p8boj4xu/
+permalink: /Feynman-III/p8boj4xu/
 ---
 <s>这是 Feynman 物理学讲义 Vol.III 的习题课笔记，在发布的时间（2024-12-21）还有一节习题课没有上完，所以先置顶并保持更新，等到所有习题课结束之后将会取消置顶. 同时习题课笔记是以专题形式组织，并不能看出一个统一的主线，所以会考虑在开头做一个目录. 现在处于正在更新的状态，所以也请各位高手多多指教，修正错误，在下感激不尽.</s>
 

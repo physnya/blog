@@ -1,7 +1,7 @@
 ---
 title: Lesson 7
 createTime: 2024/10/09 19:47:00
-permalink: /integral/integral/snpvu6o4/
+permalink: /integral/snpvu6o4/
 ---
 # 高等微积分 Lesson 7
 

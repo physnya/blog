@@ -1,7 +1,7 @@
 ---
 title: Lesson 5
 createTime: 2024/09/27 09:40:28
-permalink: /integral/integral/d6utvw1f/
+permalink: /integral/d6utvw1f/
 ---
 # 高等微积分 Lesson 5
 

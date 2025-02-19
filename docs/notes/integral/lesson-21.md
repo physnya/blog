@@ -1,7 +1,7 @@
 ---
 title: Lesson 21
 createTime: 2024/12/04 17:39:00
-permalink: /integral/integral/3ocedf8u/
+permalink: /integral/3ocedf8u/
 ---
 # 高等微积分 Lesson 21
 

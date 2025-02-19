@@ -1,7 +1,7 @@
 ---
 title: Lesson 2
 createTime: 2024/09/18 13:44:02
-permalink: /integral/integral/iaauxqrs/
+permalink: /integral/iaauxqrs/
 ---
 # 高等微积分 Lesson 2
 

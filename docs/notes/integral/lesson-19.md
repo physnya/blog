@@ -1,7 +1,7 @@
 ---
 title: Lesson 19
 createTime: 2024/11/20 19:04:00
-permalink: /integral/integral/4kln0q8q/
+permalink: /integral/4kln0q8q/
 ---
 # 高等微积分 Lesson 19
 

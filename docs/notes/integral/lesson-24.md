@@ -1,7 +1,7 @@
 ---
 title: Lesson 24
 createTime: 2024/12/11 17:54:04
-permalink: /integral/integral/fh39b2a4/
+permalink: /integral/fh39b2a4/
 ---
 # 高等微积分 Lesson 24
 

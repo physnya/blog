@@ -1,7 +1,7 @@
 ---
 title: Lesson 14
 createTime: 2024/11/01 12:04:54
-permalink: /integral/integral/uh28zejn/
+permalink: /integral/uh28zejn/
 ---
 # 高等微积分 Lesson 14
 

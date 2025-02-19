@@ -4,7 +4,7 @@ author:
   url: https://physnya.top/
 title: 札记 2
 createTime: 2024/11/06 21:17:13
-permalink: /Feynman-III/Feynman-III/4my0z90h/
+permalink: /Feynman-III/4my0z90h/
 ---
 ## 2024-11-06	四种基本相互作用
 

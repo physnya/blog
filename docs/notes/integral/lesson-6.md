@@ -1,7 +1,7 @@
 ---
 title: Lesson 6
 createTime: 2024/09/27 16:29:14
-permalink: /integral/integral/dmn3yy4l/
+permalink: /integral/dmn3yy4l/
 ---
 # 高等微积分 Lesson 6
 

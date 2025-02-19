@@ -6,7 +6,6 @@ export default defineNoteConfig({
   sidebar: [
     {
       text: '高等微积分 (1)',
-      link: '/integral/',
       collapsed: false,
       items: [
         'lesson-1',
@@ -40,5 +39,12 @@ export default defineNoteConfig({
         'lesson-29',
       ]
     },
+    {
+      text: '高等微积分 (2)',
+      collapsed: false,
+      items: [
+        'lesson-30',
+      ]
+    }
   ],
 })

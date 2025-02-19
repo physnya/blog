@@ -1,7 +1,7 @@
 ---
 title: Lesson 13
 createTime: 2024/10/30 19:13:02
-permalink: /integral/integral/11guv16k/
+permalink: /integral/11guv16k/
 ---
 # 高等微积分 Lesson 13
 

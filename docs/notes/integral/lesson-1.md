@@ -1,7 +1,7 @@
 ---
 title: Lesson 1
 createTime: 2024/10/22 23:04:24
-permalink: /integral/integral/7cui661p/
+permalink: /integral/7cui661p/
 ---
 # 高等微积分 Lesson 1
 

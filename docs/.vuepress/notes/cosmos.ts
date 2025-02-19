@@ -6,7 +6,6 @@ export default defineNoteConfig({
   sidebar: [
     {
       text: '星系与宇宙',
-      link: '/cosmos/',
       collapsed: false,
       items: [
         'lesson-1',
