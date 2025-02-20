@@ -1,7 +1,7 @@
 ---
 title: Lesson 1 课程介绍
 createTime: 2025/2/17 15:31:29
-permalink: /electrodynamics/electrodynamics/05rlhs6k/
+permalink: /electrodynamics/05rlhs6k/
 ---
 ## 理念
 
