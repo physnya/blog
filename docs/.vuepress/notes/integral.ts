@@ -44,6 +44,7 @@ export default defineNoteConfig({
       collapsed: false,
       items: [
         'lesson-30',
+        'lesson-31',
       ]
     }
   ],

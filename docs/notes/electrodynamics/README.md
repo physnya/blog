@@ -7,4 +7,4 @@ permalink: /electrodynamics/
 
 这里是 [physnya](/) 的电动力学笔记.
 
-这门课的授课方式比较特殊，关于这一点请查看 [Lesson 1 课程介绍](/electrodynamics/electrodynamics/05rlhs6k/)
+这门课的授课方式比较特殊，关于这一点请查看 [Lesson 1 课程介绍](/electrodynamics/05rlhs6k/)

@@ -12,7 +12,7 @@
 
 ### math
 
-[高等微积分 (1)](/notes/integral/)
+[高等微积分](/notes/integral/)
 
 ### others
 
