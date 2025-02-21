@@ -1,6 +1,6 @@
 ---
-title: Lesson 31
-permalink: /lesson-31/
+title: Lesson 31 数值级数 2
+permalink: /integral/lesson-31/
 createTime: 2025/2/21 09:42:37
 ---
 ## 正项级数
