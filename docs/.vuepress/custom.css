@@ -1,15 +1,15 @@
-@import url('https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkai/dist/LXGWWenKai-Light/result.css');
+@import url('https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkai/dist/LXGWWenKai-Regular/result.css');
 @import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');
 
 :root {
-    --vp-font-family-base: "LXGW WenKai Light", sans-serif;
-    --vp-font-family-mono: "LXGW WenKai Light", monospace;
+    --vp-font-family-base: "LXGW WenKai", sans-serif;
+    --vp-font-family-mono: "LXGW WenKai", monospace;
     font-optical-sizing: auto;
 }
 
 :root:where(:lang(zh)),
 :root:where(:lang(zh-CN)) {
-    --vp-font-family-base: "LXGW WenKai Light", sans-serif;
+    --vp-font-family-base: "LXGW WenKai", sans-serif;
 }
 
 html {
