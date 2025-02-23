@@ -4,7 +4,7 @@ title: 友情链接
 draft: true
 description: 共同进步
 permalink: /friends/
-article: false
+feed: false
 list:
   -
     name: Bangumi
