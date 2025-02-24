@@ -10,6 +10,8 @@ export default defineNoteConfig({
       items: [
         'lesson-1',
         'lesson-2',
+        'lesson-3-prev',
+        'lesson-3',
       ]
     },
   ],
