@@ -6,7 +6,7 @@ export default defineNoteConfig({
   sidebar: [
     {
       text: '高等微积分 (1)',
-      collapsed: false,
+      collapsed: true,
       items: [
         'lesson-1',
         'lesson-2',

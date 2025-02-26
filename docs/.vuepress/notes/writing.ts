@@ -9,6 +9,7 @@ export default defineNoteConfig({
       collapsed: false,
       items: [
         'lesson-1',
+        'lesson-2',
       ]
     },
   ],
