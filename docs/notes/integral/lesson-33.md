@@ -64,9 +64,9 @@ permalink: /integral/lesson-33/
 
 对比序列的极限和一致收敛两种概念：(省略 $N\in\mathbb{Z}_+$)
 
-|              $\underset{n\to\infty}{\lim}a_n=L$              |                  $f_n\Rightarrow f$ on $D$                   |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| $\forall\varepsilon>0$，$\exist N$，$\forall n\geq N$，$|a_n-L|<\varepsilon$ | $\forall\varepsilon>0$，$\exist N$，$\forall n\geq N$，$|f_n(x)-f(x)|<\varepsilon$，==$\forall x\in D$== |
+$\underset{n\to\infty}{\lim}a_n=L$：$\forall\varepsilon>0$，$\exist N$，$\forall n\geq N$，$|a_n-L|<\varepsilon$
+
+  $f_n\Rightarrow f$ on $D$：$\forall\varepsilon>0$，$\exist N$，$\forall n\geq N$，$|f_n(x)-f(x)|<\varepsilon$，==$\forall x\in D$==
 
 看起来，一致收敛就像序列的收敛一样，整齐划一，像单个点的收敛行为.
 
