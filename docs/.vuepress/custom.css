@@ -5,6 +5,8 @@
     --vp-font-family-base: "LXGW WenKai", sans-serif;
     --vp-font-family-mono: "LXGW WenKai", monospace;
     font-optical-sizing: auto;
+    --vp-c-text-3: rgba(60, 60, 67, .78);
+    --vp-c-text-dark-3: rgba(235, 235, 245, .6);
 }
 
 :root:where(:lang(zh)),
