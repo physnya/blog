@@ -33,7 +33,7 @@ $$
 $$
 \text{d}s^2=\sum_{\mu=0}^3\sum_{\nu=0}^3\eta_{\mu\nu}\text{d}x^\mu\text{d}x^\nu
 $$
-这便是所谓的 metric (度规). 在平直时空中，它为常数；但是广义相对论中的度规依赖于坐标，比如取一个 Cartesion 坐标和一个“super smart”坐标，那么两者之间的变换可能是
+这便是所谓的 metric (度规). 在平直时空中，它为常数；但是广义相对论中的度规依赖于坐标，比如取一个 Cartesian 坐标和一个“super smart”坐标，那么两者之间的变换可能是
 $$
 \begin{pmatrix}
 \text{d}\alpha&\text{d}\beta&\text{d}\gamma
@@ -43,7 +43,7 @@ $$
 \text{d}\alpha\\\text{d}\beta\\\text{d}\gamma
 \end{pmatrix}=😊\text{d}\alpha^2+😂\text{d}\beta^2+🤣\text{d}\gamma^2
 $$
-注意到这个变换必须是对称的，否则会出现大量的交叉项. 在这种观点里面，坐标被看成是一种“标记”，并不一定是 Cartesion 坐标.
+注意到这个变换必须是对称的，否则会出现大量的交叉项. 在这种观点里面，坐标被看成是一种“标记”，并不一定是 Cartesian 坐标.
 
 弯曲的时空对应着随位置变化的度规 —— 但是这不意味着一个丑陋的度规就一定代表弯曲时空. 实际上可以取一些坐标系，造成度规随位置变化：
 $$
