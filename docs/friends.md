@@ -37,11 +37,6 @@ list:
     link: https://blog.imken.moe/
     avatar: https://vip.123pan.cn/1845440081/ymjew503t0l000d6xujz7k8e7eqg0ntyDIYxAIFxDda1DGxPDwUzAa==.png
   -
-    name: Yurchiu's Blog
-    desc: 循此苦旅，以达天际.
-    link: https://yurchiu.github.io/
-    avatar: https://yurchiu.github.io/img/avatar.png
-  -
     name: 二次元论坛
     desc: 按下 F 逃离世界！
     link: https://www.ecylt.top
