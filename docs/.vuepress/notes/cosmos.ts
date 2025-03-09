@@ -7,6 +7,7 @@ export default defineNoteConfig({
     {
       text: '星系与宇宙',
       collapsed: false,
+      link: '/cosmos/',
       items: [
         'lesson-1',
         'lesson-2',

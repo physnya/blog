@@ -7,6 +7,7 @@ export default defineNoteConfig({
     {
       text: '写作与沟通',
       collapsed: false,
+      link: '/writing/',
       items: [
         'lesson-1',
         'lesson-2',
