@@ -27,6 +27,10 @@ html {
     font-size: 1em;
 }
 
+.hint-container-title {
+    display: none;
+}
+
 blockquote::before {
     display: none;
 }
