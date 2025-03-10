@@ -6,6 +6,7 @@
     --vp-font-family-mono: "LXGW WenKai", monospace;
     font-optical-sizing: auto;
     --vp-c-text-3: rgba(60, 60, 67, .78);
+    --vp-custom-block-font-size: 17px;
 }
 
 [data-theme=dark] {
@@ -18,8 +19,12 @@
 }
 
 html {
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 400;
+}
+
+.vp-doc blockquote > p {
+    font-size: 1em;
 }
 
 blockquote::before {

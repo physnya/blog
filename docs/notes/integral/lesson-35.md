@@ -12,8 +12,8 @@ createTime: 2025/3/7 12:18:32
 > 构造一个这样的例子：
 > $$
 > f_n(x)=\left\{\begin{array}{lr}
-> n^2x\,,\quad x\in[0,\frac{1}{n}]\\
-> -n^2(x-\frac{2}{n})\,,\quad x\in[\frac{1}{n},\frac{2}{n}]\\
+> n^2x\,,\quad x\in[0,\frac{1}{n}]\\\\
+> -n^2(x-\frac{2}{n})\,,\quad x\in[\frac{1}{n},\frac{2}{n}]\\\\
 > 0\,,\quad x\in[\frac{2}{n},1]
 > \end{array}\right.
 > $$
@@ -384,7 +384,7 @@ $$
 > 上学期的习题课中证明过，
 > $$
 > f(x)=\left\{\begin{array}{lr}
-> e^{-\frac{1}{x^2}}\,,\quad\forall x>0\\
+> e^{-\frac{1}{x^2}}\,,\quad\forall x>0\\\\
 > 0\,,\quad\forall x\leq0
 > \end{array}\right.
 > $$
