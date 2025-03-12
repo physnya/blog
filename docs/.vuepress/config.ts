@@ -8,7 +8,7 @@ export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
   title: '菲兹克斯喵',
-  description: 'This is physnya\'s personal blog & notebook.',
+  description: "This is physnya's personal blog & notebook.",
 
   head: [
     // 配置站点图标
