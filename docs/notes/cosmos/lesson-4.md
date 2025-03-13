@@ -7,7 +7,7 @@ permalink: /cosmos/lesson-4/
 
 先简单地回顾一下上周讲到的三种膨胀宇宙度规：
 $$
-\text{d}s^2=-c^2\text{d}t^2+a^2(t)\left[\text{d}\vec{x}^2+\frac{k(\vec{x}\cdot\text{d}\vec{x})}{1-k|\vec{x}|^2}\right]
+\text{d}s^2=-c^2\text{d}t^2+a^2(t)\left[\text{d}\vec{x}^2+\frac{k(\vec{x}\cdot\text{d}\vec{x})^2}{1-k|\vec{x}|^2}\right]
 $$
 当然还有球坐标形式：
 $$

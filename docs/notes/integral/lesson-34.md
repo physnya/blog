@@ -129,7 +129,7 @@ createTime: 2025/3/5 15:08:33
 > $$
 > 因此得到一个上面积分的级数表达式：
 > $$
-> \int_0^x\frac{\sin t}{t}\text{d}t=\underset{k=0}{\overset{\infty}{\sum}}(-1)^k\frac{b^{2k+1}}{(2k+1)!(2k+1)}\,,\quad\forall x\in\R
+> \int_0^x\frac{\sin t}{t}\text{d}t=\underset{k=0}{\overset{\infty}{\sum}}(-1)^k\frac{x^{2k+1}}{(2k+1)!(2k+1)}\,,\quad\forall x\in\R
 > $$
 
 上面是一个积分的例子，之后我们来看一个求导的例子：
