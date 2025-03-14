@@ -1,5 +1,5 @@
 ---
-title: Lesson 4 “偶像与人设”关键词
+title: Lesson 4 关键词
 permalink: /writing/lesson-4/
 createTime: 2025/3/12 11:35:27
 ---
