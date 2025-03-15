@@ -23,8 +23,9 @@ html {
     font-weight: 400;
 }
 
-.vp-doc blockquote > p {
+.vp-doc blockquote > p:not(.katex) {
     font-size: 1em;
+    padding: 10px 0;
 }
 
 .hint-container-title {

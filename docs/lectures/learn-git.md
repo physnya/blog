@@ -32,14 +32,14 @@ Git 规定一个项目只存在一个 commit，不存在“上一个 commit”�
 查看 Git 版本：
 
 ```bash
-$ git -v 
+git -v 
 ```
 
 初始化：
 
 ```bash
-$ git config --global user name
-$ git config --global email
+git config --global user name
+git config --global email
 ```
 
 上面的 global 表示全局配置.
@@ -47,14 +47,14 @@ $ git config --global email
 初始化项目：
 
 ```bash
-$ git init
+git init
 ```
 
 之后是暂存更改：
 
 ```bash
-$ git add .
-$ git add *.cpp
+git add .
+git add *.cpp
 ```
 
 这一般在根目录下进行，可以将目录下所有目录全部存在暂存区中间. 第二行是将目录下的所有 .cpp 文件存入暂存区，“*”是通配符.
@@ -62,7 +62,7 @@ $ git add *.cpp
 移除文件：
 
 ```bash
-$ git rm <path> [--cached]
+git rm <path> [--cached]
 ```
 
 如果不加上 --cached，就能将文件同时从系统中删除；加上之后只会从暂存区删除文件，不删除文件本身.
@@ -70,7 +70,7 @@ $ git rm <path> [--cached]
 commit 操作：
 
 ```bash
-$ git commit [-m <message>] [-a]
+git commit [-m <message>] [-a]
 ```
 
 其中，-m 操作能为这个操作命名；-a 操作则是将所有被跟踪文件全部放入暂存区.
@@ -82,10 +82,10 @@ Git 中的指针几乎始终（例外是刚创建项目时）指向某个 commit
 对于 Git 分支的操作有：
 
 ```bash
-$ git branch
-$ git branch <name>
-$ git branch -d <name>
-$ git branch -D <name>
+git branch
+git branch <name>
+git branch -d <name>
+git branch -D <name>
 ```
 
 分别是例举分支、命名、删除和强制删除.
@@ -93,10 +93,10 @@ $ git branch -D <name>
 切换分支：
 
 ```bash
-$ git switch
-$ git switch <name>
-$ git switch -c <name>
-$ git switch --detach <commit id>
+git switch
+git switch <name>
+git switch -c <name>
+git switch --detach <commit id>
 ```
 
 分别是：切换分支、切换指定分支、创建并切换分支、将 HEAD 指向改 commit.
@@ -104,13 +104,13 @@ $ git switch --detach <commit id>
 合并分支有两种方式，是 merge 和 rebase，前者是将重做的所有修改合并为一个，后者是将重做的所有 commit 合并到当前分支后面. 特别地，如果目标分支是源分支的上游，则会触发 fast-forward ，不会 commit.
 
 ```bash
-$ git merge <branch>
+git merge <branch>
 ```
 
 将指定分支合并到当前所在分支. 如果存在冲突，则不会影响两个分支，是安全的.
 
 ```bash
-$ git rebase <branch>
+git rebase <branch>
 ```
 
 rebase 翻译过来是“变基”，相当于使某一个分支看起来像是在当前分支之前操作的一样，当前分支的基础变到合并进来的分支上.
@@ -118,7 +118,7 @@ rebase 翻译过来是“变基”，相当于使某一个分支看起来像是�
 冲突处理的方式是使用：
 
 ```bash
-$ git status
+git status
 ```
 
 找到所有标注为 unmerged 的文件（未能正确合并），只能重新修改这些文件，再次加入暂存区中.
@@ -128,7 +128,7 @@ merge 的好处是：冲突更少、保持历史的完整性；反之，rebase �
 其他的一些常用指令：
 
 ```bash
-$ git log
+git log
 ```
 
 查看当前分支的提交历史，包含 commit id，作者和提交日期，还会显示当前有哪些指针指向这个分支.
@@ -136,9 +136,9 @@ $ git log
 > 这里还有几个延申的指令：
 >
 > ```bash
-> $ git log --graph
-> $ git log --oneline
-> $ git log --all
+> git log --graph
+> git log --oneline
+> git log --all
 > ```
 >
 > 分别是点线图、每次 commit 用一行展示、展示所有分支的 log.
@@ -148,7 +148,7 @@ $ git log
 status 指令：
 
 ```bash
-$ git status
+git status
 ```
 
 展示所有文件的状态.
@@ -156,7 +156,7 @@ $ git status
 重置仓库状态：
 
 ```bash
-$ git reset [<commit>] [--soft/--mixed/--hard]
+git reset [<commit>] [--soft/--mixed/--hard]
 ```
 
 如果不填写 commit id，则默认回到 HEAD；也可以使用 ```HEAD^```、```HEAD^2``` 回到 HEAD 的若干次 commit 之前.
@@ -166,7 +166,7 @@ $ git reset [<commit>] [--soft/--mixed/--hard]
 撤销更改：
 
 ```bash
-$ git restore [--staged] <file>
+git restore [--staged] <file>
 ```
 
 staged 不会删除文件，撤销更改不影响新建文件，而是影响已有文件的修改.
@@ -184,7 +184,7 @@ Git 是分布式的，每个开发者都会有一个 .git 文件夹，共同在�
 clone 项目：
 
 ```bash
-$ git clone <url>
+git clone <url>
 ```
 
 其中 url 有两种方式，ssh 方式和 http 方式（<s>你用得也够多了</s>）.
@@ -192,9 +192,9 @@ $ git clone <url>
 管理远程仓库：
 
 ```bash
-$ git remote
-$ git remote add <url>
-$ git remote remove <name>
+git remote
+git remote add <url>
+git remote remove <name>
 ```
 
 展示远程仓库、添加远程仓库和删除远程仓库. 远程分支都是```<remote>/<branch>```的格式.
@@ -202,8 +202,8 @@ $ git remote remove <name>
 可以用以下两个指令进行同步远程和本地分支：
 
 ```bash
-$ git pull
-$ git push
+git pull
+git push
 ```
 
 （我想我应该很熟悉 ```git push origin main```）
@@ -229,7 +229,7 @@ $ git push
 为了认证自己的身份，还需要 GPG 公钥和私钥，这样提交的 commit 会被签名，签名的方法是
 
 ```bash
-$ git config user.signingkey <ID>
+git config user.signingkey <ID>
 ```
 
 设置签名的 GPG key，之后 commit 添加 -s 参数就能签名.

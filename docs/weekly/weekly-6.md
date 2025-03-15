@@ -117,9 +117,9 @@ Error: Process completed with exit code 128.
 所以错误一定在这里罢！我兴冲冲地修改对应的 secret 变量为 Primary 邮箱，然后三连：
 
 ```bash
-$ git add .
-$ git commit -m "github action update"
-$ git push origin main
+git add .
+git commit -m "github action update"
+git push origin main
 ```
 
 结果——
