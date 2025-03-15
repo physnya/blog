@@ -281,7 +281,7 @@ $$
 > &=\lim_{n\to\infty}(f_n(x)-f_n(x_0))
 > \end{aligned}
 > $$
-> 表明，上述极限存在，条件是 $\underset{n\to]\infty}{\lim}f_n(x)=f(x)$ 存在.
+> 表明，上述极限存在，条件是 $\underset{n\to\infty}{\lim}f_n(x)=f(x)$ 存在.
 >
 > 极限的四则运算得到 $\underset{n\to\infty}{\lim}f_n(x)$ 存在，等于上述两极限的和，
 > $$
