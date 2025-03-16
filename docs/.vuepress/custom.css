@@ -35,3 +35,7 @@ html {
 blockquote::before {
     display: none;
 }
+
+.vp-doc h2 {
+    margin: 0 0 16px;
+}
