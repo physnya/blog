@@ -27,6 +27,7 @@
     "vuepress-theme-plume": "1.0.0-rc.130"
   },
   "dependencies": {
-    "@vuepress/plugin-feed": "^2.0.0-rc.74"
+    "@vuepress/plugin-feed": "^2.0.0-rc.74",
+    "mermaid": "^11.5.0"
   }
 }
