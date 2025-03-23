@@ -87,12 +87,9 @@ createTime: 2025/3/21 12:23:27
 >
 > 完全证毕.
 
-::: center
 |$X$ 的开覆盖| $X$ 在 $\R^n$ 中的开覆盖                   |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | $\mathscr{V}=\{V_\alpha\}$，$V_\alpha$ 是 $X$ 的开集，$\underset{\alpha}{\bigcup}V_\alpha=X$. | $\mathscr{U}=\{U_\alpha\}$，$U_\alpha$ 是 $\R^n$ 的开集，$\underset{\alpha}{\bigcup}U_\alpha\supseteq X$. |
-
-:::
 
 所以有命题：
 

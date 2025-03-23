@@ -39,3 +39,7 @@ blockquote::before {
 .vp-doc h2 {
     margin: 0 0 16px;
 }
+
+.vp-doc table {
+    place-items: center;
+}
