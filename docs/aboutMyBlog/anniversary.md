@@ -6,9 +6,11 @@ tags:
   - blog
   - Life
 ---
+24 日更新图片.
+
 去年 3 月 22 日我建立了第一个自己的 [Hexo](https://hexo.io/zh-cn/) 网站，当时用的主题是 [Fluid](https://fluid-dev.github.io/hexo-fluid-docs/)，现在存档在 [这里](https://archive1.physnya.top/). 事实上我已经在 [流水账 Week 2](/posts/yjy9ql2s/#fragment-3-建站半周年纪念) 里写过一次半周年纪念，讲了一下建站的原因.
 
-不过毕竟折腾是人的本质吧，又过了 180 多天，好像又有一些成长，或者说改变，所以至少我现在想要写一点东西来回顾一下，即使是在写作课和电磁学 deadline 的夹缝中. (!!22 日注：现在不只是两个 deadline 了，这周居然还要交两篇又臭又长的实验报告 Q$\omega$Q!!)
+不过毕竟折腾是人的本质吧，又过了 180 多天，好像又有一些成长，或者说改变，所以至少我现在想要写一点东西来回顾一下，即使是在写作课和电磁学 deadline 的夹缝中. (!!22 日注：现在不只是两个 deadline 了，这周居然还要交两篇又臭又长的实验报告 QωQ!!)
 
 ## 盘古之白[^1]
 
@@ -37,5 +39,58 @@ $\uparrow$ 为什么要起一个这么奇怪的小标题？
 今天晚上要和天文协会的小伙伴们去怀柔那边拍一晚上星星，或许会有图片？
 
 也算是为这个日子送上一点礼物罢.
+
+24 日更新：
+
+<CardMasonry>
+  <ImageCard
+    image="https://vip.123pan.cn/1845440081/yk6baz03t0m000d7w33g6berzpq4t3nsDIYxAIFxDda1DGxPDwUzAa==.jpg"
+    title="M42 星云"
+    description="协会使用 S30 拍摄，曝光 7 min."
+    href="/"
+    author="天文协会"
+    date="2025/03/23"
+  />
+  <ImageCard
+    image="https://vip.123pan.cn/1845440081/ymjew503t0l000d7w32x78dp2sabw41lDIYxAIFxDda1DGxPDwUzAa==.jpg"
+    title="冬季星空"
+    description=""
+    href="/"
+    author="🧊"
+    date="2025/03/23"
+  />
+  <ImageCard
+    image="https://vip.123pan.cn/1845440081/ymjew503t0m000d7w32xoutbd2pyainbDIYxAIFxDda1DGxPDwUzAa==.jpg"
+    title="织女星"
+    description="下半夜升起的夏季星空中的一颗亮星，shot by IPhone，曝光三秒,"
+    href="/"
+    author="physnya"
+    date="2025/03/24"
+  />
+  <ImageCard
+    image="https://vip.123pan.cn/1845440081/yk6baz03t0l000d7w33fcd5v7taifnzkDIYxAIFxDda1DGxPDwUzAa==.jpg"
+    title="猎户座"
+    description="上半夜冬季星空的猎户座，shot by IPhone，曝光十秒."
+    href="/"
+    author="physnya"
+    date="2025/03/23"
+  />
+  <ImageCard
+    image="https://vip.123pan.cn/1845440081/ymjew503t0l000d7w32x78dpioabxad7DIYxAIFxDda1DGxPDwUzAa==.jpg"
+    title="一直猫猫"
+    description="在敬老院楼下遇见的一只猫猫，顺便一提，我们的拍摄是在山上的一间与我们有合作的敬老院兼天文实践基地进行的."
+    href="/"
+    author="天文协会"
+    date="2025/03/24"
+  />
+  <ImageCard
+    image="https://vip.123pan.cn/1845440081/ymjew503t0n000d7w32y53ztfy5koizeDIYxAIFxDda1DGxPDwUzAa==.jpg"
+    title="北斗七星"
+    description="在画面左侧，可惜没同时拍到北极星，shot by IPhone，曝光十秒."
+    href="/"
+    author="physnya"
+    date="2025/03/24"
+  />
+</CardMasonry>
 
 [^1]:[vinta/pangu.js: Paranoid text spacing in JavaScript](https://github.com/vinta/pangu.js/)
