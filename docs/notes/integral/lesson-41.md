@@ -156,7 +156,7 @@ $$
 >   $$
 >   任意方向上的方向导数是
 >   $$
->   \nabla_\vec{v}f(x_0)=\text{d}f_{x_0}(\sum_iv_i\hat{e}_i)=\sum_{i}v_i\text{d}f_{x_0}(\hat{e}_i)
+>   \nabla_{\vec{v}}f(x_0)=\text{d}f_{x_0}(\sum_iv_i\hat{e}_i)=\sum_{i}v_i\text{d}f_{x_0}(\hat{e}_i)
 >   $$
 
 最后的一个式子利用了微分的线性性，这个式子的形式类似于一个内积，所以我们引入 gradient：
