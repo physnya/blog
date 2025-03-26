@@ -77,7 +77,7 @@ $\uparrow$ 为什么要起一个这么奇怪的小标题？
   />
   <ImageCard
     image="https://vip.123pan.cn/1845440081/ymjew503t0l000d7w32x78dpioabxad7DIYxAIFxDda1DGxPDwUzAa==.jpg"
-    title="一直猫猫"
+    title="一只猫猫"
     description="在敬老院楼下遇见的一只猫猫，顺便一提，我们的拍摄是在山上的一间与我们有合作的敬老院兼天文实践基地进行的."
     href="/"
     author="天文协会"

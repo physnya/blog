@@ -15,7 +15,7 @@ list:
     name: revkiru's Blog
     desc: さよならの速さで顔を上げて
     link: https://arckive.cn/
-    avatar: https://arckive.cn/images/avatar_hu5246547448919277928.jpg
+    avatar: https://arckive.cn/images/avatar_hu15573638484154854159.jpg
   -
     name: 自习室
     desc: 我在 Bangumi 的小组
