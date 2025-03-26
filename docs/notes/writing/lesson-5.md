@@ -1,5 +1,5 @@
 ---
-title: Lesson 5 研讨课
+title: Lesson 5 第二次研讨
 permalink: /writing/lesson-5/
 createTime: 2025/3/19 15:10:12
 ---
