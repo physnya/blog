@@ -87,18 +87,18 @@ export default defineUserConfig({
       },
 
       /* 本地搜索, 默认启用 */
-      // search: true,
+      search: false,
 
       /**
        * Algolia DocSearch
        * 启用此搜索需要将 本地搜索 search 设置为 false
        * @see https://theme-plume.vuejs.press/config/plugins/search/#algolia-docsearch
        */
-      // docsearch: {
-      //   appId: '',
-      //   apiKey: '',
-      //   indexName: '',
-      // },
+      docsearch: {
+        appId: 'B2R86L6O4I',
+        apiKey: '1edebf6fe35b863c50e34bcbc5d7e9be',
+        indexName: 'physnya_top_b2r86l6o4i_pages',
+      },
 
       /* 文章字数统计、阅读时间，设置为 false 则禁用 */
       // readingTime: true,
