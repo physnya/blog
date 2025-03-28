@@ -220,7 +220,7 @@ $f:D\to\R^m$ data $\Longleftrightarrow$ 分量函数 $f=(f_1,\cdots,f_m)$.
 
 /Example/
 
-> 复变函数中，常遇到 $f:\C\to\C$，这实际上等价于 $\R^2\to\R^2$. 这时，
+> 复变函数中，常遇到 $f:\mathbb{C}\to\mathbb{C}$，这实际上等价于 $\R^2\to\R^2$. 这时，
 > $$
 > f(x+\sqrt{-1}\cdot y)=u(x,y)+\sqrt{-1}\cdot v(x,y)
 > $$
@@ -250,7 +250,7 @@ $f:D\to\R^m$ data $\Longleftrightarrow$ 分量函数 $f=(f_1,\cdots,f_m)$.
 > >
 > > $\Longleftrightarrow$ 极限 $\underset{h=s+t\text{i}\to0}{\lim}\frac{f(z_0+h)-f(z_0)}{h}$ 存在 (记为 $a+b\text{i}$).
 > >
-> > $\Longleftrightarrow$ $\underset{h=s+t\text{i}\to0}{\lim}\frac{f(z_0+h)-f(z_0)-h\cdot(a+b\text{i})}{h}=0\in\C$.
+> > $\Longleftrightarrow$ $\underset{h=s+t\text{i}\to0}{\lim}\frac{f(z_0+h)-f(z_0)-h\cdot(a+b\text{i})}{h}=0\in\mathbb{C}$.
 > >
 > > ::: tip
 > >
@@ -258,14 +258,14 @@ $f:D\to\R^m$ data $\Longleftrightarrow$ 分量函数 $f=(f_1,\cdots,f_m)$.
 > >
 > > :::
 > >
-> > > 事实：对于 $g:\C\to\C$，有 $\lim g(h)=0\in\C$ $\Longleftrightarrow$ $\lim|g(h)|=0$.
+> > > 事实：对于 $g:\mathbb{C}\to\mathbb{C}$，有 $\lim g(h)=0\in\mathbb{C}$ $\Longleftrightarrow$ $\lim|g(h)|=0$.
 > > >
 > > > 进而，$\lim\frac{p(h)}{q(h)}=0$ $\Longleftrightarrow$ $\lim\left|\frac{p(h)}{q(h)}\right|=0$ $\Longleftrightarrow$ $\lim\frac{p(h)}{|q(h)|}=0$.
 > >
 > > $$
 > > \begin{aligned}
-> > &\Longleftrightarrow\underset{h=s+t\text{i}\to0}{\lim}\frac{f(z_0+h)-f(z_0)-h\cdot(a+b\text{i})}{|h|}=0\in\C\\\\
-> > &\Longleftrightarrow\underset{(s,t)\to(0,0)}{\lim}\frac{f(z_0+h)-f(z_0)-(s+t\text{i})(a+b\text{i})}{\sqrt{s^2+t^2}}=0\in\C\\\\
+> > &\Longleftrightarrow\underset{h=s+t\text{i}\to0}{\lim}\frac{f(z_0+h)-f(z_0)-h\cdot(a+b\text{i})}{|h|}=0\in\mathbb{C}\\\\
+> > &\Longleftrightarrow\underset{(s,t)\to(0,0)}{\lim}\frac{f(z_0+h)-f(z_0)-(s+t\text{i})(a+b\text{i})}{\sqrt{s^2+t^2}}=0\in\mathbb{C}\\\\
 > > &\Longleftrightarrow\underset{(s,t)\to(0,0)}{\lim}\frac{F(x_0+s,y_0+t)-F(x_0,y_0)-(as-bt,bs+at)}{\sqrt{s^2+t^2}}\\
 > > &\quad\quad\quad=(0,0)\\\\
 > > &\Longleftrightarrow\frac{F(x_0+s,y_0+t)-F(x_0,y_0)-\begin{pmatrix}a&-b\\b&a\end{pmatrix}\begin{pmatrix}s\\t\end{pmatrix}}{\sqrt{s^2+t^2}}\\
@@ -289,7 +289,7 @@ $f:D\to\R^m$ data $\Longleftrightarrow$ 分量函数 $f=(f_1,\cdots,f_m)$.
 >
 > /Theorem/ (Cauchy - Riemann 条件)
 >
-> > $f:\C\to\C$ 在 $z_0=x_0+\sqrt{-1}\cdot y_0$ 处复可导，当且仅当 $F$ 在 $(x_0,y_0)$ 处可微，且：
+> > $f:\mathbb{C}\to\mathbb{C}$ 在 $z_0=x_0+\sqrt{-1}\cdot y_0$ 处复可导，当且仅当 $F$ 在 $(x_0,y_0)$ 处可微，且：
 > > $$
 > > \left\{\begin{array}{lr}
 > > \frac{\partial u}{\partial x}(x_0,y_0)=\frac{\partial v}{\partial y}(x_0,y_0)\\\\
