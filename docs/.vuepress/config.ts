@@ -95,9 +95,9 @@ export default defineUserConfig({
        * @see https://theme-plume.vuejs.press/config/plugins/search/#algolia-docsearch
        */
       docsearch: {
-        appId: 'B2R86L6O4I',
-        apiKey: '1edebf6fe35b863c50e34bcbc5d7e9be',
-        indexName: 'physnya_top_b2r86l6o4i_pages',
+        appId: 'K7HPXA6J0Z',
+        apiKey: '79817c5dd89d18906f89a095abea2f84',
+        indexName: 'physnya',
       },
 
       /* 文章字数统计、阅读时间，设置为 false 则禁用 */
