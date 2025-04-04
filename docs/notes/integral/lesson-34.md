@@ -70,7 +70,7 @@ createTime: 2025/3/5 15:08:33
 >
 > 上次课我们证明过上述级数在 $\R$ 上不一致收敛，这可能会让人感到困惑：但是实际上连续性时一个逐点的概念，所以我们只需要逐点验证即可.
 >
-> 为此，$\forall x_0\in \R$，取 $b>|x_0|$，在 $[-b,b]$ 上 $\underset{n=1}{\overset{\infty}{\sum}}\frac{x^n}{n!}$ 一致收敛 (上次课用 $M$ - test 验证过)，于是 $\underset{n=1}{\overset{\infty}{\sum}}\frac{x^n}{n!}$ 在 $[-b,b]$ 上连续。所以在 $x_0$ 处级数连续，和函数在 $\R$ 上都连续.
+> 为此，$\forall x_0\in \R$，取 $b>|x_0|$，在 $[-b,b]$ 上 $\underset{n=1}{\overset{\infty}{\sum}}\frac{x^n}{n!}$ 一致收敛 (上次课用 $M$ - test 验证过)，于是 $\underset{n=1}{\overset{\infty}{\sum}}\frac{x^n}{n!}$ 在 $[-b,b]$ 上连续. 所以在 $x_0$ 处级数连续，和函数在 $\R$ 上都连续.
 
 /Example/
 

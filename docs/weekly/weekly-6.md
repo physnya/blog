@@ -56,7 +56,7 @@ jobs:
     - name: 安装 Node
       uses: actions/setup-node@v1
       with:
-        node-version: "20.x" #action使用的node版本，建议大版本和本地保持一致。可以在本地用node -v查询版本号。
+        node-version: "20.x" #action使用的node版本，建议大版本和本地保持一致. 可以在本地用node -v查询版本号. 
 
     - name: 安装 Hexo
       run: |
@@ -81,7 +81,7 @@ jobs:
         hexo bangumi -u
         hexo generate
 
-    - name: 部署 #此处master:master 指从本地的master分支提交到远程仓库的master分支，若远程仓库没有对应分支则新建一个。如有其他需要，可以根据自己的需求更改。
+    - name: 部署 #此处master:master 指从本地的master分支提交到远程仓库的master分支，若远程仓库没有对应分支则新建一个. 如有其他需要，可以根据自己的需求更改. 
       run: |
         cd ./public
         git init
