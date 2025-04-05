@@ -37,11 +37,6 @@ list:
     link: https://blog.imken.moe/
     avatar: https://vip.123pan.cn/1845440081/ymjew503t0l000d6xujz7k8e7eqg0ntyDIYxAIFxDda1DGxPDwUzAa==.png
   -
-    name: 二次元论坛
-    desc: 按下 F 逃离世界！
-    link: https://www.ecylt.top
-    avatar: https://www.ecylt.top/user_avatar/www.ecylt.top/%E5%90%B4%E5%85%88%E7%94%9F/96/13_2.png
-  -
     name: FF
     desc: foolish fox
     link: https://foolishfox.cn/
