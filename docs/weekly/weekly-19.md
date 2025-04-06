@@ -34,3 +34,18 @@ title: 流水账 Week 19
 初中的时候老师说我只有后劲，现在看来还真是这样. 如果第一节课不想记笔记，那这学期就不会认真听这门课了；但是如果第一节课打开了 Typora，我就会一直坚持到这门课结课，某种意义上来说是一种奇怪的完美主义. 不过我很乐意看到坚持着的自己，说点不好听的，只要能坚持就已经能够熬走大多数对手了 (当然不能老是这么想就是了).
 
 去写实验报告了.
+
+---
+
+发现自己刚刚 post 完文章喵喵老师就发了这周拍到的图片：
+
+<CardMasonry>
+    <ImageCard
+        image="https://vip.123pan.cn/1845440081/yk6baz03t0n000d7w33gzehake9qgf5vDIYxAIFxDda1DGxPDwUzAa==.jpg"
+        title="火山上的银河"
+        description="乌兰察布，2025."
+        href="/"
+        author="喵喵老师"
+        date="2025/04/05"
+    />
+</CardMasonry>
