@@ -1,6 +1,7 @@
 ---
 title: Lesson 8 情感劳动
 permalink: /writing/lesson-8/
+createTime: 2025/04/09 11:31:37
 ---
 为偶像做过什么事情？
 
