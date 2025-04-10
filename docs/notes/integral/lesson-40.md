@@ -111,7 +111,7 @@ $f:X\to Y$ 连续 $\Longleftrightarrow$ $f$ 没有被“撕开”，这样，若
 
 /Theorem/
 
-> 若 $X$ 紧致，则 $f:X\to Y$ 连续，$f[X]$ 紧致.
+> 若 $X$ 紧致，$f:X\to Y$ 连续，则 $f[X]$ 紧致.
 
 /Proof/
 
