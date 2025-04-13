@@ -40,15 +40,23 @@ Alcock - Paczynski Test：
 
 来考虑一个真空中的球形鸡 (固定物理尺寸的球体，直径为 $D$)，出现在了红移为 $z$ 的地方. 
 
-如果我们在今天去观测它，观测时的张角为 $\Delta \theta$，如果球体足够大，记红移宽度 为$\Delta z$，代表远端和近端的光被我们接收的时候有着不同的宇宙学时间. 
+如果我们在今天去观测它，观测时的张角为 $\Delta \theta$，如果球体足够大，记红移宽度为 $\Delta z$，代表远端和近端的光被我们接收的时候有着不同的宇宙学时间. 
 $$
-\Delta \theta=\frac{D}{d_A}=\frac{D(1+z)}{a_0r}=\frac{D(1+z)\sqrt{|\Omega_k|}}{D_HS_k(\frac{\psi}{a_0})}
+\Delta \theta=\frac{D}{d_A}=\frac{D(1+z)}{a_0r}=\frac{D(1+z)\sqrt{|\Omega_k|}}{D_HS_K(\frac{\psi}{a_0})}
+$$
+其中，
+$$
+S_K=\left\{\begin{array}{ll}
+\sin x&K=+1\\
+x&K=0\\
+\sinh x&K=-1
+\end{array}\right.
 $$
 在径向有：
 $$
 \psi(z)=D_H\int_0^z\frac{\text{d}z'}{E(z')}\to D=\Delta\psi(z)\frac a {a_0}=D_H\frac{\Delta z}{E(z)}\frac{1}{1+z}
 $$
-这样我们就可以写 出$\Delta z$ 和 $D$ 的关系，同时我们用角度这一可观测量来处理 (注意我们这里要求了球形的物体，因为我们观测物体是不同的两个方向)：
+这样我们就可以写出 $\Delta z$ 和 $D$ 的关系，同时我们用角度这一可观测量来处理 (注意我们这里要求了球形的物体，因为我们观测物体是不同的两个方向)：
 $$
 \begin{aligned}
 \Delta z&=\frac{DE(z)(1+z)}{D_H}\\\\
@@ -57,7 +65,7 @@ $$
 $$
 对 $k=0$ 的情形：
 $$
-\frac{\Delta \theta}{\Delta z}=\left[E(z)\int_0^z \frac{\text{d}z'}{E(z')}\right]
+\frac{\Delta \theta}{\Delta z}=\left[E(z)\int_0^z \frac{\text{d}z'}{E(z')}\right]^{-1}
 $$
 结合 $\Omega_M,\Omega_\Lambda$ 得到 $\frac{\Delta \theta}{\Delta z}$ 与 $z$ 的理论关系，观测又得到 $\Delta \theta,\Delta z\to \frac{\Delta \theta}{\Delta z} \text{ of } z$ 可以得到 $\Omega_M,\Omega_\Lambda$.
 
@@ -77,7 +85,7 @@ P=-\rho
 $$
 在相对论中描述能量动量使用所谓能动量张量：
 $$
-T^{\mu}_{\ \ \nu}=\begin{pmatrix}-\rho&0&0&0\\&P&0&0\\0&0&P&0\\0&0&0&P\end{pmatrix}=-\rho \delta^{\mu}_{\,\,\nu}
+T^{\mu}_{\ \ \nu}=\begin{pmatrix}-\rho&0&0&0\\0&P&0&0\\0&0&P&0\\0&0&0&P\end{pmatrix}=-\rho \delta^{\mu}_{\,\,\nu}
 $$
 而真空能：
 $$
