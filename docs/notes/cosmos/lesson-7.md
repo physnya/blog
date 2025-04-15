@@ -110,7 +110,7 @@ $$
 
 这里要求了拉氏量对于坐标变换是协变的，并且包含度规的 2 阶导数. 这样推出：
 $$
-\mathscr L=R+\Lambda
+\mathscr L=R+2\Lambda
 $$
 其中 $\Lambda$ 是一个常数，如果这个常数是0：
 
@@ -120,7 +120,7 @@ $$
 $$
 但是如果引入常数：
 $$
-\mathscr L=R+\Lambda\to R_{\mu\nu}-\frac{1}{2}g_{\mu\nu}R-\Lambda g_{\mu\nu}=-8\pi GT_{\mu\nu}^{(M)}
+\mathscr L=R+2\Lambda\to R_{\mu\nu}-\frac{1}{2}g_{\mu\nu}R-\Lambda g_{\mu\nu}=-8\pi GT_{\mu\nu}^{(M)}
 $$
 把 $\Lambda$ 记作 $8\pi G\rho_{\Lambda}$，就可以得到刚刚的在前面的方程. 
 
