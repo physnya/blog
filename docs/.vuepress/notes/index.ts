@@ -3,6 +3,7 @@ import FeynmanIII from './feynman-iii.ts'
 import Integral from './integral.ts'
 import cosmos from './cosmos.ts'
 import writing from './writing.ts'
+import complex from './complex.ts'
 
 export const notes = defineNotesConfig({
   dir: 'notes',
@@ -11,6 +12,7 @@ export const notes = defineNotesConfig({
     FeynmanIII,
     Integral,
     cosmos,
-    writing
+    writing,
+    complex,
   ]
 })

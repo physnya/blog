@@ -12,6 +12,8 @@
 
 [高等微积分](/notes/integral/)
 
+[复变函数](/notes/complex/)
+
 ### others
 
 [写作与沟通](/notes/writing/)
