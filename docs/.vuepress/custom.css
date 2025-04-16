@@ -43,3 +43,13 @@ blockquote::before {
 .vp-doc table {
     place-items: center;
 }
+
+.root {
+    --vp-sidebar-width: 245px;
+}
+
+@media (min-width: 1280px) {
+    .content[data-v-d64b92aa] {
+        padding: 0 28px 128px;
+    }
+}

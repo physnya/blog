@@ -161,7 +161,8 @@ createTime: 2025/4/11 12:19:45
 > 用微分中值，有：
 > $$
 > \begin{aligned}
-> |f(y)-f(x)|&=\left|\sum_{i=1}^n\frac{\partial f}{\partial x_i}(x+\theta(y-x))(y_i-x_i) \right|=|\nabla f(x+\theta(y-x))(y-x)|\\\\
+> |f(y)-f(x)|&=\left|\sum_{i=1}^n\frac{\partial f}{\partial x_i}(x+\theta(y-x))(y_i-x_i) \right|\\\\
+> &=|\nabla f(x+\theta(y-x))(y-x)|\\\\
 > &\leq|\nabla f(x+\theta(y-x))|\cdot|y-x|\leq \sqrt{n^2K}\cdot|y-x|
 > \end{aligned}
 > $$
@@ -211,7 +212,8 @@ createTime: 2025/4/11 12:19:45
 > 因此，余项 $R$ 可由之前证明的命题得到
 > $$
 > \begin{aligned}
-> \frac{|R|}{|h|^m}&=\frac{1}{m!}\left|\sum_{i_1}\cdots\sum_{i_m}(\partial_{i_m}\cdots\partial_{i_1}f(x_0+\theta h)-\partial_{i_m}\cdots\partial_{i_1}f(x_0))h_{i_m}\cdots h_{i_1}\right|\frac{1}{|h|^m}\\
+> &\frac{|R|}{|h|^m}\\
+> &=\frac{1}{m!}\left|\sum_{i_1}\cdots\sum_{i_m}(\partial_{i_m}\cdots\partial_{i_1}f(x_0+\theta h)-\partial_{i_m}\cdots\partial_{i_1}f(x_0))h_{i_m}\cdots h_{i_1}\right|\frac{1}{|h|^m}\\
 > &\leq\frac{1}{m!}\sum_{i_1}\cdots\sum_{i_m}|\partial_{i_m}\cdots\partial_{i_1}f(x_0+\theta h)-\partial_{i_m}\cdots\partial_{i_1}f(x_0)|\to0
 > \end{aligned}
 > $$

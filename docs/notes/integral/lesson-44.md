@@ -249,6 +249,14 @@ $$
 /Theorem/
 
 > 设 $D$ 是 $\R^n$ 的开集，$\vec{x},\vec{y}\in D$，且线段 $\overline{xy}\subseteq D$，则对于 $f\in C^m(D)$ 有：
+>
+> $$
+> \begin{aligned}
+> f(\vec{y})&=f(\vec{x})+\frac{1}{1!}\sum_{i=1}^m\partial_if(\vec{x})(y_i-x_i)+\cdots\\
+> &\quad+\frac{1}{(m-1)!}\sum_{i_1}\cdots\sum_{i_{m-1}}\partial_{i_{m-1}}\cdots\partial_{i_1}f(\vec{x})(y_{i_1}-x_{i_1})\cdots(y_{i_{m-1}}-x_{i_{m-1}})\\
+> &\quad+\frac{1}{m!}\sum_{i_1}\cdots\sum_{i_{m}}\partial_{i_{m}}\cdots\partial_{i_1}f(\vec{x}+\theta(\vec{y}-\vec{x}))(y_{i_1}-x_{i_1})\cdots(y_{i_{m}}-x_{i_{m}})
+> \end{aligned}
+> $$
 
 /Proof/
 
