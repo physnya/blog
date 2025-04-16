@@ -153,7 +153,7 @@ createTime: 2025/4/11 12:19:45
 
 > 设 $f\in C^{(1)}(D)$，$\overline{xy}\subseteq D$，且 $|\frac{\partial f}{\partial x_i}(u)|\leq K$，则
 > $$
-> |f(\vec{x})-f(\vec{y})|\leq\sqrt{n}K|\vec{x}-\vec{y}|
+> |f(\vec{x})-f(\vec{y})|\leq\sqrt{n^2K}|\vec{x}-\vec{y}|
 > $$
 
 /Proof/
@@ -256,6 +256,8 @@ createTime: 2025/4/11 12:19:45
 
 不同语境下，有
 
+|||
+|:-:|:-:|
 |          集合 & 映射           | $f$ 有逆 $\Longleftrightarrow$ $\exist g:D\to E$ 使得 $g\circ f=\text{Id}_D$，$f\circ g=\text{Id}_E$ $\Longleftrightarrow$ $f$ 双射 |
 |      拓扑空间 & 连续映射       | 称连续映射 $f$ 有逆 $\Longleftrightarrow$ $\exist$ 连续的 $g:D\to E$ 使得两个复合都是恒同 $\Longleftrightarrow$ $f$ 是同胚，$g$ 是 $f$ 的逆 |
 | $\R^n$ 的子集 & $C^1$ 光滑映射 | 称 $C^1$ 映射 $f$ 有 $C^1$ 的逆 $\Longleftrightarrow$ $\exist C^1$ 光滑的 $g:D\to E$ 使得两个复合都是恒同 $\Longleftrightarrow$ $f$ 是 $C^1$ 的微分同胚，$g$ 是 $f$ 的逆 |
