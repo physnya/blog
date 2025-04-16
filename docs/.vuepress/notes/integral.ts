@@ -58,7 +58,8 @@ export default defineNoteConfig({
         'lesson-42',
         'lesson-43',
         'lesson-44',
-        'lesson-45'
+        'lesson-45',
+        'lesson-46',
       ]
     }
   ],
