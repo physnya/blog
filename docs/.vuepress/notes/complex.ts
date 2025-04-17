@@ -10,6 +10,7 @@ export default defineNoteConfig({
       link: '/complex/',
       items: [
         'lesson-1',
+        'lesson-2',
       ]
     },
   ],
