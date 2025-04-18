@@ -15,9 +15,9 @@ createTime: 2025/4/18 13:25:32
 
 3. 要证明 $f^{-1}:V\to U$ 是 $C^1$ 的. 为此有三个步骤：
 
-   1. 证明 $f^{-1}:V\to U$ 是连续的 (为证明 3.b)；
+   a. 证明 $f^{-1}:V\to U$ 是连续的 (为证明 3.b)；
 
-   2. 证明 $f^{-1}:V\to U$ 是可微的. 证明 $\longleftrightarrow$ 计算极限式，用复合极限定理 $\Longrightarrow$ 不妨 $J_f(x)=\text{Id}$，验证 $f^{-1}$ 在 $f(x)$ 处微分为 $\text{Id}$
+   b. 证明 $f^{-1}:V\to U$ 是可微的. 证明 $\longleftrightarrow$ 计算极限式，用复合极限定理 $\Longrightarrow$ 不妨 $J_f(x)=\text{Id}$，验证 $f^{-1}$ 在 $f(x)$ 处微分为 $\text{Id}$
       $$
       \Longrightarrow\lim_{v\to0}\frac{f^{-1}(f(x)+v)-x-v}{|v|}=0
       $$
@@ -27,7 +27,7 @@ createTime: 2025/4/18 13:25:32
       $$
       Need：当 $v\to0$ 时，$h\to$ ? 用到 3.a 证明过的 $f^{-1}$ 连续 $\Longrightarrow$ $h\to0$.
 
-   3. 证明 $f^{-1}:V\to U$ 是 $C^1$ 的 $\Longleftarrow$ 算 $f^{-1}$ 的偏导数 $\Longleftarrow$ $J_{f^{-1}}$ $\Longleftarrow$ 用 chain rule，需要已知 $f\in C^1$，$f^{-1}$ 可微，$f\circ f^{-1}=\text{Id}$，$f^{-1}\circ f=\text{Id}$. 其中 $f^{-1}$ 可微由 3.b 证明
+   c. 证明 $f^{-1}:V\to U$ 是 $C^1$ 的 $\Longleftarrow$ 算 $f^{-1}$ 的偏导数 $\Longleftarrow$ $J_{f^{-1}}$ $\Longleftarrow$ 用 chain rule，需要已知 $f\in C^1$，$f^{-1}$ 可微，$f\circ f^{-1}=\text{Id}$，$f^{-1}\circ f=\text{Id}$. 其中 $f^{-1}$ 可微由 3.b 证明
 
       $\Longrightarrow$ $J_{f^{-1}}(y)=J_{f^{-1}}(f(x))\circ f^{-1}(y)=[J_f(x)]^{-1}\circ f^{-1}(y)$，$J_f^{-1}$ 的矩阵元均是 $J_f$ 的有理式，而 $f\in C^1$ 故 $J_f$ 的矩阵元均是连续函数，于是 $J_f^{-1}$ 矩阵元均连续，再复合连续函数 $f^{-1}(y)$ (已经在 3.a 中证明过连续性)，仍然连续
 
