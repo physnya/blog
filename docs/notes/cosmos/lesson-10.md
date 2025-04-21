@@ -126,7 +126,7 @@ $$
 >
 > <CardGrid cols="1">
 >
-> ![](https://vip.123pan.cn/1845440081/yk6baz03t0m000d7w33g6okdsqy70d6yDIYxAIFxDda1DGxPDwUzAa==.jpg)
+> <img src="https://vip.123pan.cn/1845440081/yk6baz03t0m000d7w33g6okdsqy70d6yDIYxAIFxDda1DGxPDwUzAa==.jpg">
 >
 > </CardGrid>
 
@@ -138,9 +138,13 @@ $$
 
 (CMB dipole anisotropy)
 
-<CradGrid cols="1">
+<CardGrid cols="1">
 
-![老师画的抽象示意图](https://vip.123pan.cn/1845440081/ymjew503t0n000d7w32y59xqa6g84sl0DIYxAIFxDda1DGxPDwUzAa==.jpg)
+<ImageCard
+  image="https://vip.123pan.cn/1845440081/ymjew503t0n000d7w32y59xqa6g84sl0DIYxAIFxDda1DGxPDwUzAa==.jpg"
+  title="老师上课画的抽象示意图"
+  date="2025/04/21"
+/>
 
 </CardGrid>
 
