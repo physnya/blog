@@ -3,10 +3,14 @@
 
 :root {
     --vp-font-family-base: "LXGW WenKai", sans-serif;
-    --vp-font-family-mono: "LXGW WenKai", monospace;
+    --vp-font-family-mono: "Cascadia code", monospace;
     font-optical-sizing: auto;
     --vp-c-text-3: rgba(60, 60, 67, .78);
     --vp-custom-block-font-size: 17px;
+}
+
+.vp-doc div[class*="language-"] pre, .vp-doc div[class*="language-"] code {
+    font-weight: 350;
 }
 
 [data-theme=dark] {
