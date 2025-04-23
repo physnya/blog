@@ -1,9 +1,10 @@
 @import url('https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkai/dist/LXGWWenKai-Regular/result.css');
 @import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');
+@import url('https://cdn.jsdelivr.net/npm/@fontsource/cascadia-code@4.2.1/index.min.css');
 
 :root {
     --vp-font-family-base: "LXGW WenKai", sans-serif;
-    --vp-font-family-mono: "Cascadia code", monospace;
+    --vp-font-family-mono: "Cascadia code";
     font-optical-sizing: auto;
     --vp-c-text-3: rgba(60, 60, 67, .78);
     --vp-custom-block-font-size: 17px;
