@@ -92,16 +92,19 @@ createTime: 2025/4/23 15:51:29
 > $$
 > 在 $\forall y\in y_0$ 的某个邻域中. 对 $y$ 进行恒等式求导，得到
 > $$
+> \begin{aligned}
 > \left\{\begin{array}{lr}
 > 0=F_x\cdot x'(y)+F_y\cdot1+F_z\cdot z'(y)\\\\
 > 0=G_x\cdot x'(y)+G_y\cdot1+G_z\cdot z'(y)
-> \end{array}\right.\Longrightarrow\begin{pmatrix}
+> \end{array}\right.\\\\
+> \Longrightarrow\begin{pmatrix}
 > F_x&F_z\\G_x&G_z
 > \end{pmatrix}\begin{pmatrix}
 > x'(y)\\z'(y)
 > \end{pmatrix}=\begin{pmatrix}
 > -F_y\\-G_y
 > \end{pmatrix}
+> \end{aligned}
 > $$
 > 这个方程只需要求矩阵的逆即可得到结果：
 > $$
@@ -295,7 +298,8 @@ createTime: 2025/4/23 15:51:29
 >    Taylor 展开：
 >    $$
 >    \begin{aligned}
->    E(\alpha,\beta)&=E(\alpha_0,\beta_0)+0+\frac{1}{2}\begin{pmatrix}
+>    &E(\alpha,\beta)\\
+>    &=E(\alpha_0,\beta_0)+0+\frac{1}{2}\begin{pmatrix}
 >    \alpha-\alpha_0&\beta-\beta_0
 >    \end{pmatrix}H_E\begin{pmatrix}
 >    \alpha-\alpha_0\\\beta-\beta_0
