@@ -11,7 +11,7 @@ tags:
 
 ::: warning
 
-本篇是 THU 的李昕宇教授在赋格酒吧的一次学术酒吧讲座活动的记录.
+本篇是 THU 的李昕宇教授在赋格酒吧的一次学术酒吧讲座活动的记录. 有关的信息：[学术酒吧活动](https://www.xiaohongshu.com/explore/68083338000000001c0143f8?app_platform=android&ignoreEngage=true&app_version=8.80.0&share_from_user_hidden=true&xsec_source=app_share&type=normal&xsec_token=CBbPB5pEU1iMb9bd64Rs8rYP7YSx5_1Gp1RKtZJzbCvmU=&author_share=1&xhsshare=WeixinSession&shareRedId=ODtDMjs9Sk02NzUyOTgwNjdJOTpGNUs7&apptime=1745412093&share_id=2b9280a43de44ab89504694aeafd3cfd&share_channel=wechat)
 
 :::
 
