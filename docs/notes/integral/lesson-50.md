@@ -64,7 +64,7 @@ KKT 的应用：
 > $$
 > 其中 $\{0\}$ 和 $[0,+\infty)$ 皆是 $\R$ 的闭子集，所以原像集也是闭的，得到 $D$ 为闭集. 同时，
 > $$
-> D\subseteq\bigtimes_{n}[0,A]
+> D\subseteq[0,A]\times\cdots[0,A]
 > $$
 > 有界，所以 $D$ compact，最值存在.
 >
