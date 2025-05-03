@@ -46,6 +46,16 @@ $\longrightarrow$ [中国科技云-Overleaf](https://www.cstcloud.cn/resources/4
 
 [Palimpsest](https://zentree.github.io/#main)（觉得很好看就收藏在这里了 awa）
 
+[Yu-Xuan's Blog](https://yxli8023.github.io/)（有很多科研笔记）
+
+[香蕉空间](https://www.bananaspace.org/wiki/%E9%A6%96%E9%A1%B5)（一个中文数学社区，类似 wiki）
+
+[HTML.ZONE](https://html.zone/)（似乎是一个巨佬展示自己项目的地方）
+
+[Zotero 中文社区](https://zotero-chinese.github.io/)
+
+[Nólëbase](https://nolebase.ayaka.io/zh-CN/)（一个 VitePress 知识库，有相当多值得借鉴的前端设计）
+
 ### 资料
 [$\KaTeX$ 公式大全](https://www.luogu.com.cn/article/4a81e2tt)
 
@@ -78,13 +88,6 @@ $\longrightarrow$ [中国科技云-Overleaf](https://www.cstcloud.cn/resources/4
 [NSA 的特殊函数表](https://dlmf.nist.gov/)
 
 ## 娱乐
-
-### 在线动画
-[哈哩哈哩](http://haliyy.com/)
-
-[去看吧](https://qkan8.com/)
-
-[搜番](https://trace.moe/)
 
 ### 下载
 [Nyaa](https://nyaa.si/)（一定需要科学上网的种子站）
@@ -186,3 +189,13 @@ $\longrightarrow$ This message is used to verify that this feed (feedId:65264476
 [配色表](https://www.peisebiao.com/)
 
 [$\LaTeX$ 模板](https://www.latextemplates.com/)
+
+[网络剪贴板](https://netcut.cn/)
+
+[制作 Mac 风格的代码截图](https://carbon.now.sh/?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false)
+
+[查找字体](https://www.fontsquirrel.com/matcherator)
+
+[MeteorTools API Documentation](https://markmac99.github.io/MeteorTools/meteortools.html)（流星监测有关）
+
+[正则表达式练习](https://regex101.com/)
