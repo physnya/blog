@@ -81,4 +81,10 @@ list:
     desc: 無數次，無數次，我夢見了海。
     link: https://haru-lcy.github.io/
     avatar: https://haru-lcy.github.io/img/kazuki.jpg
+
+  -
+    name: 二次元论坛
+    desc: 按下F逃离世界！
+    link: https://www.ecylt.top
+    avatar: https://i.postimg.cc/4yfxGN51/133590205.png
 ---
