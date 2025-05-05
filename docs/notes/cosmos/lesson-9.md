@@ -3,6 +3,10 @@ title: Lesson 9 CMB 的特性
 permalink: /cosmos/lesson-9/
 createTime: 2025/4/21 23:09:32
 ---
+::: warning
+==这节课和 Hall Effect 实验冲突，笔记完全由 yqq 同学贡献，深表感谢.==
+:::
+
 ## 宇宙微波背景辐射
 
 (Cosmic Microwave Background Radiation)
