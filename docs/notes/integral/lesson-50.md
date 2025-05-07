@@ -1,5 +1,5 @@
 ---
-title: Lesson 50 积分学
+title: Lesson 50 积分学 1
 permalink: /integral/lesson-50/
 createTime: 2025/4/29 12:21:15
 ---
