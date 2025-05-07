@@ -137,13 +137,16 @@ Cauchy 定理的几个推论：
 > ---
 >
 > $$
-> \oint_Cz^n\text{d}z=\left\{\begin{array}{lr}
+> \begin{aligned}
+> &\oint_Cz^n\text{d}z\\\\
+> &=\left\{\begin{array}{lr}
 > 0\,,\quad n\geq0\text{ or }z=0\notin C\\\\
 > \oint_{|z|=\varepsilon}z^n\text{d}z+0=\int_0^{2\pi} \varepsilon^{n+1}\text{i}e^{\text{i}(n+1)\theta}\text{d}\theta=\left\{\begin{array}{ll}
 > 0\,,\quad n<-1\\\\
 > 2\pi\varepsilon^{n+1}\text{i}\,,\quad n=-1
 > \end{array}\right.
 > \end{array}\right.
+> \end{aligned}
 > $$
 
 /Corollary/ (小圆弧引理)
