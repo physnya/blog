@@ -1,5 +1,5 @@
 ---
-title: Lesson 5 复变积分 1
+title: Lesson 5 复变积分
 permalink: /complex/lesson-5/
 createTime: 2025/5/6 09:55:21
 ---
