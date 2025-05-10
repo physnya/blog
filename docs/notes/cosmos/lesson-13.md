@@ -235,7 +235,7 @@ $$
 
 如果再考虑 super-horizon perturbation，这个涨落模式是否可以增长由 Hubble length 来判别，和 Jeans length、damping scale 画在一起，得到如下图像：
 
-![]
+![](https://vip.123pan.cn/1845440081/yk6baz03t0m000d7w33g6y3h9y9fm5rsDIYxAIFxDda1DGxPDwUzAa==.jpg)
 
 这些曲线的上方尺度的涨落才可以增长，于是较小尺度的涨落直到 $t_{\text{rec}}=38$ 万年之后、$\lambda_J$ 开始衰减时才能增长. 这造成的结果是所谓 top down scenario，也就是大尺度的涨落先增长，小的涨落后增长.
 
