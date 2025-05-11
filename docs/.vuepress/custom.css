@@ -1,9 +1,9 @@
-@import url('https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkai/dist/LXGWWenKai-Regular/result.css');
+@import url('https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css');
 @import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');
 @import url('https://cdn.jsdelivr.net/npm/@fontsource/cascadia-code@4.2.1/index.min.css');
 
 :root {
-    --vp-font-family-base: "LXGW WenKai", sans-serif;
+    --vp-font-family-base: "LXGWBright-Regular", sans-serif;
     --vp-font-family-mono: "Cascadia code";
     font-optical-sizing: auto;
     --vp-c-text-3: rgba(60, 60, 67, .78);
@@ -20,7 +20,7 @@
 
 :root:where(:lang(zh)),
 :root:where(:lang(zh-CN)) {
-    --vp-font-family-base: "LXGW WenKai", sans-serif;
+    --vp-font-family-base: "LXGWBright-Regular", sans-serif;
 }
 
 html {
@@ -160,39 +160,6 @@ html.dark {
     }
 }
 
-/* 表情面板 */
-.OwO {
-    .OwO-items {
-        height: min(60vh, 420px);
-        overflow: auto;
-        padding: 1rem;
-        position: relative;
-        z-index: 1;
-        display: grid;
-        grid-template-columns: repeat(auto-fill, 30px);
-        gap: 0.5rem;
-
-        /* 滚动条美化 */
-        &::-webkit-scrollbar {
-            width: 8px;
-            height: 8px;
-        }
-
-        &::-webkit-scrollbar-track {
-            background: transparent;
-        }
-
-        &::-webkit-scrollbar-thumb {
-            background: rgba(144, 147, 153, 0.2);
-            border-radius: 4px;
-
-            &:hover {
-                background-color: rgba(144, 147, 153, 0.3);
-            }
-        }
-    }
-}
-
 /*~ tk-comments-container ~*/
 
 /* 评论区主题样式 */
@@ -229,11 +196,6 @@ html.dark {
     &:hover {
         border-color: rgba(144, 147, 153, 0.5);
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
-    }
-
-    /* 确保回复框中的表情面板正确显示 */
-    .OwO {
-        position: relative;
     }
 
     .tk-avatar.tk-has-avatar {
