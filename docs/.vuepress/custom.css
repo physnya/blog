@@ -1,9 +1,9 @@
-@import url('https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css');
+@import url("https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css");
 @import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');
 @import url('https://cdn.jsdelivr.net/npm/@fontsource/cascadia-code@4.2.1/index.min.css');
 
 :root {
-    --vp-font-family-base: "LXGWBright-Regular", sans-serif;
+    --vp-font-family-base: "LXGW Bright", sans-serif;
     --vp-font-family-mono: "Cascadia code";
     font-optical-sizing: auto;
     --vp-c-text-3: rgba(60, 60, 67, .78);
@@ -20,12 +20,12 @@
 
 :root:where(:lang(zh)),
 :root:where(:lang(zh-CN)) {
-    --vp-font-family-base: "LXGWBright-Regular", sans-serif;
+    --vp-font-family-base: "LXGW Bright", sans-serif;
 }
 
 html {
     font-size: 19px;
-    font-weight: 400;
+    font-weight: 450;
 }
 
 .vp-doc blockquote > p:not(.katex) {
