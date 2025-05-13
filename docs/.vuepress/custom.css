@@ -49,6 +49,10 @@ blockquote::before {
     place-items: center;
 }
 
+.vp-doc img {
+    text-align: center;
+}
+
 .root {
     --vp-sidebar-width: 245px;
 }

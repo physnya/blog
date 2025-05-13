@@ -91,11 +91,7 @@ createTime: 2025/5/13 09:54:37
 > $$
 > 如何估算根式部分的上界？Abel 第二定理说不能沿着切线方向，想到证明过程中应该用到角度：
 >
-> <CardMasonry>
->
 > <img src="https://vip.123pan.cn/1845440081/yk6baz03t0n000d7w33gzunk4apm58n1DIYxAIFxDda1DGxPDwUzAa==.png" style="zoom:150%;" />
->
-> </CardMasonry>
 >
 > 代入得到：
 > $$
