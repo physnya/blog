@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@ifuture/vuepress-plugin-rss": "1.0.2",
-    "@vuepress/bundler-vite": "2.0.0-rc.23",
+    "@vuepress/bundler-vite": "2.0.0-rc.22",
     "http-server": "^14.1.1",
     "sass-embedded": "^1.83.4",
     "twikoo": "^1.6.43",
