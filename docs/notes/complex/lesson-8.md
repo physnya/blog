@@ -1,5 +1,5 @@
 ---
-title: lesson 8 Taylor 展开
+title: Lesson 8 Taylor 展开
 createTime: 2025/05/15 09:51:38
 permalink: /complex/lesson-8/
 ---
