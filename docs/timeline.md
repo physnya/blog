@@ -230,4 +230,8 @@ feed: false
 
     如果您想访问之前的网站，可以看这里：[archive1.physnya.top](https://archive1.physnya.top).
 
+* 2025-5-26
+  
+    友链整理，去掉了无法访问的链接，更新部分头像.
+
 :::

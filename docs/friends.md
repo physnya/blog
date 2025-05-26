@@ -15,7 +15,7 @@ list:
     name: revkiru's Blog
     desc: さよならの速さで顔を上げて
     link: https://arckive.cn/
-    avatar: https://arckive.cn/images/avatar_hu15573638484154854159.jpg
+    avatar: https://arckive.cn/images/avatar_hu11893311594825852572.png
   -
     name: 自习室
     desc: 我在 Bangumi 的小组
@@ -66,11 +66,6 @@ list:
     desc: Yuri save ACGN!
     link: https://phymani.me
     avatar: https://phymani.me/img/avatar.jpg
-  -
-    name: 摩卡小站
-    desc: 生活很苦，来杯初糖摩卡
-    link: https://blog.mokemore.top
-    avatar: https://image.mokemore.top/i/2024/10/13/670b8ed876cd9.png
   -
     name: Eamon
     desc: 一个生物研究生
