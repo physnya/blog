@@ -46,7 +46,7 @@ export default defineThemeConfig({
 
   social: [
     { icon: 'github', link: 'https://github.com/physnya' },
-    { icon: 'mastodon', link: 'https://scg.owu.one/physnya' },
+    { icon: 'mastodon', link: 'https://scg.owu.one/@physnya' },
   ],
 
   navbar,
