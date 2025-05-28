@@ -166,11 +166,16 @@ Fubini 定理保证了换序积分可以成立，同时对高维情况这个结�
 > $$
 > 在量子场论中常用积分：
 > $$
-> F_n(a_0,\cdots,a_n)=\int\cdots\int_V\frac{\text{d}x_1\cdots\text{d}x_n}{(a_1x_1+\cdots+a_nx_n+a_0(1-x_1-\cdots-x_n))^{n-1}}
+> \begin{aligned}
+> &F_n(a_0,\cdots,a_n)\\
+> &=\int\cdots\int_V\frac{\text{d}x_1\cdots\text{d}x_n}{(a_1x_1+\cdots+a_nx_n+a_0(1-x_1-\cdots-x_n))^{n+1}}
+> \end{aligned}
 > $$
 > 只能使用 Fubini 定理，积分最后一个维度，得到
 > $$
-> F_n(a_0,\cdots,a_n)=\frac{1}{-n(a_n-a_0)}(F_{n-1}(a_n;a_0,\cdots,a_{n-1})-F_{n-1}(a_0,\cdots,a_{n-1}))
+> \begin{aligned}
+> &_n(a_0,\cdots,a_n)\\&=\frac{1}{-n(a_n-a_0)}(F_{n-1}(a_n;a_0,\cdots,a_{n-1})-F_{n-1}(a_0,\cdots,a_{n-1}))
+> \end{aligned}
 > $$
 > 只需要从低维结果猜出：
 > $$
