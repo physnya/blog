@@ -1,4 +1,5 @@
 ---
+changelog: false
 title: 资源收集（持续更新）
 createTime: 2024/05/08 22:01:32
 tags:
@@ -6,11 +7,13 @@ tags:
 sticky: 100
 permalink: /posts/bnw31l0t/
 ---
+
 这里用来记录一些常用的资源，以便于查找. 同时收录了一些博客，因为感觉并非同类型而不好申请互相添加友链，遂记录在此处.
 
 ## 学习
 
 ### 论坛
+
 [CSDN 论坛](https://www.csdn.net/)
 
 [Physics Forum](https://www.physicsforums.com/)（链接速度很慢，但是不用科学上网）
@@ -18,6 +21,7 @@ permalink: /posts/bnw31l0t/
 [超理论坛](https://chaoli.club/index.php/)
 
 ### 其他
+
 [陈童的量子新世界](https://newquanta.com/)
 
 [李文威的学术主页](https://www.wwli.asia/index.php/zh/)
@@ -57,6 +61,7 @@ $\longrightarrow$ [中国科技云-Overleaf](https://www.cstcloud.cn/resources/4
 [Nólëbase](https://nolebase.ayaka.io/zh-CN/)（一个 VitePress 知识库，有相当多值得借鉴的前端设计）
 
 ### 资料
+
 [$\KaTeX$ 公式大全](https://www.luogu.com.cn/article/4a81e2tt)
 
 [Google Analytics 4 使用指南（2021ver.）](https://ahrefs.com/blog/zh/how-to-use-google-analytics/)
@@ -67,7 +72,7 @@ $\longrightarrow$ [中国科技云-Overleaf](https://www.cstcloud.cn/resources/4
 
 [Java 教程](https://liaoxuefeng.com/books/java/introduction/)
 
-[CS 自学指南](https://csdiy.wiki/)（由一名PKU的学长发布在GitHub上）
+[CS 自学指南](https://csdiy.wiki/)（由一名 PKU 的学长发布在 GitHub 上）
 
 [CS50 Manual Pages](https://manual.cs50.io/)
 
@@ -75,7 +80,7 @@ $\longrightarrow$ [中国科技云-Overleaf](https://www.cstcloud.cn/resources/4
 
 [Feymann Lecuture 3](https://legendsland.github.io/res/res/physics/people/1918%20Feynman.%E8%B4%B9%E6%9B%BC/The%20Feynman%20Lectures%20on%20Physics.%E8%B4%B9%E6%9B%BC%E7%89%A9%E7%90%86%E5%AD%A6%E8%AE%B2%E4%B9%893.Feynman.html#:~:text=%E3%80%8A%E8%B4%B9%E6%9B%BC%E7%89%A9%E7%90%86%E5%AD%A6%E8%AE%B2%E4%B9%89%E3%80%8B%E4%BB%8E)
 
-[Just Vim It](https://vim.nauxscript.com/)（一个Vim学习指南）
+[Just Vim It](https://vim.nauxscript.com/)（一个 Vim 学习指南）
 
 [OEIS](https://oeis.org/)
 
@@ -90,9 +95,11 @@ $\longrightarrow$ [中国科技云-Overleaf](https://www.cstcloud.cn/resources/4
 ## 娱乐
 
 ### 下载
+
 [Nyaa](https://nyaa.si/)（一定需要科学上网的种子站）
 
 ### 音乐
+
 [Listen1](https://listen1.github.io/listen1/)
 
 [Spotify](https://open.spotify.com/)
@@ -100,6 +107,7 @@ $\longrightarrow$ [中国科技云-Overleaf](https://www.cstcloud.cn/resources/4
 [音乐下载](https://yams.tf/)
 
 ### 论坛
+
 [百合会](https://bbs.yamibo.com/)
 
 [Bangumi](https://bgm.tv/)
@@ -107,6 +115,7 @@ $\longrightarrow$ [中国科技云-Overleaf](https://www.cstcloud.cn/resources/4
 [二次元虫洞](http://2cycd.com/)
 
 ### 有意思的
+
 [神奇海螺](https://lab.magiconch.com/)
 
 [文风测试](https://testurtext.us/)
@@ -121,7 +130,7 @@ $\longrightarrow$ [中国科技云-Overleaf](https://www.cstcloud.cn/resources/4
 
 [Seraph Database](https://hbr.quest/)（更新炽天使部队的最新消息）
 
-[1024 pixels art](https://1024pixels.art/)（创作1024像素的像素画）
+[1024 pixels art](https://1024pixels.art/)（创作 1024 像素的像素画）
 
 [YUME 梦乡](http://yume.ly/)
 
@@ -136,15 +145,16 @@ $\longrightarrow$ [中国科技云-Overleaf](https://www.cstcloud.cn/resources/4
 [CSS game](https://codingfantasy.com/)
 
 ## 工具
+
 [GreasyFork](https://greasyfork.org/zh-CN#google_vignette)（脚本网站）
 
 [流浪图床](https://p.sda1.dev/)
 
-[PicX](https://picx.xpoet.cn/)（Github托管的图床）
+[PicX](https://picx.xpoet.cn/)（Github 托管的图床）
 
 [在线图片压缩](https://docsmall.com/image-compress)
 
-[研狗的上世纪绝版资料库](https://mtoou.info/jueban/qiuzhu/so/)（每次求助29.9元）
+[研狗的上世纪绝版资料库](https://mtoou.info/jueban/qiuzhu/so/)（每次求助 29.9 元）
 
 [AI 图像编辑](https://www.iloveimg.com/zh-cn)
 

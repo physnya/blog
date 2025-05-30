@@ -1,4 +1,5 @@
 ---
+changelog: false
 title: 讲座 - Web 基础
 createTime: 2024/11/17 14:58:03
 tags:
@@ -6,6 +7,7 @@ tags:
   - lecture
 permalink: /posts/e7osczep/
 ---
+
 ## 讲座 - Web 基础
 
 Web 具有按需操作的特性，需要有服务器（server）提供内容，需要客户（client）进行请求. Web 客户通常指浏览器（browser），比如 Microsoft Edge 或者 Google Chrome.
@@ -33,15 +35,15 @@ Web 具有按需操作的特性，需要有服务器（server）提供内容，�
 
 请求如何携带信息，比如说用户名和密码？有常用的三种方法：
 
-1. 路径传参：```http://www.site.com/info/aaa/head.png```
+1. 路径传参：`http://www.site.com/info/aaa/head.png`
 
-2. 查询字符串传参：```http://www.site.com/info?username=aaa&require=head```
+2. 查询字符串传参：`http://www.site.com/info?username=aaa&require=head`
 
-3. 请求体传参：```http://www.site.com/info```
+3. 请求体传参：`http://www.site.com/info`
    ```json
    {
-       "username": "aaa",
-       "telephone": "123456789"
+   	"username": "aaa",
+   	"telephone": "123456789"
    }
    ```
 
@@ -77,7 +79,7 @@ Hyper-Text Markup Language，超文本标记语言. 其中定义了很多标签�
 
 常用的 HTML 标签：略去吧，这些用用就会了.
 
-在一个 HTML 文档中，首先要声明：```<!DOCTYPE html>```，然后是根标签```<html></html>```.
+在一个 HTML 文档中，首先要声明：`<!DOCTYPE html>`，然后是根标签`<html></html>`.
 
 HTML 标签具有属性：
 
@@ -86,11 +88,11 @@ HTML 标签具有属性：
 3. style：样式
 4. ……
 
-需要专门介绍的是```<div>```标签，本身没有语义，仅仅作为一个容器.
+需要专门介绍的是`<div>`标签，本身没有语义，仅仅作为一个容器.
 
 #### CSS
 
-样式表文件. 在 HTML 中用```<link rel='stylesheet' href='xxx.css'>```引用这个 CSS 文件，使得它在整个文件中都被引用.
+样式表文件. 在 HTML 中用`<link rel='stylesheet' href='xxx.css'>`引用这个 CSS 文件，使得它在整个文件中都被引用.
 
 CSS 是 Cascading Style Sheet，层叠样式表，实际上大家有兴趣可以引用两个相互矛盾的 CSS 来看看效果是什么.
 
@@ -100,7 +102,7 @@ CSS 是 Cascading Style Sheet，层叠样式表，实际上大家有兴趣可以
 
 有意思的是 Java 和 JavaScript 什么关系都没有，甚至不是一个公司开发的.
 
-注意的是，最好在```<head>```里面引入 CSS，而在```<body>```中引入 JS，以实现提高加载速度的目的.
+注意的是，最好在`<head>`里面引入 CSS，而在`<body>`中引入 JS，以实现提高加载速度的目的.
 
 上面三者被称为前端三件套.
 

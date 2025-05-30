@@ -1,4 +1,5 @@
 ---
+changelog: false
 title: 关于我
 draft: true
 permalink: /about/
@@ -7,6 +8,7 @@ createTime: 2025/02/14 22:55:26
 copyright: false
 feed: false
 ---
+
 ## 自我介绍
 
 来自远方的旅人，你好，这里是菲兹克斯喵（physnya，或者更早的名字来源是 physics_nya）.

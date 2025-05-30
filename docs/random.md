@@ -1,4 +1,5 @@
 ---
+changelog: false
 title: 随机跳转
 draft: true
 permalink: /random/
@@ -7,6 +8,7 @@ copyright: false
 feed: false
 createTime: 2025/03/05 19:49:07
 ---
+
 <script setup lang="js">
     import { useRoutes, useRouter } from 'vuepress/client'
     const router = useRouter()

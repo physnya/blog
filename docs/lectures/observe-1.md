@@ -1,11 +1,13 @@
 ---
+changelog: false
 title: 天文协会培训 - 观测入门
 permalink: /posts/observe-1/
 tags:
-   - astronomy
-   - lecture
+  - astronomy
+  - lecture
 createTime: 2025/3/16 17:12:23
 ---
+
 ## 远程台控制
 
 用的是向日葵.
@@ -77,13 +79,13 @@ $\uparrow$ 这玩意还有自动追踪什么的，很智能.
 是一个只有七个人的小活动，但是拍了很多照片，!!反正这周没时间写流水账，干脆就用这些东西代替掉好啦!!.
 
 ::: demo-wrapper img no-padding
-   <img src="https://vip.123pan.cn/1845440081/yk6baz03t0n000d7w33gz9v4vj585rkaDIYxAIFxDda1DGxPDwUzAa==.png">
+<img src="https://vip.123pan.cn/1845440081/yk6baz03t0n000d7w33gz9v4vj585rkaDIYxAIFxDda1DGxPDwUzAa==.png">
 :::
 ::: demo-wrapper img no-padding
-   <img src="https://vip.123pan.cn/1845440081/ymjew503t0n000d7w32y53rl6h53t0niDIYxAIFxDda1DGxPDwUzAa==.jpg">
+<img src="https://vip.123pan.cn/1845440081/ymjew503t0n000d7w32y53rl6h53t0niDIYxAIFxDda1DGxPDwUzAa==.jpg">
 :::
 ::: demo-wrapper img no-padding
-   <img src="https://vip.123pan.cn/1845440081/yk6baz03t0l000d7w33fccnn3m9zea7dDIYxAIFxDda1DGxPDwUzAa==.jpg">
+<img src="https://vip.123pan.cn/1845440081/yk6baz03t0l000d7w33fccnn3m9zea7dDIYxAIFxDda1DGxPDwUzAa==.jpg">
 :::
 
 (最后这张是所谓的“毁灭菇”，烤太久了)😋😋😋

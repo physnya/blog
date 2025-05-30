@@ -1,4 +1,5 @@
 ---
+changelog: false
 title: 流水账 Week 12
 createTime: 2024/12/01 23:56:11
 tags:
@@ -14,11 +15,11 @@ permalink: /posts/wq1j551x/
 
 不过我翻看自己之前的一些更新，并未发现自己在任何地方有不妥当的言论，毕竟我对讨论政治话题相当厌恶，也从未在站里面引入广告. 为了防止被恶意 JavaScript 劫持，我还把之前用过的 51.la 统计的代码删掉了，估计不会有违禁内容（话说确实有点可怕，我好像想起来有一次刷新网页时见到一闪而过的博彩网站画面，不知道是不是一些引入的 JavaScript 的原因，想想有点后怕……）
 
-所以现在我得到的结果是，不太可能被 DNS 污染，我转而寻找其他的可能原因. 在某位大佬舍友（一名 iOS 开发者）的帮助下，我发现我的 SSL 证书已经过期 14 天，显然这是问题的根源所在，报错信息是```ERR_SSL_VERSION_OR_CIPHER_MISMATCH```.
+所以现在我得到的结果是，不太可能被 DNS 污染，我转而寻找其他的可能原因. 在某位大佬舍友（一名 iOS 开发者）的帮助下，我发现我的 SSL 证书已经过期 14 天，显然这是问题的根源所在，报错信息是`ERR_SSL_VERSION_OR_CIPHER_MISMATCH`.
 
 我立刻来到雨云的控制台，试图再申请一张证书，但是 DNS 解析迟迟不生效，刚好周二那天晚上我有一个会要开，时间紧急，在十分烦躁的情况下，我突然想起来很多人给我推荐过 CloudFlare 的服务，要不干脆趁此机会将站点直接扔到 CloudFlare Pages 上面去，用上自动续签或者 15 年有效期的 SSL 证书呢？
 
-说干就干，我立马开始学习如何将网站部署到 CloudFlare 上，并赶在会议正式内容开始之前做完了. 稍微测试一下，前面几次出现了```ERR_TOO_MANY_REDIRECTS```的报错，但是过一会新的 DNS 解析生效之后就完全恢复正常了. 其实一开始我想借这个机会把域名换成```blog.physnya.top```这个二级域的，但是后来一想，换了之后还要处理各种链接失效和 [⌈ 开往 ⌋](https://www.travellings.cn/)、[BlogsClub](https://www.blogsclub.org/)、[十年之约](https://www.foreverblog.cn/)各种地方的问题，还是不改算了，什么时候要做个人主页的时候用```www.physnya.top```算啦.
+说干就干，我立马开始学习如何将网站部署到 CloudFlare 上，并赶在会议正式内容开始之前做完了. 稍微测试一下，前面几次出现了`ERR_TOO_MANY_REDIRECTS`的报错，但是过一会新的 DNS 解析生效之后就完全恢复正常了. 其实一开始我想借这个机会把域名换成`blog.physnya.top`这个二级域的，但是后来一想，换了之后还要处理各种链接失效和 [⌈ 开往 ⌋](https://www.travellings.cn/)、[BlogsClub](https://www.blogsclub.org/)、[十年之约](https://www.foreverblog.cn/)各种地方的问题，还是不改算了，什么时候要做个人主页的时候用`www.physnya.top`算啦.
 
 ---
 
@@ -38,7 +39,7 @@ permalink: /posts/wq1j551x/
 
 ## Fragment 2 物理系学生节
 
-<s>其实我本来不想去的来着，毕竟还有一堆事（；´д｀）ゞ</s>
+<s>其实我本来不想去的来着，毕竟还有一堆事（；´д ｀）ゞ</s>
 
 一开始看到学长学姐们自己组建的乐队就觉得很有活力，要是什么时候我能像他们一样更加自信地站在属于自己的舞台上，我觉得这就是一种成长.
 
@@ -60,17 +61,17 @@ permalink: /posts/wq1j551x/
 
 :::: details 图片
 <CardGrid cols='3'>
-  <img src='https://p.sda1.dev/20/a6f119f593a8be6947d6286b898381d0/4b88af198732f3b9d67f787a2764bd5.png'>
-  <img src='https://p.sda1.dev/20/d2d2cbd0c10be92b9988a2e212bc37f1/a7e1556cb248e0be28adc60313d4352.png'>
-  <img src='https://p.sda1.dev/20/aff2c87acce357815fad189b725bf2e7/69f2270a3476526ecd3806caf20e03e.jpg'>
+<img src='https://p.sda1.dev/20/a6f119f593a8be6947d6286b898381d0/4b88af198732f3b9d67f787a2764bd5.png'>
+<img src='https://p.sda1.dev/20/d2d2cbd0c10be92b9988a2e212bc37f1/a7e1556cb248e0be28adc60313d4352.png'>
+<img src='https://p.sda1.dev/20/aff2c87acce357815fad189b725bf2e7/69f2270a3476526ecd3806caf20e03e.jpg'>
 </CardGrid>
 <CardGrid>
-  <img src='https://p.sda1.dev/20/9c59e016be8980919439ac87ca2c4604/7cd24e83919deb4523035214240503b.jpg'>
-  <img src='https://p.sda1.dev/20/6e94c919492f0b97265e31e7335818ac/ac11f94c7d6276a3c0301dc941e67c0.jpg'>
+<img src='https://p.sda1.dev/20/9c59e016be8980919439ac87ca2c4604/7cd24e83919deb4523035214240503b.jpg'>
+<img src='https://p.sda1.dev/20/6e94c919492f0b97265e31e7335818ac/ac11f94c7d6276a3c0301dc941e67c0.jpg'>
 </CardGrid>
 ::::
 
-看到一张笑脸啦~那天上午的体育课也在体育馆的墙壁上看到了一个粉笔画的笑脸，微笑的一天hhh.
+看到一张笑脸啦~那天上午的体育课也在体育馆的墙壁上看到了一个粉笔画的笑脸，微笑的一天 hhh.
 
 ::: details 体育馆的笑脸
 

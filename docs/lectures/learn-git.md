@@ -1,4 +1,5 @@
 ---
+changelog: false
 title: 讲座 - Git 技能学习
 createTime: 2024/11/10 15:02:32
 tags:
@@ -7,6 +8,7 @@ tags:
   - git
 permalink: /posts/kqza8uq6/
 ---
+
 ## 讲座 - Git 技能学习
 
 ### Introduction
@@ -32,7 +34,7 @@ Git 规定一个项目只存在一个 commit，不存在“上一个 commit”�
 查看 Git 版本：
 
 ```bash
-git -v 
+git -v
 ```
 
 初始化：
@@ -57,7 +59,7 @@ git add .
 git add *.cpp
 ```
 
-这一般在根目录下进行，可以将目录下所有目录全部存在暂存区中间. 第二行是将目录下的所有 .cpp 文件存入暂存区，“*”是通配符.
+这一般在根目录下进行，可以将目录下所有目录全部存在暂存区中间. 第二行是将目录下的所有 .cpp 文件存入暂存区，“\*”是通配符.
 
 移除文件：
 
@@ -159,7 +161,7 @@ git status
 git reset [<commit>] [--soft/--mixed/--hard]
 ```
 
-如果不填写 commit id，则默认回到 HEAD；也可以使用 ```HEAD^```、```HEAD^2``` 回到 HEAD 的若干次 commit 之前.
+如果不填写 commit id，则默认回到 HEAD；也可以使用 `HEAD^`、`HEAD^2` 回到 HEAD 的若干次 commit 之前.
 
 后面三个分别代表：保留重置前修改并跟踪、保留重置前但是不跟踪、不保留，默认是 --mixed.
 
@@ -197,7 +199,7 @@ git remote add <url>
 git remote remove <name>
 ```
 
-展示远程仓库、添加远程仓库和删除远程仓库. 远程分支都是```<remote>/<branch>```的格式.
+展示远程仓库、添加远程仓库和删除远程仓库. 远程分支都是`<remote>/<branch>`的格式.
 
 可以用以下两个指令进行同步远程和本地分支：
 
@@ -206,7 +208,7 @@ git pull
 git push
 ```
 
-（我想我应该很熟悉 ```git push origin main```）
+（我想我应该很熟悉 `git push origin main`）
 
 ### Fork & Pull
 

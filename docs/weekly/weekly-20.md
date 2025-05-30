@@ -1,10 +1,12 @@
 ---
+changelog: false
 title: 流水账 Week 20
 createTime: 2025/4/13 23:42:12
 tags:
   - Life
 permalink: /posts/lctmnkeh/
 ---
+
 怎么这么快就到第 20 期了？(虽然在这么说，但是其实站点早就已经过完一周年生日，时间真的是越来越快了)
 
 ## Fragment 1 大风
@@ -27,7 +29,7 @@ permalink: /posts/lctmnkeh/
 
 鼎鼎大名的知识库管理软件，开源、有还算比较丰富的社区生态，可惜学校的讲座集中在付费软件 EndNote 的使用方面 (或许是因为买下了正版的缘故)，大家基本上都是从 EndNote 开始入门. 不过这两天尝试了 Zotero 之后深感其使用体验远优于 EndNote，遂果断入坑.
 
-首先从 UI 角度来说，Zotero 在我心中就远胜于 EndNote，依然是基础的侧边栏设计和右侧的文献元信息，但是自定义程度比 EndNote 高得多；再者，结合浏览器插件，可以做到一键生成网页快照，立即添加文献附件，速度比 EndNote 快很多. 同时对 ``.epub`` 的支持也很方便，比分屏开着 Readest[^1] 看 ``.epub`` 强多了.
+首先从 UI 角度来说，Zotero 在我心中就远胜于 EndNote，依然是基础的侧边栏设计和右侧的文献元信息，但是自定义程度比 EndNote 高得多；再者，结合浏览器插件，可以做到一键生成网页快照，立即添加文献附件，速度比 EndNote 快很多. 同时对 `.epub` 的支持也很方便，比分屏开着 Readest[^1] 看 `.epub` 强多了.
 
 放两张现在使用 Zotero 的截图：
 
@@ -48,7 +50,7 @@ permalink: /posts/lctmnkeh/
   />
 </CardGrid>
 
-顺便结合我正在使用的网页批注插件 [``hypothes.is``](https://hypothes.is)，阅读论文的体验相当不错. 至少在短时间内，做 SRT 项目和写作课论文的心情都有一定程度的提升.
+顺便结合我正在使用的网页批注插件 [`hypothes.is`](https://hypothes.is)，阅读论文的体验相当不错. 至少在短时间内，做 SRT 项目和写作课论文的心情都有一定程度的提升.
 
 ## Fragment 3 PWA
 
@@ -56,9 +58,9 @@ permalink: /posts/lctmnkeh/
 
 PWA 全称是 Progressive Web Application，也就是渐进式 Web 应用[^2]，简单理解：把某一个网站当作一个 APP 下载到本地，然后想要使用的时候随时打开. 这听起来和保存一个标签页并没有什么区别，但是实际上有很大的不同：
 
-* PWA 可以在后台运行，还可以离线操作；
-* PWA 可以与设备集成，注册为共享目标和来源，并访问设备特性；
-* PWA 甚至可以在应用商店发布……
+- PWA 可以在后台运行，还可以离线操作；
+- PWA 可以与设备集成，注册为共享目标和来源，并访问设备特性；
+- PWA 甚至可以在应用商店发布……
 
 当然这些看起来和我没什么关系，不过作为我的私人笔记本，如果我拥有一个单独的桌面图标、任务栏图标，可以占用整个屏幕而不是包裹在浏览器的框架中，对我来说是相当不错的浏览体验，就像有一个小小的笔记本.
 
@@ -68,5 +70,5 @@ PWA 全称是 Progressive Web Application，也就是渐进式 Web 应用[^2]，
 >
 > 在浏览器中点击右上角的三个点，选择“应用”，然后“将此站点作为应用安装”即可.
 
-[^1]: 这也是一个很好的阅读器，对 ``.epub`` 的适配比较舒适，官网：<a href='https://readest.com/'>https://readest.com/</a>，源代码仓库：<a href='https://github.com/readest/readest'>https://github.com/readest/readest</a>
+[^1]: 这也是一个很好的阅读器，对 `.epub` 的适配比较舒适，官网：<a href='https://readest.com/'>https://readest.com/</a>，源代码仓库：<a href='https://github.com/readest/readest'>https://github.com/readest/readest</a>
 [^2]: [渐进式 Web 应用 (PWA) | MDN](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps)，有意思的是当你打开这个网页的时候你的 Edge 会提示你下载 MDN Docs 应用

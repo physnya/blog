@@ -1,11 +1,13 @@
 ---
+changelog: false
 title: 周年纪念
 permalink: /posts/anniversary/
 createTime: 2025/3/22 13:29:36
-tags: 
+tags:
   - blog
   - Life
 ---
+
 24 日更新图片.
 
 去年 3 月 22 日我建立了第一个自己的 [Hexo](https://hexo.io/zh-cn/) 网站，当时用的主题是 [Fluid](https://fluid-dev.github.io/hexo-fluid-docs/)，现在存档在 [这里](https://archive1.physnya.top/). 事实上我已经在 [流水账 Week 2](/posts/yjy9ql2s/#fragment-3-建站半周年纪念) 里写过一次半周年纪念，讲了一下建站的原因.
@@ -93,4 +95,4 @@ $\uparrow$ 为什么要起一个这么奇怪的小标题？
   />
 </CardMasonry>
 
-[^1]:[vinta/pangu.js: Paranoid text spacing in JavaScript](https://github.com/vinta/pangu.js/)
+[^1]: [vinta/pangu.js: Paranoid text spacing in JavaScript](https://github.com/vinta/pangu.js/)

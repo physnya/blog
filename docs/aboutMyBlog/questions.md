@@ -1,15 +1,17 @@
 ---
+changelog: false
 title: 独立博客自省问卷 15 题
 createTime: 2024/10/20 00:39:09
 tags:
   - blog
 permalink: /posts/wsas6w6k/
 ---
+
 看到几个朋友（[@小氯](https://www.yoghurtlee.com/)、[@Pinpe](https://blog.pinpe.top/)和[@FoolishFox](https://foolishfox.cn/)）在做，我也跟个风~
 
-------
+---
 
-以下是[“独立博客自省问卷15题”](https://yayu.net/4626.html)的内容，同时作为我 GitHub 的 blog repo 的 README.
+以下是[“独立博客自省问卷 15 题”](https://yayu.net/4626.html)的内容，同时作为我 GitHub 的 blog repo 的 README.
 
 ## 更新频率？
 
@@ -27,7 +29,7 @@ A.
 
 A.
 
-100%原创，可以保证；转载内容全部以pdf方式呈现.
+100%原创，可以保证；转载内容全部以 pdf 方式呈现.
 
 ## 文章对他人有帮助吗？
 
@@ -39,13 +41,13 @@ B.
 
 D.
 
-从24年3月建站开始就没有更换过；之后有想法换成更加简洁的主题，程序不太想更换，因为不熟悉Hexo之外的程序.
+从 24 年 3 月建站开始就没有更换过；之后有想法换成更加简洁的主题，程序不太想更换，因为不熟悉 Hexo 之外的程序.
 
 ## 上次修改博客主题代码是什么时候？
 
 C.
 
-应该是想要让Twikoo支持$\LaTeX$输入的时候，改了一点点ejs.
+应该是想要让 Twikoo 支持$\LaTeX$输入的时候，改了一点点 ejs.
 
 ## 是否会对主题进行二次开发？
 

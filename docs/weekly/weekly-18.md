@@ -1,10 +1,12 @@
 ---
+changelog: false
 title: 流水账 Week 18
 permalink: /posts/wh7e8b6j/
 createTime: 2025/03/10 17:05:41
 tags:
   - Life
 ---
+
 上周周日参加天文协会例会，到 11 点多才回到宿舍，之后电脑被舍友借去用到 12 点，干脆把流水账拖到周一更新了.
 
 ## Fragment 1 天协面试 & 例会
