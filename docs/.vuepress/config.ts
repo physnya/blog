@@ -38,7 +38,7 @@ export default defineUserConfig({
     // editLink: true,
     // lastUpdated: true,
     // contributors: true,
-    // changelog: false,
+    changelog: true,
 
     /**
      * 博客

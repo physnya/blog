@@ -22,3 +22,9 @@ feed: false
 ::: demo-wrapper img width="100px"
 <img src="https://ghchart.rshah.org/409ba5/Physnya" alt="GitHub 热力图" style="border: 5px solid transparent;margin: auto">
 :::
+
+目前准备更多了解天体物理方面的知识，进入该领域的研究.
+
+感情状况：正在热恋中.
+
+可以访问这里的 [链接](https://bgm38.top/3dm8tb) 查看本站的访问情况.

@@ -41,7 +41,7 @@ export default defineThemeConfig({
     description: 'This is physnya\'s personal blog \& notebook.',
     // circle: true,
     location: 'Beijing, China',
-    // organization: '',
+    organization: 'SOS 団',
   },
 
   social: [
