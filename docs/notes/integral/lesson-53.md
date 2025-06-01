@@ -169,7 +169,7 @@ $$
 > $$
 > \begin{aligned}
 > \iint_{x^2+y^2\leq1}\text{d}x\text{d}y&=\int_{-1}^1\text{d}x\int_{-\sqrt{1-x^2}}^{\sqrt{1-x^2}}\text{d}y\\
-> &=\int_{-1}^12\sqrt{1-x^2}\text{d}y\\
+> &=\int_{-1}^12\sqrt{1-x^2}\text{d}x\\
 > &\overset{x=\cos\theta}{=}\int_\pi^02\sin\theta(-\sin\theta)\text{d}\theta\\
 > &=2\int_0^\pi\sin^2\theta\text{d}\theta=\pi
 > \end{aligned}

@@ -76,8 +76,8 @@ list:
 
 - 博客名：菲兹克斯喵
 - 简介：Eclipse first, the rest nowhere.
-- 链接：https://physnya.top
-- 图片：https://physnya.top/images/Physics_nya.jpg
+- 链接：``https://physnya.top``
+- 图片：``https://physnya.top/images/Physics_nya.jpg``
 
 友链的一些要求：
 
