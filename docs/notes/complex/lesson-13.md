@@ -1,5 +1,5 @@
 ---
-title: Lesson 13 辐角原理 & Gamma 函数
+title: Lesson 13 辐角原理 & Γ 函数
 permalink: /complex/lesson-13/
 createTime: 2025/6/3 09:47:24
 ---
