@@ -38,10 +38,10 @@ $$
 \begin{pmatrix}
 \text{d}\alpha&\text{d}\beta&\text{d}\gamma
 \end{pmatrix}\begin{pmatrix}
-😊&&\\&😂&\\&&🤣
+A&&\\&B&\\&&C
 \end{pmatrix}\begin{pmatrix}
 \text{d}\alpha\\\text{d}\beta\\\text{d}\gamma
-\end{pmatrix}=😊\text{d}\alpha^2+😂\text{d}\beta^2+🤣\text{d}\gamma^2
+\end{pmatrix}=A\text{d}\alpha^2+B\text{d}\beta^2+C\text{d}\gamma^2
 $$
 注意到这个变换必须是对称的，否则会出现大量的交叉项. 在这种观点里面，坐标被看成是一种“标记”，并不一定是 Cartesian 坐标.
 
