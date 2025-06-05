@@ -2,6 +2,8 @@
 @import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');
 @import url('https://cdn.jsdelivr.net/npm/@fontsource/cascadia-code@4.2.1/index.min.css');
 
+/* --- 微调 --- */
+
 :root {
     --vp-font-family-base: "LXGW Bright", sans-serif;
     --vp-font-family-mono: "Cascadia code";
@@ -97,7 +99,21 @@ html.dark {
     }
 }
 
-/*~ tk-submit ~*/
+.vp-navbar-title .vp-link.no-icon.link.title {
+    font-size: 15pt !important;
+}
+
+.vp-link.no-icon.link.navbar-menu-link,
+.vp-flyout.vp-navbar-menu-group,
+.vp-link.no-icon.link {
+    font-size: 13pt !important;
+}
+
+.text[data-v-2d6679c4] {
+    font-size: 13pt !important;
+}
+
+/* --- Twikoo 相关 --- */
 
 .tk-submit .tk-avatar {
     display: none;
