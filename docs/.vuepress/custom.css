@@ -393,3 +393,29 @@ html.dark {
 .tk-row.actions {
     margin-left: 0 !important;
 }
+
+/* --- 方格背景及相关调整 --- */
+
+body {
+  background-size: 26px 26px;
+  background-position: center center;
+  background-image: 
+    linear-gradient(to right, var(--vp-c-divider) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--vp-c-divider) 1px, transparent 1px);
+}
+
+.tk-input.el-textarea {
+    textarea {
+        background-color: var(--vp-c-bg);
+    }
+}
+
+.el-input.el-input--small.el-input-group.el-input-group--prepend,
+.tk-preview-container,
+.tk-comment {
+    background-color: var(--vp-c-bg);
+}
+
+.demo-head {
+    background-color: var(--vp-c-bg);
+}
