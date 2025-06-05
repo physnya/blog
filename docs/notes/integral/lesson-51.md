@@ -2,7 +2,6 @@
 title: Lesson 51 积分学 2
 createTime: 2025/5/7 15:09:13
 premalink: /integral/lesson-51/
-permalink: /integral/bwdl3u8c/
 ---
 ## 多重积分
 
