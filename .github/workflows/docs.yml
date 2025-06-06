@@ -43,7 +43,7 @@ jobs:
 
       - name: Build VuePress site
         run: |
-          export NODE_OPTIONS="--max-old-space-size=8192"
+          export NODE_OPTIONS="--max-old-space-size=12288"
           pnpm docs:build
       
       - name: Create CNAME file
