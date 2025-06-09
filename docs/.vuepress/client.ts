@@ -16,7 +16,7 @@ export default defineClientConfig({
     // app.component('NpmBadge', NpmBadge)
     // app.component('NpmBadgeGroup', NpmBadgeGroup)
     // app.component('Swiper', Swiper) // you should install `swiper`
-
+    
     // your custom components
     // app.component('CustomComponent', CustomComponent)
   },

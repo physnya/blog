@@ -37,7 +37,7 @@ createTime: 2025/5/9 12:20:32
 > \begin{aligned}
 > U(P_1,F)&=\sum_i|S_i|\sup_{x\in S_i}F(x)\\
 > &\leq\sum_i|S_i|\sup_{x\in S_i}\left(\sum_j|T_j|\sup_{y\in T_j}f(x,y)\right)\\
-> &\leq\sum_i|S_i|\left(\sum_j|T_j|\sup_{S_i\times T}f(x,y)\right)\\
+> &\leq\sum_i|S_i|\left(\sum_j|T_j|\sup_{S_i\times T_j}f(x,y)\right)\\
 > &\leq U(P_1\times P_2,f)
 > \end{aligned}
 > $$
