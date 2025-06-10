@@ -1,7 +1,7 @@
 ---
 changelog: false
 title: 重构笔记
-permalink: /post/rebulid/
+permalink: /posts/rebulid/
 createTime: 2025/2/23 08:08:17
 tags:
   - blog
