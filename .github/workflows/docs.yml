@@ -20,6 +20,15 @@ jobs:
           version: 8
           run_install: true
 
+      - name: Fetch Talks Data
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: |
+          mkdir -p src/data
+          curl -H "Authorization: Bearer $ACCESS_TOKEN" \
+          "https://scg.owu.one/api/v1/accounts/01KM9WX07N42D2Y739D777J0JA/statuses?limit=100" \
+          -o src/data/talks.json
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
