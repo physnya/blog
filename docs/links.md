@@ -63,9 +63,13 @@ list:
     desc: 無數次，無數次，我夢見了海。
     link: https://haru-lcy.github.io/
     avatar: https://haru-lcy.github.io/img/kazuki.jpg
+  - name: sqzr2319
+    desc: 愿群星于道路中寻见你.
+    link: https://sqzr2319.github.io
+    avatar: https://sqzr2319.github.io/img/sqzr2319.png 
 
   - name: 二次元论坛
-    desc: 按下F逃离世界！
+    desc: 按下 F 逃离世界！
     link: https://www.ecylt.top
     avatar: https://i.postimg.cc/4yfxGN51/133590205.png
 ---
