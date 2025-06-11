@@ -16,7 +16,7 @@
     "vp-update": "npx vp-update",
     "prepare": "husky install",
     "fetch-talks": "node scripts/fetch-talks.cjs",
-    "precommit": "node scripts/pre-commit.js",
+    "precommit": "node scripts/pre-commit.cjs",
     "dev": "pnpm docs:dev",
     "build": "pnpm docs:build"
   },
