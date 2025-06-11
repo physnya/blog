@@ -152,4 +152,8 @@ feed: false
 
   加入友链 [「sqzr2319」](https://sqzr2319.github.io)(本人主动申请).
 
+- 2025-6-11
+
+  加入友链 [「Weichky's Blog」](https://blog.weichky.com).
+
 :::

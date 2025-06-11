@@ -60,14 +60,17 @@ list:
     link: https://fanyiming.life
     avatar: https://vip.123pan.cn/1845440081/yk6baz03t0n000d6xujp0200ajw2925nDIYxAIFxDda1DGxPDwUzAa==.jpg
   - name: 港湾
-    desc: 無數次，無數次，我夢見了海。
+    desc: 無數次，無數次，我夢見了海.
     link: https://haru-lcy.github.io/
     avatar: https://haru-lcy.github.io/img/kazuki.jpg
   - name: sqzr2319
     desc: 愿群星于道路中寻见你.
     link: https://sqzr2319.github.io
     avatar: https://sqzr2319.github.io/img/sqzr2319.png 
-
+  - name: Weichky's Blog
+    desc: 物不可穷也，故受之以未济.
+    link: https://blog.weichky.com
+    avatar: https://assets.weichky.com/imgs/favicon.png
   - name: 二次元论坛
     desc: 按下 F 逃离世界！
     link: https://www.ecylt.top
@@ -96,3 +99,7 @@ list:
 - 请申请者务必注明申请原因.
 
 本规则从 2024-10-21 开始生效，之前添加的友链不重新对照规则处理；本喵对上述规则有最终解释权，若出现认为违反规则的事件，可能会单方面移除友链并不做通知，或拒绝添加友链.
+
+---
+
+本站不对友情链接网页内容负责.
