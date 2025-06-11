@@ -1,0 +1,2638 @@
+[
+  {
+    "id": "01JX8CZCRH5XRREJB4BV8ZCZK1",
+    "created_at": "2025-06-08T18:31:18.546Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JX8CZCRH5XRREJB4BV8ZCZK1",
+    "url": "https://scg.owu.one/@physnya/statuses/01JX8CZCRH5XRREJB4BV8ZCZK1",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 0,
+    "favourited": false,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>test application</p>",
+    "reblog": null,
+    "application": {
+      "name": "IceCubesApp",
+      "website": "https://github.com/Dimillian/IceCubesApp"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "test application",
+    "content_type": "text/markdown",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JX62BSHSFVNQVCGV1BSQ8J1A",
+    "created_at": "2025-06-07T20:47:21.660Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JX62BSHSFVNQVCGV1BSQ8J1A",
+    "url": "https://scg.owu.one/@physnya/statuses/01JX62BSHSFVNQVCGV1BSQ8J1A",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 0,
+    "favourited": false,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>写到现在终于把写作课终稿交了</p><p>希望至少能拿个 A- ... 否则我这段时间的努力就完全白费了</p>",
+    "reblog": null,
+    "application": {
+      "name": "Masto-FE standalone"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "写到现在终于把写作课终稿交了\n\n希望至少能拿个 A- ... 否则我这段时间的努力就完全白费了",
+    "content_type": "text/markdown",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JWWZBYQKGVZENPHXR3EPDNFR",
+    "created_at": "2025-06-04T08:01:51.348Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JWWZBYQKGVZENPHXR3EPDNFR",
+    "url": "https://scg.owu.one/@physnya/statuses/01JWWZBYQKGVZENPHXR3EPDNFR",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 2,
+    "favourited": true,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>DeepSeek 在 1 小时内帮我完成了我可能要做 5 个小时的高等微积分作业.</p><p>可敬.</p>",
+    "reblog": null,
+    "application": {
+      "name": "Masto-FE standalone"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "DeepSeek 在 1 小时内帮我完成了我可能要做 5 个小时的高等微积分作业.\n\n可敬.",
+    "content_type": "text/markdown",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JWV2NFWWG20P1B35ZHJ52TKN",
+    "created_at": "2025-06-03T14:21:00.701Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JWV2NFWWG20P1B35ZHJ52TKN",
+    "url": "https://scg.owu.one/@physnya/statuses/01JWV2NFWWG20P1B35ZHJ52TKN",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 0,
+    "favourited": false,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>感觉我是不可能写完作业了.</p>",
+    "reblog": null,
+    "application": {
+      "name": "Masto-FE standalone"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "感觉我是不可能写完作业了.",
+    "content_type": "text/markdown",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JWQE70QYE6B6PB6FBV3R5M5A",
+    "created_at": "2025-06-02T04:25:51.614Z",
+    "edited_at": "2025-06-02T04:26:07.385Z",
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JWQE70QYE6B6PB6FBV3R5M5A",
+    "url": "https://scg.owu.one/@physnya/statuses/01JWQE70QYE6B6PB6FBV3R5M5A",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 0,
+    "favourited": false,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>我们宿舍最近被那个嚼柠檬彻底污染了 awa，舍友一直在哼这首歌，相似</p>",
+    "reblog": null,
+    "application": {
+      "name": "Masto-FE standalone"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "我们宿舍最近被那个嚼柠檬彻底污染了 awa，舍友一直在哼这首歌，相似",
+    "content_type": "text/markdown",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JWN1Q3G7FW0QDMD3RGHCCY6D",
+    "created_at": "2025-06-01T06:08:58.375Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JWN1Q3G7FW0QDMD3RGHCCY6D",
+    "url": "https://scg.owu.one/@physnya/statuses/01JWN1Q3G7FW0QDMD3RGHCCY6D",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 0,
+    "favourited": false,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>在超理的 QQ 群看到好多讨论四字的新论文的文字，原来科研圈也是个江湖，论文在什么地方发表、对各种细节推导的侧重都有人会关注，其实和一开始的印象不太一样</p>",
+    "reblog": null,
+    "application": {
+      "name": "Phanpy (Owu Social)",
+      "website": "https://phanpy.owu.one"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "在超理的 QQ 群看到好多讨论四字的新论文的文字，原来科研圈也是个江湖，论文在什么地方发表、对各种细节推导的侧重都有人会关注，其实和一开始的印象不太一样",
+    "content_type": "text/markdown",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JWG55NJPKBR0WTMGFPK819Y1",
+    "created_at": "2025-05-30T08:33:09.206Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh-Hans",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JWG55NJPKBR0WTMGFPK819Y1",
+    "url": "https://scg.owu.one/@physnya/statuses/01JWG55NJPKBR0WTMGFPK819Y1",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 0,
+    "favourited": false,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>我 QQ 号被封了？？</p><p>我惹谁了吗？</p>",
+    "reblog": null,
+    "application": {
+      "name": "IceCubesApp",
+      "website": "https://github.com/Dimillian/IceCubesApp"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "我 QQ 号被封了？？\n\n我惹谁了吗？",
+    "content_type": "text/markdown",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JWDZPQJ5HQ5CVP5HYVJ2DKX5",
+    "created_at": "2025-05-29T12:19:07.973Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh-Hans",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JWDZPQJ5HQ5CVP5HYVJ2DKX5",
+    "url": "https://scg.owu.one/@physnya/statuses/01JWDZPQJ5HQ5CVP5HYVJ2DKX5",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 2,
+    "favourited": true,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>我觉得我该想个办法把嘟文同步到 blog 上</p>",
+    "reblog": null,
+    "application": {
+      "name": "IceCubesApp",
+      "website": "https://github.com/Dimillian/IceCubesApp"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "我觉得我该想个办法把嘟文同步到 blog 上",
+    "content_type": "text/markdown",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JVZ5N0KT8J8HTFQVPTADHQ45",
+    "created_at": "2025-05-23T18:14:26.683Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh-Hans",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JVZ5N0KT8J8HTFQVPTADHQ45",
+    "url": "https://scg.owu.one/@physnya/statuses/01JVZ5N0KT8J8HTFQVPTADHQ45",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 1,
+    "favourited": true,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>角膜塑形镜丢了一只…而且是新的，刚刚用两个月…为什么会这样</p>",
+    "reblog": null,
+    "application": {
+      "name": "IceCubesApp",
+      "website": "https://github.com/Dimillian/IceCubesApp"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "角膜塑形镜丢了一只…而且是新的，刚刚用两个月…为什么会这样",
+    "content_type": "text/markdown",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JVDPCWCQE2H3Y4ERFFJN2MFK",
+    "created_at": "2025-05-16T23:20:46.231Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh-Hans",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JVDPCWCQE2H3Y4ERFFJN2MFK",
+    "url": "https://scg.owu.one/@physnya/statuses/01JVDPCWCQE2H3Y4ERFFJN2MFK",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 2,
+    "favourited": true,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>居然脱单了，现在还没从喜悦中缓过来</p>",
+    "reblog": null,
+    "application": {
+      "name": "IceCubesApp",
+      "website": "https://github.com/Dimillian/IceCubesApp"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "居然脱单了，现在还没从喜悦中缓过来",
+    "content_type": "text/markdown",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JSNXVHA4W6M4E53BEMHZNMCP",
+    "created_at": "2025-04-25T07:33:38.245Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh-Hans",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JSNXVHA4W6M4E53BEMHZNMCP",
+    "url": "https://scg.owu.one/@physnya/statuses/01JSNXVHA4W6M4E53BEMHZNMCP",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 3,
+    "favourited": true,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>要被 ddl 压死了… :ab_angel:</p>",
+    "reblog": null,
+    "application": {
+      "name": "IceCubesApp",
+      "website": "https://github.com/Dimillian/IceCubesApp"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [
+      {
+        "shortcode": "ab_angel",
+        "url": "https://scg.owu.one/fileserver/01VRVCHVVVD487SVZY2CP3N2W8/emoji/original/01KC4RFJV6X4YFRW1HZJKGB41D.gif",
+        "static_url": "https://scg.owu.one/fileserver/01VRVCHVVVD487SVZY2CP3N2W8/emoji/static/01KC4RFJV6X4YFRW1HZJKGB41D.png",
+        "visible_in_picker": true,
+        "category": "Blob"
+      }
+    ],
+    "card": null,
+    "poll": null,
+    "text": "要被 ddl 压死了… :ab_angel: ",
+    "content_type": "text/markdown",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JNZQK0HTSD62S3TMKZ0B8Z56",
+    "created_at": "2025-03-10T09:53:44.506Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh-Hans",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JNZQK0HTSD62S3TMKZ0B8Z56",
+    "url": "https://scg.owu.one/@physnya/statuses/01JNZQK0HTSD62S3TMKZ0B8Z56",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 0,
+    "favourited": false,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>这个写沟…又找不到论文又憋不出选题阐释…我真是走上了一条不归路啊 :ab_banhmr: :ab_angel:</p>",
+    "reblog": null,
+    "application": {
+      "name": "IceCubesApp",
+      "website": "https://github.com/Dimillian/IceCubesApp"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [
+      {
+        "shortcode": "ab_banhmr",
+        "url": "https://scg.owu.one/fileserver/01VRVCHVVVD487SVZY2CP3N2W8/emoji/original/01SHPQRGCMG91VJ259PWTNPKKF.gif",
+        "static_url": "https://scg.owu.one/fileserver/01VRVCHVVVD487SVZY2CP3N2W8/emoji/static/01SHPQRGCMG91VJ259PWTNPKKF.png",
+        "visible_in_picker": true,
+        "category": "Blob"
+      },
+      {
+        "shortcode": "ab_angel",
+        "url": "https://scg.owu.one/fileserver/01VRVCHVVVD487SVZY2CP3N2W8/emoji/original/01KC4RFJV6X4YFRW1HZJKGB41D.gif",
+        "static_url": "https://scg.owu.one/fileserver/01VRVCHVVVD487SVZY2CP3N2W8/emoji/static/01KC4RFJV6X4YFRW1HZJKGB41D.png",
+        "visible_in_picker": true,
+        "category": "Blob"
+      }
+    ],
+    "card": null,
+    "poll": null,
+    "text": "这个写沟…又找不到论文又憋不出选题阐释…我真是走上了一条不归路啊 :ab_banhmr:  :ab_angel: ",
+    "content_type": "text/markdown",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JMTG807GRXH5HYZKWB526ET9",
+    "created_at": "2025-02-23T22:53:29.712Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JMTG807GRXH5HYZKWB526ET9",
+    "url": "https://scg.owu.one/@physnya/statuses/01JMTG807GRXH5HYZKWB526ET9",
+    "replies_count": 1,
+    "reblogs_count": 0,
+    "favourites_count": 1,
+    "favourited": true,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>早上不小心醒太早了，睡不着</p>",
+    "reblog": null,
+    "application": {
+      "name": "IceCubesApp",
+      "website": "https://github.com/Dimillian/IceCubesApp"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "早上不小心醒太早了，睡不着",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JH29AT6JXMSS79FPNCG2G08D",
+    "created_at": "2025-01-08T06:23:49.971Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JH29AT6JXMSS79FPNCG2G08D",
+    "url": "https://scg.owu.one/@physnya/statuses/01JH29AT6JXMSS79FPNCG2G08D",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 2,
+    "favourited": true,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>考完辣！！！！！</p>",
+    "reblog": null,
+    "application": {
+      "name": "IceCubesApp",
+      "website": "https://github.com/Dimillian/IceCubesApp"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "考完辣！！！！！",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JGY225SBQHAT2QGB5R13CGHV",
+    "created_at": "2025-01-06T14:59:49.170Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh-Hans",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JGY225SBQHAT2QGB5R13CGHV",
+    "url": "https://scg.owu.one/@physnya/statuses/01JGY225SBQHAT2QGB5R13CGHV",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 1,
+    "favourited": true,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>要似了呀！费曼你当时为什么要这样讲量子力学啊比温伯格的量子场论都恶心人</p>",
+    "reblog": null,
+    "application": {
+      "name": "IceCubesApp",
+      "website": "https://github.com/Dimillian/IceCubesApp"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "要似了呀！费曼你当时为什么要这样讲量子力学啊比温伯格的量子场论都恶心人",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JGG0WY98ESKXTEG1D97Z1M48",
+    "created_at": "2025-01-01T04:10:07.019Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh-Hans",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JGG0WY98ESKXTEG1D97Z1M48",
+    "url": "https://scg.owu.one/@physnya/statuses/01JGG0WY98ESKXTEG1D97Z1M48",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 2,
+    "favourited": true,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>新年快乐🎉</p>",
+    "reblog": null,
+    "application": {
+      "name": "IceCubesApp",
+      "website": "https://github.com/Dimillian/IceCubesApp"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "新年快乐🎉",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JGAY64BRNZ63WZPF1ZMJNFGT",
+    "created_at": "2024-12-30T04:46:30.270Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh-Hans",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JGAY64BRNZ63WZPF1ZMJNFGT",
+    "url": "https://scg.owu.one/@physnya/statuses/01JGAY64BRNZ63WZPF1ZMJNFGT",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 2,
+    "favourited": true,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>年终总结啥都写不出，还有年末的线代考试压着我 —— 为什么一定要在 24 年把线代考完啊，这是什么奇怪的执念吗</p>",
+    "reblog": null,
+    "application": {
+      "name": "IceCubesApp",
+      "website": "https://github.com/Dimillian/IceCubesApp"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "年终总结啥都写不出，还有年末的线代考试压着我 —— 为什么一定要在 24 年把线代考完啊，这是什么奇怪的执念吗",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JF2XKDZYDRCAGXQW54CKJ2Z7",
+    "created_at": "2024-12-14T15:46:40.254Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JF2XKDZYDRCAGXQW54CKJ2Z7",
+    "url": "https://scg.owu.one/@physnya/statuses/01JF2XKDZYDRCAGXQW54CKJ2Z7",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 1,
+    "favourited": true,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>aria 真好看啊…</p>",
+    "reblog": null,
+    "application": {
+      "name": "IceCubesApp",
+      "website": "https://github.com/Dimillian/IceCubesApp"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "aria 真好看啊…",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JEG76BEVDKX2ZAXGG06EW2ST",
+    "created_at": "2024-12-07T09:28:43.227Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JEG76BEVDKX2ZAXGG06EW2ST",
+    "url": "https://scg.owu.one/@physnya/statuses/01JEG76BEVDKX2ZAXGG06EW2ST",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 1,
+    "favourited": true,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>写了一个很烂的主页…<br>有没有建议呢？</p><p><a href=\"https://home.physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://home.physnya.top/</a></p>",
+    "reblog": null,
+    "application": {
+      "name": "IceCubesApp",
+      "website": "https://github.com/Dimillian/IceCubesApp"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "写了一个很烂的主页…\n有没有建议呢？\n\nhttps://home.physnya.top/",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JE8G5D300MYAM01CJY08QQTB",
+    "created_at": "2024-12-04T09:31:33.856Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh-Hans",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JE8G5D300MYAM01CJY08QQTB",
+    "url": "https://scg.owu.one/@physnya/statuses/01JE8G5D300MYAM01CJY08QQTB",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 2,
+    "favourited": true,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>唉刚刚课又没听懂…</p>",
+    "reblog": null,
+    "application": {
+      "name": "IceCubesApp",
+      "website": "https://github.com/Dimillian/IceCubesApp"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "唉刚刚课又没听懂…",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JE2B861C16Z54BTJ3XDMXAB0",
+    "created_at": "2024-12-02T00:10:15.468Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh-Hans",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JE2B861C16Z54BTJ3XDMXAB0",
+    "url": "https://scg.owu.one/@physnya/statuses/01JE2B861C16Z54BTJ3XDMXAB0",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 1,
+    "favourited": true,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>昨天晚上水课给自己的站搓了一个小小的导航页，但是没做移动端适配，看看这几天什么时候有时间再做做…</p><p>唉快期末了. :ab_angel:</p>",
+    "reblog": null,
+    "application": {
+      "name": "IceCubesApp",
+      "website": "https://github.com/Dimillian/IceCubesApp"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [
+      {
+        "shortcode": "ab_angel",
+        "url": "https://scg.owu.one/fileserver/01VRVCHVVVD487SVZY2CP3N2W8/emoji/original/01KC4RFJV6X4YFRW1HZJKGB41D.gif",
+        "static_url": "https://scg.owu.one/fileserver/01VRVCHVVVD487SVZY2CP3N2W8/emoji/static/01KC4RFJV6X4YFRW1HZJKGB41D.png",
+        "visible_in_picker": true,
+        "category": "Blob"
+      }
+    ],
+    "card": null,
+    "poll": null,
+    "text": "昨天晚上水课给自己的站搓了一个小小的导航页，但是没做移动端适配，看看这几天什么时候有时间再做做…\n\n唉快期末了. :ab_angel: ",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JE084W1MA6YX29TB5GPP6EGM",
+    "created_at": "2024-12-01T04:37:32.340Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JE084W1MA6YX29TB5GPP6EGM",
+    "url": "https://scg.owu.one/@physnya/statuses/01JE084W1MA6YX29TB5GPP6EGM",
+    "replies_count": 1,
+    "reblogs_count": 0,
+    "favourites_count": 5,
+    "favourited": false,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>awa，第一条公开嘟文，大家好哇 :ab_attn: :ab_attnrvse:</p>",
+    "reblog": null,
+    "application": {
+      "name": "Phanpy (Owu Social)",
+      "website": "https://phanpy.owu.one"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [
+      {
+        "shortcode": "ab_attn",
+        "url": "https://scg.owu.one/fileserver/01VRVCHVVVD487SVZY2CP3N2W8/emoji/original/019P50QFNDN8KRAAFC2C3JQE0Y.gif",
+        "static_url": "https://scg.owu.one/fileserver/01VRVCHVVVD487SVZY2CP3N2W8/emoji/static/019P50QFNDN8KRAAFC2C3JQE0Y.png",
+        "visible_in_picker": true,
+        "category": "Blob"
+      },
+      {
+        "shortcode": "ab_attnrvse",
+        "url": "https://scg.owu.one/fileserver/01VRVCHVVVD487SVZY2CP3N2W8/emoji/original/016J90KQ9J1FV61XRPJ9KDT29C.gif",
+        "static_url": "https://scg.owu.one/fileserver/01VRVCHVVVD487SVZY2CP3N2W8/emoji/static/016J90KQ9J1FV61XRPJ9KDT29C.png",
+        "visible_in_picker": true,
+        "category": "Blob"
+      }
+    ],
+    "card": null,
+    "poll": null,
+    "text": "awa，第一条公开嘟文，大家好哇 :ab_attn: :ab_attnrvse: ",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01JDYT2RSP9JSPDMRPP3VGC1FT",
+    "created_at": "2024-11-30T15:12:28.982Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "private",
+    "language": "zh",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01JDYT2RSP9JSPDMRPP3VGC1FT",
+    "url": "https://scg.owu.one/@physnya/statuses/01JDYT2RSP9JSPDMRPP3VGC1FT",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 0,
+    "favourited": false,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>Hello world！<br>这是一个 test.</p>",
+    "reblog": null,
+    "application": {
+      "name": "IceCubesApp",
+      "website": "https://github.com/Dimillian/IceCubesApp"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 1,
+      "following_count": 4,
+      "statuses_count": 29,
+      "last_status_at": "2025-06-11",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "Hello world！\n这是一个 test.",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "followers",
+          "author",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "followers",
+          "author",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "followers",
+          "author",
+          "mentioned",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "followers",
+          "author",
+          "mentioned",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "author",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "author",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  }
+]

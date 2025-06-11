@@ -13,13 +13,21 @@
     "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
     "docs:build": "vuepress build docs --clean-cache --clean-temp",
     "docs:preview": "http-server docs/.vuepress/dist",
-    "vp-update": "npx vp-update"
+    "vp-update": "npx vp-update",
+    "prepare": "husky install",
+    "fetch-talks": "node scripts/fetch-talks.cjs",
+    "precommit": "node scripts/pre-commit.js",
+    "dev": "pnpm docs:dev",
+    "build": "pnpm docs:build"
   },
   "devDependencies": {
     "@ifuture/vuepress-plugin-rss": "1.0.2",
     "@vuepress/bundler-vite": "2.0.0-rc.22",
     "@vuepress/plugin-llms": "^2.0.0-rc.105",
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
     "http-server": "^14.1.1",
+    "husky": "^8.0.0",
     "sass-embedded": "^1.83.4",
     "twikoo": "^1.6.43",
     "typescript": "^5.7.2",

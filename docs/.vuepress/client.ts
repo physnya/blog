@@ -8,7 +8,7 @@ import { defineClientConfig } from 'vuepress/client'
 
 // import './theme/styles/custom.css'
 import './custom.css'
-import GoToSocial from './components/GoToSocial.vue'
+import Talks from './components/Talks.vue'
 
 export default defineClientConfig({
   enhance({ app }) {
@@ -19,6 +19,6 @@ export default defineClientConfig({
     // app.component('Swiper', Swiper) // you should install `swiper`
     
     // your custom components
-    app.component('GoToSocial', GoToSocial)
+    app.component('Talks', Talks)
   },
 })
