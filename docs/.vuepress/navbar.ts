@@ -21,4 +21,5 @@ export const navbar = defineNavbarConfig([
     ]
   },
   { text: '友链', link: '/links/' },
+  { text: '动态', link: '/talks/' },
 ])
