@@ -138,22 +138,26 @@ feed: false
 
 ::: steps
 
-- 2025-2-14
+- 2025-02-14
 
   用 vuepress 重构博客，使用 [vuepress-theme-plume](https://theme-plume.vuejs.press/) 主题. 之前时间线中的很多页面已经失效，但是友链还是全部保留.
 
   如果您想访问之前的网站，可以看这里：[archive1.physnya.top](https://archive1.physnya.top).
 
-- 2025-5-26
+- 2025-05-26
 
   友链整理，去掉了无法访问的链接，更新部分头像.
 
-- 2025-6-10
+- 2025-06-10
 
-  加入友链 [「sqzr2319」](https://sqzr2319.github.io)(本人主动申请).
+  加入友链[「sqzr2319」](https://sqzr2319.github.io)(本人主动申请).
 
-- 2025-6-11
+- 2025-06-11
 
-  加入友链 [「Weichky's Blog」](https://blog.weichky.com).
+  加入友链[「Weichky's Blog」](https://blog.weichky.com).
+
+- 2025-06-12
+
+  加入[「动态」](/talks/)页面.
 
 :::
