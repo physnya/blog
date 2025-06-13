@@ -3,3 +3,9 @@
 
 echo "Running pre-commit tasks..."
 pnpm precommit
+
+# 运行字数统计脚本
+npm run wordcount
+
+# 将生成的统计文件添加到当前提交
+git add docs/.vuepress/public/wordcount.json

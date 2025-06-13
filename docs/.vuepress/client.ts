@@ -9,6 +9,7 @@ import { defineClientConfig } from 'vuepress/client'
 // import './theme/styles/custom.css'
 import './custom.css'
 import Talks from './components/Talks.vue'
+import WordCount from './components/WordCount.vue'
 
 export default defineClientConfig({
   enhance({ app }) {
@@ -20,5 +21,6 @@ export default defineClientConfig({
     
     // your custom components
     app.component('Talks', Talks)
+    app.component('WordCount', WordCount)
   },
 })

@@ -30,3 +30,5 @@ feed: false
 感情状况：正在热恋中.
 
 可以访问这里的 [链接](https://bgm38.top/3dm8tb) 查看本站的访问情况.
+
+<WordCount />

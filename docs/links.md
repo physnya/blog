@@ -25,8 +25,8 @@ list:
     avatar: https://pinpe.top/head.jpg
   - name: 朽丘博
     desc: 一定会和喜欢的人在夏日夜晚牵手慢步
-    link: https://koxiuqiu.cn/
-    avatar: https://koxiuqiu.cn/img/favicon.png
+    link: https://blog.koxiuqiu.cc/
+    avatar: https://blog.koxiuqiu.cc/img/avatar/xiaokeb.png
   - name: Imken 发电厂
     desc: Imken 的博客
     link: https://blog.imken.moe/
