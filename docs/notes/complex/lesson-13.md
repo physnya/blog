@@ -270,7 +270,7 @@ $$
 
 > 最常用定义是：
 > $$
-> \Gamma(z)=\int_0^\infty t^{z-1}e^{-t}\text{d}z\,,\quad\Re(z)>0
+> \Gamma(z)=\int_0^\infty t^{z-1}e^{-t}\text{d}t\,,\quad\Re(z)>0
 > $$
 > 这个积分称为第二类 Euler 积分，其中的变量 $t$ 理解为 $\arg t=0$.
 
