@@ -5,6 +5,7 @@ tags:
   - GoToSocial
 createTime: 2025/06/16 13:09:07
 permalink: /posts/uyakgssl/
+changelog: false
 ---
 刚刚过去的期末周虽然非常紧张刺激，但是似乎我的松弛感和拖延症并没有因为考试的临近而改善，而是催促着我在期末周每天抽出时间来写一个新的板块.
 
