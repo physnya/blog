@@ -2,22 +2,81 @@
 @import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');
 @import url('https://cdn.jsdelivr.net/npm/@fontsource/cascadia-code@4.2.1/index.min.css');
 
+/* --- 配色 --- */
+
+:root {
+
+  /**
+   * 主题色
+   * -------------------------------------------------------------------------- */
+
+  --vp-c-brand-1: #5086a1;                            /* 链接颜色、强调色 */
+  --vp-c-brand-2: #6aa1b7;                            /* 链接、按钮 hover 颜色 */
+  --vp-c-brand-3: #8cccd5;                            /* 背景色、边框色 */
+  --vp-c-brand-soft: rgba(131, 208, 218, 0.314);      /* 辅助色 */
+
+  /**
+   * 文本颜色
+   * -------------------------------------------------------------------------- */
+
+  --vp-c-text-1: rgba(60, 60, 67);                    /* 主要文本 */
+  --vp-c-text-2: rgba(60, 60, 67, 0.78);              /* 次要文本 */
+  --vp-c-text-3: rgba(60, 60, 67, 0.78);              /* 辅助文本 */
+
+  /**
+   * 背景色
+   * -------------------------------------------------------------------------- */
+
+  --vp-c-bg: #fff;                                    /* 主体背景 */
+  --vp-nav-bg-color: #fff;                            /* 导航栏背景 */
+  --vp-nav-screen-bg-color: #fff;                     /* 移动端导航栏 */
+  --vp-local-nav-bg-color: #fff;                      /* 页面内导航栏 */
+  --vp-sidebar-bg-color: #f6f6f7;                     /* 侧边栏背景 */
+  --vp-code-block-bg: #f6f8fa;                        /* 代码块背景 */
+}
+
+[data-theme="dark"] {
+
+  /**
+   * 主题色
+   * -------------------------------------------------------------------------- */
+
+  --vp-c-brand-1: #8cccd5;                            /* 链接颜色、强调色 */
+  --vp-c-brand-2: #6aa1b7;                            /* 链接、按钮 hover 颜色 */
+  --vp-c-brand-3: #5086a1;                            /* 背景色、边框色 */
+  --vp-c-brand-soft: rgba(131, 208, 218, 0.314);      /* 辅助色 */
+
+  /**
+   * 文本颜色
+   * -------------------------------------------------------------------------- */
+
+  --vp-c-text-1: rgba(255, 255, 245, 0.86);           /* 主要文本 */
+  --vp-c-text-2: rgba(235, 235, 245, 0.6);            /* 次要文本 */
+  --vp-c-text-3: rgba(235, 235, 245, 0.6);            /* 辅助文本 */
+
+  /**
+   * 背景色
+   * -------------------------------------------------------------------------- */
+
+  --vp-c-bg: #1b1b1f;                                 /* 主体背景 */
+  --vp-nav-bg-color: #1b1b1f;                         /* 导航栏背景 */
+  --vp-nav-screen-bg-color: #1b1b1f;                  /* 移动端导航栏 */
+  --vp-local-nav-bg-color: #1b1b1f;                   /* 页面内导航栏 */
+  --vp-sidebar-bg-color: #161618;                     /* 侧边栏背景 */
+  --vp-code-block-bg: #202127;                        /* 代码块背景 */
+}
+
 /* --- 微调 --- */
 
 :root {
     --vp-font-family-base: "LXGW Bright", sans-serif;
     --vp-font-family-mono: "Cascadia code";
     font-optical-sizing: auto;
-    --vp-c-text-3: rgba(60, 60, 67, .78);
     --vp-custom-block-font-size: 17px;
 }
 
 .vp-doc div[class*="language-"] pre, .vp-doc div[class*="language-"] code {
     font-weight: 350;
-}
-
-[data-theme=dark] {
-    --vp-c-text-3: rgba(235, 235, 245, .6);
 }
 
 :root:where(:lang(zh)),

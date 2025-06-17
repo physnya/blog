@@ -8,9 +8,9 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 // 配置参数
-const INSTANCE = process.env.GTS_INSTANCE || "scg.owu.one";
-const USER_ID = process.env.USER_ID || "01S7TWZEND5J9SQ9XRCDCR3VCJ";
-const ACCESS_TOKEN = process.env.ACCESS_TOKEN || "";
+const INSTANCE = process.env.GTS_INSTANCE;
+const USER_ID = process.env.USER_ID;
+const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
 const OUTPUT_DIR = path.resolve(__dirname, "../docs/.vuepress/public");
 const OUTPUT_FILE = path.join(OUTPUT_DIR, "talks.json");
 
