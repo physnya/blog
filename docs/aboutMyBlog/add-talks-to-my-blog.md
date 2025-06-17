@@ -903,5 +903,11 @@ export default defineClientConfig({
 
 示例地址：[「动态」](/talks/)
 
+## 后记
+
+第一次自己从头开始写一个页面，感觉学到了不少，比如 husky 的使用、js 脚本的编写，还有 Vue 组件的一些写法之类. 不仅如此，还把我现在用的 plume 主题 (本来就是一个文档主题) 的很多功能尝试了一遍 (╹ڡ╹ ).
+
+这篇文章也算是这学期的一个结束罢，虽然是自己兴趣爱好方面的东西. 希望出成绩之后我还能保持这样的好心态...
+
 [^1]: 本节参考文献：[使用 API 进行身份验证 - GoToSocial 文档](https://docs.gotosocial.org/zh-cn/latest/api/authentication/).
 [^2]: 这名字翻译过来是「哈士奇」…
