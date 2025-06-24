@@ -24,7 +24,7 @@
   "devDependencies": {
     "@ifuture/vuepress-plugin-rss": "1.0.2",
     "@vuepress/bundler-vite": "2.0.0-rc.23",
-    "@vuepress/plugin-llms": "2.0.0-rc.109",
+    "@vuepress/plugin-llms": "2.0.0-rc.110",
     "axios": "^1.10.0",
     "dotenv": "^16.5.0",
     "glob": "^11.0.3",
@@ -33,12 +33,12 @@
     "sass-embedded": "^1.89.2",
     "twikoo": "^1.6.44",
     "typescript": "^5.8.3",
-    "vue": "^3.5.16",
+    "vue": "^3.5.17",
     "vuepress": "2.0.0-rc.23",
-    "vuepress-theme-plume": "1.0.0-rc.153"
+    "vuepress-theme-plume": "1.0.0-rc.154"
   },
   "dependencies": {
-    "@vuepress/plugin-feed": "2.0.0-rc.109",
+    "@vuepress/plugin-feed": "2.0.0-rc.110",
     "mermaid": "^11.6.0"
   }
 }
