@@ -71,6 +71,10 @@ list:
     desc: 物不可穷也，故受之以未济.
     link: https://blog.weichky.com
     avatar: https://assets.weichky.com/imgs/favicon.png
+  - name: 記緒漂流
+    desc: 于记忆之川，泛思绪之舟.
+    link: https://ttio.cc/
+    avatar: https://ttio.cc/favicon.svg
   - name: 二次元论坛
     desc: 按下 F 逃离世界！
     link: https://www.ecylt.top
