@@ -74,7 +74,7 @@ list:
   - name: 記緒漂流
     desc: 于记忆之川，泛思绪之舟.
     link: https://ttio.cc/
-    avatar: https://ttio.cc/favicon.svg
+    avatar: https://vip.123pan.cn/1845440081/yk6baz03t0m000d7w33g9t19izacvwwqDIYxAIFxDda1DGxPDwUzAa==.png
   - name: 二次元论坛
     desc: 按下 F 逃离世界！
     link: https://www.ecylt.top
