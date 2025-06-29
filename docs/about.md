@@ -27,8 +27,12 @@ feed: false
 
 目前准备更多了解天体物理方面的知识，进入该领域的研究.
 
-感情状况：正在热恋中.
+感情状况：``正在热恋中``.
 
 可以访问这里的 [链接](https://bgm38.top/3dm8tb) 查看本站的访问情况.
 
 <WordCount />
+
+如果你想要与我即时交流，可以加入我的 [[matrix] 空间](https://matrix.to/#/!lNBFcdQBGalGvldqia:chat.neboer.site?via=chat.neboer.site)，和我闲聊.
+
+> 由于这个聊天房间是在 [chat.neboer.site](https://chat.neboer.site) 上创建的私有房间，所以只能在这个服务器上访问.
