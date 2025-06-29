@@ -1,7 +1,5 @@
 <template>
 	<div class="talks-container">
-		<h1 class="page-title">我的动态</h1>
-
 		<div
 			v-if="loading"
 			class="loading"
@@ -309,14 +307,14 @@
 		margin-bottom: 1.5rem;
 	}
 
-	.toot-content >>> a {
+	.toot-content :deep(a) {
 		color: #3182ce;
 		text-decoration: none;
 		border-bottom: 1px solid #bee3f8;
 		transition: all 0.2s;
 	}
 
-	.toot-content >>> a:hover {
+	.toot-content :deep(a:hover) {
 		color: #2b6cb0;
 		border-bottom-color: #3182ce;
 	}

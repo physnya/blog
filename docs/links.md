@@ -21,8 +21,8 @@ list:
     avatar: https://vip.123pan.cn/1845440081/yk6baz03t0l000d6xujntyrdavtj0m32DIYxAIFxDda1DGxPDwUzAa==.jpg
   - name: Pinpe 的云端
     desc: Pinpe 的博客
-    link: https://blog.pinpe.top/
-    avatar: https://pinpe.top/head.jpg
+    link: https://pinpe.top/
+    avatar: https://pinpe.top/_astro/head.DsU2qhAz_ZsxwbE.webp
   - name: 朽丘博
     desc: 一定会和喜欢的人在夏日夜晚牵手慢步
     link: https://blog.koxiuqiu.cc/
@@ -74,7 +74,7 @@ list:
   - name: 記緒漂流
     desc: 于记忆之川，泛思绪之舟.
     link: https://ttio.cc/
-    avatar: https://vip.123pan.cn/1845440081/yk6baz03t0m000d7w33g9t19izacvwwqDIYxAIFxDda1DGxPDwUzAa==.png
+    avatar: https://ttio.cc/favicon.svg
   - name: 二次元论坛
     desc: 按下 F 逃离世界！
     link: https://www.ecylt.top

@@ -25,6 +25,17 @@ export default defineUserConfig({
   shouldPrefetch: false, // 站点较大，页面数量较多时，不建议启用
 
   theme: plumeTheme({
+    /**
+       * markdown enhance
+       * @see https://theme-plume.vuejs.press/config/plugins/markdown-enhance/
+       */
+      markdown: {
+      //   chartjs: true,
+      //   echarts: true,
+        mermaid: true,
+      //   flowchart: true,
+      },
+    
     notes,
     copyright: 'CC-BY-NC-SA-4.0',
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
@@ -103,17 +114,6 @@ export default defineUserConfig({
 
       /* 文章字数统计、阅读时间，设置为 false 则禁用 */
       // readingTime: true,
-
-      /**
-       * markdown enhance
-       * @see https://theme-plume.vuejs.press/config/plugins/markdown-enhance/
-       */
-      markdownEnhance: {
-      //   chartjs: true,
-      //   echarts: true,
-        mermaid: true,
-      //   flowchart: true,
-      },
 
       /**
        *  markdown power

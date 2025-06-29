@@ -162,9 +162,7 @@ html.dark {
     font-size: 15pt !important;
 }
 
-.vp-link.no-icon.link.navbar-menu-link,
-.vp-flyout.vp-navbar-menu-group,
-.vp-link.no-icon.link {
+.vp-link.link.navbar-menu-link {
     font-size: 13pt !important;
 }
 
