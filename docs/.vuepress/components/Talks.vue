@@ -167,7 +167,7 @@
 			filteredToots() {
 				return this.toots.filter((toot) => !toot.reblog && !toot.in_reply_to_id);
 			},
-			// 当前页显示的说
+			// 当前页显示的动态
 			pagedToots() {
 				const start = (this.currentPage - 1) * this.itemsPerPage;
 				const end = start + this.itemsPerPage;

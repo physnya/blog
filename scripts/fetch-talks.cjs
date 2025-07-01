@@ -66,9 +66,9 @@ async function fetchTalks() {
 		// 获取并保存数据
 		const talks = await fetchTalks();
 		fs.writeFileSync(OUTPUT_FILE, JSON.stringify(talks, null, 2));
-		console.log(`✅ Successfully saved ${talks.length} talks to ${OUTPUT_FILE}`);
+		console.log(`Successfully saved ${talks.length} talks to ${OUTPUT_FILE}`);
 	} catch (error) {
-		console.error("❌ Failed to fetch talks:", error);
+		console.error("Failed to fetch talks:", error);
 		process.exit(1);
 	}
 })();
