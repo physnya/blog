@@ -1,49 +1,54 @@
 <template>
 	<div id="app">
 		<div class="container">
-			<div class="filter-section">
-				<div class="filter-group">
-					<h2><i class="fas fa-filter"></i>类型</h2>
-					<div class="btn-group">
-						<button
-							v-for="(category, key) in categories"
-							:key="key"
-							class="btn"
-							:class="{ active: currentCategory === key }"
-							@click="changeCategory(key)"
-						>
-							{{ category.name }}
-						</button>
+			<details class="hint-container details">
+				<summary>
+					类型 / 状态
+				</summary>
+				<div class="filter-section">
+					<div class="filter-group">
+						<h2><i class="fas fa-filter"></i>类型</h2>
+						<div class="btn-group">
+							<button
+								v-for="(category, key) in categories"
+								:key="key"
+								class="btn"
+								:class="{ active: currentCategory === key }"
+								@click="changeCategory(key)"
+							>
+								{{ category.name }}
+							</button>
+						</div>
 					</div>
-				</div>
 
-				<div class="filter-group">
-					<h2><i class="fas fa-tasks"></i>状态</h2>
-					<div class="btn-group">
-						<button
-							class="btn status-btn planTo"
-							:class="{ active: currentStatus === 'planTo' }"
-							@click="changeStatus('planTo')"
-						>
-							planTo
-						</button>
-						<button
-							class="btn status-btn ing"
-							:class="{ active: currentStatus === 'ing' }"
-							@click="changeStatus('ing')"
-						>
-							ing
-						</button>
-						<button
-							class="btn status-btn completed"
-							:class="{ active: currentStatus === 'completed' }"
-							@click="changeStatus('completed')"
-						>
-							completed
-						</button>
+					<div class="filter-group">
+						<h2><i class="fas fa-tasks"></i>状态</h2>
+						<div class="btn-group">
+							<button
+								class="btn status-btn planTo"
+								:class="{ active: currentStatus === 'planTo' }"
+								@click="changeStatus('planTo')"
+							>
+								planTo
+							</button>
+							<button
+								class="btn status-btn ing"
+								:class="{ active: currentStatus === 'ing' }"
+								@click="changeStatus('ing')"
+							>
+								ing
+							</button>
+							<button
+								class="btn status-btn completed"
+								:class="{ active: currentStatus === 'completed' }"
+								@click="changeStatus('completed')"
+							>
+								completed
+							</button>
+						</div>
 					</div>
 				</div>
-			</div>
+			</details>
 
 			<transition
 				name="fade"
@@ -280,13 +285,10 @@
 	}
 
 	.filter-section {
-		background: var(--vp-c-bg);
+		background: var(--vp-c-default-soft);
 		border-radius: 12px;
-		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 		padding: 1.2rem;
 		margin-bottom: 1.5rem;
-		transition: transform 0.3s, box-shadow 0.3s;
-		border: 1px solid rgb(from var(--vp-c-bg) calc(1 - r) calc(1 - g) calc(1 - b));
 	}
 
 	.filter-group {
@@ -312,6 +314,7 @@
 		gap: 1.8rem;
 		margin-top: 1rem;
 		padding: 1rem 0;
+		overflow: auto;
 	}
 
 	.btn {
@@ -410,7 +413,8 @@
 		margin-bottom: 0px;
 		font-size: 0.85rem;
 		opacity: 0.85;
-		width: 15rem;
+		width: 75%;
+		overflow: auto;
 	}
 
 	.card-time {

@@ -18,8 +18,9 @@ export const navbar = defineNavbarConfig([
     items: [
       { text: '关于我', link: '/about/' },
       { text: '时间线', link: '/timeline/' },
+      { text: '动态', link: '/talks/' },
+      { text: 'Bangumi', link: '/bangumi/'},
     ]
   },
   { text: '友链', link: '/links/' },
-  { text: '动态', link: '/talks/' },
 ])

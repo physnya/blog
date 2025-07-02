@@ -164,4 +164,8 @@ feed: false
 
   加入友链[「記緒漂流」](https://ttio.cc/).
 
+- 2025-07-02
+
+  将[「动态」](/talks/)页面放到「关于」标题下，并增加[「Bangumi」](/bangumi/)页面. 同时，移除[「友链」](/links/)页面的 Bangumi 主页.
+
 :::
