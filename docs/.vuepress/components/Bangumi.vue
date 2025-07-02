@@ -45,87 +45,98 @@
 				</div>
 			</div>
 
-            <transition
-                name="fade"
-                mode="out-in"
-            >
-                <div
-                    v-if="filteredItems.length > 0"
-                    key="has-items"
-                >
-                    <div class="card-grid">
-                        <div
-                            v-for="(item, index) in paginatedItems"
-                            :key="index"
-                            class="card"
-                        >
-                            <div class="card-img">
-                                <img
-                                    :src="item.subject.images.common"
-                                    :alt="item.subject.name"
-                                />
-                            </div>
-                            <div class="card-content">
-                                <h3 class="card-title">
-                                    {{ item.subject.name_cn || item.subject.name }}
-                                </h3>
-                                <div class="card-meta">
-                                    <span
-                                        ><i class="fas fa-calendar-alt"></i>
-                                        {{ formatDate(item.updated_at) }}</span
-                                    >
-                                    <span
-                                        ><i class="fas fa-star"></i> {{ item.subject.score || "N/A" }}</span
-                                    >
-                                </div>
-                                <p class="card-summary">
-                                    {{ truncateSummary(item.subject.short_summary) }}
-                                </p>
-                                <span
-                                    class="card-status"
-                                    :class="getStatusClass(item.type)"
-                                >
-                                    {{ getStatusText(item.type) }}
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+			<transition
+				name="fade"
+				mode="out-in"
+			>
+				<div
+					v-if="filteredItems.length > 0"
+					key="has-items"
+				>
+					<div class="card-flex">
+						<div
+							v-for="(item, index) in paginatedItems"
+							:key="index"
+							class="card"
+						>
+							<div class="card-img">
+								<img
+									:src="item.subject.images.common"
+									:alt="item.subject.name"
+								/>
+							</div>
+							<div class="card-content">
+								<h3 class="card-title">
+									<a
+										:href="'https://bgm.tv/subject/'+item.subject.id"
+										target="_blank"
+									>{{ item.subject.name }}</a>
+								</h3>
+								<div class="card-meta">
+									<div 
+										class="card-time"
+									>
+										标记时间<br/>
+										{{ formatDate(item.updated_at) }}
+									</div>
+									<div class="line"></div>
+									<div 
+										class="card-score"
+									>
+										Bangumi 评分<br/>
+										{{ item.subject.score || "N/A" }}
+									</div>
+									<div class="line"></div>
+									<div
+										class="card-status"
+										:class="getStatusClass(item.type)"
+									>
+										状态<br/>
+										{{ getStatusText(item.type) }}
+									</div>
+								</div>
+								<p class="card-summary">
+									{{ truncateSummary(item.subject.short_summary) }}
+								</p>
+							</div>
+						</div>
+					</div>
 
-                    <div class="pagination">
-                        <button
-                            @click="currentPage = Math.max(1, currentPage - 1)"
-                            :disabled="currentPage === 1"
-                            class="pagination-button prev"
-                        >
-                            上一页
-                        </button>
+					<div class="pagination">
+						<button
+							@click="currentPage = Math.max(1, currentPage - 1)"
+							:disabled="currentPage === 1"
+							class="pagination-button prev"
+						>
+							上一页
+						</button>
 
-                        <span class="page-info"
-                            >第 {{ currentPage }} 页 / 共 {{ totalPages }} 页</span
-                        >
+						<span class="page-info"
+							>第 {{ currentPage }} 页 / 共 {{ totalPages }} 页</span
+						>
 
-                        <button
-                            @click="currentPage = Math.min(totalPages, currentPage + 1)"
-                            :disabled="currentPage === totalPages"
-                            class="pagination-button next"
-                        >
-                            下一页
-                        </button>
-                    </div>
-                </div>
+						<button
+							@click="currentPage = Math.min(totalPages, currentPage + 1)"
+							:disabled="currentPage === totalPages"
+							class="pagination-button next"
+						>
+							下一页
+						</button>
+					</div>
+				</div>
 
-                <div
-                    v-else
-                    key="no-items"
-                    class="empty-state"
-                >
-                    <i class="fas fa-inbox"></i>
-                    <h3>没有找到收藏条目</h3>
-                    <p>请尝试选择其他类型或状态</p>
-                </div>
-            </transition>
-        </div>
-    </div>
+				<div
+					v-else
+					key="no-items"
+					class="empty-state"
+				>
+					<i class="fas fa-inbox"></i>
+					<h3>没有找到收藏条目</h3>
+					<p>请尝试选择其他类型或状态</p>
+				</div>
+			</transition>
+		</div>
+	</div>
 </template>
 
 <script>
@@ -196,9 +207,9 @@
 			// 获取状态文本
 			getStatusText(type) {
 				const statusMap = {
-					1: "想看",
-					2: "已看",
-					3: "在看",
+					1: "planTo",
+					2: "completed",
+					3: "ing",
 				};
 				return statusMap[type] || "未知状态";
 			},
@@ -246,6 +257,17 @@
 </script>
 
 <style scoped>
+	a {
+		text-decoration: none;
+		color: var(--vp-c-text-1);
+		font-size: 24px;
+		font-weight: 550;
+	}
+
+	a::after {
+		display: none !important;
+	}
+
 	.container {
 		max-width: 1200px;
 		margin: 0 auto;
@@ -314,6 +336,7 @@
 		background: var(--vp-c-bg);
 		color: var(--vp-c-text-1);
 		box-shadow: 0 2px 3px rgba(50, 50, 93, 0.5), 0 0.5px 1.5px rgba(0, 0, 0, 0.08);
+		border: 1px solid rgb(from var(--vp-c-bg) calc(1 - r) calc(1 - g) calc(1 - b));
 	}
 
 	.status-btn {
@@ -329,41 +352,41 @@
 		box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 	}
 
-    
-	.card-grid {
-		display: grid;
-		grid-template-rows: repeat(auto-fit);
+	.card-flex {
+		display: flex;
 		gap: 25px;
-		margin-bottom: 30px;
+		margin-bottom: 10px;
+		flex-direction: column;
+		flex: auto;
 	}
 
 	.card {
 		background: var(--vp-c-bg);
-		border-radius: 12px;
+		border-radius: 8px;
 		overflow: hidden;
-		transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
-		box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 		height: 100%;
 		display: flex;
 		flex-direction: row;
-        border: 1px solid rgb(from var(--vp-c-bg) calc(1 - r) calc(1 - g) calc(1 - b));
+		border: 1px solid rgb(from var(--vp-c-bg) calc(1 - r) calc(1 - g) calc(1 - b));
 	}
 
 	.card:hover {
 		transition: transform 0.3s, box-shadow 0.3s;
-        transform: translateY(-5px);
+		transform: translateY(-5px);
 		border: 1px solid rgb(from var(--vp-c-bg) calc(1 - r) calc(1 - g) calc(1 - b));
 		box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 	}
-    
-    /*
+
 	.card-img {
-        width: 400px;
+		padding: 50px 10px 50px 10px;
+        width: 10rem;
 	}
 
 	.card-img img {
-        width: 110px !important;
-        object-fit: cover;
+		height: 200px;
+		width: 200px;
+        object-fit: contain;
 	}
 
 	.card-content {
@@ -371,6 +394,7 @@
 		flex-grow: 1;
 		display: flex;
 		flex-direction: column;
+		width: 5rem;
 	}
 
 	.card-title {
@@ -383,13 +407,46 @@
 	.card-meta {
 		display: flex;
 		justify-content: space-between;
-		margin-bottom: 15px;
+		margin-bottom: 0px;
 		font-size: 0.85rem;
-		opacity: 0.8;
+		opacity: 0.85;
+		width: 15rem;
+	}
+
+	.card-time {
+		display: inline-block;
+		padding: 0px 12px;
+		font-size: 0.8rem;
+		font-weight: 500;
+		margin-top: 10px;
+		text-align: center;
+	}
+
+	.card-score {
+		display: inline-block;
+		padding: 0px 12px;
+		font-size: 0.8rem;
+		font-weight: 500;
+		margin-top: 10px;
+		text-align: center;
+	}
+
+	.card-status {
+		display: inline-block;
+		padding: 0px 12px;
+		font-size: 0.8rem;
+		font-weight: 500;
+		margin-top: 10px;
+		text-align: center;
+	}
+
+	.line {
+		width: 0px;
+		border-right: 1.5px solid var(--vp-c-divider);
 	}
 
 	.card-summary {
-		font-size: 0.95rem;
+		font-size: 0.9rem;
 		margin-bottom: 15px;
 		flex-grow: 1;
 		overflow: hidden;
@@ -398,16 +455,6 @@
 		line-clamp: 3;
 		-webkit-box-orient: vertical;
 	}
-
-	.card-status {
-		display: inline-block;
-		padding: 5px 12px;
-		border-radius: 20px;
-		font-size: 0.8rem;
-		font-weight: 500;
-		margin-top: 10px;
-	}
-    */
 
 	.pagination {
 		display: flex;
@@ -469,7 +516,7 @@
 	}
 
 	@media (max-width: 768px) {
-		.card-grid {
+		.card-flex {
 			grid-template-columns: 1fr;
 		}
 
