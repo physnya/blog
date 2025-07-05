@@ -50,7 +50,13 @@
 							class="avatar"
 						/>
 						<div class="account-info">
-							<span class="display-name">{{ toot.account.display_name }}</span>
+							<a
+								:href="mastodonProfile"
+								target="_blank"
+								class="mastodonProfile"
+							>
+								<span class="display-name">{{ toot.account.display_name }}</span>
+							</a>
 							<span class="username"
 								>@{{ toot.account.username }}@{{ instanceDomain }}</span
 							>
@@ -285,6 +291,15 @@
 		display: block;
 		color: var(--vp-c-text-1);
 		margin-bottom: 0.2rem;
+	}
+
+	.mastodonProfile {
+		text-decoration: none;
+		color: var(--vp-c-text-1);
+	}
+
+	a::after {
+		display: none !important;
 	}
 
 	.username {

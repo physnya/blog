@@ -1,4 +1,6 @@
 import { defineClientConfig } from 'vuepress/client'
+import { h } from 'vue'
+import { Layout } from 'vuepress-theme-plume/client'
 // import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
 // import NpmBadge from 'vuepress-theme-plume/features/NpmBadge.vue'
 // import NpmBadgeGroup from 'vuepress-theme-plume/features/NpmBadgeGroup.vue'
@@ -11,6 +13,7 @@ import './custom.css'
 import Talks from './components/Talks.vue'
 import WordCount from './components/WordCount.vue'
 import Bangumi from './components/Bangumi.vue'
+import AsideOutlineAfter from './components/AsideOutlineAfter.vue'
 
 export default defineClientConfig({
   enhance({ app }) {
@@ -24,5 +27,12 @@ export default defineClientConfig({
     app.component('Talks', Talks)
     app.component('WordCount', WordCount)
     app.component('Bangumi', Bangumi)
+  },
+
+  // inject custom layout components
+  layouts: {
+    Layout: () => h(Layout, null, {
+      'aside-outline-after': () => h(AsideOutlineAfter),
+    }),
   },
 })

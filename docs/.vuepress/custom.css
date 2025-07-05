@@ -171,6 +171,10 @@ html.dark {
     font-size: 13pt !important;
 }
 
+.katex {
+    color: var(--vp-c-text-1) !important;
+}
+
 /* --- Twikoo 相关 --- */
 
 .tk-submit .tk-avatar {
