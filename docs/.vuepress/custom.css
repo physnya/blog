@@ -1,6 +1,7 @@
 @import url("https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css");
 @import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');
 @import url('https://cdn.jsdelivr.net/npm/@fontsource/cascadia-code@4.2.1/index.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,1..1000&display=swap');
 
 /* --- 配色 --- */
 
@@ -117,6 +118,17 @@ blockquote::before {
     text-align: center;
 }
 
+.tag-name,
+.blog-post-item-content .post-meta .tag-list[data-v-58d5ece1],
+.blog-post-item-content .post-meta a[data-v-58d5ece1],
+.vp-category-group .folder[data-v-ae5fb0ca] {
+    font-family: "Ysabeau";
+}
+
+.vp-footer[data-v-569f8d7f] {
+    font-family: "Ysabeau";
+}
+
 .root {
     --vp-sidebar-width: 245px;
 }
@@ -175,6 +187,10 @@ html.dark {
 
 .katex {
     color: var(--vp-c-text-1) !important;
+}
+
+.profile-info {
+    font-family: "Ysabeau";
 }
 
 /* --- Twikoo 相关 --- */

@@ -38,7 +38,7 @@ export default defineThemeConfig({
   profile: {
     avatar: 'images/Physics_nya.jpg',
     name: '菲兹克斯喵',
-    description: 'This is physnya\'s personal blog \& notebook.',
+    description: 'This is physnya\'s personal <br/> blog \& notebook.',
     // circle: true,
     location: 'Beijing, China',
     organization: 'SOS 団',
