@@ -37,7 +37,7 @@ list:
     avatar: https://pediastrum.com/title.png
   - name: Chlorine
     desc: 当世界年轻时
-    link: https://www.yoghurtlee.com
+    link: https://chlo.is
     avatar: https://img.viento.cc/avatar/01.webp
   - name: ScaredCube's Site
     desc: Hello World!

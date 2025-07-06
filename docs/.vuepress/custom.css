@@ -88,6 +88,8 @@
 html {
     font-size: 19px;
     font-weight: 450;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "liga" 1, "dlig" 1;
 }
 
 .vp-doc blockquote > p:not(.katex) {
