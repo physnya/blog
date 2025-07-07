@@ -119,13 +119,14 @@ blockquote::before {
 }
 
 .tag-name,
-.blog-post-item-content .post-meta .tag-list[data-v-58d5ece1],
-.blog-post-item-content .post-meta a[data-v-58d5ece1],
-.vp-category-group .folder[data-v-ae5fb0ca] {
+.blog-post-item-content .post-meta .tag-list,
+.blog-post-item-content .post-meta a,
+.vp-category-group .folder,
+.vp-doc-meta .tag {
     font-family: "Ysabeau";
 }
 
-.vp-footer[data-v-569f8d7f] {
+.vp-footer {
     font-family: "Ysabeau";
 }
 
@@ -175,6 +176,7 @@ html.dark {
 
 .vp-navbar-title .vp-link.no-icon.link.title {
     font-size: 15pt !important;
+    font-weight: 400;
 }
 
 .vp-link.link.navbar-menu-link {

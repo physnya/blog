@@ -14,6 +14,7 @@ import Talks from './components/Talks.vue'
 import WordCount from './components/WordCount.vue'
 import Bangumi from './components/Bangumi.vue'
 import AsideOutlineAfter from './components/AsideOutlineAfter.vue'
+import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
 
 export default defineClientConfig({
   enhance({ app }) {
@@ -27,6 +28,7 @@ export default defineClientConfig({
     app.component('Talks', Talks)
     app.component('WordCount', WordCount)
     app.component('Bangumi', Bangumi)
+    app.component('RepoCard', RepoCard)
   },
 
   // inject custom layout components
