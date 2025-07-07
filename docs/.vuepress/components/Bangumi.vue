@@ -2,9 +2,7 @@
 	<div id="app">
 		<div class="container">
 			<details class="hint-container details">
-				<summary>
-					类型 / 状态
-				</summary>
+				<summary>类型 / 状态</summary>
 				<div class="filter-section">
 					<div class="filter-group">
 						<h2><i class="fas fa-filter"></i>类型</h2>
@@ -73,22 +71,19 @@
 							<div class="card-content">
 								<h3 class="card-title">
 									<a
-										:href="'https://bgm.tv/subject/'+item.subject.id"
+										:href="'https://bgm.tv/subject/' + item.subject.id"
 										target="_blank"
-									>{{ item.subject.name }}</a>
+										>{{ item.subject.name }}</a
+									>
 								</h3>
 								<div class="card-meta">
-									<div 
-										class="card-time"
-									>
-										标记时间<br/>
+									<div class="card-time">
+										标记时间<br />
 										{{ formatDate(item.updated_at) }}
 									</div>
 									<div class="line"></div>
-									<div 
-										class="card-score"
-									>
-										Bangumi 评分<br/>
+									<div class="card-score">
+										Bangumi 评分<br />
 										{{ item.subject.score || "N/A" }}
 									</div>
 									<div class="line"></div>
@@ -96,7 +91,7 @@
 										class="card-status"
 										:class="getStatusClass(item.type)"
 									>
-										状态<br/>
+										状态<br />
 										{{ getStatusText(item.type) }}
 									</div>
 								</div>
@@ -319,7 +314,7 @@
 
 	.btn {
 		padding: 0.8rem 2rem;
-		background: var(--vp-c-bg-elv);
+		background: var(--vp-code-block-bg);
 		color: var(--vp-c-text-1);
 		border: none;
 		border-radius: 8px;
@@ -331,20 +326,21 @@
 	}
 
 	.btn:hover {
-		background: var(--vp-c-bg-alt);
+		background: var(--vp-code-block-bg);
 		transform: translateY(-2px);
 	}
 
 	.btn.active {
-		background: var(--vp-c-bg);
+		background: var(--vp-code-block-bg);
 		color: var(--vp-c-text-1);
 		box-shadow: 0 2px 3px rgba(50, 50, 93, 0.5), 0 0.5px 1.5px rgba(0, 0, 0, 0.08);
-		border: 1px solid rgb(from var(--vp-c-bg) calc(1 - r) calc(1 - g) calc(1 - b));
+		border: 1px solid
+			rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
 	}
 
 	.status-btn {
 		padding: 0.8rem 2rem;
-		background: var(--vp-c-bg-elv);
+		background: var(--vp-code-block-bg);
 		color: var(--vp-c-text-1);
 		border: none;
 		border-radius: 8px;
@@ -364,32 +360,34 @@
 	}
 
 	.card {
-		background: var(--vp-c-bg);
+		background: var(--vp-code-block-bg);
 		border-radius: 8px;
 		overflow: hidden;
 		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 		height: 100%;
 		display: flex;
 		flex-direction: row;
-		border: 1px solid rgb(from var(--vp-c-bg) calc(1 - r) calc(1 - g) calc(1 - b));
+		border: 1px solid
+			rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
 	}
 
 	.card:hover {
 		transition: transform 0.3s, box-shadow 0.3s;
 		transform: translateY(-5px);
-		border: 1px solid rgb(from var(--vp-c-bg) calc(1 - r) calc(1 - g) calc(1 - b));
+		border: 1px solid
+			rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
 		box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 	}
 
 	.card-img {
 		padding: 50px 10px 50px 10px;
-        width: 10rem;
+		width: 10rem;
 	}
 
 	.card-img img {
 		height: 200px;
 		width: 200px;
-        object-fit: contain;
+		object-fit: contain;
 	}
 
 	.card-content {
@@ -471,7 +469,7 @@
 
 	.pagination-button {
 		padding: 0.8rem 2rem;
-		background: var(--vp-c-bg-elv);
+		background: var(--vp-code-block-bg);
 		color: var(--vp-c-text-1);
 		border: none;
 		border-radius: 8px;
@@ -483,12 +481,12 @@
 	}
 
 	.pagination-button:hover:not(:disabled) {
-		background: var(--vp-c-bg-alt);
+		background: var(--vp-code-block-bg);
 		transform: translateY(-2px);
 	}
 
 	.pagination-button:disabled {
-		background: var(--vp-c-bg);
+		background: var(--vp-code-block-bg);
 		cursor: not-allowed;
 		opacity: 0.7;
 		transform: none;

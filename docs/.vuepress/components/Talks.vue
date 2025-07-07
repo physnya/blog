@@ -249,19 +249,20 @@
 	}
 
 	.toot-card {
-		background: var(--vp-c-bg);
+		background: var(--vp-code-block-bg);
 		border-radius: 12px;
 		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 		padding: 1.2rem;
 		margin-bottom: 1.5rem;
 		transition: transform 0.3s, box-shadow 0.3s;
-		border: 1px solid rgb(from var(--vp-c-bg) calc(1 - r) calc(1 - g) calc(1 - b));
+		border: 1px solid
+			rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
 	}
 
 	.toot-card:hover {
 		transform: translateY(-5px);
 		box-shadow: 0 1.5px 2px
-			rgb(from var(--vp-c-bg) calc(1 - r) calc(1 - g) calc(1 - b));
+			rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
 	}
 
 	.toot-header {
@@ -278,7 +279,7 @@
 		margin-right: 1.2rem;
 		border: 3px solid #f8f9fa;
 		box-shadow: 0 0.5px 1.5px
-			rgb(from var(--vp-c-bg) calc(1 - r) calc(1 - g) calc(1 - b));
+			rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
 	}
 
 	.account-info {
@@ -387,7 +388,7 @@
 
 	.pagination-button {
 		padding: 0.8rem 2rem;
-		background: var(--vp-c-bg-elv);
+		background: var(--vp-code-block-bg);
 		color: var(--vp-c-text-1);
 		border: none;
 		border-radius: 8px;
@@ -399,12 +400,12 @@
 	}
 
 	.pagination-button:hover:not(:disabled) {
-		background: var(--vp-c-bg-alt);
+		background: var(--vp-code-block-bg);
 		transform: translateY(-2px);
 	}
 
 	.pagination-button:disabled {
-		background: var(--vp-c-bg);
+		background: var(--vp-code-block-bg);
 		cursor: not-allowed;
 		opacity: 0.7;
 		transform: none;

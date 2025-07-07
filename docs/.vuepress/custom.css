@@ -195,6 +195,10 @@ html.dark {
     font-family: "Ysabeau";
 }
 
+.vp-repo-card {
+    background-color: var(--vp-code-block-bg);
+}
+
 /* --- Twikoo 相关 --- */
 
 .tk-submit .tk-avatar {
