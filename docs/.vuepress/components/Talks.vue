@@ -48,6 +48,7 @@
 							:src="toot.account.avatar"
 							alt="头像"
 							class="avatar"
+							no-view
 						/>
 						<div class="account-info">
 							<a
@@ -280,6 +281,7 @@
 		border: 3px solid #f8f9fa;
 		box-shadow: 0 0.5px 1.5px
 			rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
+		cursor: default;
 	}
 
 	.account-info {

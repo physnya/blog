@@ -1,7 +1,7 @@
 {
   "name": "physnya-s-blog",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.2.17",
   "description": "This is physnya's personal blog & notebook.",
   "author": "physnya <676266673@qq.com>",
   "license": "MIT",
@@ -24,21 +24,21 @@
   "devDependencies": {
     "@ifuture/vuepress-plugin-rss": "1.0.2",
     "@vuepress/bundler-vite": "2.0.0-rc.23",
-    "@vuepress/plugin-llms": "2.0.0-rc.110",
+    "@vuepress/plugin-llms": "2.0.0-rc.112",
     "axios": "^1.10.0",
-    "dotenv": "^16.5.0",
+    "dotenv": "^17.2.0",
     "glob": "^11.0.3",
     "http-server": "^14.1.1",
-    "husky": "^8.0.3",
+    "husky": "^9.1.7",
     "sass-embedded": "^1.89.2",
     "twikoo": "^1.6.44",
     "typescript": "^5.8.3",
     "vue": "^3.5.17",
     "vuepress": "2.0.0-rc.23",
-    "vuepress-theme-plume": "1.0.0-rc.154"
+    "vuepress-theme-plume": "1.0.0-rc.156"
   },
   "dependencies": {
-    "@vuepress/plugin-feed": "2.0.0-rc.110",
-    "mermaid": "^11.6.0"
+    "@vuepress/plugin-feed": "2.0.0-rc.112",
+    "mermaid": "^11.8.1"
   }
 }
