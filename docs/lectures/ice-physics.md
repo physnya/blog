@@ -1,4 +1,18 @@
-# 冰的变形与显微结构研究
+---
+changelog: false
+title: 冰的变形与显微结构研究
+tags:
+  - Physics
+  - interdisciplinarity
+  - lecture
+createTime: 2025/07/11 12:13:10
+permalink: /posts/0npdnkew/
+---
+::: tip
+
+这是思政实践中，参观「北京高压科学研究中心」时听到的一场讲座的简记.
+
+:::
 
 交叉研究：材料科学 $\Longrightarrow$ 地学研究 (地球科学)
 
