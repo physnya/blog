@@ -85,6 +85,25 @@ export default defineUserConfig({
       title: true,      // 是否生成标题
     },
 
+    search: {
+      provider: "local",
+      locales: {
+        '/': {
+          placeholder: 'Search',
+          noResultsText: '没有找到',
+          footer: {
+            selectText: '选择',
+            navigateText: '切换',
+            closeText: '关闭',
+            selectKeyAriaLabel: '',
+            navigateUpKeyAriaLabel: '',
+            navigateDownKeyAriaLabel: '',
+            closeKeyAriaLabel: '',
+          }
+        }
+      }
+    },
+
     plugins: {
       /**
        * Shiki 代码高亮
@@ -92,25 +111,25 @@ export default defineUserConfig({
        */
       shiki: {
         // 强烈建议预设代码块高亮语言，插件默认加载所有语言会产生不必要的时间开销
-        langs: ['shell', 'bash', 'typescript', 'javascript','css','html','json','yaml'],
+        langs: ['shell', 'bash', 'typescript', 'javascript', 'css', 'html', 'json', 'yaml', 'vue'],
       //   twoslash: true, // 启用 twoslash
       //   whitespace: true, // 启用 空格/Tab 高亮
-      //   lineNumbers: true, // 启用行号
+        lineNumbers: true, // 启用行号
       },
 
       /* 本地搜索, 默认启用 */
-      search: false,
+      // search: false,
 
       /**
        * Algolia DocSearch
        * 启用此搜索需要将 本地搜索 search 设置为 false
        * @see https://theme-plume.vuejs.press/config/plugins/search/#algolia-docsearch
        */
-      docsearch: {
-        appId: 'K7HPXA6J0Z',
-        apiKey: '79817c5dd89d18906f89a095abea2f84',
-        indexName: 'physnya',
-      },
+      // docsearch: {
+      //   appId: 'K7HPXA6J0Z',
+      //   apiKey: '79817c5dd89d18906f89a095abea2f84',
+      //   indexName: 'physnya',
+      // },
 
       /* 文章字数统计、阅读时间，设置为 false 则禁用 */
       // readingTime: true,

@@ -199,6 +199,11 @@ html.dark {
     background-color: var(--vp-code-block-bg);
 }
 
+.search-input {
+    font-family: var(--vp-font-family-base);
+    font-feature-settings: "liga" 1, "dlig" 1;
+}
+
 /* --- Twikoo 相关 --- */
 
 .tk-submit .tk-avatar {
