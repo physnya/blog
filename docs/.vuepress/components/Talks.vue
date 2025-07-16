@@ -86,7 +86,6 @@
 								:src="media.url"
 								:alt="media.description || '图片'"
 								class="media-image"
-								@click="openLightbox(media.url)"
 							/>
 						</div>
 					</div>
@@ -128,26 +127,6 @@
 						下一页
 					</button>
 				</div>
-			</div>
-		</div>
-
-		<!-- 图片灯箱 -->
-		<div
-			v-if="lightboxVisible"
-			class="lightbox"
-			@click.self="closeLightbox"
-		>
-			<div class="lightbox-content">
-				<img
-					:src="currentImage"
-					alt="大图预览"
-				/>
-				<button
-					class="close-btn"
-					@click="closeLightbox"
-				>
-					×
-				</button>
 			</div>
 		</div>
 	</div>
@@ -489,50 +468,6 @@
 
 	.empty a:hover {
 		text-decoration: underline;
-	}
-
-	/* 灯箱 */
-	.lightbox {
-		position: fixed;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background: rgba(0, 0, 0, 0.9);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		z-index: 1000;
-	}
-
-	.lightbox-content {
-		position: relative;
-		max-width: 90%;
-		max-height: 90%;
-	}
-
-	.lightbox-content img {
-		max-width: 100%;
-		max-height: 80vh;
-		border-radius: 8px;
-		box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
-	}
-
-	.close-btn {
-		position: absolute;
-		top: -40px;
-		right: 0;
-		background: none;
-		border: none;
-		color: white;
-		font-size: 2.5rem;
-		cursor: pointer;
-		opacity: 0.7;
-		transition: opacity 0.2s;
-	}
-
-	.close-btn:hover {
-		opacity: 1;
 	}
 
 	/* 响应式设计 */
