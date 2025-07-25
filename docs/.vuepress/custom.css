@@ -10,11 +10,11 @@
   /**
    * 主题色
    * -------------------------------------------------------------------------- */
-
-  --vp-c-brand-1: #5086a1;                            /* 链接颜色、强调色 */
-  --vp-c-brand-2: #6aa1b7;                            /* 链接、按钮 hover 颜色 */
-  --vp-c-brand-3: #8cccd5;                            /* 背景色、边框色 */
-  --vp-c-brand-soft: rgba(131, 208, 218, 0.314);      /* 辅助色 */
+  --theme-hue: #5086a1;
+  --vp-c-brand-1: hsl(var(--theme-hue) 50% 50%);      /* 链接颜色、强调色 */
+  --vp-c-brand-2: hsl(var(--theme-hue) 50% 65%);      /* 链接、按钮 hover 颜色 */
+  --vp-c-brand-3: hsl(var(--theme-hue) 50% 80% / 75%);      /* 背景色、边框色 */
+  --vp-c-brand-soft: hsla(var(--theme-hue) 50% 70% / 40%);   /* 辅助色 */
 
   /**
    * 文本颜色
@@ -42,10 +42,11 @@
    * 主题色
    * -------------------------------------------------------------------------- */
 
-  --vp-c-brand-1: #8cccd5;                            /* 链接颜色、强调色 */
-  --vp-c-brand-2: #6aa1b7;                            /* 链接、按钮 hover 颜色 */
-  --vp-c-brand-3: #5086a1;                            /* 背景色、边框色 */
-  --vp-c-brand-soft: rgba(131, 208, 218, 0.314);      /* 辅助色 */
+  --theme-hue: #5086a1;
+  --vp-c-brand-1: hsl(var(--theme-hue) 50% 50%);      /* 链接颜色、强调色 */
+  --vp-c-brand-2: hsl(var(--theme-hue) 50% 65%);      /* 链接、按钮 hover 颜色 */
+  --vp-c-brand-3: hsl(var(--theme-hue) 50% 80% / 75%);      /* 背景色、边框色 */
+  --vp-c-brand-soft: hsla(var(--theme-hue) 50% 70% / 40%);   /* 辅助色 */
 
   /**
    * 文本颜色
@@ -74,6 +75,14 @@
     --vp-font-family-mono: "Cascadia code";
     font-optical-sizing: auto;
     --vp-custom-block-font-size: 17px;
+}
+
+.vp-doc :not(pre) > code {
+    color: var(--vp-c-text-1);
+}
+
+.vp-doc .hint-container.tip code {
+    color: var(--vp-c-text-1);
 }
 
 .vp-doc div[class*="language-"] pre, .vp-doc div[class*="language-"] code {
@@ -202,6 +211,23 @@ html.dark {
 .search-input {
     font-family: var(--vp-font-family-base);
     font-feature-settings: "liga" 1, "dlig" 1;
+    background-color: var(--vp-c-bg);
+}
+
+.vp-nav.fixed .vp-navbar {
+    box-shadow: var(--vp-shadow-1);
+}
+
+.pager {
+    background-color: var(--vp-c-bg);
+}
+
+.pager:empty {
+    background-color: transparent;
+}
+
+.vp-navbar .vp-social-link.no-icon {
+    display: none;
 }
 
 /* --- Twikoo 相关 --- */

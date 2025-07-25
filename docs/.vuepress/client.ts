@@ -14,6 +14,7 @@ import Talks from './components/Talks.vue'
 import WordCount from './components/WordCount.vue'
 import Bangumi from './components/Bangumi.vue'
 import AsideOutlineAfter from './components/AsideOutlineAfter.vue'
+import ColourPicker from './components/ColourPicker.vue'
 import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
 
 export default defineClientConfig({
@@ -29,12 +30,15 @@ export default defineClientConfig({
     app.component('WordCount', WordCount)
     app.component('Bangumi', Bangumi)
     app.component('RepoCard', RepoCard)
+    app.component('ColourPicker', ColourPicker)
   },
 
   // inject custom layout components
   layouts: {
     Layout: () => h(Layout, null, {
       'aside-outline-after': () => h(AsideOutlineAfter),
+      'nav-bar-content-after': () => h(ColourPicker),
     }),
   },
+  
 })
