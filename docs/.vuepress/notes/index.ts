@@ -4,6 +4,7 @@ import Integral from './integral.ts'
 import cosmos from './cosmos.ts'
 import writing from './writing.ts'
 import complex from './complex.ts'
+import selfLearnGR from './self-learn-GR.ts'
 
 export const notes = defineNotesConfig({
   dir: 'notes',
@@ -14,5 +15,6 @@ export const notes = defineNotesConfig({
     cosmos,
     writing,
     complex,
+    selfLearnGR,
   ]
 })
