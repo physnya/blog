@@ -21,4 +21,7 @@ config:
       -
         title: ⌈ 开往 ⌋
         description: 可以点击 <a href='https://www.travellings.cn/go.html' target='_blank'>开往</a> 随机穿梭至组织成员的网站，为大家带来更多流量，助力中文博客圈的发展.
+      -
+        title: 镜像
+        description: 若国内访问速度较慢，可访问部署在 EdgeOne Pages 上的镜像站点：<a href='https://blog.physnya.top' target='_blank'>镜像</a>. 
 ---
