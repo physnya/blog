@@ -18,7 +18,7 @@ list:
   - name: Pinpe 的云端
     desc: Pinpe 的博客
     link: https://pinpe.top/
-    avatar: https://pinpe.top/_astro/head.DsU2qhAz_ZsxwbE.webp
+    avatar: https://pinpe.top/_astro/head.DyPclklS_2iOsAQ.webp
   - name: 朽丘博
     desc: 一定会和喜欢的人在夏日夜晚牵手慢步
     link: https://blog.koxiuqiu.cc/
@@ -38,7 +38,7 @@ list:
   - name: Chlorine
     desc: 当世界年轻时
     link: https://chlo.is
-    avatar: https://img.viento.cc/avatar/01.webp
+    avatar: https://img.chlo.is/avatar/02-1024.webp
   - name: ScaredCube's Site
     desc: Hello World!
     link: https://sccube.link
