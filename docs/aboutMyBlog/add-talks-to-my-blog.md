@@ -3,6 +3,7 @@ title: 为 blog 添加「动态」页面
 tags:
   - blog
   - GoToSocial
+  - WebDevelopment
 createTime: 2025/06/16 13:09:07
 permalink: /posts/uyakgssl/
 changelog: false
