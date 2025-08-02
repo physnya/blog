@@ -9,8 +9,8 @@ feed: false
 list:
   - name: revkiru's Blog
     desc: さよならの速さで顔を上げて
-    link: https://arckive.cn/
-    avatar: https://arckive.cn/images/avatar_hu11893311594825852572.png
+    link: https://arckive.link
+    avatar: https://cdn.luogu.com.cn/upload/image_hosting/scdfkw3n.png
   - name: 自习室
     desc: 我在 Bangumi 的小组
     link: https://bgm.tv/group/zixi
