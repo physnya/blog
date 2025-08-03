@@ -38,6 +38,10 @@
     "vuepress-theme-plume": "1.0.0-rc.158"
   },
   "dependencies": {
+    "@fullcalendar/core": "^6.1.18",
+    "@fullcalendar/daygrid": "^6.1.18",
+    "@fullcalendar/interaction": "^6.1.18",
+    "@fullcalendar/vue3": "^6.1.18",
     "@vuepress/plugin-feed": "2.0.0-rc.112",
     "mermaid": "^11.9.0"
   }

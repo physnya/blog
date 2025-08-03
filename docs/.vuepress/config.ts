@@ -19,6 +19,7 @@ export default defineUserConfig({
     ['script', { src: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js', integrity: 'sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa', crossorigin: 'anonymous' }],
     ['script', { src: 'https://umami.physnya.top/script.js', 'data-website-id': 'c412eaae-10f9-4820-99bf-a6410154a744' }],
     ['script', { src: 'https://app.rybbit.io/api/script.js', 'data-site-id': '1153' }, 'defer'],
+    ['link', { rel: 'prefetch', as: 'image', href: 'https://www.blogsclub.org/badge/physnya.top' }],
   ],
 
   bundler: viteBundler(),
