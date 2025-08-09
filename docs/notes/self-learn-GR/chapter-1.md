@@ -1,13 +1,9 @@
 ---
-changelog: false
 title: 广义相对论的物理基础
 draft: true
 permalink: /self-learn-GR/chapter-1/
 pageLayout: doc
-copyright: false
-feed: false
-comments: false
-createTime: 2025/07/29 23:01:02
+createTime: 2025/08/03 23:01:02
 ---
 
 ## 狭义相对论

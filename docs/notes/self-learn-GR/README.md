@@ -1,15 +1,11 @@
 ---
-changelog: false
 title: 「自学」广义相对论
 draft: true
 permalink: /self-learn-GR/
 pageLayout: doc
-copyright: false
-feed: false
-comments: false
-createTime: 2025/07/29 23:00:30
+createTime: 2025/08/03 23:00:30
 ---
 
 这是有关「广义相对论」的一些自学笔记，参考教材是一本较为基础的教科书 ——《广义相对论基础》(赵峥，刘文彪).
 
-!!实际上我之前尝试过阅读梁灿彬先生写的《微分几何入门与广义相对论》，但是因为那本书过于偏重数学而却步. 希望这一次能够坚持!!{.blur .hover}
+!!实际上我之前尝试过阅读梁灿彬先生写的《微分几何入门与广义相对论》，但是因为那本书过于偏重数学而却步. 希望这一次能够坚持.!!{.blur .hover}
