@@ -4,7 +4,6 @@ draft: true
 permalink: /self-learn-GR/chapter-2/
 pageLayout: doc
 feed: false
-createTime: 2025/08/09 14:09:31
 ---
 ## 狭义相对论中的张量
 
