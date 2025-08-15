@@ -1,6 +1,5 @@
 ---
 title: 广义相对论的物理基础
-draft: true
 permalink: /self-learn-GR/chapter-1/
 pageLayout: doc
 createTime: 2025/08/03 23:01:02

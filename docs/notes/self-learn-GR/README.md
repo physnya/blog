@@ -1,6 +1,5 @@
 ---
 title: 「自学」广义相对论
-draft: true
 permalink: /self-learn-GR/
 pageLayout: doc
 createTime: 2025/08/03 23:00:30

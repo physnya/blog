@@ -1,9 +1,7 @@
 ---
 title: Riemann 几何与张量分析
-draft: true
 permalink: /self-learn-GR/chapter-2/
 pageLayout: doc
-feed: false
 createTime: 2025/08/15 14:09:31
 ---
 ::: warning
