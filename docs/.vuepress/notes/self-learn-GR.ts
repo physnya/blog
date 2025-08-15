@@ -10,6 +10,7 @@ export default defineNoteConfig({
 			link: "/self-learn-GR/",
 			items: [
 				"chapter-1",
+				"chapter-2",
 			],
 		},
 	],
