@@ -4,8 +4,14 @@ draft: true
 permalink: /self-learn-GR/chapter-2/
 pageLayout: doc
 feed: false
-createTime: 2025/08/09 14:09:31
+createTime: 2025/08/15 14:09:31
 ---
+::: warning
+
+本章内容很多，所以估计会多次更新.
+
+:::
+
 ## 狭义相对论中的张量
 
 狭义相对论研究四维 Minkowski 时空 (一种平直时空)，在这样的时空中，用张量的语言表示 Lorentz 变换：
@@ -266,6 +272,38 @@ T'_{\mu\nu\cdots\lambda} &= \frac{\partial x^\alpha}{\partial x'^\mu}\frac{\part
 \end{aligned}
 $$
 
+协变张量和逆变张量的变换矩阵互为逆矩阵.
+
+另外，还有混合张量，既有逆变指标又有协变指标，比如：
+$$
+T'^{\mu_1\mu_2\cdots\mu_p}_{\nu_1\nu_2\cdots\nu_q}=\frac{\partial x'^{\nu_1}}{\partial x^{\alpha_1}}\cdots\frac{\partial x'^{\mu_p}}{\partial x^{\alpha_p}}\cdot\frac{\partial x^{\beta_1}}{\partial x'^{\nu_1}}\cdots\frac{\partial x^{\beta_q}}{\partial x'^{\nu_q}}T^{\alpha_1\alpha_2\cdots\alpha_p}_{\beta_1\beta_2\cdots\beta_q}
+$$
+(其实应该写成 $T'^{\mu_1\mu_2\cdots\mu_p}{}_{\nu_1\nu_2\cdots\nu_q}$ 来表示先后顺序的… 不过这样疑似太长了)
+
+有 $p$ 个逆变指标 & $q$ 个协变指标的张量称为 $(p+q)$ 阶混合张量 / $(p,q)$ 阶张量. 很明显，Kronecker 符号 $\delta^\alpha{}_\beta$ 是 $(1,1)$ 阶混合张量. Kronecker 符号满足：在任何坐标系下均有
+$$
+\delta^\alpha{}_\beta=\begin{cases}
+1&\alpha=\beta\\\\
+0&\alpha\neq\beta
+\end{cases}
+$$
+可以在一个坐标系中定义，之后用混合张量的变换式得到任何坐标系下的 Kronecker 符号定义：
+$$
+\delta'^\mu{}_\nu=\frac{\partial x'^\mu}{\partial x^\alpha}\cdot\frac{\partial x^\beta}{\partial x'^\nu}\delta^\alpha{}_\beta=\frac{\partial x'^\mu}{\partial x^\alpha}\cdot\frac{\partial x^\alpha}{\partial x'^\nu}=\frac{\partial x'^\mu}{\partial x'^\nu}=\begin{cases}
+1&\mu=\nu\\\\
+0&\mu\neq\nu
+\end{cases}
+$$
+因为狭义相对论是在线性正交变换下的，所以只有一类张量；但是广义相对论中有两类.
+
+## 张量代数
+
+(1) 加减法：必须同阶才能相加减，定义为相应分量相加减.
+
+(2) 乘法：指「外乘」，外乘运算使张量阶数升高：
+$$
+C^{\mu\nu}_{\alpha\beta\gamma}=A^\mu_{\alpha\beta}\cdot B^{\nu}_{\gamma}
+$$
 
 
 [^1]: [仿射空间 - 小时百科](https://wuli.wiki/online/AfSp.html)
