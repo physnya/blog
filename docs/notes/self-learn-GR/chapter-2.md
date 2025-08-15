@@ -4,6 +4,7 @@ draft: true
 permalink: /self-learn-GR/chapter-2/
 pageLayout: doc
 feed: false
+createTime: 2025/08/09 14:09:31
 ---
 ## 狭义相对论中的张量
 
@@ -89,9 +90,11 @@ $$
 这是一个二阶反对称张量.
 
 Lorentz 变换是正交线性变换，它的正交性保证了变换矩阵元满足：
+
+<a id="1"></a>
 $$
 a_{\mu\alpha}a_{\mu\beta}=\delta_{\alpha\beta}\\
-\tilde{a}_{\alpha\mu}\tilde{a}_{\alpha\nu}=a_{\mu\alpha}a_{\nu\alpha}=\delta_{\mu\nu}
+\tilde{a}_{\alpha\mu}\tilde{a}_{\alpha\nu}=a_{\mu\alpha}a_{\nu\alpha}=\delta_{\mu\nu}\tag{1}
 $$
 但是此式不意味着变换矩阵对称，Lorentz 变换矩阵只是线性复正交和 Hermite 的.
 
@@ -200,7 +203,72 @@ $$
 
 :::
 
+如果变换矩阵行列式不为零：
+$$
+\det\left|\frac{\partial x'^\mu}{\partial x^\alpha}\right| \neq 0\text{ or }\infty
+$$
+
+则逆变换存在，
+$$
+\text{d}x^\alpha=\frac{\partial x^\alpha}{\partial x'^\mu}\text{d}x'^\mu
+$$
+变换系数满足
+$$
+\begin{aligned}
+\frac{\partial x^\alpha}{\partial x'^\mu}\cdot\frac{\partial x'^\mu}{\partial x^\beta}=\frac{\partial x^\alpha}{\partial x^\beta}=\delta^\alpha{}_\beta\\\\
+\frac{\partial x'^\mu}{\partial x^\alpha}\cdot\frac{\partial x^\alpha}{\partial x'^\nu}=\frac{\partial x'^\mu}{\partial x'^\nu}=\delta^\mu{}_\nu
+\end{aligned}
+$$
+
+> 关于「上」和「下」标的问题，可见[^3][^4].
+>
+> 另外，上下标有先后顺序，这仅仅是来源于上标下标需要排成一行，不能有重合的.
+
+在广义相对论中，Lorentz 变换 $a_{\mu\nu}$ 对应：
+$$
+a_{\mu\nu}\sim\frac{\partial x'^\mu}{\partial x^\nu}\,,\quad(\bold{a}^{-1})_{\nu\mu}\sim\frac{\partial x^\nu}{\partial x'^\mu}
+$$
+但是因为广义相对论中的广义变换矩阵不是正交矩阵，所以逆矩阵的形式更加复杂，也不一定满足 <a href="#1">(1)</a>.
+
+总结和狭义相对论的区别：
+
+1. 变换矩阵不一定是正交矩阵；
+
+2. 变换矩阵的矩阵元不再是常数.
+
+   (当然因为是逐点定义，所以微分形式的变换在某一个点处还是常数)
+
+---
+
+广义相对论中，零阶张量的定义仍然不变.
+
+一阶逆变张 (矢) 量定义为「在广义坐标变换下像坐标微分一样变换的量」，
+$$
+V'^\mu=\frac{\partial x'^\mu}{\partial x^\alpha}V^\alpha
+$$
+==坐标微分才是矢量，坐标本身不一定！==
+
+二阶逆变张量：「在广义坐标变换下按照下面规律变换的量」
+$$
+T'^{\mu\nu}=\frac{\partial x'^\mu}{\partial x^\alpha}\frac{\partial x'^\nu}{\partial x^\beta}T^{\alpha\beta}
+$$
+
+$n$ 阶逆变张量：
+$$
+T'^{\mu\nu\cdots\lambda} = \frac{\partial x'^\mu}{\partial x^\alpha}\frac{\partial x'^\nu}{\partial x^\beta}\cdots\frac{\partial x'^\lambda}{\partial x^\sigma}T^{\alpha\beta\cdots\sigma}
+$$
+相对应地，有协变张量的定义，零阶定义不变，其他阶数有：
+$$
+\begin{aligned}
+V'_\mu &= \frac{\partial x^\alpha}{\partial x'^\mu}V_\alpha\\\\
+T'_{\mu\nu} &= \frac{\partial x^\alpha}{\partial x'^\mu}\frac{\partial x^\beta}{\partial x'^\nu}T_{\alpha\beta}\\\\
+T'_{\mu\nu\cdots\lambda} &= \frac{\partial x^\alpha}{\partial x'^\mu}\frac{\partial x^\beta}{\partial x'^\nu}\cdots\frac{\partial x^\sigma}{\partial x'^\lambda}T_{\alpha\beta\cdots\sigma}
+\end{aligned}
+$$
+
 
 
 [^1]: [仿射空间 - 小时百科](https://wuli.wiki/online/AfSp.html)
 [^2]: [仿射空间 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/仿射空间)
+[^3]: [The Poor Man’s Introduction to Tensors](https://justincfeng.github.io/Tensors_Poor_Man.pdf)
+[^4]: [张量分析傻瓜入门 翻译：三、指标记号 - 知乎](https://zhuanlan.zhihu.com/p/103366867)
