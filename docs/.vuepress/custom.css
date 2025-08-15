@@ -102,6 +102,10 @@ html {
     font-feature-settings: "liga" 1, "dlig" 1;
 }
 
+a::after {
+	display: none !important;
+}
+
 .vp-doc blockquote > p:not(.katex) {
     font-size: 1em;
     padding: 10px 0;
