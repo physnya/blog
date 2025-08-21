@@ -303,8 +303,103 @@ $$
 C^{\mu\nu}_{\alpha\beta\gamma}=A^\mu_{\alpha\beta}\cdot B^{\nu}_{\gamma}
 $$
 
+一个 $(p_1,q_1)$ 阶张量和一个 $(p_2,q_2)$ 阶张量相乘得到一个 $(p_1+p_2,q_1+q_2)$ 阶张量.
+
+(3) 缩并：让混合张量的一对上下标成为傀标，作求和. 比如 $C^{\mu\nu}_{\rho\tau\lambda}$ 对 $\mu$ 和 $\tau$ 的缩并是
+$$
+C^\nu_{\rho\lambda}=C^{\mu\nu}_{\rho\mu\lambda}
+$$
+混合张量才能够缩并，缩并使张量的阶降低.
+
+(4) 标积 (内积)：外乘后再缩并，也就是
+$$
+C=A^\mu B_\mu
+$$
+内积只能在逆变和协变之间进行.
+
+(5) 对称性：关于一对上标 / 一对下标定义，若
+$$
+T^{\mu\nu\sigma}_{\alpha\beta\gamma\delta}=T^{\mu\nu\sigma}_{\delta\beta\gamma\alpha}
+$$
+则张量对下标 $\alpha$ 和 $\delta$ 对称. 若
+$$
+T^{\mu\nu\sigma}_{\alpha\beta\gamma\delta}=-T^{\mu\nu\sigma}_{\alpha\delta\gamma\beta}
+$$
+则张量对下标 $\beta$ 和 $\delta$ 反对称.
+
+::: tip
+
+若称一个张量是对称 / 反称的，意味着它任何一对上标和任何一对下标都是对称 / 反称的.
+
+反称张量的特点：反称指标取同一值的分量为零. 比如二阶反称张量写成矩阵时，对角元一定是零.
+
+另外，任意一个二阶逆变 (/ 协变) 张量 $T^{\mu\nu}$ (/ $T_{\alpha\beta}$) 都可以分解为一个对称张量 () 和一个反称张量 [] 的和：
+$$
+T^{\mu\nu} = T^{(\mu\nu)} + T^{[\mu\nu]}
+$$
+其中
+$$
+T^{(\mu\nu)}=\frac{T^{\mu\nu}+T^{\nu\mu}}{2}\,,\quad T^{[\mu\nu]} = \frac{T^{\mu\nu}-T^{\nu\mu}}{2}
+$$
+:::
+
+::: danger
+
+到这里我还有点没理解张量的物理实质是什么… 如果后面也没有理解，我可能需要在这个位置作补充.
+
+:::
+
+## 平移 & 联络
+
+张量逐点定义，如果要计算不同点之间张量之差，得到的不再是张量，会失去张量的各种变换性质. 但是我们需要研究相邻点之间张量的微小差值来得到张量的微分. 因此要新定义「差」，引入「矢量平移」和「仿射联络」的概念.
+
+(1) 先来探索协变矢量的平移：
+
+矢量场 $A_\mu$ 在相邻 $P,Q$ 两点的值分别为 $A_\mu(P)$ 和 $A_\mu(Q)$，
+
+/Definition/ (矢量平移)
+
+> $P$ 点的矢量平移到 $Q$ 点后，写作 $A_\mu(P\to Q)$.
+
+我们要求平移后的新矢量具有协变矢量的变换性质：
+
+<a id="2"></a>
+$$
+A'_\mu(P\to Q) = \left(\frac{\partial x^\alpha}{\partial x'^\mu}\right)_QA_\alpha(P\to Q)\tag{2}
+$$
+虽然在 $P$ 点 $A_\mu(P)$ 是协变的，但是在 $Q$ 点 $A_\mu(P)$ 就不一定协变，因此 $A_\mu(P\to Q)$ 和 $A_\mu(P)$ 之间有一个增量.
+
+矢量平移要求：
+
+1. 平移后矢量 $A_\mu(P\to Q)$ 是 $Q$ 点的矢量；
+2. 平移引起的微元改变量 $\delta A_\mu(P)$ 与位移 $\text{d}x^\mu$ 呈线性.
+
+(这样的矢量平移称为 Levi - Civita 平移)
+
+所以有要求：
+$$
+\delta A_\mu(P) \equiv A_\mu(P\to Q)-A_\mu(P) = \Gamma^\lambda_{\mu\nu}(P)\cdot A_\lambda(P)\cdot\text{d}x^\nu
+$$
+这里引入的比例系数 $\Gamma^\lambda_{\mu\nu}(P)$ 就是 $P$ 点的仿射联络，建成联络. 定义了仿射联络的仿射空间称仿射联络空间.
+
+::: tip
+
+一点理解：注意到这里有两次 Einstein 求和，对 $\lambda$ 和 $\nu$ 求和，所以新的矢量分量会受到原来矢量各个分量的影响.
+
+:::
+
+(2) 求联络在坐标变换下的变换性质，是要保证 <a href="#2">(2)</a> 式始终成立. 利用这个式子，有
+$$
+\begin{aligned}
+\left(\frac{\partial x^\alpha}{\partial x'^\mu}\right)_Q &=\left(\frac{\partial x^\alpha}{\partial x'^\mu}\right)_P+\left(\frac{\partial^2x^\alpha}{\partial x'^\nu\partial x'^\mu}\right)_P\text{d}x'^\nu
+\end{aligned}
+$$
+
+
+
 
 [^1]: [仿射空间 - 小时百科](https://wuli.wiki/online/AfSp.html)
 [^2]: [仿射空间 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/仿射空间)
+
 [^3]: [The Poor Man’s Introduction to Tensors](https://justincfeng.github.io/Tensors_Poor_Man.pdf)
 [^4]: [张量分析傻瓜入门 翻译：三、指标记号 - 知乎](https://zhuanlan.zhihu.com/p/103366867)
