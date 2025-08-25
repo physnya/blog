@@ -382,6 +382,12 @@ $$
 $$
 这里引入的比例系数 $\Gamma^\lambda_{\mu\nu}(P)$ 就是 $P$ 点的仿射联络，建成联络. 定义了仿射联络的仿射空间称仿射联络空间.
 
+::: warning
+
+说明一下：下面用到的 $\Gamma^\lambda_{\mu\nu}$ 注意先后顺序的写法应该是 $\Gamma^\lambda{}_{\mu\nu}$，但是目前不注意先后顺序也没什么影响，所以先这么写了.
+
+:::
+
 ::: tip
 
 一点理解：注意到这里有两次 Einstein 求和，对 $\lambda$ 和 $\nu$ 求和，所以新的矢量分量会受到原来矢量各个分量的影响.
@@ -395,11 +401,125 @@ $$
 \end{aligned}
 $$
 
+::: details 理解
 
+这玩意卡了我两个小时，然后反应过来我想多了. 一开始想的是这是不是下面的公式：
+$$
+\begin{aligned}
+\left(\frac{\partial A}{\partial B}\right)_C=\left(\frac{\partial A}{\partial B}\right)_D+\left(\frac{\partial A}{\partial D}\right)_B\left(\frac{\partial D}{\partial B}\right)_C
+\end{aligned}
+$$
+但是并不是. 实际上这个公式来源于将 $\partial x^\alpha/\partial x'^\mu$ 看作一个随着 $x'^\nu$ 变化的函数，再求一个微分而已.
+
+这实在是太蠢了.
+
+:::
+
+因此 <a href="#2">(2)</a> 式可以写作
+$$
+A'_\mu(P\to Q) = \left(\left(\frac{\partial x^\alpha}{\partial x'^\mu}\right)_+\left(\frac{\partial^2x^\alpha}{\partial x'^\mu\partial x'^\nu}\right)_P\text{d}x'^\nu\right)\cdot A_\alpha(P\to Q)
+$$
+若利用 $\Gamma'^\lambda_{\mu\nu}$ 定义，写成：
+$$
+\begin{aligned}
+&A'_\mu+\Gamma'^\lambda_{\mu\nu}\cdot A'_\lambda\cdot\text{d}x'^\nu \\\\
+&= \left(\left(\frac{\partial x^\alpha}{\partial x'^\mu}\right)_P+\left(\frac{\partial^2x^\alpha}{\partial x'^\mu\partial x'^\nu}\right)_P\text{d}x'^\nu\right)\cdot(A_\alpha+\Gamma^\beta_{\alpha\gamma}\cdot A_\beta\cdot\text{d}x^\gamma)\\\\
+&=\left(\frac{\partial x^\alpha}{\partial x'^\mu}+\frac{\partial^2x^\alpha}{\partial x'^\mu\partial x'^\nu}\frac{\partial x'^\nu}{\partial x^\sigma}\text{d}x^\sigma\right)\cdot(A_\alpha+\Gamma^\beta_{\alpha\gamma}\cdot A_\beta\cdot\text{d}x^\gamma)
+\end{aligned}
+$$
+(这里都是在 $P$ 点写的，所以把 $A'_\mu(P)$ 中标识位置的「$(P)$」去掉了，偏导数同理)
+
+::: warning
+
+为什么要在最后把 $\text{d}x'^\nu$ 换成 $\partial x'^\nu/\partial x^\sigma\cdot\text{d}x^\sigma$？
+
+这是因为之后要换傀标，然后合并成同一项，如果不更换的话，两边一个是 $\text{d}x'^\nu$ 一个是 $\text{d}x^\gamma$，处在不同的坐标下，怎么变都合并不了.
+
+:::
+
+利用 $A'_\mu = \partial x^\rho/\partial x'^\mu\cdot A_\rho$ 和 $\text{d}x'^\nu=\partial x'^\nu/\partial x^\sigma\cdot\text{d}x^\sigma$ 得到：
+$$
+\begin{aligned}
+&\Gamma'^\lambda_{\mu\nu}\cdot \frac{\partial x^\rho}{\partial x'^\lambda}A_\rho\cdot\frac{\partial x'^\nu}{\partial x^\sigma}\text{d}x^\sigma \\\\
+&= \frac{\partial^2x^\alpha}{\partial x'^\mu\partial x'^\nu}\cdot A_\alpha\cdot\frac{\partial x'^\nu}{\partial x^\sigma}\text{d}x^\sigma + \frac{\partial x^\alpha}{\partial x'^\mu}\cdot\Gamma^\beta_{\alpha\gamma}\cdot A_\beta\cdot\text{d}x^\gamma
+\end{aligned}
+$$
+这里已经将两边都有的 $A_\alpha$ 那一项去掉. 最后一项的傀标 $\gamma$ 也可以换成 $\sigma$，再更换每一项中对矢量分量求和的傀标，原式可以合并为
+$$
+\left(\Gamma'^\lambda_{\mu\nu}\frac{\partial x^\rho}{\partial x'^\lambda}\frac{\partial x'^\nu}{\partial x^\sigma}-\Gamma^\rho_{\alpha\sigma}\frac{\partial x^\alpha}{\partial x'^\mu}-\frac{\partial^2x^\rho}{\partial x'^\mu\partial x'^\nu}\frac{\partial x'^\nu}{\partial x^\sigma}\right)A_\rho\text{d}x^\sigma = 0
+$$
+LHS 是两次对四维指标求和，相当于 16 项这样的括号. 因为这个式子对任意的 $A_\rho\text{d}x^\sigma$ 都是零，所以要求括号内始终为零. 这样就得到了仿射联络在坐标变换下的公式：
+$$
+\Gamma'^\lambda_{\mu\nu} = \Gamma^\rho_{\alpha\sigma}\frac{\partial x^\alpha}{\partial x'^\mu}\frac{\partial x^\sigma}{\partial x'^\gamma}\frac{\partial x'^\tau}{\partial x^\rho}+\frac{\partial^2x^\rho}{\partial x'^\mu\partial x'^\gamma}\frac{\partial x'^\tau}{\partial x^\rho}
+$$
+::: danger
+
+这个公式实在是丑得可以… 注意求和的部分，下标太多容易搞混.
+
+:::
+
+这也表明联络不是一种张量.
+
+(3) 逆变矢量在平移下的增量：
+
+和协变矢量很像，但是相差一个符号，
+$$
+\delta A^\mu(P) \equiv A^\mu(P\to Q)-A^\mu(P) = -\Gamma^\mu_{\lambda\nu}\cdot A^\lambda(P)\cdot\text{d}x^\nu
+$$
+
+---
+
+更高阶张量的平移我们兴趣不大.
+
+总结一下联络的性质：
+
+1. 在同一个仿射空间中引入两种联络，$_1\Gamma^\lambda_{\mu\nu}$ 和 $_2\Gamma^\lambda_{\mu\nu}$，虽然这两个都不是张量，但是它们的差 $\delta\Gamma^\lambda_{\mu\nu}$ 是 $(1,2)$ 阶张量：
+   $$
+   \delta\Gamma^\lambda_{\mu\nu} = {}_1\Gamma^\lambda_{\mu\nu}-{}_2\Gamma^\lambda_{\mu\nu}
+   $$
+
+2. 联络一般是非对称的，但是可以分为对称和反对称部分之和
+   $$
+   \Gamma^\lambda_{\mu\nu} = \Gamma^\lambda_{(\mu\nu)} + \Gamma^\lambda_{[\mu\nu]}
+   $$
+   对称部分和反对称部分分别是
+   $$
+   \Gamma^\lambda_{(\mu\nu)} = \frac{1}{2}(\Gamma^\lambda_{\mu\nu} + \Gamma^\lambda_{\nu\mu})\,,\quad\Gamma^\lambda_{[\mu\nu]} = \frac{1}{2}(\Gamma^\lambda_{\mu\nu} - \Gamma^\lambda_{\nu\mu})
+   $$
+   对称张量称为对称联络，不是张量；但是反对称部分是张量，称为挠率张量.
+
+   联络一共有 $4\times4\times4$ 个分量，对称部分有 40 个独立分量，反对称部分 (挠率张量) 有 24 个独立分量.
+
+## 协变微商
+
+### 标量场的协变微商
+
+标量场 $U(\bold{x})$ 的普通微商：
+$$
+U_{,\mu} \equiv \frac{\partial U(\bold{x})}{\partial x^\mu}
+$$
+::: warning
+
+这个「$,$ 」作为一个微商符号属实有点诡异，不过既然是笔记，还是按照书本来罢.
+
+P.S. 查了一下 Wiki 发现好像标准符号真的是这样，那没事了.[^5]
+
+:::
+
+上面的普通微商变换到新坐标系：
+$$
+U'_{,\mu} \equiv \frac{\partial U'(\bold{x}')}{\partial x'^\mu} = \frac{\partial U'}{\partial x^\alpha}\frac{\partial x^\alpha}{\partial x'^\mu} = \frac{\partial U}{\partial x^\alpha}\frac{\partial x^\alpha}{\partial x'^\mu} = U_{,\alpha}\frac{\partial x^\alpha}{\partial x'^\mu}
+$$
+(其中中间一个等号的来源是 $U'$ 和 $U$ 这两个函数形式是一样的)
+
+因此可知，$U_{,\alpha}$ 是协变矢量，不是标量场；这个「普通微商」就被称为「协变微商」. 用「$;$ 」表示协变微商，对于标量场有
+$$
+U_{;\mu} = U_{,\mu}
+$$
 
 
 [^1]: [仿射空间 - 小时百科](https://wuli.wiki/online/AfSp.html)
-[^2]: [仿射空间 - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/仿射空间)
-
+[^2]: [仿射空间 - 维基百科](https://zh.wikipedia.org/wiki/仿射空间)
 [^3]: [The Poor Man’s Introduction to Tensors](https://justincfeng.github.io/Tensors_Poor_Man.pdf)
 [^4]: [张量分析傻瓜入门 翻译：三、指标记号 - 知乎](https://zhuanlan.zhihu.com/p/103366867)
+[^5]: [共变导数 - 维基百科](https://zh.wikipedia.org/wiki/协变微商)

@@ -8,6 +8,8 @@
 
 [星系与宇宙](/notes/cosmos/)
 
+[广义相对论 - 自学笔记](/notes/self-learn-GR/)
+
 ### math
 
 [高等微积分](/notes/integral/)
