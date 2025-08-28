@@ -2,6 +2,7 @@
 title: Riemann 几何与张量分析
 permalink: /self-learn-GR/chapter-2/
 pageLayout: doc
+draft: true
 createTime: 2025/08/15 14:09:31
 ---
 ::: warning
@@ -85,9 +86,9 @@ $$
 (3) 电磁场强：
 $$
 F_{\mu\nu} = \begin{pmatrix}
-0&B_3&-B_2&-\frac{\text{i}}{c}E_1\\
--B_3&0&B_1&-\frac{\text{i}}{c}E_2\\
-B_2&-B_1&0&-\frac{\text{i}}{c}E_3\\
+0&B_3&-B_2&-\frac{\text{i}}{c}E_1\\\\
+-B_3&0&B_1&-\frac{\text{i}}{c}E_2\\\\
+B_2&-B_1&0&-\frac{\text{i}}{c}E_3\\\\
 \frac{\text{i}}{c}E_1&\frac{\text{i}}{c}E_2&\frac{\text{i}}{c}E_3&0
 \end{pmatrix}\,,\quad\mu,\nu=1,2,3,4
 $$
@@ -175,7 +176,9 @@ $$
 >
 > 2. $\forall\dot{p},\dot{q}\in\mathbb{A}$，有且仅有一个矢量 $v\in V$ 使得 $\dot{p}+v=\dot{q}$. 通常用 $\overrightarrow{pq}$ 或者 $\dot{q}-\dot{p}$ 代表矢量 $v$.
 >
-> 并把 $V$ 的维数 $n$ 称为 $\mathbb{A}$ 的 **维数**，有时记成 $\mathbb{A}^n$.[^1]
+> 并把 $V$ 的维数 $n$ 称为 $\mathbb{A}$ 的 **维数**，有时记成 $\mathbb{A}^n$. [+1]
+
+[+1]:[仿射空间 - 小时百科](https://wuli.wiki/online/AfSp.html)
 
 Wiki 上有一个帮助理解的非正式描述：
 
@@ -185,7 +188,9 @@ Wiki 上有一个帮助理解的非正式描述：
 >
 > 另外，若两人分别计算 $a$ 和 $b$ 的线性组合，要求系数和为 $1$，那么两人将得到相同的结果. (就像我们高中所学的向量末端共线)
 >
-> 仿射空间就是要以相同的线性组合来描述同样的点，所以仿射组合的系数构成了一个「重心坐标」.[^2]
+> 仿射空间就是要以相同的线性组合来描述同样的点，所以仿射组合的系数构成了一个「重心坐标」. [+2]
+
+[+2]:[仿射空间 - 维基百科](https://zh.wikipedia.org/wiki/仿射空间)
 
 :::
 
@@ -224,7 +229,11 @@ $$
 \end{aligned}
 $$
 
-> 关于「上」和「下」标的问题，可见[^3][^4].
+> 关于「上」和「下」标的问题，可见 [+3] [+4].
+>
+> [+3]:[The Poor Man’s Introduction to Tensors](https://justincfeng.github.io/Tensors_Poor_Man.pdf)
+>
+> [+4]:[张量分析傻瓜入门 翻译：三、指标记号 - 知乎](https://zhuanlan.zhihu.com/p/103366867)
 >
 > 另外，上下标有先后顺序，这仅仅是来源于上标下标需要排成一行，不能有重合的.
 
@@ -502,7 +511,9 @@ $$
 
 这个「$,$ 」作为一个微商符号属实有点诡异，不过既然是笔记，还是按照书本来罢.
 
-P.S. 查了一下 Wiki 发现好像标准符号真的是这样，那没事了.[^5]
+P.S. 查了一下 Wiki 发现好像标准符号真的是这样，那没事了. [+5]
+
+[+5]:[共变导数 - 维基百科](https://zh.wikipedia.org/wiki/协变微商)
 
 :::
 
@@ -517,9 +528,234 @@ $$
 U_{;\mu} = U_{,\mu}
 $$
 
+也就是协变微商等于普通微商.
 
-[^1]: [仿射空间 - 小时百科](https://wuli.wiki/online/AfSp.html)
-[^2]: [仿射空间 - 维基百科](https://zh.wikipedia.org/wiki/仿射空间)
-[^3]: [The Poor Man’s Introduction to Tensors](https://justincfeng.github.io/Tensors_Poor_Man.pdf)
-[^4]: [张量分析傻瓜入门 翻译：三、指标记号 - 知乎](https://zhuanlan.zhihu.com/p/103366867)
-[^5]: [共变导数 - 维基百科](https://zh.wikipedia.org/wiki/协变微商)
+### 协变矢量场的协变微商
+
+协变矢量场的普通微商：
+$$
+A_{\mu,\nu} \equiv \frac{\partial A_\mu}{\partial x^\nu} \equiv \lim_{Q\to P}\frac{A_\mu(Q)-A_\mu(P)}{\Delta x^\nu}
+$$
+但是空间中不同的两个点张量之差不一定是张量，所以普通微商不再具有张量性质.
+
+而协变微商要用平移定义：
+$$
+A_{\mu;\nu} \equiv \lim_{Q\to P}\frac{A_\mu(Q)-A_\mu(P\to Q)}{\Delta x^\nu}
+$$
+由平移定义，得到
+$$
+A_{\mu;\nu} = A_{\mu,\nu} - \Gamma^\lambda_{\mu\nu}A_\lambda
+$$
+
+这是协变矢量的协变微商. 值得注意，RHS 两项单独拿出来都不是张量，只有它们的差是张量.
+
+### 协变微商的 Leibniz 法则
+
+这是规定：
+$$
+(A^{\cdots}{}_{\cdots}B^{\cdots}{}_{\cdots})_{;\lambda} = (A^{\cdots}{}_{\cdots}{}_{;\lambda})(B^{\cdots}{}_{\cdots})+(A^{\cdots}{}_{\cdots})(B^{\cdots}{}_{\cdots}{}_{;\lambda})
+$$
+协变微商和普通微商都服从 Leibniz 法则. 一个简单的例子是
+$$
+(A^{\mu\nu}{}_{\sigma}B_{\beta}{}^{\alpha}{}_{\gamma\varepsilon})_{;\lambda} = A^{\mu\nu}{}_{\sigma}{}_{;\lambda}B_{\beta}{}^{\alpha}{}_{\gamma\varepsilon}+A^{\mu\nu}{}_{\sigma}B_{\beta}{}^{\alpha}{}_{\gamma\varepsilon}{}_{;\lambda}
+$$
+::: warning
+
+到这里还是觉得张量微商这个概念有点不具体. 实际上把符号理解成分量，再把「$;\lambda$」这里后面的指标理解为微商定义里面要除掉的微元坐标的指标，就能想象出是个什么意思. 大概是某种张量场随着很多坐标变化，然后这个张量场的某个分量 $\mu$ (得是 $;$ 号前面的那个指标) 随着 $x^\nu$ 的改变而变化，所产生的那个叫做「微商」的东西 (换言之，变化率).
+
+:::
+
+### 逆变矢量场的协变微商
+
+逆变的指标在上面，直观地来讲，好像没有 $;$ 号前面的那个指标，所以我们想到要和协变矢量场配在一起写微商. $A^\mu(\bold{x})$ 和任意的一个协变矢量场 $B_\mu(\bold{x})$ 内积，得到标量场. 又知道标量场的协变微商就等于普通微商，那么
+$$
+(A^\mu B_\mu)_{;\lambda} = (A^\mu B_\mu)_{,\lambda}
+$$
+这时候用 Leibniz 法则 <s>这下知道为什么要在这一节之前讲 Leibniz 法则了</s>，可以得到
+
+$$
+A^\mu{}_{;\lambda}B_\mu+A^\mu B_{\mu}{}_{;\lambda} = A^\mu{}_{,\lambda}B_\mu+A^\mu B_{\mu}{}_{,\lambda}
+$$
+利用之前的协变矢量场协变微商公式，
+$$
+A^\mu{}_{;\lambda}B_\mu = A^\mu{}_{,\lambda}B_\mu + \Gamma^\nu_{\mu\lambda}A^\mu B_\nu
+$$
+换傀标，同时矢量场 $B_\mu$ 是任意的，可以得到
+$$
+A^\mu{}_{;\lambda} = A^\mu{}_{,\lambda} + \Gamma^\mu_{\nu\lambda}A^\nu
+$$
+::: danger
+
+这里协变微商的含义没有协变矢量场那么直观，因为定义式不是通过极限来做的. 不过理解为「对应」的关系倒可能也很不错.
+
+:::
+
+### 高阶张量场的协变微商
+
+类似地，对二阶张量：
+$$
+\begin{aligned}
+T_{\mu\nu}{}_{;\lambda} &= T_{\mu\nu}{}_{,\lambda}-\Gamma^\rho_{\mu\lambda}T_{\rho\nu}-\Gamma^\rho
+_{\nu\lambda}T_{\mu\rho}\\\\
+T^{\mu\nu}{}_{;\lambda} &= T^{\mu\nu}{}_{,\lambda}+\Gamma^\mu_{\rho\lambda}T^{\rho\nu}+\Gamma^\nu_{\rho\lambda}T^{\mu\rho}\\\\
+T^\mu{}_{\nu;\lambda} &= T^\mu{}_{\nu,\lambda}+\Gamma^\mu_{\rho\lambda}T^\rho{}_\nu-\Gamma^\rho_{\nu\lambda}T^\mu{}_\rho
+\end{aligned}
+$$
+::: warning
+
+可以看到，协变的指标对应一个「$-$」号，逆变的指标对应一个「$+$」号，额外项的求和都是对「被求导」的指标做的求和，这至少是一个记忆方法.
+
+:::
+
+/Example/ (Kronecker 符号的协变微商)
+
+> Kronecker 符号是二阶混合张量，有
+> $$
+> \delta^\mu{}_{\nu;\lambda} = \delta^\mu{}_{\nu,\lambda} + \Gamma^\mu_{\rho\lambda}\delta^\rho{}_{\nu}-\Gamma^\rho_{\nu\lambda}\delta^\mu{}_\rho = \delta^\mu{}_{\nu,\lambda}
+> $$
+> 但是这个张量的分量完全是常数，所以直接得到协变微商为零.
+
+## 测地线与仿射参量
+
+在平直空间中，直线具有「自平行」性质，即线上的任意相邻两点的切矢量相互平行. 利用这一性质可以把直线概念推广到仿射空间，称为测地线.
+
+四维空间中曲线的参数方程：
+$$
+x^\mu = x^\mu(\lambda)
+$$
+这里 $\lambda$ 只是一个标志性的参量. 任意一点的切矢量定义为
+$$
+A^\mu = \frac{\text{d}x^\mu}{\text{d}\lambda}
+$$
+这是一个逆变矢量. 刚刚说要比较相邻两点的切矢量是否平行，所以需要平移操作，平行要求：
+$$
+A^\mu(Q) = F(\lambda+\text{d}\lambda)A^\mu(P\to Q)
+$$
+这里 $F(\lambda+\text{d}\lambda)$ 只是一个系数，上面式子是在 $Q$ 点做比较. 因为 $P$ 点的切矢量肯定平行于 $P$ 点自己的，所以 $F(\lambda) = 1$，若定义
+$$
+f(\lambda) := \frac{\text{d}F}{\text{d}\lambda}
+$$
+则上面式子可以改写成
+$$
+A^\mu(Q) = [1+f(\lambda)\text{d}\lambda]\cdot A^\mu(P\to Q)
+$$
+满足这个式子的曲线称为 **测地线 / 自平行线**. 接下来的任务是求测地线方程. 利用平移矢量的关系，可得
+$$
+\begin{aligned}
+A^\mu(P\to Q) &= A^\mu(P)-\Gamma^\mu_{\alpha\beta}(P)\cdot A^\alpha(P)\text{d}x^\beta\\\\
+&= \frac{\text{d}x^\mu}{\text{d}\lambda} + \Gamma^\mu_{\alpha\beta}\frac{\text{d}x^\alpha}{\text{d}\lambda}\frac{\text{d}x^\beta}{\text{d}\lambda}\text{d}\lambda
+\end{aligned}
+$$
+另外，
+$$
+A^\mu(Q) = A^\mu(P) +\text{d}A^\mu(P) = \frac{\text{d}x^\mu}{\text{d}\lambda} +\frac{\text{d}^2x^\mu}{\text{d}\lambda^2}\text{d}\lambda
+$$
+所以测地线微分方程是
+$$
+\frac{\text{d}^2x^\mu}{\text{d}\lambda^2}+\Gamma^\mu_{\alpha\beta}\frac{\text{d}x^\alpha}{\text{d}\lambda}\frac{\text{d}x^\beta}{\text{d}\lambda} = f(\lambda)\frac{\text{d}x^\mu}{\text{d}\lambda}
+$$
+::: details 简化
+
+在参量选择比较好的情况下，测地线方程可以简化. 假设另一个标量参量 $\sigma$，有参量变换 $\lambda=\lambda(\sigma)$，我们知道
+$$
+\begin{aligned}
+\frac{\text{d}x^\mu}{\text{d}\lambda} &= \frac{\text{d}x^\mu}{\text{d}\sigma}\cdot\frac{\text{d}\sigma}{\text{d}\lambda}\\\\
+\frac{\text{d}^2x^\mu}{\text{d}\lambda^2} &= \frac{\text{d}^2x^\mu}{\text{d}\sigma^2}\cdot\left(\frac{\text{d}\sigma}{\text{d}\lambda}\right)^2+\frac{\text{d}x^\mu}{\text{d}\sigma}\cdot\frac{\text{d}^2\sigma}{\text{d}\lambda^2}
+\end{aligned}
+$$
+于是
+$$
+\begin{aligned}
+&\left[\frac{\text{d}^2x^\mu}{\text{d}\sigma^2}\cdot\left(\frac{\text{d}\sigma}{\text{d}\lambda}\right)^2+\frac{\text{d}x^\mu}{\text{d}\sigma}\cdot\frac{\text{d}^2\sigma}{\text{d}\lambda^2}\right]+\Gamma^\mu_{\alpha\beta}\left(\frac{\text{d}\sigma}{\text{d}\lambda}\right)^2\frac{\text{d}x^\alpha}{\text{d}\sigma}\frac{\text{d}x^\beta}{\text{d}\sigma} = f(\lambda)\frac{\text{d}x^\mu}{\text{d}\sigma}\frac{\text{d}\sigma}{\text{d}\lambda}\\\\
+&\left(\frac{\text{d}^2x^\mu}{\text{d}\sigma^2}+\Gamma^\mu_{\alpha\beta}\frac{\text{d}x^\alpha}{\text{d}\sigma}\frac{\text{d}x^\beta}{\text{d}\sigma}\right)\left(\frac{\text{d}\sigma}{\text{d}\lambda}\right)^2 = \left[f(\lambda)\frac{\text{d}\sigma}{\text{d}\lambda}-\frac{\text{d}^2\sigma}{\text{d}\lambda^2}\right]\cdot\frac{\text{d}x^\mu}{\text{d}\sigma}
+\end{aligned}
+$$
+
+如果参量 $\sigma$ 满足
+
+<a name="3"></a>
+$$
+f(\lambda)\frac{\text{d}\sigma}{\text{d}\lambda}-\frac{\text{d}^2\sigma}{\text{d}\lambda^2}= 0
+$$
+则上面式子简化为
+$$
+\frac{\text{d}^2x^\mu}{\text{d}\sigma^2}+\Gamma^\mu_{\alpha\beta}\frac{\text{d}x^\alpha}{\text{d}\sigma}\frac{\text{d}x^\beta}{\text{d}\sigma}=0
+$$
+称满足 <a href="#3">(3)</a> 的参量 $\sigma$ 为仿射参量，采用这种参量时，$f(\sigma)=0$，平行条件是直接相等.
+
+值得注意的是，仿射参量并不唯一，$\tau = a\sigma+b$ 都是仿射参量.
+
+:::
+
+## 曲率与挠率
+
+我们已经知道联络的反称部分是挠率张量. 现在要引入一个新的由联络构造的张量 —— 曲率张量. 这两个量是决定空间几何性质最重要的量.
+
+(1) 曲率张量的引入：对于给定的协变矢量场 $A_\lambda(\bold{x})$，求两次协变微商 $A_{\lambda;\mu;\nu}$ 可得
+
+$$
+\begin{aligned}
+&A_{\lambda;\mu;\nu} \\\\
+&= A_{\lambda;\mu,\nu}-\Gamma^\rho_{\lambda\nu}A_{\rho;\mu} - \Gamma^\rho_{\mu\nu}A_{\lambda;\rho}\\\\
+&=A_{\lambda,\mu,\nu} - \Gamma^\rho_{\lambda\mu,\nu}A_\rho - \Gamma^\rho_{\lambda\mu}A_{\rho,\nu} - \Gamma^\rho_{\lambda\nu}A_{\rho,\mu}+\Gamma^\rho_{\lambda\nu}\Gamma^\sigma_{\rho\mu}A_\sigma-\Gamma^\rho_{\mu\nu}A_{\lambda;\rho}
+\end{aligned}
+$$
+::: warning
+
+可以很明显地看出「$A_{\mu;\lambda}$」这个符号的好处：这可以看作一个二阶的张量，然后得到第一个等号后面的结果.
+
+对于第二个等号，过程应该是：
+$$
+\text{LHS}=(A_{\lambda,\mu}-\Gamma^\rho_{\lambda\mu}A_\rho)_{,\nu}-\Gamma^\rho_{\lambda\nu}A_{\rho;\mu}-\Gamma^\rho_{\mu\nu}A_{\lambda;\rho}
+$$
+然后分别展开得到上述结果. 上面没有展开最后一项的原因是后面并没有展开的必要性.
+
+:::
+
+交换协变微商的顺序，也就是求 $A_{\lambda;\nu;\nu}$，得到
+$$
+A_{\lambda;\nu;\mu} = A_{\lambda,\nu,\mu} - \Gamma^\rho_{\lambda\nu,\mu}A_\rho-\Gamma^\rho_{\lambda\nu}A_{\rho,\mu}-\Gamma^\rho_{\lambda\mu}A_{\rho,\nu}+\Gamma^\rho_{\lambda\mu}\Gamma^\sigma_{\rho\nu}A_\sigma-\Gamma^\rho_{\nu\mu}A_{\lambda;\rho}
+$$
+这两者相差：
+$$
+A_{\lambda;\mu;\nu}-A_{\lambda;\nu;\mu} = R^\rho_{\lambda\mu\nu}A_\rho-2\Gamma^\rho_{[\mu\nu]}A_{\lambda;\rho}
+$$
+其中
+$$
+R^\rho_{\lambda\mu\nu}\equiv\Gamma^\rho_{\lambda\nu,\mu}-\Gamma^\rho_{\lambda\mu,\nu}+\Gamma^\rho_{\sigma\mu}\Gamma^\sigma_{\lambda\nu} - \Gamma^\rho_{\sigma\nu}\Gamma^\sigma_{\lambda\mu}
+$$
+而联络的反称部分 $\Gamma^\rho_{[\mu\nu]} = (\Gamma^\rho_{\mu\nu}-\Gamma^\rho_{\nu\mu})/2$ 是挠率张量，等式左右两边都得是张量，所以 $R^\rho_{\lambda\mu\nu}$ 必须要是一个张量，这被称为 **曲率张量**.
+
+::: warning
+
+张量的协变微商是个张量，因为在求协变微商的过程中，所有联络系数产生的非齐次项都被添加的那些项抵消了. 再者，从定义完全可以验证协变微商的变换规律.
+
+:::
+
+从上面可以看出，只有曲率和挠率都是零时 (或许可以理解为空间是平直的？)，协变矢量的二阶协变微商才可以交换顺序，当然这一结论对逆变矢量、更高阶张量的协变微商均成立.
+
+(2) 挠率的几何意义：
+
+如下图，空间中从 $O$ 点出来的两个无穷小位移，分别是 $\text{d}x^\mu\sim OQ'$ 和 $\delta x^\mu\sim OQ$，现在把 $\text{d}x^\mu$ 平移距离 $\delta x^\mu$ 到 $Q$ 点，得到 $QP$；再把 $\delta x^\mu$ 平移距离 $\text{d}x^\mu$ 到 $Q'$ 点，得到 $Q'P'$. 在 Euclidean 空间中，$P$ 和 $P'$ 肯定重合，但是空间如果是弯曲的，那么情况会不一样.
+
+![](https://vip.123pan.cn/1845440081/yk6baz03t0m000d7w33gcih9fisdqtraDIYxAIFxDda1DGxPDwUzAa==.png)
+
+我们知道，
+$$
+\begin{aligned}
+QP &= \text{d}x^\mu-\Gamma^\mu_{\lambda\nu}\text{d}x^\lambda\delta x^\nu\\\\
+Q'P' &=\delta x^\mu-\Gamma^\mu_{\lambda\nu}\delta x^\lambda\text{d}x^\nu
+\end{aligned}
+$$
+可计算 $P$ 和 $P'$ 两点之差：
+$$
+\begin{aligned}
+\Delta &= OQ+QP-(OQ'+Q'P')\\\\
+&=\delta x^\mu+(\text{d}x^\mu-\Gamma^\mu_{\lambda\nu}\text{d}x^\lambda\delta x^\nu)-[\text{d}x^\mu+(\delta x^\mu-\Gamma^\mu_{\lambda\nu}\delta x^\lambda\text{d}x^\nu)]\\\\
+&=(\Gamma^\mu_{\nu\lambda}-\Gamma^\mu_{\lambda\nu})\delta x^\nu\text{d}x^\lambda\\\\
+&=2\Gamma^\mu_{[\nu\lambda]}\delta x^\nu\text{d}x^\lambda
+\end{aligned}
+$$
+这是一个二阶的偏移，体现挠率的作用.
+
+(3) 曲率的几何意义

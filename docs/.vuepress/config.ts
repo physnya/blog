@@ -37,6 +37,7 @@ export default defineUserConfig({
       //   echarts: true,
         mermaid: true,
       //   flowchart: true,
+        annotation: true,
       },
     
     notes,
