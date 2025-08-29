@@ -738,7 +738,11 @@ $$
 
 如下图，空间中从 $O$ 点出来的两个无穷小位移，分别是 $\text{d}x^\mu\sim OQ'$ 和 $\delta x^\mu\sim OQ$，现在把 $\text{d}x^\mu$ 平移距离 $\delta x^\mu$ 到 $Q$ 点，得到 $QP$；再把 $\delta x^\mu$ 平移距离 $\text{d}x^\mu$ 到 $Q'$ 点，得到 $Q'P'$. 在 Euclidean 空间中，$P$ 和 $P'$ 肯定重合，但是空间如果是弯曲的，那么情况会不一样.
 
+::: center
+
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0m000d7w33gcih9fisdqtraDIYxAIFxDda1DGxPDwUzAa==.png)
+
+:::
 
 我们知道，
 $$
@@ -758,4 +762,160 @@ $$
 $$
 这是一个二阶的偏移，体现挠率的作用.
 
-(3) 曲率的几何意义
+(3) 曲率的几何意义：讨论无挠率的情况. 这个时候原来的四边形是闭合的，再考虑另一个矢量 $A^\mu$，让它从 $O$ 点开始沿这个闭合路径平移，经历 $O\to Q\to P\to Q'\to O$.
+
+::: center
+
+![](https://vip.123pan.cn/1845440081/yk6baz03t0n000d7w33h5cr3xj8exqewDIYxAIFxDda1DGxPDwUzAa==.png)
+
+:::
+
+回到 $O$ 点后，$A^\mu$ 变为 $A'^\mu=A^\mu+\delta A^\mu$. 有
+$$
+\begin{aligned}
+\delta A^\mu &= A'^\mu - A^\mu\\\\
+&=A^\mu(O\to Q\to P\to Q'\to O)-A^\mu\\\\
+&=A^\mu(O\to Q\to P) - A^\mu(O\to Q'\to P)
+\end{aligned}
+$$
+分别计算这两项：
+$$
+\begin{aligned}
+A^\mu(O\to Q)&= A^\mu - \Gamma^\mu_{\lambda\nu}A^\lambda\delta x^\nu\\\\
+A^\mu(O\to Q\to P)&=(A^\mu-\Gamma^\mu_{\lambda\nu}A^\lambda\delta x^\nu)\\
+&\quad-\Gamma^\mu_{\alpha\beta}(Q)(A^\alpha-\Gamma^\alpha_{\tau\sigma}A^\tau\delta x^\sigma)(\text{d}x^\beta-\Gamma^\beta_{\rho\gamma}\text{d}x^\rho\delta x^\gamma)\\\\
+&=A^\mu-\Gamma^\mu_{\lambda\nu}A^\lambda\delta x^\nu-\Gamma^\mu_{\alpha\beta}(Q)A^\alpha\text{d}x^\beta\\
+&\quad+\Gamma^\mu_{\alpha\beta}(Q)\Gamma^\alpha_{\tau\sigma}A^\tau\delta x^\sigma\text{d}x^\beta-\Gamma^\mu_{\alpha\beta}(Q)\Gamma^\beta_{\rho\gamma}\text{d}x^\rho\delta x^\gamma
+\end{aligned}
+$$
+这里省略了本来应该有的「$(O)$」，因为大多数比较都是在 $O$ 点进行. 我们知道联络的微分是
+$$
+\Gamma^\mu_{\alpha\beta}(Q) = \Gamma^\mu_{\alpha\beta}(O)+\Gamma^\mu_{\alpha\beta}{}_{,\gamma}(O)\delta x^\gamma=\Gamma^\mu_{\alpha\beta}+\Gamma^\mu_{\alpha\beta}{}_{,\gamma}\delta x^\gamma
+$$
+代入，最终得到
+$$
+\begin{aligned}
+A^\mu(O\to Q\to P) &= A^\mu-\Gamma^\mu_{\lambda\nu}A^\lambda(\delta x^\nu+\text{d}x^\nu)-\Gamma^\mu_{\lambda\nu}{}_{,\gamma}A^\lambda\text{d}x^\nu\delta x^\gamma\\
+&\quad+\Gamma^\mu_{\lambda\nu}\Gamma^\nu_{\rho\gamma}A^\lambda\text{d}x^\rho\delta x^\gamma+\Gamma^\mu_{\lambda\nu}\Gamma^\lambda_{\rho\gamma}A^\rho\delta x^\gamma\text{d}x^\nu
+\end{aligned}
+$$
+(这里利用了傀标的可替换性)
+
+同理，
+$$
+\begin{aligned}
+A^\mu(O\to Q'\to P)&=A^\mu-\Gamma^\mu_{\lambda\nu}A^\lambda(\text{d}x^\nu+\delta x^\nu)-\Gamma^\mu_{\lambda\nu}{}_{,\gamma}A^\lambda\delta x^\nu\text{d}x^\gamma\\
+&\quad+\Gamma^\mu_{\lambda\nu}\Gamma^\nu_{\rho\gamma}A^\lambda\text{d}x^\gamma\delta x^\rho+\Gamma^\mu_{\lambda\nu}\Gamma^\lambda_{\rho\gamma}A^\rho\text{d}x^\gamma\delta x^\nu
+\end{aligned}
+$$
+差值为
+$$
+\begin{aligned}
+\delta A^\mu&=\Gamma^\mu_{\lambda\nu}{}_{,\gamma}(\delta x^\nu\text{d}x^\gamma-\text{d}x^\nu\delta x^\gamma)+\Gamma^\mu_{\lambda\nu}\Gamma^\nu_{\rho\gamma}A^\lambda(\text{d}x^\rho\delta x^\gamma-\text{d}x^\gamma\delta x^\rho)\\
+&\quad+\Gamma^\mu_{\lambda\nu}\Gamma^\lambda_{\rho\gamma}A^\rho(\delta x^\gamma\text{d}x^\nu-\text{d}x^\gamma\delta x^\rho)
+\end{aligned}
+$$
+因为挠率为零 (这是我们的假设，在开头说过了)，所以 RHS 第二项为零，有
+$$
+\begin{aligned}
+\delta A^\mu&=(\Gamma^\mu_{\lambda\nu}{}_{,\gamma}A^\lambda-\Gamma^\mu_{\lambda\nu}\Gamma^\lambda_{\rho\gamma}A^\rho)(\delta x^\nu\text{d}x^\gamma-\text{d}x^\nu\delta x^\gamma)\\\\
+&=(\Gamma^\mu_{\lambda\nu}{}_{,\gamma}-\Gamma^\mu_{\sigma\nu}\Gamma^\sigma_{\lambda\gamma})A^\lambda(\delta x^\nu\text{d}x^\gamma-\text{d}x^\nu\delta x^\gamma)\\\\
+&=(\Gamma^\mu_{\lambda\nu}{}_{,\gamma}-\Gamma^\mu_{\sigma\nu}\Gamma^\sigma_{\lambda\gamma})A^\lambda\delta x^\nu\text{d}x^\gamma-(\Gamma^\mu_{\lambda\nu}{}_{,\gamma}-\Gamma^\mu_{\sigma\nu}\Gamma^\sigma_{\lambda\gamma})A^\lambda\delta x^\nu\text{d}x^\gamma\\\\
+&=-R^\mu_{\lambda\nu\gamma}A^\lambda\delta x^\nu\text{d}x^\gamma
+\end{aligned}
+$$
+这里就出现曲率了！
+
+::: danger
+
+这个曲率的定义式真有点难记，意义也不是很明显…
+
+:::
+
+由上面的计算，可见只有在曲率为零的空间，一个逆变矢量沿无穷小环路平移一周，才能不附加转动地与原矢量重合，这就是曲率产生的几何效应.
+
+(4) 空间的平直性：因为挠率和曲率都是张量，所以它们的作用和坐标系的选取没有关系，如果挠率和曲率在某个坐标系里所有分量都是零，那么换任何坐标系都是如此，因此它们是空间的内禀性质；反之，联络并不是张量，所以即使是在平直空间中，换坐标系也有可能出现非零的联络.
+
+(5) 曲率的两个性质：
+
+1. 曲率张量的后一对指标反称：
+   $$
+   R^\rho_{\lambda\mu\nu} = -R^\rho_{\lambda\nu\mu}
+   $$
+
+2. 曲率张量只有两种独立的缩并方式：
+
+   1. 1、2 指标缩并
+      $$
+      A_{\mu\nu} = R^\lambda_{\lambda\mu\nu}
+      $$
+
+   2. 1、3 指标缩并
+      $$
+      R_{\mu\nu} = R^\lambda_{\mu\lambda\nu}
+      $$
+
+   1、4 缩并和 1、3 缩并只差一个负号 (正是因为第一个性质)，所以不是独立的.
+
+## 度规张量
+
+引入联络之后还需要度量，也就是引入度规和距离. 引入度量的仿射空间称为 Riemann 空间，这里的几何就是 Riemann 几何.
+
+### 距离与度规
+
+用二次型
+$$
+\text{d}s^2=g_{\mu\nu}\text{d}x^\mu\text{d}x^\nu
+$$
+来定义空间中的距离 $\text{d}s$ (也可以叫「线元」). 我们想要让距离是一个标量，因此这里度规 $g_{\mu\nu}$ 必须要是一个二阶协变张量；另外，$\text{d}x^\mu$ 和 $\text{d}x^\nu$ 地位对等，所以 $g_{\mu\nu}$ 还要是对称张量.
+
+下面是一些具体的度规例子.
+
+/Example/ (三维 Euclidean 空间)
+
+> 用直角坐标，线元是
+> $$
+> \text{d}s^2=\text{d}x^2+\text{d}y^2+\text{d}z^2
+> $$
+> 度规张量便是
+> $$
+> (g_{ij})=\begin{pmatrix}
+> 1&0&0\\
+> 0&1&0\\
+> 0&0&1
+> \end{pmatrix}\,,\quad i,j=1,2,3
+> $$
+> 如果使用球坐标，线元表达式是
+> $$
+> \text{d}s^2=\text{d}r^2+r^2\text{d}\theta^2+r^2\sin^2\theta\text{d}\varphi^2
+> $$
+> 度规张量
+> $$
+> (g_{ij})=\begin{pmatrix}
+> 1&0&0\\
+> 0&r^2&0\\
+> 0&0&r^2\sin^2\theta
+> \end{pmatrix}\,,\quad i,j=1,2,3
+> $$
+> ::: warning
+>
+> 怎么这里度规张量是 $3\times3$ 的？啊这是三维 Euclidean 空间.
+>
+> :::
+
+/Example/ (四维 Minkowski 空间)
+
+> 这里线元是
+> $$
+> \text{d}s^2=-(\text{d}x^0)^2+(\text{d}x^1)^2+(\text{d}x^2)^2+(\text{d}x^3)^2
+> $$
+> 度规张量
+> $$
+> (g_{\mu\nu})=(\eta_{\mu\nu})=\begin{pmatrix}
+> -1&0&0&0\\
+> 0&1&0&0\\
+> 0&0&1&0\\
+> 0&0&0&1
+> \end{pmatrix}\,,\quad\mu,\nu=0,1,2,3
+> $$
+
