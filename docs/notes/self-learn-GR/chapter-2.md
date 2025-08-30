@@ -675,7 +675,7 @@ $$
 
 <a name="3"></a>
 $$
-f(\lambda)\frac{\text{d}\sigma}{\text{d}\lambda}-\frac{\text{d}^2\sigma}{\text{d}\lambda^2}= 0
+f(\lambda)\frac{\text{d}\sigma}{\text{d}\lambda}-\frac{\text{d}^2\sigma}{\text{d}\lambda^2}= 0\tag{3}
 $$
 则上面式子简化为
 $$
@@ -919,3 +919,162 @@ $$
 > \end{pmatrix}\,,\quad\mu,\nu=0,1,2,3
 > $$
 
+### 度规的正则形式与幺正基
+
+一般来说，Riemann 空间中的度规分量 $g_{\mu\nu}$ 随着坐标的变化不是常数. 如果是常数，且 $\det|g_{\mu\nu}|\neq0$，则一定可以找到一个坐标变换，把二次型 $\text{d}s^2=g_{\mu\nu}\text{d}x^\mu\text{d}x^\nu$ 化成坐标微分的平方和 (或差) 的形式，使度规张量在新坐标系下的分量为
+
+<a name="4"></a>
+$$
+g_{\mu\nu}=\begin{cases}
+\pm1\quad\mu=\nu\\\\
+0\quad\mu\neq\nu
+\end{cases}\tag{4}
+$$
+::: warning
+
+书中未证明这一定理. 实际上，证明并没有特别困难. 考虑一个新的坐标系，它和之前的坐标系之间相差一个线性变换，
+$$
+y^\alpha=L^\alpha{}_\mu x^\mu+c^\alpha\,,\quad\text{d}y^\alpha=L^\alpha{}_\mu\text{d}x^\mu
+$$
+定义 $L^\alpha{}_\mu$ 的逆矩阵是 $M^\mu{}_\beta$，有 $L^\alpha{}_\mu M^\mu{}_\beta=\delta^\alpha{}_\beta$ 和 $M^\alpha{}_\mu L^\mu{}_\beta=\delta^\alpha{}_\beta$. 这时，新的坐标系下，线元表示为
+$$
+\text{d}s^2=g_{\mu\nu}\text{d}x^\mu\text{d}x^\nu=(g_{\mu\nu}M^\mu{}_\alpha M^\nu{}_\beta)\text{d}y^\alpha\text{d}y^\beta
+$$
+新的度规就是 $g_{\mu\nu}M^\mu{}_\alpha M^\nu{}_\beta=g'_{\alpha\beta}$，这相当于对原来的度规矩阵进行合同变换 $M^TgM$.
+
+> 合同变换本质上是改变二次型的基.
+
+根据线性代数中的 Sylvester 惯性定律，存在可逆矩阵 $M$ 使得
+$$
+M^T gM=\eta
+$$
+其中 $\eta$ 是对角元素为 $\pm1$ 的对角阵，同时正负号的数量在合同变换下不变. [+6]
+
+[+6]:[Sylvester 惯性定理 - 知乎](https://zhuanlan.zhihu.com/p/639316578) (Wiki 上这个定理写得实在是太简略了，只好看知乎)
+
+通过选择 $M$ 为 Sylvester 惯性定律给出的那个矩阵，新的度规就是 $g'_{\alpha\beta}=\eta_{\alpha\beta}$，满足
+$$
+g'_{\alpha\beta}=\eta_{\alpha\beta}=\begin{cases}
+\pm1&\alpha=\beta\\\\
+0&\alpha\neq\beta
+\end{cases}
+$$
+证毕.
+
+:::
+
+<a href="#4">(4)</a> 式叫做度规张量的正则形式，把 $g_{\mu\nu}$ 表为正则形式的坐标基叫正交归一基或者幺正基. 但是，当且仅当 Riemann 空间平直时度规才能在全空间变换为正则形式. 当然，在空间中某一点 $P$ 邻域，因为度规 $g_{\mu\nu}(P)$ 几乎是常数，所以可以局部地变为正则形式，这就说明 Riemann 空间可以看作是局域平直的.
+
+### 时空与号差
+
+在之前的例子中，三维 Euclidean 空间的度规张量非对角元都是零、对角元全为正，这是 **正定度规**. 而四维 Minkowski 空间中的度规张量非对角元是零，但是对角元不全是正的，这是 **不定度规**.
+
+我们定义：正则形式下，度规分量对角元之和称为度规的号差. Minkowski 空间的号差为 $+2$，这是显而易见的. 但是这个概念推广到四维 Riemann 空间时，必须逐点把度规化为正则形式，计算号差. 由之前在 Minkowski 空间中得到的经验，三个「正对角元」对应的是空间，剩下的「负对角元」对应的是时间，这就区分了时空；号差为 $+2$ 的四维 Riemann 空间，就被称为 Riemann 时空.
+
+::: warning
+
+号差是人为定义的，当然可以定义 $-2$ 作为时空的号差. 但是这本教材定义的是 $+2$，所以之后统一用 $+2$.
+
+:::
+
+弯曲的 Riemann 时空可以逐点建立局域的 Minkowski 坐标系.
+
+### 张量指标的升降
+
+先定义逆变度规张量，以便之后用度规来升降张量的指标.
+
+协变度规张量的行列式 $g\equiv\det|g_{\alpha\beta}|$，代数余子式写成 $\Delta^{\alpha\beta}$. 若 $g\neq0$，可以定义逆变度规张量：
+$$
+g^{\alpha\lambda} := \frac{\Delta^{\alpha\lambda}}{g}
+$$
+它满足
+$$
+g^{\alpha\lambda}g_{\lambda\beta}=\frac{\Delta^{\alpha\lambda}}{g}\cdot g_{\lambda\beta} = \delta^\alpha{}_\beta
+$$
+
+---
+
+协变度规张量可以降低逆变指标：
+$$
+A_\alpha\equiv g_{\alpha\beta}A^\beta\,,\quad T_{\alpha\beta}\equiv g_{\alpha\lambda}T^\lambda{}_\beta
+$$
+逆变度规张量可以升高协变指标：
+$$
+A^\alpha\equiv g^{\alpha\beta}A_\beta\,,\quad T^{\alpha}{}_\beta\equiv g^{\alpha\lambda} T_{\lambda\beta}
+$$
+于是可以定义坐标微分的协变形式，
+$$
+\text{d}x_\alpha:=g_{\alpha\beta}\text{d}x^\beta
+$$
+所以之后写「距离 (线元)」就可以写成 $A_\alpha A^\alpha$ ($\text{d}x_\alpha\text{d}x^\alpha$) 了！同时我们还可以发现，Kronecker 符号其实是度规的混合形式：
+$$
+g^\alpha{}_\beta=\delta^\alpha{}_\beta
+$$
+因为：
+$$
+g_{\alpha\beta} = g_{\alpha\lambda}g^{\lambda}{}_{\beta}=\begin{cases}
+g_{\alpha\lambda}&\lambda=\beta\\\\
+0&\lambda\neq\beta
+\end{cases}=g_{\alpha\lambda}\delta^\lambda{}_\beta
+$$
+
+## Christoffel 符号
+
+几个问题：联络和度规之间有无联系？矢量平移在 Euclidean 空间中不会改变长度，如何在仿射空间中保持这一性质？
+
+矢量平移有：
+$$
+A^\mu(P\to Q)=A^\mu(P)-\Gamma^\mu_{\nu\lambda}(P)A^\nu(P)\text{d}x^\lambda
+$$
+现在我们想要求平移不改变长度，所以要求
+$$
+g_{\mu\nu}(Q)A^\mu(P\to Q)A^\nu(P\to Q)\equiv g_{\mu\nu}(P)A^\mu(P)A^\nu(P)
+$$
+将平移公式和 $g_{\mu\nu}(Q)=g_{\mu\nu}(P)+g_{\mu\nu,\lambda}(P)\text{d}x^\lambda$ 代入，保留一阶：
+
+::: warning
+
+这里用普通微商而非协变微商是因为纯粹是在使用普通微商的定义罢了.
+
+:::
+$$
+\begin{aligned}
+\left[g_{\mu\nu}+g_{\mu\nu,\lambda}\text{d}x^\lambda\right](A^\mu-\Gamma^\mu_{\sigma\gamma}A^\sigma\text{d}x^\gamma)(A^\nu-\Gamma^\nu_{\alpha\beta}A^\alpha\text{d}x^\beta)&=g_{\mu\nu}A^\mu A^\nu\\\\
+g_{\mu\nu,\lambda}A^\mu A^\nu\text{d}x^\lambda-g_{\mu\nu}\Gamma^\mu_{\sigma\gamma}A^\sigma A^\nu\text{d}x^\gamma-g_{\mu\nu}\Gamma^\nu_{\alpha\beta}A^\alpha A^\mu\text{d}x^\beta&=0\\\\
+(g_{\mu\nu,\lambda}A^\mu A^\nu-g_{\mu\nu}\Gamma^\mu_{\sigma\lambda}A^\sigma A^\nu-g_{\mu\nu}\Gamma^\nu_{\alpha\lambda}A^\alpha A^\mu)\text{d}x^\lambda&=0\\\\
+(g_{\mu\nu,\lambda}-g_{\alpha\nu}\Gamma^\alpha_{\mu\lambda}-g_{\mu\beta}\Gamma^\beta_{\nu\lambda})A^\mu A^\nu&=0\\\\
+g_{\mu\nu,\lambda}-g_{\alpha\nu}\Gamma^\alpha_{\mu\lambda}-g_{\mu\beta}\Gamma^\beta_{\nu\lambda}&=0
+\end{aligned}
+$$
+上述三个指标可以轮换，得
+$$
+\begin{aligned}
+g_{\lambda\mu,\nu}-g_{\alpha\mu}\Gamma^\alpha_{\lambda\nu}-g_{\lambda\beta}\Gamma^\beta_{\mu\nu}&=0\\\\
+g_{\nu\lambda,\mu}-g_{\alpha\lambda}\Gamma^\alpha_{\nu\mu}-g_{\nu\beta}\Gamma^\beta_{\lambda\mu}&=0
+\end{aligned}
+$$
+前两式相加减去第三式：
+$$
+\begin{aligned}
+\begin{array}{}
+&(g_{\mu\nu,\lambda}+g_{\lambda\mu,\nu}-g_{\nu\lambda,\mu})-g_{\alpha\nu}\Gamma^\alpha_{\mu\lambda}-g_{\mu\beta}\Gamma^\beta_{\nu\lambda}\\
+&-g_{\alpha\mu}\Gamma^\alpha_{\lambda\nu}-g_{\lambda\beta}\Gamma^\beta_{\mu\nu}
++g_{\alpha\lambda}\Gamma^\alpha_{\nu\mu}+g_{\nu\beta}\Gamma^\beta_{\lambda\mu}
+\end{array}\quad&=0
+\end{aligned}
+$$
+注意到度规张量是对称的，而其中后六项在交换度规张量指标后 (或者不交换时) 可以视为给联络降逆变指标：
+$$
+\begin{aligned}
+\begin{array}{}
+&(g_{\mu\nu,\lambda}+g_{\lambda\mu,\nu}-g_{\nu\lambda,\mu})-g_{\nu\alpha}\Gamma^\alpha_{\mu\lambda}-g_{\mu\beta}\Gamma^\beta_{\nu\lambda}\\
+&-g_{\mu\alpha}\Gamma^\alpha_{\lambda\nu}-g_{\lambda\beta}\Gamma^\beta_{\mu\nu}
++g_{\lambda\alpha}\Gamma^\alpha_{\nu\mu}+g_{\nu\beta}\Gamma^\beta_{\lambda\mu}
+\end{array}\quad&=0\\\\
+\begin{array}{}
+&(g_{\mu\nu,\lambda}+g_{\lambda\mu,\nu}-g_{\nu\lambda,\mu})-\Gamma_{\nu\mu\lambda}-\Gamma_{\mu\nu\lambda}\\
+&-\Gamma_{\mu\lambda\nu}-\Gamma_{\lambda\mu\nu}
++\Gamma_{\lambda\nu\mu}+\Gamma_{\nu\lambda\mu}
+\end{array}\quad&=0
+\end{aligned}
+$$
