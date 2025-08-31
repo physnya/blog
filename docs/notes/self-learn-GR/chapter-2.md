@@ -857,6 +857,8 @@ $$
 
    1、4 缩并和 1、3 缩并只差一个负号 (正是因为第一个性质)，所以不是独立的.
 
+我们把挠率不为零的空间称为扭曲的，曲率不为零的空间称为弯曲的. 在之后的讨论中，我们会很少提到挠率，一般默认挠率为零.
+
 ## 度规张量
 
 引入联络之后还需要度量，也就是引入度规和距离. 引入度量的仿射空间称为 Riemann 空间，这里的几何就是 Riemann 几何.
@@ -1078,3 +1080,152 @@ $$
 \end{array}\quad&=0
 \end{aligned}
 $$
+::: warning
+
+到这里似乎已经走投无路了：我们怎么进一步化简？但是想到我们很久之前提到的，我们目前讨论的时空是没有挠率的，是弯曲的时空，而非扭曲的时空. 因此，多了一个极为重要的条件，那就是：联络关于下标对称.
+
+有了这个条件，可以很轻松地进一步推导.
+
+(虽然我在这里卡了半个晚上，最后感谢超理讨论环的学长「银龙 ~ iungrdvgtd」略加点拨. 不过要我说，书中直接讲「注意到联络的对称性」确实欠妥，毕竟毫无提示.)
+
+:::
+
+最终得到无挠 Riemann 空间中，在保持矢量长度平移不变性的条件下，对称联络与度规的泛函关系：
+$$
+\begin{aligned}
+\Gamma_{\lambda\mu\nu}&\equiv\frac{1}{2}(g_{\mu\lambda,\nu}+g_{\nu\lambda,\mu}-g_{\mu\nu,\lambda})\\\\
+\Gamma^\alpha_{\mu\nu}&=\frac{1}{2}g^{\alpha\lambda}(g_{\mu\lambda,\nu}+g_{\nu\lambda,\mu}-g_{\mu\nu,\lambda})
+\end{aligned}
+$$
+满足此式的联络，称为 Christoffel 符号；这个式子在广义相对论中极为常见，因为广义相对论所用的时空就是无挠率的 Riemann 时空.
+
+在推导的过程中，我们还可以发现一些额外的结果，比如：
+$$
+g_{\mu\nu,\lambda}-g_{\alpha\nu}\Gamma^\alpha_{\mu\lambda}-g_{\mu\beta}\Gamma^\beta_{\nu\lambda}=0
+$$
+其实意味着 $g_{\mu\nu;\lambda}=0$ (度规张量的协变微商为零)，所以逆变度规张量的协变微商也是零，混合度规张量也是. 这个可以作为 Riemann 空间中矢量长度具有平移不变性的一个条件.
+
+到这里，我们终于可以回顾一下物理的内容：注意到可以证明如下的定理
+
+/Theorem/
+
+> 对无挠 Riemann 时空中的任何一点，都可以找到一个坐标变换，把那一点的 Christoffel 符号的所有分量都变到零.
+
+::: warning
+
+书中又略去了证明. 尝试证明如下：首先考虑到联络的变换规则是
+$$
+\Gamma'^\lambda_{\mu\nu} = \Gamma^\rho_{\alpha\sigma}\frac{\partial x^\alpha}{\partial x'^\mu}\frac{\partial x^\sigma}{\partial x'^\gamma}\frac{\partial x'^\tau}{\partial x^\rho}+\frac{\partial^2x^\rho}{\partial x'^\mu\partial x'^\gamma}\frac{\partial x'^\tau}{\partial x^\rho}
+$$
+如果坐标变换是：
+$$
+x^\mu=x'^\mu-\frac{1}{2}\Gamma^\mu_{\alpha\beta}x'^\alpha x'^\beta
+$$
+先来计算各阶导数 (这里可以通过改变原点使得在该点 $x^\alpha\equiv0$)，
+$$
+\begin{aligned}
+\frac{\partial x'^\mu}{\partial x^\alpha} &= \delta^\mu{}_\alpha\\\\
+\frac{\partial x^\lambda}{\partial x'^\sigma} &= \delta^\lambda{}_\sigma\\\\
+\frac{\partial^2x^\mu}{\partial x'^\alpha\partial x'^\beta} &= -\Gamma^\mu_{\alpha\beta}
+\end{aligned}
+$$
+代入变换公式，发现可以做到 Christoffel 符号的所有分量为零.
+
+:::
+
+因为联络的所有分量为零 = 测地线方程是直线；而不全为零时测地线不是直线，所以联络相应于「引力场强 / 惯性场强」. 上面的定理在这样的理解下，就变成对于无挠 Riemann 时空中的任何一点，都可以找到一个局域的自由落体坐标系. 所以这个定理就是等效原理的数学基础.
+
+而有挠率的空间找不到这样的变换，因为挠率是张量，不可能通过坐标变换把它的所有分量都变成零，因此我们的时空只能是无挠率的.
+
+## 短程线
+
+在 Euclidean 空间中，短程线是直线；现在利用变分求 Riemann 空间中两点间的短程线.
+
+定义泛函
+$$
+S=\int_A^B\text{d}s
+$$
+作为连接 $A$ 和 $B$ 的曲线长度. 短程线满足变分为零，也就是
+$$
+\delta S=\delta\int_A^B\text{d}s=0
+$$
+而 $\text{d}s=(g_{\alpha\beta}\text{d}x^\alpha\text{d}x^\beta)^{1/2}$，若引入一个标量 $\lambda$ 来描述曲线 $x^\mu=x^\mu(\lambda)$，上式可以化为
+$$
+\text{d}s=\left(g_{\alpha\beta}\frac{\text{d}x^\alpha}{\text{d}\lambda}\frac{\text{d}x^\beta}{\text{d}\lambda}\right)^{1/2}\text{d}\lambda=\left(g_{\alpha\beta}\dot{x}^\alpha\dot{x}^\beta\right)^{1/2}\text{d}\lambda=L\text{d}\lambda
+$$
+``\dot{}`` 是导数的简写，最后一个等号则定义了 Lagrange 函数.
+
+变分的 Euler - Lagrange 方程为
+$$
+\frac{\partial L}{\partial x^\nu}-\frac{\text{d}}{\text{d}\lambda}\frac{\partial L}{\partial\dot{x}^\nu}=0
+$$
+代入 $L$ 得到
+$$
+\frac{1}{\sqrt{g_{\alpha\beta}\dot{x}^\alpha\dot{x}^\beta}}\frac{\partial g_{\alpha\beta}}{\partial x^\nu}\dot{x}^\alpha\dot{x}^\beta=\frac{\text{d}}{\text{d}\lambda}\left(\frac{g_{\alpha\nu}\dot{x}^\alpha+g_{\nu\beta}\dot{x}^\beta}{\sqrt{g_{\alpha\beta}\dot{x}^\alpha\dot{x}^\beta}}\right)=\frac{\text{d}}{\text{d}\lambda}\left(\frac{2\dot{x}_\nu}{\sqrt{g_{\alpha\beta}\dot{x}^\alpha\dot{x}^\beta}}\right)
+$$
+如果取 $\lambda$ 为曲线长度 $s$，那么
+$$
+g_{\alpha\beta}\dot{x}^\alpha\dot{x}^\beta=g_{\alpha\beta}\frac{\text{d}x^\alpha}{\text{d}s}\frac{\text{d}x^\beta}{\text{d}s}=1
+$$
+(因为曲线长度本身随着曲线长度的增长率就是 1) 这简化了方程，
+$$
+\begin{aligned}
+\frac{1}{2}g_{\alpha\beta,\nu}\dot{x}^\alpha\dot{x}^\beta&=\frac{\text{d}}{\text{d}s}(g_{\alpha\nu}\dot{x}^\alpha)\\\\
+\frac{1}{2}g_{\alpha\beta,\nu}\dot{x}^\alpha\dot{x}^\beta&=g_{\alpha\nu}\frac{\text{d}^2x^\alpha}{\text{d}s^2}+\frac{\text{d}g_{\alpha\nu}}{\text{d}x^\beta}\frac{\text{d}x^\beta}{\text{d}s}\frac{\text{d}x^\alpha}{\text{d}s}\\\\
+g_{\alpha\nu}\frac{\text{d}^2x^\alpha}{\text{d}s^2}&=\left(\frac{1}{2}g_{\alpha\beta,\nu}-g_{\alpha\nu,\beta}\right)\frac{\text{d}x^\alpha}{\text{d}s}\frac{\text{d}x^\beta}{\text{d}s}
+\end{aligned}
+$$
+注意到这里 RHS 的 $\alpha$ 和 $\beta$ 指标完全对称，有
+$$
+g_{\alpha\nu,\beta} = \frac{1}{2}(g_{\alpha\nu,\beta}+g_{\beta\nu,\alpha})
+$$
+于是
+$$
+\begin{aligned}
+g_{\alpha\nu}\frac{\text{d}^2x^\alpha}{\text{d}s^2}+\frac{1}{2}(g_{\alpha\nu,\beta}+g_{\beta\nu,\alpha}-g_{\alpha\beta,\nu})\frac{\text{d}x^\alpha}{\text{d}s}\frac{\text{d}x^\beta}{\text{d}s}&=0\\\\
+\frac{\text{d}^2x^\mu}{\text{d}s^2}+\frac{1}{2}g^{\mu\nu}(g_{\alpha\nu,\beta}+g_{\beta\nu,\alpha}-g_{\alpha\beta,\nu})\frac{\text{d}x^\alpha}{\text{d}s}\frac{\text{d}x^\beta}{\text{d}s}&=0
+\end{aligned}
+$$
+和我们定义的 Christoffel 符号一致，最终得到
+$$
+\frac{\text{d}^2x^\mu}{\text{d}s^2}+\Gamma^\mu_{\alpha\beta}\frac{\text{d}x^\alpha}{\text{d}s}\frac{\text{d}x^\beta}{\text{d}s}=0
+$$
+这和我们之前定义的测地线方程完全一致，唯一的区别在于这里的联络多了 Christoffel 符号的限制，只能在无挠率的 Riemann 时空中成立，而且是关于下标对称的.
+
+在无挠率 Riemann 时空，测地线就是短程线.
+
+::: danger
+
+上面推导给了我们一个启发：测地线可以用「长度」作为参数，这是仿射参量.
+
+但是之后会遇到的描述光线的「零测地线」，因为其「长度」为零，所以 $\text{d}s=0$，不能作仿射参量.
+
+:::
+
+## Riemann 空间的曲率张量
+
+仍然在无挠率的空间讨论.
+
+### 曲率张量的对称性
+
+在 <a href="#曲率与挠率">曲率与挠率</a> 中给出了曲率张量和联络的关系：
+$$
+R^\rho_{\lambda\mu\nu}=\Gamma^\rho_{\lambda\nu,\mu}-\Gamma^\rho_{\lambda\mu,\nu}+\Gamma^\rho_{\sigma\mu}\Gamma^\sigma_{\lambda\nu}-\Gamma^\rho_{\sigma\nu}\Gamma^\sigma_{\lambda\mu}
+$$
+而且得到了反对称性，也就是 $R^\rho_{\lambda\mu\nu}=-R^\rho_{\lambda\nu\mu}$. 在无挠率的空间，曲率张量会有很多更好的性质，为方便讨论，引入 $(0,4)$ 型表示 (降逆变指标)：
+$$
+R_{\rho\lambda\mu\nu}\equiv g_{\rho\sigma}R^\sigma_{\lambda\nu\mu}
+$$
+可以证明这一表示有几个性质：
+
+1. 后一对指标反对称；
+
+2. 前一对指标反对称；
+
+3. 前一对指标与后一对指标对称；
+
+4. Ricci 恒等式：
+   $$
+   R^\rho_{\lambda\mu\nu}+R^\rho_{\mu\nu\lambda}+R^\rho_{\nu\lambda\nu}=0\,,\quad R_{\rho\lambda\mu\nu}+R_{\rho\mu\nu\lambda}+R_{\rho\nu\lambda\nu}=0
+   $$
+
