@@ -2,12 +2,19 @@
 title: Riemann 几何与张量分析
 permalink: /self-learn-GR/chapter-2/
 pageLayout: doc
-draft: true
-createTime: 2025/08/15 14:09:31
+createTime: 2025/09/02 02:36:17
 ---
-::: warning
+::: danger
 
-本章内容很多，所以估计会多次更新.
+<s>本章内容很多，所以估计会多次更新.</s>
+
+如果你在文章中看到了这样 [+0] 的符号，可以点击它，它是一个小小的注释，可能含有通往参考文献的链接.
+
+[+0]:这只是一个示例.
+
+---
+
+2025/09/02 - 02:31，我已经更新完这篇笔记，为了重新提交一次 RSS 记录，我修改了 markdown 文件中自动生成的时间，从 2025/08/15 -14:09:31 改为 2025/09/02 - 02:36:17. 同时移除了 DRAFT 标记.
 
 :::
 
@@ -832,7 +839,9 @@ $$
 
 :::
 
-由上面的计算，可见只有在曲率为零的空间，一个逆变矢量沿无穷小环路平移一周，才能不附加转动地与原矢量重合，这就是曲率产生的几何效应.
+<a name="a"></a>
+
+由上面的计算，可见只有在曲率为零的空间，一个逆变矢量沿无穷小环路平移一周，才能不附加转动地与原矢量重合，这就是曲率产生的几何效应. ==对于曲率和挠率都是零的空间，一定可以找到一个坐标系，使得联络的所有分量在这个坐标系中都是零==.
 
 (4) 空间的平直性：因为挠率和曲率都是张量，所以它们的作用和坐标系的选取没有关系，如果挠率和曲率在某个坐标系里所有分量都是零，那么换任何坐标系都是如此，因此它们是空间的内禀性质；反之，联络并不是张量，所以即使是在平直空间中，换坐标系也有可能出现非零的联络.
 
@@ -1209,8 +1218,10 @@ $$
 ### 曲率张量的对称性
 
 在 <a href="#曲率与挠率">曲率与挠率</a> 中给出了曲率张量和联络的关系：
+
+<a name="5"></a>
 $$
-R^\rho_{\lambda\mu\nu}=\Gamma^\rho_{\lambda\nu,\mu}-\Gamma^\rho_{\lambda\mu,\nu}+\Gamma^\rho_{\sigma\mu}\Gamma^\sigma_{\lambda\nu}-\Gamma^\rho_{\sigma\nu}\Gamma^\sigma_{\lambda\mu}
+R^\rho_{\lambda\mu\nu}=\Gamma^\rho_{\lambda\nu,\mu}-\Gamma^\rho_{\lambda\mu,\nu}+\Gamma^\rho_{\sigma\mu}\Gamma^\sigma_{\lambda\nu}-\Gamma^\rho_{\sigma\nu}\Gamma^\sigma_{\lambda\mu}\tag{5}
 $$
 而且得到了反对称性，也就是 $R^\rho_{\lambda\mu\nu}=-R^\rho_{\lambda\nu\mu}$. 在无挠率的空间，曲率张量会有很多更好的性质，为方便讨论，引入 $(0,4)$ 型表示 (降逆变指标)：
 $$
@@ -1229,3 +1240,288 @@ $$
    R^\rho_{\lambda\mu\nu}+R^\rho_{\mu\nu\lambda}+R^\rho_{\nu\lambda\nu}=0\,,\quad R_{\rho\lambda\mu\nu}+R_{\rho\mu\nu\lambda}+R_{\rho\nu\lambda\nu}=0
    $$
 
+### 三个派生的重要张量
+
+曲率张量缩并可以得到三个重要张量：
+
+(1) Ricci 张量：我们已经知道曲率张量只有两种独立的缩并方式，但是在 Riemann 空间中，Christoffel 符号的对称性增加了曲率张量的对称性，有
+$$
+A_{\mu\nu}=R^\lambda_{\lambda\mu\nu}=0
+$$
+::: warning
+
+<a name="b"></a>
+
+书中没说理由，来直接用定义算一下：
+$$
+\begin{aligned}
+R^\lambda_{\lambda\mu\nu}&=\Gamma^\lambda_{\lambda\nu,\mu}-\Gamma^\lambda_{\lambda\mu,\nu}+\Gamma^\lambda_{\sigma\mu}\Gamma^\sigma_{\lambda\nu}-\Gamma^\lambda_{\sigma\nu}\Gamma^\sigma_{\lambda\mu}\\\\
+&=\frac{\partial}{\partial x^\mu}\Gamma^\lambda_{\lambda\nu}-\frac{\partial}{\partial x^\nu}\Gamma^\lambda_{\lambda\mu}+\Gamma^\lambda_{\sigma\mu}\Gamma^\sigma_{\lambda\nu}-\Gamma^\lambda_{\sigma\nu}\Gamma^\sigma_{\lambda\mu}
+\end{aligned}
+$$
+现在先看后两项，第三项
+$$
+\Gamma^\lambda_{\sigma\mu}\Gamma^\sigma_{\lambda\nu}=\Gamma^\sigma_{\lambda\mu}\Gamma^\lambda_{\sigma\nu}=\Gamma^\lambda_{\sigma\nu}\Gamma^\sigma_{\lambda\mu}
+$$
+==只是改变了傀标==，和第四项完全相同，所以原式化为
+$$
+R^\lambda_{\lambda\mu\nu}=\frac{\partial}{\partial x^\mu}\Gamma^\lambda_{\lambda\nu}-\frac{\partial}{\partial x^\nu}\Gamma^\lambda_{\lambda\mu}
+$$
+
+> 其实到这里可以发现，因为 $R^\lambda_{\lambda\mu\nu}$ 关于后一对协变指标对称，所以已经可以得到 $R^\lambda_{\lambda\mu\nu}=0$. 但是我一开始是问了 DeepSeek，它告诉我了一些别的计算，所以我还是写下来.
+
+难点落在求 $\Gamma^\lambda_{\lambda\nu}$ 上. 这时考虑 Christoffel 符号的定义，
+$$
+\Gamma^\lambda_{\lambda\nu} = \frac{1}{2}g^{\lambda\sigma}(g_{\lambda\sigma,\nu}+g_{\nu\sigma,\lambda}-g_{\lambda\nu,\sigma})
+$$
+注意到后两项
+$$
+\begin{aligned}
+g^{\lambda\sigma}g_{\nu\sigma,\lambda}-g^{\lambda\sigma}g_{\lambda\nu,\sigma}&=g^{\sigma\lambda}g_{\nu\lambda,\sigma}-g^{\lambda\sigma}g_{\lambda\nu,\sigma}\\\\
+&=g^{\lambda\sigma}g_{\lambda\nu,\sigma}-g^{\lambda\sigma}g_{\lambda\nu,\sigma}=0
+\end{aligned}
+$$
+(==第一个等号只是改变了第一项的傀标，第二个等号是利用度规张量的对称性==) 所以可以得到
+$$
+\Gamma^\lambda_{\lambda\nu} = \frac{1}{2}g^{\lambda\sigma}g_{\lambda\sigma,\nu}
+$$
+为了更好计算，我们引入 $g=\det|g_{\lambda\sigma}|$. 由线性代数的结论，
+$$
+\frac{\partial\det(A)}{\partial A_{ij}} = \det(A)(A^{-1})_{ji}
+$$
+于是
+$$
+\begin{aligned}
+\frac{\partial g}{\partial g_{\lambda\sigma}} &= g\cdot g^{\lambda\sigma}\\\\
+\frac{\partial g}{\partial x^\nu}&=\frac{\partial g}{\partial g_{\lambda\sigma}}g_{\lambda\sigma,\nu}=gg^{\lambda\sigma}g_{\lambda\sigma,\nu}\\\\
+\Longrightarrow g^{\lambda\sigma}g_{\lambda\sigma,\nu}&=\frac{\partial}{\partial x^\nu}\ln|g|
+\end{aligned}
+$$
+原来的曲率张量缩并变为
+$$
+R^\lambda_{\lambda\mu\nu}=\frac{1}{2}\left(\frac{\partial^2}{\partial x^\nu \partial x^\mu}-\frac{\partial^2}{\partial x^\mu\partial x^\nu}\right)\ln|g|=0
+$$
+证毕.
+
+> 到这里为止我收获最大的就是换傀标名称这个操作，有时候有奇效，这就是对称性的魅力.
+
+:::
+
+上面证明了不能缩并逆变指标和第一个协变指标，因此我们只剩下一种缩并，这种缩并得到的张量称为 Ricci 张量：
+$$
+R_{\mu\nu} = R^\lambda_{\mu\lambda\nu}
+$$
+Ricci 张量对称：
+$$
+R_{\mu\nu}=g^{\lambda\rho}R_{\rho\mu\lambda\nu}=g^{\lambda\rho}R_{\lambda\nu\rho\mu}=g^{\rho\lambda}R_{\lambda\nu\rho\mu}=R^{\rho}_{\nu\rho\mu}=R_{\nu\mu}
+$$
+(又是利用对称性)
+
+(2) 曲率标量：Ricci 张量的缩并称为曲率标量，
+$$
+R=g^{\mu\nu}R_{\mu\nu}=R^\mu{}_\mu
+$$
+(3) Einstein 张量：这是 Einstein 引入的一个对于广义相对论很有用的张量，
+$$
+G_{\mu\nu} \equiv R_{\mu\nu}-\frac{1}{2}g_{\mu\nu}R
+$$
+
+### 曲率张量的独立分量
+
+讨论下面几种情况：(已经确认四个指标全部相同一定是 $0$)
+
+1. 四个指标只有两个不同值：由反对称，
+   $$
+   R_{\mu\mu\mu\nu}=R_{\mu\mu\nu\nu}=0
+   $$
+   只有唯一的独立排列 $R_{\mu\nu\mu\nu}$. 这种情况下不为零的独立分量个数是
+   $$
+   1\times C_n^2=\frac{n!}{2!(n-2)!}
+   $$
+   (这里的 $n$ 是维数，第一个因子是排列的可能数，第二个因子是维度中选出 2 个不同值的可能数)
+
+2. 四个指标中有三个不同值：从 $n$ (维度) 中取三个数作为指标，有 $C_n^3$ 种取法，剩下一个一定和这三个中的一个相同. 因为前后两对分别反对称，所以相同的两个指标不能同时在前也不能同时在后，于是是一前一后. 但是后一对和前一对对称，所以只有一种独立排列；但是第四个指标有三种选择，所以独立分量数是
+   $$
+   3\times1\times C_n^3 = \frac{n!}{2!(n-3)!}
+   $$
+   (第一个因子是第四个指标的可能选择数，第二个因子是排列的可能数，第三个因子是维度中选出 3 个不同值的可能数)
+
+3. 四个指标全部不同：不考虑 Ricci 恒等式，$C_n^4$ 种取法中每一种组合都对应三种独立排列方式 (原本是 $A^4_4=24$ 种排列，后一对和前一对对称，减少一半排列数；前后两对分别反对称，独立排列数再减为原来的 $1/4$，最后剩了 $3$ 种独立排列)，再考虑 Ricci 恒等式，减少一个独立排列，最后剩下 $2$ 种.
+
+   独立分量数：
+   $$
+   2\times C^4_n = \frac{2\times n!}{4!(n-4)!}
+   $$
+   (第一个因子是每一种取法对应的排列可能数，第二个因子是维度中选出 4 个不同值的可能数)
+
+综上所述，独立分量个数有
+$$
+N=C_n^2+3C_n^3+2C_n^4=\frac{n^2(n^2-1)}{12}
+$$
+简单计算可知 $N(4)=20$，$N(3)=6$，$N(2)=1$.
+
+另外，Ricci 张量和 Einstein 张量都是对称张量，独立分量个数是
+$$
+N=n+(n-1)+\cdots+1=\frac{n(n+1)}{2}
+$$
+(就是左下角的三角形种分量的个数) 在 4 维空间它有 $10$ 个独立分量.
+
+曲率标量是不变量，只有一个独立分量.
+
+### 空间的平坦性
+
+因为已经有挠率为零了，如果这时候曲率张量所有分量全是零，那么一定能找到一个坐标，这里面 Christoffel 符号的所有分量为零 (见 <a href="#a">定理</a>)，
+
+::: details <a href="#a">定理</a> 的证明
+
+之前似乎没有证明这个定理，在这里简单说明一下 (避免之后我自己看不懂)：首先选择 $P$ 点的一组坐标基，因为没有曲率和挠率 (矢量的平行移动结果与路径无关)，可以通过矢量从 $P$ 点开始的平行移动来生成一个全空间的矢量场.
+
+之后可利用线性代数中的结论证明这个坐标基和原来坐标系的基矢量对易，因此可以作为新坐标系的基矢量，在新坐标系联络为零.
+
+:::
+
+联络分量全部为零 $\Longleftrightarrow$ 度规张量普通微商 $g_{\mu\nu,\lambda}=0$，也就是说度规张量分量全是常数，这样的空间是 **平坦的**，度规可以化成 Minkowski 度规.
+
+曲率张量分量全部为零是空间平坦性的判据.
+
+### Bianchi 恒等式
+
+从曲率张量的定义式 <a href="#5">(5)</a> 出发，可以得到所谓的 Bianchi 恒等式：
+$$
+R^\rho_{\lambda\mu\nu;\sigma}+R^\rho_{\lambda\nu\sigma;\mu}+R^\rho_{\lambda\sigma\mu;\nu}=0
+$$
+/Proof/
+
+> 张量关系式不随坐标系而改变，为方便，选择 $P$ 点处联络为零的坐标系. 显然在 $P$ 点有
+> $$
+> R^\rho_{\lambda\mu\nu;\sigma}=R^\rho_{\lambda\mu\nu,\sigma}
+> $$
+> 也就是
+> $$
+> \begin{aligned}
+> R^\sigma_{\lambda\mu\nu;\sigma}&=(\Gamma^\rho_{\lambda\nu,\mu}-\Gamma^\rho_{\lambda\mu,\nu})_{,\sigma}+(\Gamma^\rho_{\alpha\mu}\Gamma^\alpha_{\lambda\nu}-\Gamma^\rho_{\alpha\nu}\Gamma^\alpha_{\lambda\mu})_{,\sigma}\\\\
+> &=(\Gamma^\rho_{\lambda\nu,\mu}-\Gamma^\rho_{\lambda\mu,\nu})_{,\sigma}\\\\
+> &=\Gamma^\rho_{\lambda\nu,\mu,\sigma}-\Gamma^\rho_{\lambda\mu,\nu,\sigma}
+> \end{aligned}
+> $$
+> 没挠率的话后面两项似乎一直是零，其实根本没必要写出来罢. 同理可以计算 Bianchi 恒等式里的另外两项，相加就证明了恒等式.
+
+---
+
+缩并 Bianchi 恒等式的指标 $\rho$ 和 $\sigma$，并利用 Ricci 张量的定义，得到
+$$
+\begin{aligned}
+R^\sigma_{\lambda\mu\nu;\sigma}+R^{\sigma}_{\lambda\nu\sigma;\mu}+R^\sigma_{\lambda\sigma\mu;\nu}&=0\\\\
+R^\sigma_{\lambda\mu\nu;\sigma}-R^{\sigma}_{\lambda\sigma\nu;\mu}+R^\sigma_{\lambda\sigma\mu;\nu}&=0\\\\
+R^\sigma_{\lambda\mu\nu;\sigma}-R_{\lambda\nu;\mu}+R_{\lambda\mu;\nu}&=0
+\end{aligned}
+$$
+两边同时乘以 $g^{\nu\lambda}$，因为 $g^{\nu\lambda}{}_{;\alpha}=0$ 所以可以很容易凑出全微分，得到
+$$
+R^\sigma_{\mu;\sigma}-R_{;\mu}+R^\nu_{\mu;\nu}=0\Longrightarrow2R^\nu_{\mu;\nu}-R_{;\mu}=0
+$$
+定睛一看，这和 Einstein 张量有类似的形式，所以有下面三种表述：
+$$
+\begin{aligned}
+\left(R^\nu{}_\mu-\frac{1}{2}\delta^\nu{}_\mu R\right)_{;\nu}&=0\\\\
+\left(R^{\mu\nu}-\frac{1}{2}g^{\mu\nu} R\right)_{;\nu}&=0\\\\
+\left(R_{\mu\nu}-\frac{1}{2}g_{\mu\nu} R\right)^{;\nu}&=0
+\end{aligned}
+$$
+这表明 Einstein 张量的协变散度为零.
+
+## 几个重要的运算
+
+::: tip
+
+内心 OS：终于到这里，这章快要结束了.
+
+:::
+
+### 度规的微分
+
+(欸这个我是不是之前已经用到了？<a href="#b">证明 Ricci 张量是曲率张量的唯一缩并</a> 的时候)
+
+设 $g=\det|g_{\mu\nu}|$，$\Delta^{\mu\nu}$ 为 $g_{\mu\nu}$ 的代数余子式，有
+$$
+g\delta^\nu{}_\alpha=g_{\alpha\rho}\Delta^{\nu\rho}
+$$
+逆变度规张量的定义就是 $g^{\mu\nu} \equiv\Delta^{\mu\nu}/g$，所以这里可以得到
+$$
+\frac{\partial g}{\partial g_{\mu\nu}}=\Delta^{\mu\nu}=gg^{\mu\nu}
+$$
+于是
+$$
+\text{d}g=g\cdot g^{\mu\nu}\text{d}g_{\mu\nu}=g\cdot[\text{d}(g^{\mu\nu}g_{\mu\nu})-g_{\mu\nu}\text{d}g^{\mu\nu}]=-g\cdot g_{\mu\nu}\text{d}g^{\mu\nu}
+$$
+利用了一下 $g^{\mu\nu}g_{\mu\nu}$ 全微分为零.
+
+::: warning
+
+这时候有人要问了：之前不还是偏导数吗，怎么到这里不写 $\partial$ 开始写 $\text{d}$ 了？
+
+A：要知道，这可是 Einstein 求和啊，当然写出来的是全微分.
+
+:::
+
+此外，还得到了我刚刚用到了的式子：
+$$
+\frac{\partial g}{\partial x^\sigma}=g\cdot g^{\mu\nu} g_{\mu\nu,\sigma}=-g\cdot g_{\mu\nu}g^{\mu\nu}{}_{,\sigma}
+$$
+这些运算和之前提到过的「度规张量协变微商为零」都是广义相对论中常用的计算.
+
+### 一个特殊的 Christoffel 符号
+
+$$
+\Gamma^\mu_{\alpha\mu} = \frac{1}{2}g^{\mu\nu}g_{\mu\nu,\alpha}=-\frac{1}{2}g_{\mu\nu}g^{\mu\nu}{}_{,\alpha}=\frac{1}{2g}\frac{\partial g}{\partial x^\alpha}=\frac{\partial}{\partial x^\alpha}\ln\sqrt{|g|}
+$$
+
+这个也是和上面一样，在 <a href="#b">这里</a> 用到过了. 另外，因为我们规定好了号差，所以这里可以直接写 $|g|=-g$.
+
+### 散度的运算
+
+和 Euclidean 空间类似，但是用协变微商换掉普通微商 (毕竟要得到一个标量). 散度运算使张量降阶，而且要注意的是：==对协变指标求散度，定义为把指标升高之后再求散度.==
+
+逆变矢量的散度：
+$$
+\operatorname{div}A^\mu=A^\mu{}_{;\mu}=A^\mu{}_{,\mu}+\Gamma^\mu_{\alpha\mu}A^\alpha=\frac{1}{\sqrt{-g}}\frac{\partial}{\partial x^\mu}(\sqrt{-g}\cdot A^\mu)
+$$
+d'Alembert 算子：
+$$
+\Box\Phi=\operatorname{div}(\operatorname{grad}\Phi)=\operatorname{div}\left(g^{\mu\nu}\frac{\partial\Phi}{\partial x^\nu}\right)=\frac{1}{\sqrt{-g}}\frac{\partial}{\partial x^\mu}\left(\sqrt{-g}\cdot g^{\mu\nu}\frac{\partial\Phi}{\partial x^\nu}\right)
+$$
+二阶逆变张量的散度：
+$$
+C^{\mu\nu}{}_{;\nu}=\frac{1}{\sqrt{-g}}\frac{\partial}{\partial x^\nu}(C^{\mu\nu}\sqrt{-g})+\Gamma^\mu_{\nu\sigma}C^{\nu\sigma}
+$$
+如果这个二阶逆变张量反称，那么后面一项显然为零，注意到这一点可以简化计算.
+
+### 旋度的运算
+
+和散度一样，也应该用协变微商代替普通微商. 但是可以证明，这里用哪一个都是一样的 (简单想一下，就是做差的时候多的一项被抵消掉了，比较显然). 所以旋度运算和 Euclidean 空间完全一致.
+
+旋度运算使得协变矢量场变成二阶反称张量场，使二阶反称张量场变成三阶反称张量场.
+$$
+\begin{aligned}
+\operatorname{curl}_{\mu\nu}A_\mu&\equiv A_{\mu;\nu}-A_{\nu;\mu} = A_{\mu,\nu}-A_{\nu,\mu}\\\\
+\operatorname{curl}_{\mu\nu}A_{\mu\nu}&\equiv A_{\mu\nu;\tau}+A_{\nu\tau;\mu}+A_{\tau\mu;\nu}=A_{\mu\nu,\tau}+A_{\nu\tau,\mu}+A_{\tau\mu,\nu}
+\end{aligned}
+$$
+
+### 体元的变换
+
+赝张量定义为
+$$
+T^{\mu\nu}=\frac{\alpha}{|\alpha|}\frac{\partial x^\mu}{\partial x'^\rho}\frac{\partial x^\nu}{\partial x'^\sigma}T'^{\rho\sigma}
+$$
+式中，$\alpha$ 为坐标变换矩阵的行列式，$|\alpha|$ 为 $\alpha$ 的绝对值. 对于不含反射的坐标变换，$\alpha/|\alpha|=+1$，这时赝张量的变换和张量相同；有反射变换，系数就是 $-1$，赝张量的变换比张量变换多一个负号.
+
+不加证明地指出，体元在坐标变换下的规律是：
+$$
+\sqrt{-g}\cdot\text{d}^4x=\frac{\alpha}{|\alpha|}\sqrt{-g'}\cdot\text{d}^4x'
+$$
+体元是赝标量.
+
+---
+
+2025/09/02 - 02:31，终于结束这一章的阅读笔记了. 之后来做习题. 由于我的 Typora 在将近 1.7w 字的重压下已经不堪重负，我决定单开一篇笔记来写习题. 这章 (或者说这整本书) 的习题并不多，如果之后都是单开一篇笔记来写习题，我想可以写得更详细些.
