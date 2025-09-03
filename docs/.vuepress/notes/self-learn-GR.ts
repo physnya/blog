@@ -11,6 +11,7 @@ export default defineNoteConfig({
 			items: [
 				"chapter-1",
 				"chapter-2",
+				"chapter-2-exercise",
 			],
 		},
 	],
