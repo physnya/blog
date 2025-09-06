@@ -1,5 +1,239 @@
 [
   {
+    "id": "01K4G43D580HBTTJ0PTE04YJ21",
+    "created_at": "2025-09-06T18:20:01.066Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01K4G43D580HBTTJ0PTE04YJ21",
+    "url": "https://scg.owu.one/@physnya/statuses/01K4G43D580HBTTJ0PTE04YJ21",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 0,
+    "favourited": false,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>用 MacBook Pro 发的第一条嘟文 :ab_bncefst:</p><p>6 号晚上收到的电脑，第一感受就是屏幕清晰度和亮度和之前的 thinkbook 完全不一样；另外因为是最新的 M4，感觉性能也好很多，尝试 localhost 自己的站点，加载速度是之前的好几倍.</p><p>这条嘟文就顺便作为在 Mac 上用 ssh 连接到 GitHub 的一个测试吧，更新一下 blog 的「动态」页面.</p>",
+    "reblog": null,
+    "application": {
+      "name": "Phanpy",
+      "website": "https://phanpy.social"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 8,
+      "following_count": 13,
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [
+      {
+        "shortcode": "ab_bncefst",
+        "url": "https://scg.owu.one/fileserver/01VRVCHVVVD487SVZY2CP3N2W8/emoji/original/01MX7TGXVQZDN1KHTSCQZ5983C.gif",
+        "static_url": "https://scg.owu.one/fileserver/01VRVCHVVVD487SVZY2CP3N2W8/emoji/static/01MX7TGXVQZDN1KHTSCQZ5983C.png",
+        "visible_in_picker": true,
+        "category": "Blob"
+      }
+    ],
+    "card": null,
+    "poll": null,
+    "text": "用 MacBook Pro 发的第一条嘟文 :ab_bncefst: \n\n6 号晚上收到的电脑，第一感受就是屏幕清晰度和亮度和之前的 thinkbook 完全不一样；另外因为是最新的 M4，感觉性能也好很多，尝试 localhost 自己的站点，加载速度是之前的好几倍.\n\n这条嘟文就顺便作为在 Mac 上用 ssh 连接到 GitHub 的一个测试吧，更新一下 blog 的「动态」页面.",
+    "content_type": "text/markdown",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
+    "id": "01K4CHT5X6GRFR644K3VZPWS6E",
+    "created_at": "2025-09-05T09:02:41.063Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01K4CHT5X6GRFR644K3VZPWS6E",
+    "url": "https://scg.owu.one/@physnya/statuses/01K4CHT5X6GRFR644K3VZPWS6E",
+    "replies_count": 1,
+    "reblogs_count": 0,
+    "favourites_count": 3,
+    "favourited": false,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>班会和 yanaginagi 的 live 冲突了.</p><p>嗯，选 yanaginagi！</p>",
+    "reblog": null,
+    "application": {
+      "name": "Phanpy (Owu Social)",
+      "website": "https://phanpy.owu.one"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya",
+      "locked": true,
+      "discoverable": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 8,
+      "following_count": 13,
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "moonlight-hunt.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  background: black;\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "班会和 yanaginagi 的 live 冲突了.\n\n嗯，选 yanaginagi！",
+    "content_type": "text/markdown",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": [],
+        "always": [
+          "public",
+          "me"
+        ],
+        "with_approval": []
+      }
+    }
+  },
+  {
     "id": "01K481V64XFNGGR53ZWPMKDR4J",
     "created_at": "2025-09-03T15:06:39.133Z",
     "edited_at": null,
@@ -44,8 +278,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -157,8 +391,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -270,8 +504,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -383,8 +617,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -496,8 +730,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -609,8 +843,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -722,8 +956,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -835,8 +1069,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -948,8 +1182,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -1061,8 +1295,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -1174,8 +1408,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -1287,8 +1521,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -1400,8 +1634,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -1513,8 +1747,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -1626,8 +1860,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -1739,8 +1973,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -1852,8 +2086,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -1964,8 +2198,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -2077,8 +2311,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -2189,8 +2423,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -2301,8 +2535,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -2418,8 +2652,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -2536,8 +2770,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -2648,8 +2882,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -2791,8 +3025,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -2903,8 +3137,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -3016,8 +3250,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -3158,8 +3392,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -3271,8 +3505,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -3383,8 +3617,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -3496,8 +3730,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -3608,8 +3842,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -3721,8 +3955,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -3834,8 +4068,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -3947,8 +4181,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -4060,8 +4294,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -4173,8 +4407,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -4286,8 +4520,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -4398,8 +4632,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -4510,8 +4744,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -4622,8 +4856,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -4734,8 +4968,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -4847,8 +5081,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -4960,8 +5194,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -5073,8 +5307,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -5186,8 +5420,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -5299,8 +5533,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -5412,8 +5646,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -5533,8 +5767,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -5661,8 +5895,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -5773,8 +6007,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -5885,8 +6119,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -5997,8 +6231,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -6078,7 +6312,7 @@
     "url": "https://scg.owu.one/@physnya/statuses/01JGAY64BRNZ63WZPF1ZMJNFGT",
     "replies_count": 0,
     "reblogs_count": 0,
-    "favourites_count": 2,
+    "favourites_count": 1,
     "favourited": true,
     "reblogged": false,
     "muted": false,
@@ -6109,8 +6343,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -6221,8 +6455,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -6333,8 +6567,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -6445,8 +6679,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -6557,8 +6791,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -6677,8 +6911,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
@@ -6804,8 +7038,8 @@
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
       "followers_count": 8,
       "following_count": 13,
-      "statuses_count": 78,
-      "last_status_at": "2025-09-03",
+      "statuses_count": 81,
+      "last_status_at": "2025-09-06",
       "emojis": [],
       "fields": [
         {
