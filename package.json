@@ -28,6 +28,7 @@
     "axios": "^1.11.0",
     "dotenv": "^17.2.1",
     "glob": "^11.0.3",
+    "gray-matter": "^4.0.3",
     "http-server": "^14.1.1",
     "husky": "^9.1.7",
     "sass-embedded": "^1.90.0",

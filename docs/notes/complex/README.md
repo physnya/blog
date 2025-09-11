@@ -10,3 +10,5 @@ createTime: 2025/4/15 09:49:45
 课程的授课人是物理系的 [松神](https://www.phys.tsinghua.edu.cn/info/1098/4214.htm)，以授课难度高著称，但是也是物理系的同学们最喜爱的老师之一，因为他风趣幽默，而且讲课水平很高.
 
 课程要求见 [Lesson 1](/complex/lesson-1/#课程要求).
+
+总字数：<WordCount type="complex" />

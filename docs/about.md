@@ -31,7 +31,7 @@ feed: false
 
 可以访问这里的 [链接](https://bgm38.top/3dm8tb) 查看本站的访问情况.
 
-<WordCount />
+本站总字数：<WordCount type="total"/>
 
 如果你想要与我即时交流，可以加入我的 [[matrix] 空间](https://matrix.to/#/!lNBFcdQBGalGvldqia:chat.neboer.site?via=chat.neboer.site)，和我闲聊.
 

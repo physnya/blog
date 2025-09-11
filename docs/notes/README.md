@@ -1,3 +1,8 @@
+---
+permalink: /notes/
+---
+笔记目前总字数：<WordCount type="Feynman-III, cosmos, self-learn-GR, integral, complex, writing" />
+
 ## 目录
 
 [[TOC]]
