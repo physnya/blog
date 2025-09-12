@@ -38,7 +38,7 @@ function countWords(content) {
   cleanContent = cleanContent.replace(/:::.*?:::/gs, '');
   
   // 5. 统计中文字数和英文单词
-  const chineseChars = cleanContent.match(/[\u4e00-\u9fa5]/g) || [];
+  const chineseChars = cleanContent.match(/\p{sc=Han}/gu) || [];
   const englishWords = cleanContent.match(/[a-zA-Z]+/g) || [];
   
   return chineseChars.length + englishWords.length;
