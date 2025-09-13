@@ -3,6 +3,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 import { notes } from './notes/index.ts'
 import { feedPlugin } from '@vuepress/plugin-feed'
+import Font from 'vite-plugin-font'
 
 export default defineUserConfig({
   base: '/',
@@ -208,9 +209,7 @@ export default defineUserConfig({
      * @see https://theme-plume.vuejs.press/guide/features/encryption/
      */
     encrypt: {
-      rules: {
-        'life/在科技楼的角落.md': 'pushichenyi',
-      }
+      rules: {}
     },
   }),
   plugins: [

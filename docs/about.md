@@ -1,12 +1,13 @@
 ---
 changelog: false
 title: 关于我
-draft: true
 permalink: /about/
 pageLayout: doc
 createTime: 2025/02/14 22:55:26
 copyright: false
 feed: false
+article: false
+aside: false
 ---
 
 ## 自我介绍
