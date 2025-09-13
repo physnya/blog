@@ -63,7 +63,12 @@
 							>
 						</div>
 						<div class="toot-date">
-							{{ formatDate(toot.created_at) }}
+							<a
+								:href= "toot.uri"
+								target="_blank"
+							>
+								{{ formatDate(toot.created_at) }}
+							</a>
 						</div>
 					</div>
 
@@ -92,13 +97,28 @@
 
 					<div class="toot-stats">
 						<span class="stat-item">
-							<span class="vpi-reply"></span> {{ toot.replies_count }}
+							<a
+								:href= "toot.uri"
+								target="_blank"
+							>
+								<span class="vpi-reply"></span> {{ toot.replies_count }}
+							</a>
 						</span>
 						<span class="stat-item">
-							<span class="vpi-reblog"></span> {{ toot.reblogs_count }}
+							<a
+								:href= "toot.uri"
+								target="_blank"
+							>
+								<span class="vpi-reblog"></span> {{ toot.reblogs_count }}
+							</a>
 						</span>
 						<span class="stat-item">
-							<span class="vpi-star"></span> {{ toot.favourites_count }}
+							<a
+								:href= "toot.uri"
+								target="_blank"
+							>
+								<span class="vpi-star"></span> {{ toot.favourites_count }}
+							</a>
 						</span>
 					</div>
 				</div>
@@ -107,25 +127,29 @@
 					v-if="totalPages > 1"
 					class="pagination"
 				>
-					<button
-						@click="currentPage = Math.max(1, currentPage - 1)"
-						:disabled="currentPage === 1"
-						class="pagination-button prev"
-					>
-						上一页
-					</button>
+					<a href="#top">
+						<button
+							@click="currentPage = Math.max(1, currentPage - 1)"
+							:disabled="currentPage === 1"
+							class="pagination-button prev"
+						>
+							上一页
+						</button>
+					</a>
 
 					<span class="page-info"
 						>第 {{ currentPage }} 页 / 共 {{ totalPages }} 页</span
 					>
 
-					<button
-						@click="currentPage = Math.min(totalPages, currentPage + 1)"
-						:disabled="currentPage === totalPages"
-						class="pagination-button next"
-					>
-						下一页
-					</button>
+					<a href="#top">
+						<button
+							@click="currentPage = Math.min(totalPages, currentPage + 1)"
+							:disabled="currentPage === totalPages"
+							class="pagination-button next"
+						>
+							下一页
+						</button>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -144,7 +168,6 @@
 				itemsPerPage: 10,
 				instanceDomain: "scg.owu.one",
 				mastodonProfile: "https://scg.owu.one/@physnya",
-				lightboxVisible: false,
 				currentImage: "",
 			};
 		},
@@ -199,15 +222,6 @@
 					hour: "2-digit",
 					minute: "2-digit",
 				});
-			},
-			openLightbox(imageUrl) {
-				this.currentImage = imageUrl;
-				this.lightboxVisible = true;
-				document.body.style.overflow = "hidden";
-			},
-			closeLightbox() {
-				this.lightboxVisible = false;
-				document.body.style.overflow = "";
 			},
 		},
 	};
@@ -297,6 +311,11 @@
 		font-size: 0.9rem;
 	}
 
+	.toot-date a {
+		text-decoration: none;
+		color: var(--vp-c-text-2);
+	}
+
 	.toot-content {
 		line-height: 1.7;
 		color: var(--vp-c-text-1);
@@ -356,6 +375,11 @@
 		display: flex;
 		align-items: center;
 		gap: 0.5rem;
+	}
+
+	.stat-item a {
+		color: var(--vp-c-text-2);
+		text-decoration: none;
 	}
 
 	.pagination {

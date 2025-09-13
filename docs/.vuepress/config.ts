@@ -3,7 +3,6 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 import { notes } from './notes/index.ts'
 import { feedPlugin } from '@vuepress/plugin-feed'
-import Font from 'vite-plugin-font'
 
 export default defineUserConfig({
   base: '/',
