@@ -13,6 +13,7 @@ export default defineNoteConfig({
 				"chapter-2",
 				"chapter-2-exercise",
 				"chapter-3",
+				"chapter-3-exercise",
 			],
 		},
 	],
