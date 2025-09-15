@@ -11,6 +11,7 @@ export const navbar = defineNavbarConfig([
       { text: '星系与宇宙', link: '/notes/cosmos/README.md' },
       { text: '写作与沟通', link: '/notes/writing/README.md' },
       { text: '复变函数', link: '/notes/complex/README.md'},
+      { text: '量子力学', link: '/notes/quantum-mechanics/README.md' },
       {
         text: '自学笔记',
         items: [
