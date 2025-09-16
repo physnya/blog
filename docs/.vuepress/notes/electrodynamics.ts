@@ -1,14 +1,16 @@
 import { defineNoteConfig } from "vuepress-theme-plume";
 
 export default defineNoteConfig({
-	dir: "Electrodynamics",
-	link: "/Electrodynamics",
+	dir: "electrodynamics",
+	link: "/electrodynamics",
 	sidebar: [
 		{
 			text: "电动力学",
 			collapsed: false,
-			link: "/Electrodynamics/",
-			items: ["lesson-1"],
+			link: "/electrodynamics/",
+			items: [
+				"lesson-1",
+			],
 		},
 	],
 });

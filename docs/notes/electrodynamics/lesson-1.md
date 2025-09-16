@@ -1,6 +1,7 @@
 ---
 title: Lesson 1 Introduction
 permalink: /electrodynamics/lesson-1-introduction/
+createTime: 2025/09/16 10:36:03
 ---
 ::: warning
 

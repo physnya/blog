@@ -1,6 +1,7 @@
 ---
 title: 电动力学
 permalink: /electrodynamics/
+createTime: 2025/09/16 09:48:15
 ---
 
 ## README
