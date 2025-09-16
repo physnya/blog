@@ -7,6 +7,7 @@ import complex from "./complex.ts";
 import selfLearnGR from "./self-learn-GR.ts";
 import quantumMechanics from "./quantum-mechanics.ts";
 import Electrodynamics from "./electrodynamics.ts";
+import astroFront from "./astro-front.ts";
 
 export const notes = defineNotesConfig({
 	dir: "notes",
@@ -20,5 +21,6 @@ export const notes = defineNotesConfig({
 		selfLearnGR,
 		quantumMechanics,
 		Electrodynamics,
+		astroFront,
 	],
 });
