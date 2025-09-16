@@ -8,6 +8,7 @@ import selfLearnGR from "./self-learn-GR.ts";
 import quantumMechanics from "./quantum-mechanics.ts";
 import Electrodynamics from "./electrodynamics.ts";
 import astroFront from "./astro-front.ts";
+import biophysics from "./biophysics.ts";
 
 export const notes = defineNotesConfig({
 	dir: "notes",
@@ -22,5 +23,6 @@ export const notes = defineNotesConfig({
 		quantumMechanics,
 		Electrodynamics,
 		astroFront,
+		biophysics,
 	],
 });

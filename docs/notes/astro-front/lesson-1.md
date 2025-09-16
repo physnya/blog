@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Introduction and overview
 permalink: /astro-front/lesson-1/
 createTime: 2025/09/16 19:03:44
 ---
