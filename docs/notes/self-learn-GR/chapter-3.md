@@ -1007,11 +1007,14 @@ $$
 $$
 明显，$\Gamma^\alpha{}_{\mu\nu}$ 的所有分量全部是小量，这使得我们可以忽略 $R_{\mu\nu}$ 表达式的后两项 $\Gamma^\alpha{}_{\mu\nu}$ 二阶项. 具体计算 Ricci 张量的各个分量：
 $$
-R_{\mu\nu}=\Gamma^\lambda{}_{\mu\nu,\lambda}-\Gamma^\lambda{}_{\mu\lambda,\nu}=\left\{\begin{aligned}
+\begin{aligned}
+R_{\mu\nu}&=\Gamma^\lambda{}_{\mu\nu,\lambda}-\Gamma^\lambda{}_{\mu\lambda,\nu}\\\\
+&=\left\{\begin{aligned}
 &R_{00}=-\frac{1}{2}h_{00,i,i}\\\\
 &R_{0i}=\frac{1}{2}(h_{0k,i,k}-h_{0i,k,k})\\\\
 &R_{ij}=-\frac{1}{2}(-h_{00,i,j}+h_{kk,i,j}-h_{ki,j,k}-h_{kj,i,k}+h_{ij,k,k})
 \end{aligned}\right.
+\end{aligned}
 $$
 重复指标仍然表示求和，即使都是协变指标.
 

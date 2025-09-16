@@ -81,7 +81,7 @@
     "index": 88
   },
   "self-learn-GR": {
-    "chapter-3": 10254,
+    "chapter-3": 10258,
     "chapter-3-exercise": 3258,
     "chapter-2": 11643,
     "chapter-2-exercise": 2822,
@@ -156,6 +156,10 @@
     "7cui661p": 1298,
     "index": 227
   },
+  "electrodynamics": {
+    "lesson-1-introduction": 636,
+    "index": 112
+  },
   "cosmos": {
     "lesson-9": 2347,
     "lesson-8": 2262,
@@ -212,7 +216,7 @@
     "956bau6f": 1846,
     "index": 301
   },
-  "total": 379131,
-  "lastUpdated": "2025-09-15T17:43:10.485Z",
-  "fileCount": 195
+  "total": 379883,
+  "lastUpdated": "2025-09-16T03:29:41.169Z",
+  "fileCount": 197
 }
