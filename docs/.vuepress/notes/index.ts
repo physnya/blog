@@ -9,6 +9,7 @@ import quantumMechanics from "./quantum-mechanics.ts";
 import Electrodynamics from "./electrodynamics.ts";
 import astroFront from "./astro-front.ts";
 import biophysics from "./biophysics.ts";
+import physicsFront from "./physics-front.ts";
 
 export const notes = defineNotesConfig({
 	dir: "notes",
@@ -24,5 +25,6 @@ export const notes = defineNotesConfig({
 		Electrodynamics,
 		astroFront,
 		biophysics,
+		physicsFront,
 	],
 });
