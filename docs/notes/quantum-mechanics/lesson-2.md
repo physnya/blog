@@ -1,6 +1,7 @@
 ---
 title: Lesson 2
 permalink: /quantum-mechanics/lesson-2/
+createTime: 2025/09/17 13:27:18
 ---
 PPT 之后才会给大家，因为还没做完 (bushi. 另外，如果难倒了老师，会有加分，欢迎大家提问.
 

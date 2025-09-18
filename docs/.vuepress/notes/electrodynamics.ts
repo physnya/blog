@@ -10,6 +10,7 @@ export default defineNoteConfig({
 			link: "/electrodynamics/",
 			items: [
 				"lesson-1",
+				"lesson-2",
 			],
 		},
 	],

@@ -89,7 +89,7 @@
     "index": 250
   },
   "quantum-mechanics": {
-    "lesson-2": 1385,
+    "lesson-2": 1386,
     "lesson-1-introduction": 1760,
     "index": 135
   },
@@ -162,6 +162,7 @@
     "index": 227
   },
   "electrodynamics": {
+    "lesson-2-math-prepare": 1102,
     "lesson-1-introduction": 637,
     "index": 113
   },
@@ -229,7 +230,7 @@
     "956bau6f": 1846,
     "index": 301
   },
-  "total": 387491,
-  "lastUpdated": "2025-09-17T07:28:32.358Z",
-  "fileCount": 204
+  "total": 388594,
+  "lastUpdated": "2025-09-18T07:25:13.622Z",
+  "fileCount": 205
 }
