@@ -10,6 +10,7 @@ import Electrodynamics from "./electrodynamics.ts";
 import astroFront from "./astro-front.ts";
 import biophysics from "./biophysics.ts";
 import physicsFront from "./physics-front.ts";
+import astroStatistic from "./astro-statistic.ts"
 
 export const notes = defineNotesConfig({
 	dir: "notes",
@@ -26,5 +27,6 @@ export const notes = defineNotesConfig({
 		astroFront,
 		biophysics,
 		physicsFront,
+		astroStatistic,
 	],
 });
