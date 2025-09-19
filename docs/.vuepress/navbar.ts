@@ -17,6 +17,7 @@ export const navbar = defineNavbarConfig([
 			{ text: "生物物理导论", link: "/notes/biophysics/README.md" },
 			{ text: "物理学前沿讲座", link: "/notes/physics-front/README.md" },
 			{ text: "天体物理统计方法", link: "/notes/astro-statistic/README.md" },
+			{ text: "数理方程", link: "/notes/equation-m-p/README.md" },
 			{
 				text: "自学笔记",
 				items: [{ text: "广义相对论", link: "/notes/self-learn-GR/README.md" }],
