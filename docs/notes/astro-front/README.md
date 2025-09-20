@@ -12,4 +12,23 @@ createTime: 2025/09/16 19:05:57
 
 这门课是全英文授课，上课也必须使用英文讨论问题.
 
+课表 (或者说笔记的目录)：
+
+- 09/16: [Introduction and overview (Prof. CUI Wei)](/astro-front/lesson-1/)
+- 09/23: Cosmology (Prof. ZHAO Cheng)
+- 09/30: Black holes and gravitational waves (Prof. YANG Huan)
+- 10/07: Oct Holiday break
+- 10/14: Dark matter and gravitational lensing (Prof. XU Dandan)
+- 10/21: Cosmic ecosystems (Prof. QU Zhijie)
+- 10/28: Astrophysics on supercomputer (Prof. LI Hui)
+- 11/04: Cluster of galaxies (Prof. HUANG Song)
+- 11/11: Densest stars in the universe (Prof. LI Xinyu)
+- 11/18: Cosmic radio flashes (Prof. LI Dongzi)
+- 11/25: Other suns and habitable worlds (Prof. WANG Xuesong)
+- 12/02: Largest radio telescope in the world (Prof. LI Di)
+- 12/09: Large optical telescope made in Tsinghua (Prof. CAl Zheng)
+- 12/16: Space-borne observatories (Prof. CUI Wei)
+- 12/23: In-class presentation
+- 12/30: In-class presentation
+
 总字数：<WordCount type="astro-front" />

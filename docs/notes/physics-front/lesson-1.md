@@ -1,5 +1,5 @@
 ---
-title: Lesson 1 导论
+title: Lesson 1 导论 & 原子量子计算
 permalink: /physics-front/lesson-1-introduction/
 createTime: 2025/09/17 09:46:53
 ---
