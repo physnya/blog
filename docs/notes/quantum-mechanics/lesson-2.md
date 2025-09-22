@@ -1,5 +1,5 @@
 ---
-title: Lesson 2
+title: Lesson 2 波函数
 permalink: /quantum-mechanics/lesson-2/
 createTime: 2025/09/17 13:27:18
 ---
