@@ -15,7 +15,7 @@ createTime: 2025/09/16 19:05:57
 课表 (或者说笔记的目录)：
 
 - 09/16: [Introduction and overview (Prof. CUI Wei)](/astro-front/lesson-1/)
-- 09/23: [Observation Cosmology (Prof. ZHAO Cheng)](/astro-front/lesson-2-observation-cosmology/)
+- 09/23: [Observational Cosmology (Prof. ZHAO Cheng)](/astro-front/lesson-2-observation-cosmology/)
 - 09/30: Black holes and gravitational waves (Prof. YANG Huan)
 - 10/07: Oct Holiday break
 - 10/14: Dark matter and gravitational lensing (Prof. XU Dandan)

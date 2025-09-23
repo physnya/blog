@@ -1,6 +1,6 @@
 ---
-title: Observatonal Cosmology
-permalink: /astro-front/lesson-2-observation-cosmology/
+title: Observational Cosmology
+permalink: /astro-front/lesson-2-observational-cosmology/
 createTime: 2025/09/23 15:12:09
 ---
 ::: right
