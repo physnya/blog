@@ -63,7 +63,11 @@ Hot Universe Baryon Surveys (宇宙热重子探寻计划) 想要做的问题是�
 * 更多元的波长范围：Radio、UVOIR、X-ray、Gamma-ray、……
 * 更多观测手段：比如中微子、引力波、宇宙射线、……
 
+::: center
+
 ## Across the Cosmic Time
+
+:::
 
 ::: right
 
