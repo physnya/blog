@@ -153,6 +153,18 @@ blockquote::before {
     }
 }
 
+.vp-friend {
+    background: rgba(255, 255, 255, 0.05) !important;
+	-webkit-backdrop-filter: blur(1px);
+	backdrop-filter: blur(1px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid
+        rgb(from var(--vp-c-divider) calc(1 - r) calc(1 - g) calc(1 - b));
+}
+
 :root {
     --tk-radius: 12px;
     --tk-second-radius: 6px;
@@ -333,10 +345,11 @@ html.dark {
     transition: all 0.3s ease;
     position: relative;
     z-index: 1;
+    border-color: var(--vp-c-bg);
 
     &:hover {
-        border-color: rgba(144, 147, 153, 0.5);
-        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+        border-color: rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
+        box-shadow: 0 1px 2px rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
     }
 
     .tk-avatar.tk-has-avatar {
@@ -409,17 +422,16 @@ html.dark {
         cursor: pointer;
         transition: all 0.3s ease;
         text-align: center;
+        border-color: var(--vp-c-divider);
 
         &:hover {
-            background-color: var(--tk-action-bg);
+            background: rgba(255, 255, 255, 0.05) !important;
+	        -webkit-backdrop-filter: blur(1px);
+	        backdrop-filter: blur(1px);
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         .tk-action-link:first-child {
-            display: none;
-        }
-
-        @media (max-width: 768px) {
             display: none;
         }
     }
@@ -454,10 +466,12 @@ html.dark {
         margin: 0.5rem 0 !important;
         border: var(--tk-comment-border);
         opacity: 0.9;
+        border-color: var(--vp-c-bg);
 
         &:hover {
             transform: none;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+            border-color: rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
+            box-shadow: 0 2px 4px rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
         }
     }
 
@@ -543,16 +557,22 @@ body {
 
 .tk-input.el-textarea {
     textarea {
-        background-color: var(--vp-c-bg);
+        background: rgba(255, 255, 255, 0.05) !important;
+	    -webkit-backdrop-filter: blur(1px);
+	    backdrop-filter: blur(1px);
     }
 }
 
 .el-input.el-input--small.el-input-group.el-input-group--prepend,
 .tk-preview-container,
 .tk-comment {
-    background-color: var(--vp-c-bg);
+    background: rgba(255, 255, 255, 0.05) !important;
+	-webkit-backdrop-filter: blur(1px);
+	backdrop-filter: blur(1px);
 }
 
 .demo-head {
-    background-color: var(--vp-c-bg);
+    background: rgba(255, 255, 255, 0.05) !important;
+	-webkit-backdrop-filter: blur(1px);
+	backdrop-filter: blur(1px);
 }

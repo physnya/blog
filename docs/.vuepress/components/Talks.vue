@@ -243,7 +243,9 @@
 	}
 
 	.toot-card {
-		background: var(--vp-code-block-bg);
+		background: rgba(255, 255, 255, 0.05);
+		-webkit-backdrop-filter: blur(1px);
+		backdrop-filter: blur(1px);
 		border-radius: 12px;
 		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 		padding: 1.2rem;
@@ -393,7 +395,9 @@
 
 	.pagination-button {
 		padding: 0.8rem 2rem;
-		background: var(--vp-code-block-bg);
+		background: rgba(255, 255, 255, 0.05);
+		-webkit-backdrop-filter: blur(1px);
+		backdrop-filter: blur(1px);
 		color: var(--vp-c-text-1);
 		border: none;
 		border-radius: 8px;
