@@ -10,6 +10,7 @@ export default defineNoteConfig({
       link: '/physics-front/',
       items: [
         'lesson-1',
+        'lesson-2',
       ]
     },
   ],
