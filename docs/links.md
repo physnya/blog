@@ -15,14 +15,6 @@ list:
     desc: 我在 Bangumi 的小组
     link: https://bgm.tv/group/zixi
     avatar: https://vip.123pan.cn/1845440081/yk6baz03t0l000d6xujntyrdavtj0m32DIYxAIFxDda1DGxPDwUzAa==.jpg
-  - name: Pinpe 的云端
-    desc: Pinpe 的博客
-    link: https://pinpe.top/
-    avatar: https://pinpe.top/_astro/head.DyPclklS_2iOsAQ.webp
-  - name: 朽丘博
-    desc: 一定会和喜欢的人在夏日夜晚牵手慢步
-    link: https://blog.koxiuqiu.cc/
-    avatar: https://blog.koxiuqiu.cc/img/avatar/xiaokeb.png
   - name: Imken 发电厂
     desc: Imken 的博客
     link: https://blog.imken.moe/
@@ -71,10 +63,6 @@ list:
     desc: 于记忆之川，泛思绪之舟.
     link: https://ttio.cc/
     avatar: https://ttio.cc/favicon.svg
-  - name: 二次元论坛
-    desc: 按下 F 逃离世界！
-    link: https://www.ecylt.top
-    avatar: https://i.postimg.cc/4yfxGN51/133590205.png
 ---
 
 如果你想要申请友链，请仔细阅读友链的申请规则，在符合规则之后再来本页面的评论区提出申请.
@@ -101,5 +89,10 @@ list:
 本规则从 2024-10-21 开始生效，之前添加的友链不重新对照规则处理；本喵对上述规则有最终解释权，若出现认为违反规则的事件，可能会单方面移除友链并不做通知，或拒绝添加友链.
 
 ---
+
+2025-09-25 更新：
+
+- 不添加论坛类型的站点友链，也不添加内容农场、信息聚合站点的友链.
+- 友链的站点内容基调和本站相差太大，会酌情考虑是否添加.
 
 <u>*本站不对友情链接网页内容负责.*</u>
