@@ -361,8 +361,8 @@
 
 	.card {
 		background: rgba(255, 255, 255, 0.05);
-		-webkit-backdrop-filter: blur(1px);
-		backdrop-filter: blur(1px);
+		-webkit-backdrop-filter: blur(1.5px);
+		backdrop-filter: blur(1.5px);
 		border-radius: 8px;
 		overflow: hidden;
 		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);

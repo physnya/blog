@@ -29,7 +29,7 @@ export default defineThemeConfig({
   /* 站点页脚 */
   footer: {
     message: 'Powered by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-    copyright: 'Copyright © 2024 - present by physnya',
+    copyright: 'Copyright © 2024-03-23 - present by physnya',
   },
 
   /**

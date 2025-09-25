@@ -38,6 +38,7 @@ export default defineUserConfig({
         mermaid: true,
       //   flowchart: true,
         annotation: true,
+        timeline: true,
       },
     
     notes,

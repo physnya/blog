@@ -64,7 +64,7 @@
 						</div>
 						<div class="toot-date">
 							<a
-								:href= "toot.uri"
+								:href="toot.uri"
 								target="_blank"
 							>
 								{{ formatDate(toot.created_at) }}
@@ -98,7 +98,7 @@
 					<div class="toot-stats">
 						<span class="stat-item">
 							<a
-								:href= "toot.uri"
+								:href="toot.uri"
 								target="_blank"
 							>
 								<span class="vpi-reply"></span> {{ toot.replies_count }}
@@ -106,7 +106,7 @@
 						</span>
 						<span class="stat-item">
 							<a
-								:href= "toot.uri"
+								:href="toot.uri"
 								target="_blank"
 							>
 								<span class="vpi-reblog"></span> {{ toot.reblogs_count }}
@@ -114,7 +114,7 @@
 						</span>
 						<span class="stat-item">
 							<a
-								:href= "toot.uri"
+								:href="toot.uri"
 								target="_blank"
 							>
 								<span class="vpi-star"></span> {{ toot.favourites_count }}
@@ -244,8 +244,8 @@
 
 	.toot-card {
 		background: rgba(255, 255, 255, 0.05);
-		-webkit-backdrop-filter: blur(1px);
-		backdrop-filter: blur(1px);
+		-webkit-backdrop-filter: blur(1.5px);
+		backdrop-filter: blur(1.5px);
 		border-radius: 12px;
 		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 		padding: 1.2rem;
@@ -396,8 +396,8 @@
 	.pagination-button {
 		padding: 0.8rem 2rem;
 		background: rgba(255, 255, 255, 0.05);
-		-webkit-backdrop-filter: blur(1px);
-		backdrop-filter: blur(1px);
+		-webkit-backdrop-filter: blur(1.5px);
+		backdrop-filter: blur(1.5px);
 		color: var(--vp-c-text-1);
 		border: none;
 		border-radius: 8px;
