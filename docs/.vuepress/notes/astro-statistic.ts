@@ -10,6 +10,7 @@ export default defineNoteConfig({
       link: '/astro-statistic/',
       items: [
         'lesson-1',
+        'lesson-2',
       ]
     },
   ],
