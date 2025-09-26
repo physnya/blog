@@ -10,6 +10,7 @@ export default defineNoteConfig({
 			link: "/equation-m-p/",
 			items: [
 				"lesson-1",
+				"lesson-2",
 			],
 		},
 	],
