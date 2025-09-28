@@ -170,6 +170,7 @@
     "index": 73
   },
   "electrodynamics": {
+    "lesson-5-dielectric": 887,
     "lesson-4-maxwell": 1438,
     "lesson-3-megnetic-field": 1609,
     "lesson-2-math-prepare": 1102,
@@ -247,7 +248,7 @@
     "956bau6f": 1846,
     "index": 301
   },
-  "total": 410132,
-  "lastUpdated": "2025-09-26T18:55:55.872Z",
-  "fileCount": 218
+  "total": 411019,
+  "lastUpdated": "2025-09-28T07:59:14.472Z",
+  "fileCount": 219
 }

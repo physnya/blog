@@ -1,5 +1,5 @@
 ---
-title: lesson 4 Maxwell 方程组
+title: Lesson 4 Maxwell 方程组
 permalink: /electrodynamics/lesson-4-maxwell/
 createTime: 2025/09/25 15:14:40
 ---
