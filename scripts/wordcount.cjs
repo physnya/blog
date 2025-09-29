@@ -13,7 +13,7 @@ const config = {
     /\$.*?\$/g,         // 行内公式 $...$
     /\$\$.*?\$\$/gs,    // 块级公式 $$...$$
     /\\\(.*?\\\)/gs,    // \(...\)
-    /\\\[.*?\\\]/gs,   // \[...\]
+    /\\\[.*?\\\]/gs,    // \[...\]
     /\\begin\{.*?\}.*?\\end\{.*?\}/gs // LaTeX 环境
   ]
 };
@@ -39,7 +39,7 @@ function countWords(content) {
   
   // 5. 统计中文字数和英文单词
   const chineseChars = cleanContent.match(/\p{sc=Han}/gu) || [];
-  const englishWords = cleanContent.match(/[a-zA-Z]+/g) || [];
+  const englishWords = cleanContent.match(/[a-zA-Z]+(?:[''-][a-zA-Z]+)*/g) || [];
   
   return chineseChars.length + englishWords.length;
 }
