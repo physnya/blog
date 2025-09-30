@@ -221,4 +221,7 @@ aside: false
   
   删除部分友链.
 
+- 2025-09-30
+
+  添加友链 [Homeward Sky](https://pxwg.github.io/blog/).
 :::
