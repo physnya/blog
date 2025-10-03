@@ -64,7 +64,8 @@ list:
     link: https://ttio.cc/
     avatar: https://ttio.cc/favicon.svg
   - name: Homeward Sky
-    desc: 鹏之徙于南冥，勿归斥鴳数韧蒿.|When the Roc seeks the Southern Sea’s deep, Return not to sparrows counting withered reeds.
+    desc: 鹏之徙于南冥，勿归斥鴳数韧蒿.
+      When the Roc seeks the Southern Sea’s deep, Return not to sparrows counting withered reeds.
     link: https://pxwg.github.io/blog/
     avatar: https://vip.123pan.cn/1845440081/ymjew503t0l000d7w32xex158cfca8dwDIYxAIFxDda1DGxPDwUzAa==.JPG
 ---
