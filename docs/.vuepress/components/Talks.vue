@@ -243,22 +243,25 @@
 	}
 
 	.toot-card {
-		background: rgba(255, 255, 255, 0.05);
+		background: rgba(255, 255, 255, 0.1);
 		-webkit-backdrop-filter: blur(1.5px);
 		backdrop-filter: blur(1.5px);
 		border-radius: 12px;
-		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+		box-shadow:
+			0 8px 32px rgba(31, 38, 135, 0.08),
+			inset 0 1px 2px rgba(255, 255, 255, 0.6);
 		padding: 1.2rem;
 		margin-bottom: 1.5rem;
-		transition: transform 0.3s, box-shadow 0.3s;
-		border: 1px solid
-			rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
+		transition: transform 0.3s, box-shadow 0.3s, backdrop-filter 0.3s ease-in-out;
+		border: 0.5px solid
+			rgba(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
 	}
 
 	.toot-card:hover {
-		transform: translateY(-5px);
-		box-shadow: 0 1.5px 2px
-			rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
+		transform: translateY(-3px);
+		box-shadow:
+			0 8px 32px rgba(31, 38, 135, 0.08),
+			inset 0 1px 2px rgba(255, 255, 255, 0.6);
 	}
 
 	.toot-header {

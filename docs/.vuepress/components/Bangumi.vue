@@ -365,20 +365,24 @@
 		backdrop-filter: blur(1.5px);
 		border-radius: 8px;
 		overflow: hidden;
-		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+		box-shadow:
+			0 8px 32px rgba(31, 38, 135, 0.08),
+			inset 0 1px 2px rgba(255, 255, 255, 0.6);
 		height: 100%;
 		display: flex;
 		flex-direction: row;
-		border: 1px solid
+		border: 0.5px solid
 			rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
 	}
 
 	.card:hover {
-		transition: transform 0.3s, box-shadow 0.3s;
-		transform: translateY(-5px);
-		border: 1px solid
+		transition: transform 0.3s, box-shadow 0.3s, backdrop-filter 0.3s ease-in-out;
+		transform: translateY(-3px);
+		border: 0.5px solid
 			rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
-		box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+		box-shadow:
+			0 8px 32px rgba(31, 38, 135, 0.08),
+			inset 0 1px 2px rgba(255, 255, 255, 0.6);
 	}
 
 	.card-img {
