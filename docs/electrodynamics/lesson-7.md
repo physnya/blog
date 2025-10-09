@@ -1,3 +1,8 @@
+---
+title: Lesson 7 静电唯一性定理
+permalink: /electrodynamics/lesson-7-uniqueness-theorem/
+createTime: 2025/10/09 14:55:07
+---
 上节课说到对于静电问题，电荷不移动，没有电流、没有磁场、没有磁场的变化，也就没有感生电场. 这时电场是一个无旋场，是保守的. 我们在静态的条件下得到了介质的有关边值关系，等等.
 
 边值关系：
