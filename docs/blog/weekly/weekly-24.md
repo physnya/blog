@@ -52,7 +52,7 @@ permalink: /posts/snajsggu/
 
 最近写了一个调整主题颜色的组件：
 
-@[code vue title="ColourPicker.vue" :collapsed-lines](../.vuepress/components/ColourPicker.vue)
+@[code vue title="ColourPicker.vue" :collapsed-lines](../../.vuepress/components/ColourPicker.vue)
 
 利用一个存储到本地的变量来实现主题颜色的变化. 但是因为我摸不太清 ``hsl()`` 颜色的各种参数调整，所以不能做到默认颜色完全还原 plume 主题之前默认的主题色.
 

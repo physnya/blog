@@ -178,11 +178,11 @@ pnpm precommit
 
 @tab fetch-talks.cjs
 
-@[code js :collapsed-lines](../../scripts/fetch-talks.cjs)
+@[code js :collapsed-lines](../../../scripts/fetch-talks.cjs)
 
 @tab pre-commit.cjs
 
-@[code js :collapsed-lines](../../scripts/pre-commit.cjs)
+@[code js :collapsed-lines](../../../scripts/pre-commit.cjs)
 
 :::
 
@@ -207,7 +207,7 @@ pnpm precommit
 
 在得到数据之后，还需要在前端 ==漂亮地== 显示出来. 这里我的想法是写一个新的 Vue 组件：
 
-@[code vue title="Talks.vue" :collapsed-lines](../.vuepress/components/Talks.vue)
+@[code vue title="Talks.vue" :collapsed-lines](../../.vuepress/components/Talks.vue)
 
 将 ``.vue`` 文件放在 ``.vuepress/`` 的 ``components/`` 目录下，并在 ``client.ts`` 中注册：
 
