@@ -7,7 +7,12 @@ export default defineCollection({
 			text: "天体物理统计方法",
 			collapsed: false,
 			link: "/astro-statistic/",
-			items: ["lesson-1", "lesson-2", "lesson-3"],
+			items: [
+				"lesson-1",
+				"lesson-2",
+				"lesson-3",
+				"lesson-4",
+			],
 		},
 	],
 	type: "doc",
