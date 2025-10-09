@@ -30,7 +30,7 @@
     "glob": "^11.0.3",
     "gray-matter": "^4.0.3",
     "http-server": "^14.1.1",
-    "husky": "^9.1.7",
+    "husky": "^8.0.3",
     "sass-embedded": "^1.93.2",
     "twikoo": "^1.6.44",
     "typescript": "^5.9.3",
