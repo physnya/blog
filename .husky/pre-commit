@@ -3,5 +3,3 @@
 
 echo "Running pre-commit tasks..."
 node scripts/pre-commit.cjs
-
-node scripts/wordcount.cjs

@@ -17,6 +17,10 @@ try {
 	// 添加更新后的数据文件
 	execSync("git add docs/.vuepress/public/bangumi.json", { stdio: "inherit" });
 
+	// 字数统计
+	console.log("字数统计进行中...");
+	execSync("node scripts/wordcount.cjs", { stdio: "inherit" });
+
 	console.log("✅ Pre-commit hook completed successfully");
 } catch (error) {
 	console.error("❌ Pre-commit hook failed:", error.message);
