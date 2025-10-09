@@ -1,4 +1,7 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm test
+echo "Running pre-commit tasks..."
+node scripts/pre-commit.cjs
+
+node scripts/wordcount.cjs
