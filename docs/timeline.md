@@ -185,9 +185,10 @@ aside: false
 :::
 ::::
 
-::: timeline placement="right" card
+::: timeline card placement="between"
 
 - 2025-02-14
+  placement=right
 
   用 vuepress 重构博客，使用 [vuepress-theme-plume](https://theme-plume.vuejs.press/) 主题. 之前时间线中的很多页面都已经失效，但是友链还是全部保留下来.
 
@@ -198,6 +199,7 @@ aside: false
   友链整理，去掉了无法访问的链接，更新部分头像.
 
 - 2025-06-10
+  placement=right
 
   加入友链[「sqzr2319」](https://sqzr2319.github.io)(本人主动申请).
 
@@ -206,6 +208,7 @@ aside: false
   加入友链[「Weichky's Blog」](https://blog.weichky.com).
 
 - 2025-06-12
+  placement=right
 
   加入[「动态」](/talks/)页面.
 
@@ -214,6 +217,7 @@ aside: false
   加入友链[「記緒漂流」](https://ttio.cc/).
 
 - 2025-07-02
+  placement=right
 
   将[「动态」](/talks/)页面放到「关于」标题下，并增加[「Bangumi」](/bangumi/)页面. 同时，移除[「友链」](/links/)页面的 Bangumi 主页.
 
@@ -222,6 +226,7 @@ aside: false
   删除部分友链.
 
 - 2025-09-30
-
+  placement=right
+  
   添加友链 [Homeward Sky](https://pxwg.github.io/blog/).
 :::

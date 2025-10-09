@@ -1,4 +1,4 @@
-import { defineNotesConfig, defineNoteConfig } from "vuepress-theme-plume";
+import { defineCollections } from "vuepress-theme-plume";
 import FeynmanIII from "./feynman-iii.ts";
 import Integral from "./integral.ts";
 import cosmos from "./cosmos.ts";
@@ -13,22 +13,18 @@ import physicsFront from "./physics-front.ts";
 import astroStatistic from "./astro-statistic.ts"
 import equationMP from "./equation-m-p.ts";
 
-export const notes = defineNotesConfig({
-	dir: "notes",
-	link: "/",
-	notes: [
-		FeynmanIII,
-		Integral,
-		cosmos,
-		writing,
-		complex,
-		selfLearnGR,
-		quantumMechanics,
-		Electrodynamics,
-		astroFront,
-		biophysics,
-		physicsFront,
-		astroStatistic,
-		equationMP,
-	],
-});
+export const notes = defineCollections([
+	FeynmanIII,
+	Integral,
+	cosmos,
+	writing,
+	complex,
+	selfLearnGR,
+	quantumMechanics,
+	Electrodynamics,
+	astroFront,
+	biophysics,
+	physicsFront,
+	astroStatistic,
+	equationMP,
+]);

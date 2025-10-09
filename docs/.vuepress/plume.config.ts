@@ -50,7 +50,6 @@ export default defineThemeConfig({
   ],
 
   navbar,
-  notes,
 
   /**
    * 公告板

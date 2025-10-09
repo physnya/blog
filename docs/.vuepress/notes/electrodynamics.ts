@@ -1,8 +1,7 @@
-import { defineNoteConfig } from "vuepress-theme-plume";
+import { defineCollection } from "vuepress-theme-plume";
 
-export default defineNoteConfig({
+export default defineCollection({
 	dir: "electrodynamics",
-	link: "/electrodynamics",
 	sidebar: [
 		{
 			text: "电动力学",
@@ -18,4 +17,6 @@ export default defineNoteConfig({
 			],
 		},
 	],
+	type: "doc",
+	title: "电动力学"
 });

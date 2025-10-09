@@ -1,8 +1,7 @@
-import { defineNoteConfig } from "vuepress-theme-plume";
+import { defineCollection } from "vuepress-theme-plume";
 
-export default defineNoteConfig({
+export default defineCollection({
 	dir: "integral",
-	link: "/integral",
 	sidebar: [
 		{
 			text: "高等微积分 (1)",
@@ -74,8 +73,10 @@ export default defineNoteConfig({
 				"lesson-58",
 				"lesson-59",
 				"lesson-60",
-				'lesson-61',
+				"lesson-61",
 			],
 		},
 	],
+	type: "doc",
+	title: "高等微积分"
 });

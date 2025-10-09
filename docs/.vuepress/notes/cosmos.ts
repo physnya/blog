@@ -1,8 +1,7 @@
-import { defineNoteConfig } from "vuepress-theme-plume";
+import { defineCollection } from "vuepress-theme-plume";
 
-export default defineNoteConfig({
+export default defineCollection({
 	dir: "cosmos",
-	link: "/cosmos",
 	sidebar: [
 		{
 			text: "星系与宇宙",
@@ -26,4 +25,6 @@ export default defineNoteConfig({
 			],
 		},
 	],
+	type: "doc",
+	title: "星系与宇宙"
 });

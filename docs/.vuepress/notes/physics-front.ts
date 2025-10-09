@@ -1,17 +1,15 @@
-import { defineNoteConfig } from 'vuepress-theme-plume'
+import { defineCollection } from "vuepress-theme-plume";
 
-export default defineNoteConfig({
-  dir: 'physics-front',
-  link: '/physics-front',
-  sidebar: [
-    {
-      text: '物理学前沿讲座',
-      collapsed: false,
-      link: '/physics-front/',
-      items: [
-        'lesson-1',
-        'lesson-2',
-      ]
-    },
-  ],
-})
+export default defineCollection({
+	dir: "physics-front",
+	sidebar: [
+		{
+			text: "物理学前沿讲座",
+			collapsed: false,
+			link: "/physics-front/",
+			items: ["lesson-1", "lesson-2"],
+		},
+	],
+	type: "doc",
+	title: "物理学前沿讲座"
+});

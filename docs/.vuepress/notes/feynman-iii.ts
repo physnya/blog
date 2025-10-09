@@ -1,8 +1,8 @@
-import { defineNoteConfig } from 'vuepress-theme-plume'
+import { defineCollection } from 'vuepress-theme-plume'
 
-export default defineNoteConfig({
+export default defineCollection({
+  type: 'doc',
   dir: 'Feynman-III',
-  link: '/Feynman-III',
   sidebar: [
     {
       text: 'Feynman III',
@@ -23,7 +23,7 @@ export default defineNoteConfig({
         'feynman-3-11',
         'feynman-3-12',
         'feynman-3-13',
-        'feynman-3-14', 
+        'feynman-3-14',
         'feynman-3-15',
         'feynman-3-16',
         'feynman-3-17',
@@ -31,4 +31,5 @@ export default defineNoteConfig({
       ]
     },
   ],
+  title: 'Feynman-III 札记'
 })
