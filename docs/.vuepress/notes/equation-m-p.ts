@@ -7,7 +7,11 @@ export default defineCollection({
 			text: "数理方程",
 			collapsed: false,
 			link: "/equation-m-p/",
-			items: ["lesson-1", "lesson-2"],
+			items: [
+				"lesson-1",
+				"lesson-2",
+				"lesson-3",
+			],
 		},
 	],
 	type: "doc",
