@@ -7,7 +7,11 @@ export default defineCollection({
 			text: "物理学前沿讲座",
 			collapsed: false,
 			link: "/physics-front/",
-			items: ["lesson-1", "lesson-2"],
+			items: [
+				"lesson-1",
+				"lesson-2",
+				"lesson-3",
+			],
 		},
 	],
 	type: "doc",
