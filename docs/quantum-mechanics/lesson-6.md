@@ -1,6 +1,7 @@
 ---
 title: Lesson 6 Nobel Prize
 permalink: /quantum-mechanics/lesson-6/
+createTime: 2025/10/11 15:06:21
 ---
 鉴于 Nobel Prize for Physics 刚刚颁布，和我们量子力学关系很大，所以我们花点时间来说一说.
 
