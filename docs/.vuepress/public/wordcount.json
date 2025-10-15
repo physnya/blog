@@ -43,6 +43,7 @@
     "index": 134
   },
   "physics-front": {
+    "lesson-4-particle-physics": 869,
     "lesson-3": 1648,
     "lesson-2-sun": 932,
     "lesson-1-introduction": 1892,
@@ -232,6 +233,9 @@
     "index": 117
   },
   "astro-front": {
+    "astro-front": {
+      "x2c0rokb": 1261
+    },
     "lesson-3-gravitational-waves": 1311,
     "lesson-2-observational-cosmology": 1944,
     "lesson-1": 1557,
@@ -259,7 +263,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 428431,
-  "lastUpdated": "2025-10-14T05:24:18.310Z",
-  "fileCount": 232
+  "total": 430561,
+  "lastUpdated": "2025-10-15T03:40:07.818Z",
+  "fileCount": 234
 }
