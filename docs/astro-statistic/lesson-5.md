@@ -170,7 +170,7 @@ $$
 $$
 所以随着实验数据的增长，$\ln Q_H$ 线性变化，到达某个值时，我们可以开始下判断. 这个概率影响的是 $\ln Q_H$ 的斜率，也就影响我们需要多少次实验才能下判断.
 
-![114514]()
+![](https://vip.123pan.cn/1845440081/ymjew503t0n000d7w32yccofebwfq0hoDIYxAIFxDda1DGxPDwUzAa==.png)
 
 而先验在这里影响的是图像上的截距，比如如果有 5 个好的硬币，1 个坏的硬币，那么我们一开始拿到的就更可能是好的硬币.
 
@@ -192,7 +192,7 @@ O_C=\frac{P(C|DI)}{P(\bar{C}|DI)}=\frac{P(C|DI)}{P(A|DI)+P(B|DI)}=\frac{P(D|CI)P
 $$
 50 次都是正面的数据记为 $\hat{D}$，代入，得到的 $\ln O_{A,B,C}$ - $N$ 图像变成了一个类线性的图像：
 
-![1145142]()
+![](https://vip.123pan.cn/1845440081/yk6baz03t0m000d7w33giwdcyqi1ot3wDIYxAIFxDda1DGxPDwUzAa==.png)
 
 分为三个阶段：
 
@@ -238,11 +238,11 @@ $$
 > $$
 > p(D|f,I)\propto f^n(1-f)^n
 > $$
-> 后验比：114514
+> 后验比：
 > $$
 > \begin{aligned}
 > O_{t0}&=\frac{P(D|H_tI)}{P(D|H_0I)}\cdot\frac{P(H_t|I)}{P(H_0|I)}\\\\
-> &=\frac{\displaystyle{\int_{0.22}^{1}P(D|f,I)P(f|I)\text{d}f}}{\displaystyle{\int_0^{0.22}P(D|f,I)P(f|I)\text{d}f}} = 
+> &=\frac{\displaystyle{\int_{0.22}^{1}P(D|f,I)P(f|I)\text{d}f}}{\displaystyle{\int_0^{0.22}P(D|f,I)P(f|I)\text{d}f}} \approx2.9\times10^{28}
 > \end{aligned}
 > $$
 > 强烈支持有超能力的假说，这还是在先验给得很低的情况下.
@@ -271,7 +271,9 @@ $$
 
 两派的观点在同样的数据下仍然相反. So, what does the data tell？三种观念：
 
-114514
+* Let the data speak for themselves. —— R. A. Fisher
+* The data cannot speak for themselves; and they never have, in any real problem of inference. —— E. T. Jaynes
+* If you torture the data long enough, it will confess to anything. —— Ronald Coase
 
 另一个例子是药物不安全的问题
 
@@ -306,6 +308,8 @@ $$
 >
 > 四个人
 >
+> ![](https://vip.123pan.cn/1845440081/yk6baz03t0n000d7w33hdqpjylxo4j0gDIYxAIFxDda1DGxPDwUzAa==.png)
+>
 > ---
 >
 > 算归一化因子：
@@ -315,8 +319,6 @@ $$
 > &=P(D|SI)P(S|I)+P(D|\bar{S}I)P(\bar{S}|I)
 > \end{aligned}
 > $$
-> 114514
->
 > 计算得到所有人的观点都会变得更加极端，这正是所谓西方民主的悖论.
 
 天王星的轨道不符合 Newton 定律？
@@ -343,11 +345,9 @@ $$
 $$
 E(M)=\int p(D|\theta MI)p(\theta|MI)\text{d}\theta
 $$
-114514
-
 那么现在的后验比多了一个新的参数，是证据比：
 $$
-\frac{E(M_i)}{E(M_j)}=
+Q_{ij}=\frac{p(M_i|DI)}{p(M_j|DI)}=\frac{E(M_i)p(M_i|I)}{E(M_j)p(M_j|I)}\equiv B_{ij}\frac{p(M_i|I)}{p(M_j|I)}
 $$
 还是用硬币为例，两种模型：
 
