@@ -1,7 +1,7 @@
 ---
-title: lesson-10
+title: Lesson 10 多极展开
 createTime: 2025/10/21 13:30:57
-permalink: /electrodynamics/electrodynamics/wbf1i95s/
+permalink: /electrodynamics/lesson-10/
 ---
 对于 Coulomb 特解做展开：
 $$
