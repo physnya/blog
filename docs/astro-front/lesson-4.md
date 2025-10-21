@@ -1,10 +1,8 @@
 ---
-title: lesson-4
+title: Through Cosmic Lens Into Deep Universe —— Strong Gravitational Lensing
 createTime: 2025/10/14 15:06:31
-permalink: /astro-front/astro-front/x2c0rokb/
+permalink: /astro-front/lesson-4-gravitational-lensing/
 ---
-Through Cosmic Lens Into Deep Universe —— Strong Gravitational Lesing
-
 ::: right
 
 —— Dandan Xu

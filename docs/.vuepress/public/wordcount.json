@@ -131,6 +131,9 @@
     "lesson-4-maxwell": 1438,
     "lesson-3-megnetic-field": 1607,
     "lesson-2-math-prepare": 1100,
+    "electrodynamics": {
+      "wbf1i95s": 399
+    },
     "lesson-1-introduction": 637,
     "index": 113
   },
@@ -238,9 +241,8 @@
     "index": 117
   },
   "astro-front": {
-    "astro-front": {
-      "x2c0rokb": 1261
-    },
+    "lesson-5-cosmic-baryons": 1366,
+    "lesson-4-gravitational-lensing": 1258,
     "lesson-3-gravitational-waves": 1311,
     "lesson-2-observational-cosmology": 1944,
     "lesson-1": 1557,
@@ -268,7 +270,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 435639,
-  "lastUpdated": "2025-10-20T18:39:49.434Z",
-  "fileCount": 239
+  "total": 437401,
+  "lastUpdated": "2025-10-21T07:53:09.061Z",
+  "fileCount": 241
 }
