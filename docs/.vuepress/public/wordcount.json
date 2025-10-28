@@ -5,7 +5,7 @@
   "links": 845,
   "bangumi": 44,
   "about": 313,
-  "README": 205,
+  "README": 181,
   "writing": {
     "lesson-9": 465,
     "lesson-8": 874,
@@ -230,6 +230,7 @@
     "uyakgssl": 2086
   },
   "biophysics": {
+    "lesson-6": 1592,
     "lesson-5": 1043,
     "lesson-4-two-state-systems": 1925,
     "lesson-3-chemical-reaction": 2050,
@@ -277,7 +278,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 447080,
-  "lastUpdated": "2025-10-28T07:48:03.813Z",
-  "fileCount": 250
+  "total": 448648,
+  "lastUpdated": "2025-10-28T14:04:09.358Z",
+  "fileCount": 251
 }

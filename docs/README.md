@@ -12,9 +12,6 @@ config:
       -
         title: 评论
         description: 已经配置了 Twikoo 评论系统，评论的回复会用邮件进行通知，请及时查收；同时欢迎发表观点.
-      - 
-        title: 笔记
-        description: 点击 <a href='/notes/'>此处</a> 进入笔记，或者从顶部导航栏进入笔记.
       -
         title: 博客
         description: 点击 <a href='/blog/'>此处</a> 进入 blog 文章页面.
