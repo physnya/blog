@@ -135,6 +135,7 @@
     "lesson-4-maxwell": 1438,
     "lesson-3-megnetic-field": 1607,
     "lesson-2-math-prepare": 1100,
+    "lesson-12-magnetic-field": 365,
     "lesson-11-magnetics": 527,
     "lesson-10": 400,
     "lesson-1-introduction": 637,
@@ -246,6 +247,7 @@
     "index": 117
   },
   "astro-front": {
+    "lesson-6-Galaxy-Formation-in-Supercomputers": 1758,
     "lesson-5-cosmic-baryons": 1366,
     "lesson-4-gravitational-lensing": 1258,
     "lesson-3-gravitational-waves": 1311,
@@ -275,7 +277,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 444948,
-  "lastUpdated": "2025-10-27T12:43:52.056Z",
-  "fileCount": 248
+  "total": 447071,
+  "lastUpdated": "2025-10-28T07:42:54.142Z",
+  "fileCount": 250
 }
