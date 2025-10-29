@@ -41,12 +41,14 @@
     "lesson-4-oscillator": 1035,
     "lesson-3-stationary-states": 1437,
     "lesson-2": 1388,
+    "lesson-12": 363,
     "lesson-11-uncertainty": 706,
     "lesson-10": 325,
     "lesson-1-introduction": 1759,
     "index": 134
   },
   "physics-front": {
+    "lesson-6": 479,
     "lesson-5": 876,
     "lesson-4-particle-physics": 869,
     "lesson-3": 1648,
@@ -278,7 +280,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 448648,
-  "lastUpdated": "2025-10-28T14:05:20.019Z",
-  "fileCount": 251
+  "total": 449490,
+  "lastUpdated": "2025-10-29T17:03:16.484Z",
+  "fileCount": 253
 }
