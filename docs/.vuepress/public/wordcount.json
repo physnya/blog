@@ -137,6 +137,7 @@
     "lesson-4-maxwell": 1438,
     "lesson-3-megnetic-field": 1607,
     "lesson-2-math-prepare": 1100,
+    "lesson-13": 527,
     "lesson-12-magnetic-field": 365,
     "lesson-11-magnetics": 527,
     "lesson-10": 400,
@@ -241,6 +242,7 @@
     "index": 140
   },
   "astro-statistic": {
+    "lesson-7-Regression-Samplers": 2104,
     "lesson-6-multivariable-analysis": 1839,
     "lesson-5-model-selection": 872,
     "lesson-4-parameter-estimation": 1576,
@@ -280,7 +282,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 449490,
-  "lastUpdated": "2025-10-29T17:03:16.484Z",
-  "fileCount": 253
+  "total": 452121,
+  "lastUpdated": "2025-10-30T14:39:21.666Z",
+  "fileCount": 255
 }
