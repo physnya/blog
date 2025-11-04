@@ -21,7 +21,7 @@ createTime: 2025/09/16 19:05:57
 - 10/14: [Dark matter and gravitational lensing (Prof. XU Dandan)](/astro-front/lesson-4-gravitational-lensing/)
 - 10/21: [Cosmic ecosystems (Prof. QU Zhijie)](/astro-front/lesson-5-cosmic-baryons/)
 - 10/28: [Astrophysics on supercomputer (Prof. LI Hui)](/astro-front/lesson-6-Galaxy-Formation-in-Supercomputers/)
-- 11/04: Cluster of galaxies (Prof. HUANG Song)
+- 11/04: [Observation of Cluster of galaxies (Prof. HUANG Song)](/astro-front/lesson-7-Multiplexed-Survey-Telescope/)
 - 11/11: Densest stars in the universe (Prof. LI Xinyu)
 - 11/18: Cosmic radio flashes (Prof. LI Dongzi)
 - 11/25: Other suns and habitable worlds (Prof. WANG Xuesong)

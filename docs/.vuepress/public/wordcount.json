@@ -121,6 +121,7 @@
     "index": 227
   },
   "equation-m-p": {
+    "lesson-6": 1472,
     "lesson-5": 2230,
     "lesson-4": 1835,
     "lesson-3": 976,
@@ -137,6 +138,7 @@
     "lesson-4-maxwell": 1438,
     "lesson-3-megnetic-field": 1607,
     "lesson-2-math-prepare": 1100,
+    "lesson-14": 601,
     "lesson-13": 527,
     "lesson-12-magnetic-field": 365,
     "lesson-11-magnetics": 527,
@@ -252,13 +254,14 @@
     "index": 117
   },
   "astro-front": {
+    "lesson-7-Multiplexed-Survey-Telescope": 775,
     "lesson-6-Galaxy-Formation-in-Supercomputers": 1758,
     "lesson-5-cosmic-baryons": 1366,
     "lesson-4-gravitational-lensing": 1258,
     "lesson-3-gravitational-waves": 1311,
     "lesson-2-observational-cosmology": 1944,
     "lesson-1": 1557,
-    "index": 287
+    "index": 292
   },
   "Feynman-III": {
     "zpmh77r9": 3189,
@@ -282,7 +285,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 452121,
-  "lastUpdated": "2025-10-30T14:39:21.666Z",
-  "fileCount": 255
+  "total": 454974,
+  "lastUpdated": "2025-11-04T09:41:06.454Z",
+  "fileCount": 258
 }
