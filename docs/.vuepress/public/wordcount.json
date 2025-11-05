@@ -41,6 +41,7 @@
     "lesson-4-oscillator": 1035,
     "lesson-3-stationary-states": 1437,
     "lesson-2": 1388,
+    "lesson-13": 390,
     "lesson-12": 363,
     "lesson-11-uncertainty": 706,
     "lesson-10": 325,
@@ -48,6 +49,7 @@
     "index": 134
   },
   "physics-front": {
+    "lesson-7-dark-matter-nuclear-clock": 1170,
     "lesson-6": 479,
     "lesson-5": 876,
     "lesson-4-particle-physics": 869,
@@ -286,7 +288,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 456266,
-  "lastUpdated": "2025-11-04T12:58:26.342Z",
-  "fileCount": 259
+  "total": 457826,
+  "lastUpdated": "2025-11-05T12:15:41.062Z",
+  "fileCount": 261
 }

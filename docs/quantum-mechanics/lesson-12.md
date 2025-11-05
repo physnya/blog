@@ -1,5 +1,5 @@
 ---
-title: Lesson 12 高维的 Shrödinger 方程
+title: Lesson 12 高维的 Schrödinger 方程
 permalink: /quantum-mechanics/lesson-12/
 createTime: 2025/10/29 15:06:18
 ---
