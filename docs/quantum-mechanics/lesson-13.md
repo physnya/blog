@@ -1,6 +1,7 @@
 ---
 title: Lesson 13 球坐标的 Schrödinger 解
 permalink: /quantum-mechanics/lesson-13/
+createTime: 2025/11/05 20:11:25
 ---
 $$
 \nabla^2=\frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial}{\partial r}\right)+\frac{1}{r^2\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial}{\partial\theta}\right)+\frac{1}{r^2\sin^2\theta}\frac{\partial^2}{\partial\phi^2}
