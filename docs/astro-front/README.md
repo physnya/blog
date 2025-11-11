@@ -22,7 +22,7 @@ createTime: 2025/09/16 19:05:57
 - 10/21: [Cosmic ecosystems (Prof. QU Zhijie)](/astro-front/lesson-5-cosmic-baryons/)
 - 10/28: [Astrophysics on supercomputer (Prof. LI Hui)](/astro-front/lesson-6-Galaxy-Formation-in-Supercomputers/)
 - 11/04: [Observation of Cluster of galaxies (Prof. HUANG Song)](/astro-front/lesson-7-Multiplexed-Survey-Telescope/)
-- 11/11: Densest stars in the universe (Prof. LI Xinyu)
+- 11/11: [The Shape of Cosmic Explosions (Prof. Yi YANG)](/astro-front/lesson-8-shape-of-cosmic-explosions/)
 - 11/18: Cosmic radio flashes (Prof. LI Dongzi)
 - 11/25: Other suns and habitable worlds (Prof. WANG Xuesong)
 - 12/02: Largest radio telescope in the world (Prof. LI Di)
