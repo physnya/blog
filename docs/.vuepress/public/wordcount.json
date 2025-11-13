@@ -41,6 +41,7 @@
     "lesson-4-oscillator": 1035,
     "lesson-3-stationary-states": 1437,
     "lesson-2": 1388,
+    "lesson-15-spin": 353,
     "lesson-14-hydrogen": 396,
     "lesson-13": 391,
     "lesson-12": 363,
@@ -143,6 +144,7 @@
     "lesson-4-maxwell": 1438,
     "lesson-3-megnetic-field": 1607,
     "lesson-2-math-prepare": 1100,
+    "lesson-17-wave-guide": 763,
     "lesson-16": 1034,
     "lesson-15-wave": 402,
     "lesson-14": 601,
@@ -253,6 +255,7 @@
     "index": 140
   },
   "astro-statistic": {
+    "lesson-9-Density-Estimation": 2144,
     "lesson-8-Nonparametric-Statistics": 1210,
     "lesson-7-Regression-Samplers": 2104,
     "lesson-6-multivariable-analysis": 1839,
@@ -296,7 +299,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 467360,
-  "lastUpdated": "2025-11-12T03:36:05.870Z",
-  "fileCount": 269
+  "total": 470620,
+  "lastUpdated": "2025-11-13T14:25:23.948Z",
+  "fileCount": 272
 }
