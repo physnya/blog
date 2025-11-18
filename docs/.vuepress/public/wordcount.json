@@ -41,6 +41,7 @@
     "lesson-4-oscillator": 1035,
     "lesson-3-stationary-states": 1437,
     "lesson-2": 1388,
+    "lesson-16-spin-2": 238,
     "lesson-15-spin": 353,
     "lesson-14-hydrogen": 396,
     "lesson-13": 391,
@@ -145,6 +146,7 @@
     "lesson-4-maxwell": 1438,
     "lesson-3-megnetic-field": 1607,
     "lesson-2-math-prepare": 1100,
+    "lesson-18-radiation": 590,
     "lesson-17-wave-guide": 763,
     "lesson-16": 1034,
     "lesson-15-wave": 402,
@@ -268,6 +270,7 @@
     "index": 117
   },
   "astro-front": {
+    "lesson-9-exoplanet": 1054,
     "lesson-8-shape-of-cosmic-explosions": 1687,
     "lesson-7-Multiplexed-Survey-Telescope": 775,
     "lesson-6-Galaxy-Formation-in-Supercomputers": 1758,
@@ -300,7 +303,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 472011,
-  "lastUpdated": "2025-11-14T04:20:03.837Z",
-  "fileCount": 273
+  "total": 473893,
+  "lastUpdated": "2025-11-18T07:41:33.098Z",
+  "fileCount": 276
 }
