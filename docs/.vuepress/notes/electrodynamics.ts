@@ -26,6 +26,7 @@ export default defineCollection({
 				"lesson-16",
 				"lesson-17",
 				"lesson-18",
+				"lesson-19",
 			],
 		},
 	],

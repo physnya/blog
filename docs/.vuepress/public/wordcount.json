@@ -41,6 +41,7 @@
     "lesson-4-oscillator": 1035,
     "lesson-3-stationary-states": 1437,
     "lesson-2": 1388,
+    "lesson-17-CG-coefficient": 426,
     "lesson-16-spin-2": 238,
     "lesson-15-spin": 353,
     "lesson-14-hydrogen": 396,
@@ -52,6 +53,7 @@
     "index": 134
   },
   "physics-front": {
+    "lesson-9": 921,
     "lesson-8": 1382,
     "lesson-7-dark-matter-nuclear-clock": 1171,
     "lesson-6": 479,
@@ -146,6 +148,7 @@
     "lesson-4-maxwell": 1438,
     "lesson-3-megnetic-field": 1607,
     "lesson-2-math-prepare": 1100,
+    "lesson-19-radiation-2": 526,
     "lesson-18-radiation": 590,
     "lesson-17-wave-guide": 763,
     "lesson-16": 1034,
@@ -307,7 +310,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 476916,
-  "lastUpdated": "2025-11-18T17:47:57.475Z",
-  "fileCount": 278
+  "total": 478789,
+  "lastUpdated": "2025-11-20T07:14:43.162Z",
+  "fileCount": 281
 }
