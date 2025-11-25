@@ -149,6 +149,7 @@
     "lesson-5-dielectric": 887,
     "lesson-4-maxwell": 1438,
     "lesson-3-megnetic-field": 1607,
+    "lesson-20-dipole-radiation": 416,
     "lesson-2-math-prepare": 1100,
     "lesson-19-radiation-2": 526,
     "lesson-18-radiation": 590,
@@ -280,7 +281,7 @@
     "index": 117
   },
   "astro-front": {
-    "lesson-9-exoplanet": 1054,
+    "lesson-9-exoplanet": 1053,
     "lesson-8-shape-of-cosmic-explosions": 1687,
     "lesson-7-Multiplexed-Survey-Telescope": 775,
     "lesson-6-Galaxy-Formation-in-Supercomputers": 1758,
@@ -288,8 +289,9 @@
     "lesson-4-gravitational-lensing": 1258,
     "lesson-3-gravitational-waves": 1311,
     "lesson-2-observational-cosmology": 1944,
+    "lesson-10-neutron-stars": 594,
     "lesson-1": 1557,
-    "index": 295
+    "index": 300
   },
   "Feynman-III": {
     "zpmh77r9": 3189,
@@ -313,7 +315,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 483161,
-  "lastUpdated": "2025-11-25T01:57:42.506Z",
-  "fileCount": 284
+  "total": 484175,
+  "lastUpdated": "2025-11-25T07:39:01.920Z",
+  "fileCount": 286
 }

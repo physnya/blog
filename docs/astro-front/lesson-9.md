@@ -1,5 +1,5 @@
 ---
-title: Lesson 9 Exoplanet
+title: Exoplanet
 permalink: /astro-front/lesson-9-exoplanet/
 createTime: 2025/11/18 15:36:58
 ---
