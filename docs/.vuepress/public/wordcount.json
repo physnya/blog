@@ -41,6 +41,7 @@
     "lesson-4-oscillator": 1035,
     "lesson-3-stationary-states": 1437,
     "lesson-2": 1388,
+    "lesson-18": 739,
     "lesson-17-CG-coefficient": 426,
     "lesson-16-spin-2": 238,
     "lesson-15-spin": 353,
@@ -129,6 +130,7 @@
     "index": 227
   },
   "equation-m-p": {
+    "lesson-9-legendre-polynomial": 1446,
     "lesson-8-Legendre-polynomial": 1391,
     "lesson-7": 1943,
     "lesson-6": 1472,
@@ -311,7 +313,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 480976,
-  "lastUpdated": "2025-11-20T15:18:16.805Z",
-  "fileCount": 282
+  "total": 483161,
+  "lastUpdated": "2025-11-25T01:57:42.506Z",
+  "fileCount": 284
 }
