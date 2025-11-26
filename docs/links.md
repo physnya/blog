@@ -41,8 +41,8 @@ list:
     avatar: https://mr-errion.github.io/img/avatar.jpg
   - name: Whitney
     desc: Yuri save ACGN!
-    link: https://phymani.me
-    avatar: https://phymani.me/img/avatar.jpg
+    link: https://www.phymani.me
+    avatar: https://www.phymani.me/avatar.jpg
   - name: Eamon
     desc: 一个生物研究生
     link: https://fanyiming.life
