@@ -9,11 +9,10 @@
 	/**
    * 主题色
    * -------------------------------------------------------------------------- */
-	--theme-hue: #5086a1;
-	--vp-c-brand-1: hsl(var(--theme-hue) 50% 50%); /* 链接颜色、强调色 */
-	--vp-c-brand-2: hsl(var(--theme-hue) 50% 65%); /* 链接、按钮 hover 颜色 */
-	--vp-c-brand-3: hsl(var(--theme-hue) 50% 80% / 75%); /* 背景色、边框色 */
-	--vp-c-brand-soft: hsla(var(--theme-hue) 50% 70% / 40%); /* 辅助色 */
+	--vp-c-brand-1: #5086a1;
+	--vp-c-brand-2: #6aa1b7;
+	--vp-c-brand-3: #8cccd5;
+	--vp-c-brand-soft: rgba(131, 208, 218, 0.314);
 
 	/**
    * 文本颜色
@@ -27,24 +26,27 @@
    * 背景色
    * -------------------------------------------------------------------------- */
 
-	--vp-c-bg: #fff; /* 主体背景 */
-	--vp-nav-bg-color: #fff; /* 导航栏背景 */
-	--vp-nav-screen-bg-color: #fff; /* 移动端导航栏 */
-	--vp-local-nav-bg-color: #fff; /* 页面内导航栏 */
-	--vp-sidebar-bg-color: #f6f6f7; /* 侧边栏背景 */
-	--vp-code-block-bg: #f6f8fa; /* 代码块背景 */
+	--vp-nav-bg-color: #f1f1f1;
+	--vp-nav-screen-bg-color: #f1f1f1;
+	--vp-local-nav-bg-color: #f1f1f1;
+	--vp-c-bg: #fbfaf5;
+	--vp-c-bg-soft: #f1f1f1;
+	--vp-c-bg-elv: #fbfaf5;
+	--vp-sidebar-bg-color: #f1f1f1;
+	--vp-code-block-bg: #f1f1f1;
+	--vp-c-divider: #f1f1f1;
+	--vp-c-bg-alt: #fbfaf5;
 }
 
-[data-theme="dark"] {
+:root[data-theme="dark"] {
 	/**
    * 主题色
    * -------------------------------------------------------------------------- */
 
-	--theme-hue: #5086a1;
-	--vp-c-brand-1: hsl(var(--theme-hue) 50% 50%); /* 链接颜色、强调色 */
-	--vp-c-brand-2: hsl(var(--theme-hue) 50% 65%); /* 链接、按钮 hover 颜色 */
-	--vp-c-brand-3: hsl(var(--theme-hue) 50% 80% / 75%); /* 背景色、边框色 */
-	--vp-c-brand-soft: hsla(var(--theme-hue) 50% 70% / 40%); /* 辅助色 */
+	--vp-c-brand-1: #8cccd5;
+	--vp-c-brand-2: #6aa1b7;
+	--vp-c-brand-3: #5086a1;
+	--vp-c-brand-soft: rgba(131, 208, 218, 0.314);
 
 	/**
    * 文本颜色
@@ -57,13 +59,16 @@
 	/**
    * 背景色
    * -------------------------------------------------------------------------- */
-
-	--vp-c-bg: #1b1b1f; /* 主体背景 */
-	--vp-nav-bg-color: #1b1b1f; /* 导航栏背景 */
-	--vp-nav-screen-bg-color: #1b1b1f; /* 移动端导航栏 */
-	--vp-local-nav-bg-color: #1b1b1f; /* 页面内导航栏 */
-	--vp-sidebar-bg-color: #161618; /* 侧边栏背景 */
-	--vp-code-block-bg: #202127; /* 代码块背景 */
+	--vp-nav-bg-color: #3e3e3e;
+	--vp-nav-screen-bg-color: #3e3e3e; /* 移动端导航栏 */
+	--vp-local-nav-bg-color: #3e3e3e; /* 页面内导航栏 */
+	--vp-c-bg: #2c2c2c;
+	--vp-c-bg-soft: #3e3e3e;
+	--vp-c-bg-elv: #343434;
+	--vp-sidebar-bg-color: #3e3e3e;
+	--vp-code-block-bg: #3e3e3e;
+	--vp-c-divider: #2c2c2c;
+	--vp-c-bg-alt: #2c2c2c;
 }
 
 /* --- 微调 --- */
@@ -124,6 +129,21 @@ blockquote::before {
 
 .vp-doc table {
 	place-items: center;
+}
+
+.vp-timeline-line {
+	color: var(--vp-c-divider) !important;
+}
+
+.vp-posts {
+	background-color: transparent;
+}
+
+.vp-profile,
+.nav-link,
+.vp-pagination,
+.vp-post-item {
+	background-color: var(--vp-c-bg-soft) !important;
 }
 
 .vp-doc img {
@@ -229,20 +249,42 @@ html.dark {
 	background-color: var(--vp-c-bg);
 }
 
-.vp-nav.fixed .vp-navbar {
-	box-shadow: var(--vp-shadow-1);
-}
-
 .pager {
 	background-color: var(--vp-c-bg);
 }
 
-.pager:empty {
-	background-color: transparent;
-}
-
 .vp-navbar .vp-social-link.no-icon {
 	display: none;
+}
+
+.vp-nav .vp-navbar,
+.vp-nav .vp-navbar .content-body {
+	background: linear-gradient(
+		to bottom,
+		color-mix(in srgb, var(--vp-c-bg-soft) 100%, transparent),
+		color-mix(in srgb, var(--vp-c-bg) 20%, transparent)
+	) !important;
+}
+
+.vp-sidebar .curtain {
+	background: linear-gradient(
+		to bottom right,
+		color-mix(in srgb, var(--vp-c-bg-soft) 100%, transparent),
+		color-mix(in srgb, var(--vp-c-bg) 50%, transparent)
+	) !important;
+}
+
+.vp-nav .divider {
+	display: none;
+}
+
+.vp-sidebar {
+	z-index: 2;
+	background: linear-gradient(
+		to right,
+		color-mix(in srgb, var(--vp-c-bg-soft) 100%, transparent),
+		color-mix(in srgb, var(--vp-c-bg) 40%, transparent)
+	) !important;
 }
 
 /* --- Twikoo 相关 --- */
@@ -553,14 +595,35 @@ html.dark {
 /* --- 方格背景及相关调整 --- */
 
 body {
-	background-size: 26px 26px;
-	background-position: center center;
+	background: var(--vp-c-bg);
+	position: relative;
+	min-height: 100%;
+}
+
+body::before {
+	content: "";
+	position: fixed;
+	inset: 0;
+	pointer-events: none;
+	z-index: 0;
 	background-image: linear-gradient(
 			to right,
-			var(--vp-c-divider) 1px,
+			rgb(from var(--vp-c-divider) calc(1 - r) calc(1 - g) calc(1 - b)) 1px,
 			transparent 1px
 		),
-		linear-gradient(to bottom, var(--vp-c-divider) 1px, transparent 1px);
+		linear-gradient(
+			to bottom,
+			rgb(from var(--vp-c-divider) calc(1 - r) calc(1 - g) calc(1 - b)) 1px,
+			transparent 1px
+		);
+	background-size: 26px 26px;
+	background-position: center center;
+	opacity: 0.2;
+	mix-blend-mode: luminosity;
+}
+
+.pager:empty {
+	background-color: transparent;
 }
 
 .tk-input.el-textarea {

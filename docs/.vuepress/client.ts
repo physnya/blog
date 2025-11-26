@@ -37,7 +37,6 @@ export default defineClientConfig({
   layouts: {
     Layout: () => h(Layout, null, {
       'aside-outline-after': () => h(AsideOutlineAfter),
-      'nav-bar-content-after': () => h(ColourPicker),
     }),
   },
   
