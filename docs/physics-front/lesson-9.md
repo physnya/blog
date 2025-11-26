@@ -3,7 +3,11 @@ title: Lesson 9 引力波探测 & 原子量子计算
 permalink: /physics-front/lesson-9/
 createTime: 2025/11/19 11:28:35
 ---
+::: center
+
 ## 引力波探测
+
+:::
 
 ::: right
 
@@ -39,7 +43,11 @@ createTime: 2025/11/19 11:28:35
 
 具体来说在干涉仪输出位置加一个分束镜，在光路中引入一个基于光力系统的量子放大器.
 
+::: center
+
 ## 原子量子计算
+
+:::
 
 ::: right
 

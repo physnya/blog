@@ -41,6 +41,7 @@
     "lesson-4-oscillator": 1035,
     "lesson-3-stationary-states": 1437,
     "lesson-2": 1388,
+    "lesson-19": 374,
     "lesson-18": 739,
     "lesson-17-CG-coefficient": 426,
     "lesson-16-spin-2": 238,
@@ -54,7 +55,7 @@
     "index": 134
   },
   "physics-front": {
-    "lesson-9": 921,
+    "lesson-9": 910,
     "lesson-8": 1382,
     "lesson-7-dark-matter-nuclear-clock": 1171,
     "lesson-6": 479,
@@ -62,6 +63,7 @@
     "lesson-4-particle-physics": 869,
     "lesson-3": 1648,
     "lesson-2-sun": 932,
+    "lesson-10": 759,
     "lesson-1-introduction": 1892,
     "index": 83
   },
@@ -264,6 +266,7 @@
     "lesson-4-two-state-systems": 1925,
     "lesson-3-chemical-reaction": 2050,
     "lesson-2-physics-basis": 2157,
+    "lesson-10": 706,
     "lesson-1-introduction": 2367,
     "index": 140
   },
@@ -315,7 +318,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 484175,
-  "lastUpdated": "2025-11-25T07:39:01.920Z",
-  "fileCount": 286
+  "total": 486003,
+  "lastUpdated": "2025-11-26T07:28:26.564Z",
+  "fileCount": 289
 }
