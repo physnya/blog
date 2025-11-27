@@ -3,7 +3,7 @@ title: Lesson 11 Truncated & Censored Data
 permalink: /astro-statistic/lesson-11-truncated-censored-data/
 createTime: 2025/11/27 22:03:15
 ---
-::: center
+::: tip
 
 ## Quizzes
 
