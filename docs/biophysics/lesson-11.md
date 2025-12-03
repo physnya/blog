@@ -1,6 +1,7 @@
 ---
 title: Lesson 11 Molecular Motor (3)
 permalink: /biophysics/lesson-11/
+createTime: 2025/12/02 22:10:20
 ---
 马达的运动，实际上动力来源于膜两侧的电化学势差，
 $$

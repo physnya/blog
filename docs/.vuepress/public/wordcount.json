@@ -40,6 +40,7 @@
     "lesson-5-coherent-state": 650,
     "lesson-4-oscillator": 1035,
     "lesson-3-stationary-states": 1437,
+    "lesson-21-energy-band": 647,
     "lesson-20": 772,
     "lesson-2": 1388,
     "lesson-19": 374,
@@ -64,6 +65,7 @@
     "lesson-4-particle-physics": 869,
     "lesson-3": 1648,
     "lesson-2-sun": 932,
+    "lesson-11": 1221,
     "lesson-10": 759,
     "lesson-1-introduction": 1892,
     "index": 83
@@ -269,7 +271,7 @@
     "lesson-4-two-state-systems": 1925,
     "lesson-3-chemical-reaction": 2050,
     "lesson-2-physics-basis": 2157,
-    "lesson-11": 1017,
+    "lesson-11": 1018,
     "lesson-10": 706,
     "lesson-1-introduction": 2367,
     "index": 140
@@ -324,7 +326,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 491784,
-  "lastUpdated": "2025-12-02T14:13:04.062Z",
-  "fileCount": 295
+  "total": 493653,
+  "lastUpdated": "2025-12-03T08:11:52.713Z",
+  "fileCount": 297
 }
