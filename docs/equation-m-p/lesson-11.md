@@ -76,7 +76,7 @@ $$
 &\int J_0(x)\cos x\text{d}x\\
 &=x\cos xJ_0(x)-\int x[J_0(x)\cos x]'\text{d}x\\
 &=x\cos xJ_0(x)-\int x[-J_1(x)\cos x-J_0(x)\sin x]\text{d}x\\
-&=x\cos xJ_0(x)+\int x\left[\frac{\text{d}J_0(x)}{\text{d}x} \sin x+J_1(x)\cos x\right]\text{d}x\\\\
+&=x\cos xJ_0(x)+\int \left[\frac{\text{d}[xJ_1(x)]}{\text{d}x} \sin x+xJ_1(x)\cos x\right]\text{d}x\\\\
 &=\boxed{x\cos xJ_0(x)+x\sin xJ_1(x)}
 \end{aligned}
 $$
