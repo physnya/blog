@@ -26,8 +26,8 @@ createTime: 2025/09/16 19:05:57
 - 11/18: [Other suns and habitable worlds (Prof. WANG Xuesong)](/astro-front/lesson-9-exoplanet/)
 - 11/25: [Neutron Stars (Prof. LI Xinyu)](/astro-front/lesson-10-neutron-stars/)
 - 12/02: [Largest radio telescope in the world (Prof. LI Di)](/astro-front/lesson-11-tianwen/)
-- 12/09: Large optical telescope made in Tsinghua (Prof. CAI Zheng)
-- 12/16: Space-borne observatories (Prof. CUI Wei)
+- 12/09: [China Jingping Labs and Related Physics (Prof. AN Haipeng)](/astro-front/lesson-12-China-Jingping-Labs-and-Related-Physics/)
+- 12/16: [Fast Radio Burst (Prof. LI Dongzi)](/astro-front/lesson-13-fast-radio-burst/)
 - 12/23: In-class presentation
 - 12/30: In-class presentation
 

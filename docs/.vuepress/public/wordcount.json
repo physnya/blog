@@ -40,6 +40,7 @@
     "lesson-5-coherent-state": 650,
     "lesson-4-oscillator": 1035,
     "lesson-3-stationary-states": 1437,
+    "lesson-24": 496,
     "lesson-23-Zeeman-effect": 411,
     "lesson-22-perturbation": 492,
     "lesson-21-energy-band": 647,
@@ -159,6 +160,7 @@
     "lesson-5-dielectric": 887,
     "lesson-4-maxwell": 1438,
     "lesson-3-megnetic-field": 1607,
+    "lesson-26": 586,
     "lesson-25": 500,
     "lesson-24": 598,
     "lesson-23-special-relativity": 534,
@@ -278,6 +280,7 @@
     "lesson-4-two-state-systems": 1925,
     "lesson-3-chemical-reaction": 2050,
     "lesson-2-physics-basis": 2157,
+    "lesson-13-dynamics-of-biological-networks": 717,
     "lesson-12-absorbing": 915,
     "lesson-11": 1018,
     "lesson-10": 706,
@@ -309,11 +312,12 @@
     "lesson-4-gravitational-lensing": 1258,
     "lesson-3-gravitational-waves": 1311,
     "lesson-2-observational-cosmology": 1944,
+    "lesson-13-fast-radio-burst": 537,
     "lesson-12-China-Jingping-Labs-and-Related-Physics": 1115,
     "lesson-11-tianwen": 454,
     "lesson-10-neutron-stars": 594,
     "lesson-1": 1557,
-    "index": 303
+    "index": 310
   },
   "Feynman-III": {
     "zpmh77r9": 3189,
@@ -337,7 +341,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 506730,
-  "lastUpdated": "2025-12-13T08:19:17.811Z",
-  "fileCount": 308
+  "total": 509073,
+  "lastUpdated": "2025-12-16T13:06:04.674Z",
+  "fileCount": 312
 }
