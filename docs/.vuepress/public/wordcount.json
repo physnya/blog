@@ -162,6 +162,7 @@
     "lesson-5-dielectric": 887,
     "lesson-4-maxwell": 1438,
     "lesson-3-megnetic-field": 1607,
+    "lesson-27": 686,
     "lesson-26": 586,
     "lesson-25": 500,
     "lesson-24": 598,
@@ -298,6 +299,7 @@
     "lesson-4-parameter-estimation": 1576,
     "lesson-3-probalbility-distribution-functions": 2262,
     "lesson-2-probability-theory": 2665,
+    "lesson-14-spatial-statistics": 778,
     "lesson-13-on-the-intersection-between-astronomy-and-ai": 3281,
     "lesson-12-time-series-analysis": 2792,
     "lesson-11-truncated-censored-data": 1927,
@@ -343,7 +345,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 510176,
-  "lastUpdated": "2025-12-17T18:12:29.207Z",
-  "fileCount": 314
+  "total": 511640,
+  "lastUpdated": "2025-12-18T16:20:14.629Z",
+  "fileCount": 316
 }
