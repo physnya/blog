@@ -37,8 +37,8 @@ importers:
         specifier: 2.0.0-rc.26
         version: 2.0.0-rc.26(@types/node@25.0.3)(sass-embedded@1.97.1)(sass@1.97.1)(typescript@5.9.3)
       '@vuepress/helper':
-        specifier: 2.0.0-rc.118
-        version: 2.0.0-rc.118(typescript@5.9.3)(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.0.3)(sass-embedded@1.97.1)(sass@1.97.1)(typescript@5.9.3))(typescript@5.9.3)(vue@3.5.26(typescript@5.9.3)))
+        specifier: 2.0.0-rc.121
+        version: 2.0.0-rc.121(typescript@5.9.3)(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.0.3)(sass-embedded@1.97.1)(sass@1.97.1)(typescript@5.9.3))(typescript@5.9.3)(vue@3.5.26(typescript@5.9.3)))
       '@vuepress/plugin-git':
         specifier: 2.0.0-rc.121
         version: 2.0.0-rc.121(typescript@5.9.3)(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.0.3)(sass-embedded@1.97.1)(sass@1.97.1)(typescript@5.9.3))(typescript@5.9.3)(vue@3.5.26(typescript@5.9.3)))
@@ -1385,11 +1385,6 @@ packages:
 
   '@vuepress/core@2.0.0-rc.26':
     resolution: {integrity: sha512-Wyiv9oRvdT0lAPGU0Pj1HetjKicbX8/gqbBVYv2MmL7Y4a3r0tyQ92IdZ8LHiAgPvzctntQr/JXIELedvU1t/w==}
-
-  '@vuepress/helper@2.0.0-rc.118':
-    resolution: {integrity: sha512-g+v+KQBfalhYbAAmb6ivFwBgyoi6tQkyKwMQNEPEbaUnCeZl+tAEr7RvTNLX2ZCcKSZeSp3PKciYEtFseDzN2A==}
-    peerDependencies:
-      vuepress: 2.0.0-rc.26
 
   '@vuepress/helper@2.0.0-rc.121':
     resolution: {integrity: sha512-Jd67pS9n1BIy17hct+MRwhUoQz5Gu+mMllFoDRVg/0HIETJUjodOzJwR+NPWfGdHHHV8MELUMvuzEA80tOOv5w==}
@@ -4966,18 +4961,6 @@ snapshots:
       vue: 3.5.26(typescript@5.9.3)
     transitivePeerDependencies:
       - supports-color
-      - typescript
-
-  '@vuepress/helper@2.0.0-rc.118(typescript@5.9.3)(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.0.3)(sass-embedded@1.97.1)(sass@1.97.1)(typescript@5.9.3))(typescript@5.9.3)(vue@3.5.26(typescript@5.9.3)))':
-    dependencies:
-      '@vue/shared': 3.5.26
-      '@vueuse/core': 14.1.0(vue@3.5.26(typescript@5.9.3))
-      cheerio: 1.1.2
-      fflate: 0.8.2
-      gray-matter: 4.0.3
-      vue: 3.5.26(typescript@5.9.3)
-      vuepress: 2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.0.3)(sass-embedded@1.97.1)(sass@1.97.1)(typescript@5.9.3))(typescript@5.9.3)(vue@3.5.26(typescript@5.9.3))
-    transitivePeerDependencies:
       - typescript
 
   '@vuepress/helper@2.0.0-rc.121(typescript@5.9.3)(vuepress@2.0.0-rc.26(@vuepress/bundler-vite@2.0.0-rc.26(@types/node@25.0.3)(sass-embedded@1.97.1)(sass@1.97.1)(typescript@5.9.3))(typescript@5.9.3)(vue@3.5.26(typescript@5.9.3)))':
