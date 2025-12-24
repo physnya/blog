@@ -25,10 +25,10 @@
     "@iconify/vue": "^3.2.1",
     "@ifuture/vuepress-plugin-rss": "1.0.2",
     "@vuepress/bundler-vite": "2.0.0-rc.26",
-    "@vuepress/helper": "2.0.0-rc.118",
-    "@vuepress/plugin-git": "2.0.0-rc.118",
-    "@vuepress/plugin-llms": "2.0.0-rc.118",
-    "@vuepress/plugin-markdown-chart": "2.0.0-rc.118",
+    "@vuepress/helper": "2.0.0-rc.121",
+    "@vuepress/plugin-git": "2.0.0-rc.121",
+    "@vuepress/plugin-llms": "2.0.0-rc.121",
+    "@vuepress/plugin-markdown-chart": "2.0.0-rc.121",
     "@vueuse/core": "^13.9.0",
     "@vueuse/integrations": "^13.9.0",
     "axios": "^1.13.2",
@@ -40,20 +40,20 @@
     "husky": "^9.1.7",
     "mark.js": "^8.11.1",
     "minisearch": "^6.3.0",
-    "sass-embedded": "^1.93.3",
+    "sass-embedded": "^1.97.1",
     "twikoo": "^1.6.44",
     "typescript": "^5.9.3",
     "vite-plugin-font": "^5.1.2",
-    "vue": "^3.5.24",
+    "vue": "^3.5.26",
     "vuepress": "2.0.0-rc.26",
-    "vuepress-theme-plume": "1.0.0-rc.177"
+    "vuepress-theme-plume": "1.0.0-rc.183"
   },
   "dependencies": {
-    "@fullcalendar/core": "^6.1.19",
-    "@fullcalendar/daygrid": "^6.1.19",
-    "@fullcalendar/interaction": "^6.1.19",
-    "@fullcalendar/vue3": "^6.1.19",
-    "@vuepress/plugin-feed": "2.0.0-rc.118",
-    "mermaid": "^11.12.1"
+    "@fullcalendar/core": "^6.1.20",
+    "@fullcalendar/daygrid": "^6.1.20",
+    "@fullcalendar/interaction": "^6.1.20",
+    "@fullcalendar/vue3": "^6.1.20",
+    "@vuepress/plugin-feed": "2.0.0-rc.121",
+    "mermaid": "^11.12.2"
   }
 }
