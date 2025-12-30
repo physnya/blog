@@ -40,6 +40,7 @@
     "lesson-5-coherent-state": 650,
     "lesson-4-oscillator": 1035,
     "lesson-3-stationary-states": 1437,
+    "lesson-28-scattering": 452,
     "lesson-27": 600,
     "lesson-26": 365,
     "lesson-25": 553,
@@ -151,6 +152,7 @@
     "lesson-4": 1835,
     "lesson-3": 976,
     "lesson-2": 2509,
+    "lesson-14-integral-transformation": 2153,
     "lesson-13": 1378,
     "lesson-11-bessel-function": 1751,
     "lesson-10": 1148,
@@ -165,6 +167,7 @@
     "lesson-5-dielectric": 887,
     "lesson-4-maxwell": 1438,
     "lesson-3-megnetic-field": 1607,
+    "lesson-29-scattering": 496,
     "lesson-27": 686,
     "lesson-26": 586,
     "lesson-25": 500,
@@ -349,7 +352,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 514669,
-  "lastUpdated": "2025-12-24T07:42:08.950Z",
-  "fileCount": 320
+  "total": 517770,
+  "lastUpdated": "2025-12-30T10:20:34.964Z",
+  "fileCount": 323
 }
