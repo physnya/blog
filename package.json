@@ -40,13 +40,13 @@
     "husky": "^9.1.7",
     "mark.js": "^8.11.1",
     "minisearch": "^6.3.0",
-    "sass-embedded": "^1.97.1",
+    "sass-embedded": "^1.97.2",
     "twikoo": "^1.6.44",
     "typescript": "^5.9.3",
     "vite-plugin-font": "^5.1.2",
     "vue": "^3.5.26",
     "vuepress": "2.0.0-rc.26",
-    "vuepress-theme-plume": "1.0.0-rc.183"
+    "vuepress-theme-plume": "1.0.0-rc.185"
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.20",
