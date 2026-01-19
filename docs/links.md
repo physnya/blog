@@ -30,7 +30,7 @@ list:
   - name: Chlorine
     desc: 当世界年轻时
     link: https://chlo.is
-    avatar: https://img.chlo.is/avatar/02-1024.webp
+    avatar: https://chlo.is/img/avatars/01-512.avif
   - name: ScaredCube's Site
     desc: Hello World!
     link: https://sccube.link
