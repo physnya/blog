@@ -75,7 +75,7 @@
 /* --- 微调 --- */
 
 :root {
-	--vp-font-family-base: "LXGW Bright", serif;
+	--vp-font-family-base: "LXGW Bright", sans-serif;
 	--vp-font-family-mono: "Cascadia code";
 	font-optical-sizing: auto;
 	--vp-custom-block-font-size: 17px;
@@ -97,7 +97,7 @@
 
 :root:where(:lang(zh)),
 :root:where(:lang(zh-CN)) {
-	--vp-font-family-base: "Ysabeau Infant", "LXGW Bright", serif;
+	--vp-font-family-base: "Ysabeau Infant", "LXGW Bright", sans-serif;
 }
 
 html {
