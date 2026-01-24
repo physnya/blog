@@ -606,6 +606,7 @@ body {
 	background: var(--vp-c-bg);
 	position: relative;
 	min-height: 100%;
+	font-weight: 500;
 }
 
 body::before {
@@ -626,7 +627,7 @@ body::before {
 		);
 	background-size: 26px 26px;
 	background-position: center center;
-	opacity: 0.2;
+	opacity: 0.1;
 	mix-blend-mode: luminosity;
 }
 
