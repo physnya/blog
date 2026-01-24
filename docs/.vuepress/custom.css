@@ -89,10 +89,17 @@
 	color: var(--vp-c-text-1);
 }
 
+pre::-webkit-scrollbar {
+	display: none;
+}
+
 .vp-doc div[class*="language-"] pre,
-.vp-doc div[class*="language-"] code {
+.vp-doc div[class*="language-"] code,
+.vp-doc div .line-number,
+.vp-doc div button {
 	font-weight: 350;
 	font-variant-ligatures: normal;
+	font-size: 11pt;
 }
 
 :root:where(:lang(zh)),
