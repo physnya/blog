@@ -381,3 +381,258 @@ flowchart LR
   最后通过 `chronyc -n sourcestats` 输出结果的 `offset` 值，修改之前 chrony 配置文件中的 `offset` 后面的数字即可. 如果不做调整，很可能出现无法对上时间的问题.
 
 ::::
+
+---
+树莓派 5 的有些定义不一样，针对这个我们需要做下面的修改：
+
+- `/boot/firmware/config.txt` 文件末尾增加：
+  ```plaintext
+    # PPS on GPIO18 (physical pin 12)
+    dtoverlay=pps-gpio,gpiopin=18
+
+    # Enable UART on GPIO14/15 (physical pins 8/10) for Pi 5
+    dtoverlay=uart0
+
+    # UART basics
+    enable_uart=1
+    init_uart_baud=9600
+  ```
+- 然后确保 PPS 模块加载：输入命令
+  ```bash
+  grep -q '^pps-gpio$' /etc/modules || echo 'pps-gpio' | sudo tee -a /etc/modules
+  ```
+- 最关键的是把 gpsd 的 DEVICES 从 `/dev/ttyS0` 改掉，
+  ```bash
+  sudo vi /etc/default/gpsd
+  ```
+  DEVICES 改成：
+
+  ```plaintext
+  START_DAEMON="true"
+  DEVICES="/dev/ttyAMA0 /dev/pps0"
+  GPSD_OPTIONS="-n"
+  USBAUTO="true"
+  ```
+
+## GPS 系统初始化与时间同步
+
+我把上面的内容写成了脚本：
+```bash title="setup.sh" :collapsed-lines
+#!/bin/bash
+
+# Unified Raspberry Pi Setup Script (GPS/PPS/NTP)
+# Supports: Raspberry Pi 4 & Raspberry Pi 5
+
+# 1. Check root permission
+if [ "$EUID" -ne 0 ]; then
+  echo "Error: Please run this script with sudo."
+  echo "Usage: sudo ./setup_pi.sh"
+  exit 1
+fi
+
+# User Selection: Pi Model
+echo "------------------------------------------------"
+echo "Please select your Raspberry Pi model:"
+echo "1) Raspberry Pi 4 (Legacy)"
+echo "2) Raspberry Pi 5 (Newer)"
+echo "------------------------------------------------"
+read -p "Enter choice [1 or 2]: " pi_choice
+
+# Set variables based on selection
+if [[ "$pi_choice" == "2" ]]; then
+    echo ">> Selected: Raspberry Pi 5"
+    TARGET_PI="5"
+    SERIAL_PORT="/dev/ttyAMA0"
+    
+    # Check for Bookworm/Pi5 specific config path
+    if [ -f "/boot/firmware/config.txt" ]; then
+        CONFIG_FILE="/boot/firmware/config.txt"
+    else
+        CONFIG_FILE="/boot/config.txt"
+    fi
+elif [[ "$pi_choice" == "1" ]]; then
+    echo ">> Selected: Raspberry Pi 4"
+    TARGET_PI="4"
+    SERIAL_PORT="/dev/ttyS0"
+    CONFIG_FILE="/boot/config.txt"
+else
+    echo "Invalid selection. Exiting."
+    exit 1
+fi
+
+echo ">> Configuration File: $CONFIG_FILE"
+echo ">> Serial Port: $SERIAL_PORT"
+echo "------------------------------------------------"
+
+# Common Variables
+STATIC_IP="192.168.0.2/24"
+ROUTER_IP="192.168.0.1"
+DNS_IP="192.168.0.1"
+
+# Step 1: Network Configuration
+echo "[1/6] Configuring Network..."
+
+DHCP_CONF="/etc/dhcpcd.conf"
+
+if [ -f "$DHCP_CONF" ]; then
+    # Backup
+    if [ ! -f "${DHCP_CONF}.bak" ]; then
+        cp "$DHCP_CONF" "${DHCP_CONF}.bak"
+        echo "Backed up $DHCP_CONF"
+    fi
+
+    # Check existence
+    if grep -q "static ip_address=$STATIC_IP" "$DHCP_CONF"; then
+        echo "Static IP configuration already exists. Skipping."
+    else
+        cat <<EOF >> "$DHCP_CONF"
+
+# Added by setup script
+interface eth0
+static ip_address=$STATIC_IP
+static routers=$ROUTER_IP
+static domain_name_servers=$DNS_IP
+EOF
+        echo "Static IP configuration added."
+        
+        # Try to restart networking (compatible with different OS versions)
+        service networking restart 2>/dev/null || systemctl restart NetworkManager 2>/dev/null
+        echo "Network service restarted."
+    fi
+else
+    echo "Warning: $DHCP_CONF not found. If you are using NetworkManager exclusively, please configure IP manually."
+fi
+
+# Step 2: Timezone
+echo "[2/6] Setting Timezone (Asia/Shanghai)..."
+timedatectl set-timezone Asia/Shanghai
+echo "Current Timezone:"
+timedatectl | grep "Time zone"
+
+# Step 3: Software Installation
+echo "[3/6] Updating system and installing software..."
+apt update
+apt install -y pps-tools gpsd gpsd-clients python3-gps chrony vim
+
+# Step 4: Hardware Configuration
+echo "[4/6] Configuring Hardware ($CONFIG_FILE & /etc/modules)..."
+
+if [ ! -f "$CONFIG_FILE" ]; then
+    echo "Error: Config file $CONFIG_FILE not found!"
+    exit 1
+fi
+
+# Backup config
+cp "$CONFIG_FILE" "${CONFIG_FILE}.bak_$(date +%s)"
+
+# 4.1 PPS GPIO Config (Common)
+grep -q "dtoverlay=pps-gpio,gpiopin=18" "$CONFIG_FILE" || echo "dtoverlay=pps-gpio,gpiopin=18" >> "$CONFIG_FILE"
+
+# 4.2 Pi 5 Specific: Enable UART0 overlay
+if [[ "$TARGET_PI" == "5" ]]; then
+    echo "Applying Pi 5 specific UART0 overlay..."
+    grep -q "dtoverlay=uart0" "$CONFIG_FILE" || echo "dtoverlay=uart0" >> "$CONFIG_FILE"
+fi
+
+# 4.3 General UART Config (Common)
+grep -q "enable_uart=1" "$CONFIG_FILE" || echo "enable_uart=1" >> "$CONFIG_FILE"
+grep -q "init_uart_baud=9600" "$CONFIG_FILE" || echo "init_uart_baud=9600" >> "$CONFIG_FILE"
+
+# 4.4 Kernel Modules
+MODULES_FILE="/etc/modules"
+grep -q "^pps-gpio$" "$MODULES_FILE" || echo "pps-gpio" >> "$MODULES_FILE"
+
+# 4.5 Enable Serial (Legacy raspi-config method, mostly for Pi 4)
+if [[ "$TARGET_PI" == "4" ]] && command -v raspi-config >/dev/null; then
+    raspi-config nonint do_serial 2
+    echo "Ensured Serial Port is enabled via raspi-config."
+fi
+
+echo "Hardware configuration updated."
+
+# Step 5: GPSD Configuration
+echo "[5/6] Configuring GPSD..."
+
+GPSD_CONF="/etc/default/gpsd"
+cp "$GPSD_CONF" "${GPSD_CONF}.bak"
+
+# Write configuration with the dynamic SERIAL_PORT variable
+cat <<EOF > "$GPSD_CONF"
+# Default settings for the gpsd init script and the hotplug wrapper.
+
+# Start the gpsd daemon automatically at boot time
+START_DAEMON="true"
+
+# Use USB hotplugging to add new USB devices automatically to the daemon
+USBAUTO="true"
+
+# Devices gpsd should collect to at boot time.
+# Configured for: Raspberry Pi $TARGET_PI
+DEVICES="$SERIAL_PORT /dev/pps0"
+
+# Other options you want to pass to gpsd
+GPSD_OPTIONS="-n"
+EOF
+
+echo "GPSD configured with devices: $SERIAL_PORT /dev/pps0"
+
+# Step 6: Chrony Configuration
+echo "[6/6] Configuring Chrony NTP..."
+
+CHRONY_CONF="/etc/chrony/chrony.conf"
+cp "$CHRONY_CONF" "${CHRONY_CONF}.bak"
+
+# Only append if custom section doesn't exist
+if ! grep -q "refclock SHM" "$CHRONY_CONF"; then
+    cat <<EOF >> "$CHRONY_CONF"
+
+# --- Added by Setup Script ---
+server time-a-b.nist.gov iburst
+server time-a-g.nist.gov
+server time-c-wwv.nist.gov
+server utcnist3.colorado.edu
+server 0.us.pool.ntp.org
+server time.cloudflare.com
+server time.windows.com
+server time.apple.com
+
+allow 192.168.0.0/16
+
+# GPS/PPS Reference Clock
+# Note: SHM 0 usually corresponds to NMEA, SHM 1 to PPS.
+local stratum 10
+refclock SHM 0 refid NMEA precision 1e-1 offset 0.5 delay 0.2 noselect
+refclock SHM 1 refid PPS precision 1e-7 lock NMEA
+EOF
+    echo "Chrony configuration appended."
+else
+    echo "Chrony configuration seems already present. Skipping append."
+fi
+
+echo "Restarting Chrony service..."
+systemctl restart chrony
+
+# Completion
+echo "------------------------------------------------"
+echo "Setup Completed Successfully!"
+echo "------------------------------------------------"
+echo "Summary of changes:"
+echo "1. Device Model : Raspberry Pi $TARGET_PI"
+echo "2. Config File  : $CONFIG_FILE"
+echo "3. Serial Port  : $SERIAL_PORT"
+echo "4. IP Address   : $STATIC_IP"
+echo "------------------------------------------------"
+echo "IMPORTANT NOTES:"
+echo "1. If you cannot connect after reboot, check your router settings regarding the static IP."
+echo "2. Run 'sudo ntpshmmon' after reboot to verify the SHM indices (0/1/2)."
+echo "   If they differ, edit $CHRONY_CONF."
+echo "------------------------------------------------"
+
+read -p "A system reboot is required to apply hardware changes. Reboot now? (y/n) " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]; then
+    reboot
+fi
+```
+
+之后我准备把它和一个 Bullseye 或者 Bookworm (debian 12) 一起烧进同一个 `.iso` 文件中，方便我们后续的批量制作小型树莓派站点.
