@@ -325,7 +325,7 @@ $$
   $$
   令 $x=e^{t}$，则之前的 $D$ 和 $x$ 结合，有
   $$
-  D'=\frac{\text{d}}{\text{d}t}\,,\quad xD=D'\,,\quad x^2D^2=D'(D'+1)\,,\cdots
+  D'=\frac{\text{d}}{\text{d}t}\,,\quad xD=D'\,,\quad x^2D^2=D'(D'-1)\,,\cdots
   $$
 
 * 线性齐次方程可以用特解叠加得到通解.

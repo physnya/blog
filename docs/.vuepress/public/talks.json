@@ -1,5 +1,205 @@
 [
   {
+    "id": "01KG93JATCT39K1VP9RVY1RX1K",
+    "created_at": "2026-01-31T04:04:22.478Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh-Hans",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01KG93JATCT39K1VP9RVY1RX1K",
+    "url": "https://scg.owu.one/@physnya/statuses/01KG93JATCT39K1VP9RVY1RX1K",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 0,
+    "favourited": false,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>当数据黑奴搞到凌晨 6 点🤣</p>",
+    "reblog": null,
+    "application": {
+      "name": "IceCubesApp",
+      "website": "https://github.com/Dimillian/IceCubesApp"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya (放假了",
+      "locked": true,
+      "discoverable": true,
+      "indexable": false,
+      "noindex": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "programmer-socks-auto.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "当数据黑奴搞到凌晨 6 点🤣",
+    "content_type": "text/markdown",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": []
+      }
+    }
+  },
+  {
+    "id": "01KG2X2JAA75R8RGHM058P89GP",
+    "created_at": "2026-01-28T18:15:27.818Z",
+    "edited_at": null,
+    "in_reply_to_id": null,
+    "in_reply_to_account_id": null,
+    "sensitive": false,
+    "spoiler_text": "",
+    "visibility": "public",
+    "language": "zh-Hans",
+    "uri": "https://scg.owu.one/users/physnya/statuses/01KG2X2JAA75R8RGHM058P89GP",
+    "url": "https://scg.owu.one/@physnya/statuses/01KG2X2JAA75R8RGHM058P89GP",
+    "replies_count": 0,
+    "reblogs_count": 0,
+    "favourites_count": 1,
+    "favourited": false,
+    "reblogged": false,
+    "muted": false,
+    "bookmarked": false,
+    "pinned": false,
+    "content": "<p>家里的饭菜还是好吃😋<br>但是睡觉为啥还这么晚</p>",
+    "reblog": null,
+    "application": {
+      "name": "IceCubesApp",
+      "website": "https://github.com/Dimillian/IceCubesApp"
+    },
+    "account": {
+      "id": "01S7TWZEND5J9SQ9XRCDCR3VCJ",
+      "username": "physnya",
+      "acct": "physnya",
+      "display_name": "physnya (放假了",
+      "locked": true,
+      "discoverable": true,
+      "indexable": false,
+      "noindex": true,
+      "bot": false,
+      "created_at": "2024-11-30T09:45:34.108Z",
+      "note": "<p>05 后，在读大学，物理系</p>",
+      "url": "https://scg.owu.one/@physnya",
+      "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JDYSP3NYE207VYNFQW11S5MR.jpeg",
+      "avatar_media_id": "01JDYSP3NYE207VYNFQW11S5MR",
+      "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
+      "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
+      "emojis": [],
+      "fields": [
+        {
+          "name": "菲兹克斯喵 の blog",
+          "value": "<a href=\"https://physnya.top/\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://physnya.top/</a>",
+          "verified_at": null
+        },
+        {
+          "name": "菲兹克斯喵 at Bangumi",
+          "value": "<a href=\"https://bgm.tv/user/llr\" rel=\"nofollow noreferrer noopener\" target=\"_blank\">https://bgm.tv/user/llr</a>",
+          "verified_at": null
+        }
+      ],
+      "theme": "programmer-socks-auto.css",
+      "custom_css": "@import url(\"https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css\");\n@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css');\n\n.page {\n  font-family: \"LXGW Bright\" !important;\n}",
+      "enable_rss": true,
+      "hide_collections": true,
+      "group": false
+    },
+    "media_attachments": [],
+    "mentions": [],
+    "tags": [],
+    "emojis": [],
+    "card": null,
+    "poll": null,
+    "text": "家里的饭菜还是好吃😋\n但是睡觉为啥还这么晚",
+    "content_type": "text/markdown",
+    "interaction_policy": {
+      "can_favourite": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": []
+      },
+      "can_reply": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": []
+      },
+      "can_reblog": {
+        "automatic_approval": [
+          "public",
+          "me"
+        ],
+        "manual_approval": []
+      }
+    }
+  },
+  {
     "id": "01KFYC45JZZKMYE08CR626QWV2",
     "created_at": "2026-01-27T00:02:16.799Z",
     "edited_at": null,
@@ -44,10 +244,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -144,10 +344,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -244,10 +444,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -344,10 +544,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -444,10 +644,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -544,10 +744,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -644,10 +844,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -744,10 +944,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -844,10 +1044,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -1061,10 +1261,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -1169,10 +1369,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -1269,10 +1469,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -1369,10 +1569,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -1469,10 +1669,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -1569,10 +1769,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -1669,10 +1869,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -1769,10 +1969,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -1869,10 +2069,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -1999,10 +2199,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -2099,10 +2299,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -2199,10 +2399,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -2358,10 +2558,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -2458,10 +2658,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -2558,10 +2758,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -2889,7 +3089,7 @@
     "url": "https://scg.owu.one/@physnya/statuses/01K7GK1D4099GWSTC5DM84JV8Z",
     "replies_count": 0,
     "reblogs_count": 0,
-    "favourites_count": 2,
+    "favourites_count": 1,
     "favourited": false,
     "reblogged": false,
     "muted": false,
@@ -2920,10 +3120,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -3050,10 +3250,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -3158,10 +3358,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -3258,10 +3458,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -3475,10 +3675,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -3575,10 +3775,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -3675,10 +3875,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -3775,10 +3975,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -3875,10 +4075,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -3975,10 +4175,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -4075,10 +4275,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -4175,10 +4375,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -4242,7 +4442,7 @@
     "language": "zh",
     "uri": "https://scg.owu.one/users/physnya/statuses/01K519YPAP5PWB847QJ4YSNC9H",
     "url": "https://scg.owu.one/@physnya/statuses/01K519YPAP5PWB847QJ4YSNC9H",
-    "replies_count": 1,
+    "replies_count": 0,
     "reblogs_count": 0,
     "favourites_count": 1,
     "favourited": false,
@@ -4275,10 +4475,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -4375,10 +4575,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -4475,10 +4675,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -4583,10 +4783,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -4683,10 +4883,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -4783,10 +4983,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -4883,10 +5083,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -4983,10 +5183,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -5083,10 +5283,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -5183,10 +5383,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -5283,10 +5483,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -5383,10 +5583,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -5483,10 +5683,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -5583,10 +5783,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -5650,7 +5850,7 @@
     "language": "zh-Hans",
     "uri": "https://scg.owu.one/users/physnya/statuses/01K228SJEAWC7QV7FRP9KQS759",
     "url": "https://scg.owu.one/@physnya/statuses/01K228SJEAWC7QV7FRP9KQS759",
-    "replies_count": 1,
+    "replies_count": 0,
     "reblogs_count": 0,
     "favourites_count": 0,
     "favourited": false,
@@ -5683,10 +5883,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -5783,10 +5983,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -5852,7 +6052,7 @@
     "url": "https://scg.owu.one/@physnya/statuses/01K1N3S2RC0Y0F16Z85D3X6ED6",
     "replies_count": 0,
     "reblogs_count": 0,
-    "favourites_count": 1,
+    "favourites_count": 0,
     "favourited": false,
     "reblogged": false,
     "muted": false,
@@ -5883,10 +6083,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -5983,10 +6183,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -6050,9 +6250,9 @@
     "language": "zh-Hans",
     "uri": "https://scg.owu.one/users/physnya/statuses/01K15EE9RX7QSEMDX6CZMEZ74Y",
     "url": "https://scg.owu.one/@physnya/statuses/01K15EE9RX7QSEMDX6CZMEZ74Y",
-    "replies_count": 1,
+    "replies_count": 0,
     "reblogs_count": 0,
-    "favourites_count": 1,
+    "favourites_count": 0,
     "favourited": false,
     "reblogged": false,
     "muted": false,
@@ -6083,10 +6283,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -6183,10 +6383,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -6283,10 +6483,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -6382,10 +6582,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -6482,10 +6682,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -6581,10 +6781,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -6680,10 +6880,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -6784,10 +6984,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -6889,10 +7089,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -6988,10 +7188,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -7087,7 +7287,7 @@
     "url": "https://scg.owu.one/@physnya/statuses/01JZHS27KT1NY2V46WH7WGCG4R",
     "replies_count": 0,
     "reblogs_count": 0,
-    "favourites_count": 1,
+    "favourites_count": 0,
     "favourited": false,
     "reblogged": false,
     "muted": false,
@@ -7118,10 +7318,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -7185,9 +7385,9 @@
     "language": "zh",
     "uri": "https://scg.owu.one/users/physnya/statuses/01JZFDN6X60A2ATGET2NWKPPTJ",
     "url": "https://scg.owu.one/@physnya/statuses/01JZFDN6X60A2ATGET2NWKPPTJ",
-    "replies_count": 1,
+    "replies_count": 0,
     "reblogs_count": 0,
-    "favourites_count": 1,
+    "favourites_count": 0,
     "favourited": false,
     "reblogged": false,
     "muted": false,
@@ -7217,10 +7417,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -7317,10 +7517,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -7446,10 +7646,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -7546,10 +7746,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -7645,10 +7845,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -7745,10 +7945,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -7844,10 +8044,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -7944,10 +8144,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -8044,10 +8244,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -8144,10 +8344,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -8244,10 +8444,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -8344,10 +8544,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -8444,10 +8644,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -8543,10 +8743,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -8642,10 +8842,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -8741,10 +8941,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -8840,10 +9040,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -8940,10 +9140,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -9040,10 +9240,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -9140,10 +9340,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -9240,10 +9440,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -9340,10 +9540,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -9440,10 +9640,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -9548,10 +9748,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -9663,10 +9863,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -9762,10 +9962,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -9861,10 +10061,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -9960,10 +10160,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -10059,10 +10259,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -10158,10 +10358,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -10257,10 +10457,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -10356,10 +10556,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -10455,10 +10655,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -10562,10 +10762,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
@@ -10676,10 +10876,10 @@
       "header": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_static": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01JWBWBD49E74T21MTSGBJ2JT1.jpeg",
       "header_media_id": "01JWBWBD49E74T21MTSGBJ2JT1",
-      "followers_count": 13,
-      "following_count": 15,
-      "statuses_count": 126,
-      "last_status_at": "2026-01-27",
+      "followers_count": 11,
+      "following_count": 14,
+      "statuses_count": 129,
+      "last_status_at": "2026-02-05",
       "emojis": [],
       "fields": [
         {
