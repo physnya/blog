@@ -45,6 +45,7 @@ jobs:
         run: |
           export NODE_OPTIONS="--max-old-space-size=12288"
           pnpm docs:build
+        timeout-minutes: 10
       
       - name: Create CNAME file
         run: echo "physnya.top" > docs/.vuepress/dist/CNAME
