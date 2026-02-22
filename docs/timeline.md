@@ -229,4 +229,8 @@ aside: false
   placement=right
   
   添加友链 [Homeward Sky](https://pxwg.github.io/blog/).
+
+- 2026-02-22
+
+  添加友链 [樟庭徊路](https://vilstia.pages.dev/).
 :::
