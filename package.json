@@ -34,8 +34,10 @@
     "axios": "^1.13.5",
     "bcrypt-ts": "^6.0.0",
     "dotenv": "^17.3.1",
-    "glob": "^10.0.0",
+    "focus-trap": "^7.8.0",
+    "glob": "^10.5.0",
     "gray-matter": "^4.0.3",
+    "hash-wasm": "^4.12.0",
     "http-server": "^14.1.1",
     "husky": "^9.1.7",
     "mark.js": "^8.11.1",
@@ -46,9 +48,7 @@
     "vite-plugin-font": "^5.1.2",
     "vue": "^3.5.28",
     "vuepress": "2.0.0-rc.26",
-    "vuepress-theme-plume": "1.0.0-rc.190",
-    "hash-wasm": "^4.12.0",
-    "focus-trap": "^7.5.0"
+    "vuepress-theme-plume": "1.0.0-rc.190"
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.20",
