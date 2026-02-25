@@ -12,6 +12,7 @@ import biophysics from "./biophysics.ts";
 import physicsFront from "./physics-front.ts";
 import astroStatistic from "./astro-statistic.ts"
 import equationMP from "./equation-m-p.ts";
+import statisticalMechanics from "./statistical-mechanics.ts";
 
 export const notes = defineCollections([
 	FeynmanIII,
@@ -27,4 +28,5 @@ export const notes = defineCollections([
 	physicsFront,
 	astroStatistic,
 	equationMP,
+	statisticalMechanics,
 ]);
