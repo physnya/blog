@@ -4,17 +4,17 @@ title: 流水帐 Week 26
 createTime: 2025/10/06 20:07:24
 permalink: /posts/9cfvcaje/
 tags:
-  - Life
-  - astronomy
-  - technology
-  - travel
+ - Life
+ - astronomy
+ - technology
+ - travel
 ---
 
 本来上上周就该写的...这都算是月总结了吧，开学之后的空闲时间要么在做天文协会的事，要么在忙物理系科协的事，剩下的看看动画片打打游戏也就过去了，大块的时间也在读广义相对论，完全没想到要写流水帐，反而是最忙的时候总是记起来有这么一件事.
 
 说起来其实又要过生日了，还有几天就满 19 岁，但是身处于变化之中，我感受不到自己和去年这时候的自己有什么差别. 如果硬要说的话，心态上和之前变化很大吧. 之前学堂班预备生大会的时候说到要写一个大一一年的总结，本来想着应付过去，但是在邮件里面慢慢写慢慢写，猛然发现自己写得还挺多，也发现自己其实还有很多迷茫. 至少在年龄以 "2" 开头之前，能好好想清楚各种各样的问题，明白自己接下来该往什么方向走.
 
-::: demo-wrapper title="或许我该把总结放在这里"
+::: window title="或许我该把总结放在这里"
 
 老师您好，我是 xxx 班的 xxx。
 
@@ -73,19 +73,19 @@ tags:
 用 mac 测试能不能访问 —— 还是不行. 上网查 docker desktop 的配置，发现 windows 的 docker desktop 是不支持 host 网络模式的：
 
 > docker 有几种网络模式：
-> 
-> - host 模式：用 ``--net=host`` 指定，容器共享主机的 IP、网卡和端口；
+>
+> - host 模式：用 `--net=host` 指定，容器共享主机的 IP、网卡和端口；
 > - bridge 模式：默认模式，容器通过 Docker 主机上的 docker0 虚拟网桥与外界通信，外部主机无法直接访问容器服务，需要通过宿主机的端口映射来间接访问；
-> - none 模式：用 ``--net=none`` 指定，关闭了容器所有网络功能；
+> - none 模式：用 `--net=none` 指定，关闭了容器所有网络功能；
 > - container 模式：一个容器共享另一个容器的网络资源.
-> 
+>
 > 似乎还有自定义的一些模式，但是配置比上面这些就难一些.
 
-在 docker 运行命令里面指定 ``--net=host`` 是不管用的，因为 docker desktop 不支持. 所以额外写一下 bridge 模式的端口映射就能够访问了.
+在 docker 运行命令里面指定 `--net=host` 是不管用的，因为 docker desktop 不支持. 所以额外写一下 bridge 模式的端口映射就能够访问了.
 
 运行的效果 (mac 上使用书店的 wifi 能够访问)：
 
-::: demo-wrapper img no-padding
+::: window img no-padding
 
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0n000d7w33hd6enr4om8jooDIYxAIFxDda1DGxPDwUzAa==.png)
 

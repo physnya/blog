@@ -22,7 +22,7 @@ aside: false
 
 下面是我在 GitHub 上的热力图：
 
-::: demo-wrapper img width="100px"
+::: window img width="100px"
 <img src="https://ghchart.rshah.org/409ba5/Physnya" alt="GitHub 热力图" style="border: 5px solid transparent;margin: auto">
 :::
 

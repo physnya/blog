@@ -66,7 +66,7 @@ flowchart LR
 
 其中树莓派上面引脚的编号按照下图所示：
 
-::: demo-wrapper img no-padding
+::: window img no-padding
 
 ![树莓派 gpio 引脚编号图](https://vip.123pan.cn/1845440081/ymjew503t0n000d9jdotilro80epknwuDIYxAIFxDda1DGxPDwUzAa==.png)
 
@@ -243,7 +243,7 @@ flowchart LR
   ```
 
   应该看到类似这样的界面：
-  ::: demo-wrapper img no-padding
+  ::: window img no-padding
   ![gpsmon 界面](https://vip.123pan.cn/1845440081/yk6baz03t0n000d9ri94uaujmmr4qrvgDIYxAIFxDda1DGxPDwUzAa==.png)
   :::
   (别来盒我 $Q\omega Q$)
@@ -302,10 +302,13 @@ flowchart LR
 
 - 验证时间同步服务
   有三条验证的命令. 首先是查看所有时间同步方式的状态：
+
   ```bash:no-line-numbers
   chronyc -n sourcestats
   ```
+
   输出结果是每个同步服务器的偏移和延迟等等.
+
   ```:no-line-numbers
   Name/IP Address            NP  NR  Span  Frequency  Freq Skew  Offset  Std Dev
   ==============================================================================
@@ -320,11 +323,15 @@ flowchart LR
   40.119.6.228                1   0     0     +0.000   2000.000  -2860us  4000ms
   17.253.126.253              1   0     0     +0.000   2000.000  -2831us  4000ms
   ```
+
   第二个命令是查看当前所使用的源和其他所有源的可用性：
+
   ```bash:no-line-numbers
   chronyc -n sources -v
   ```
+
   输出结果比较复杂，是下面的形式：
+
   ```:no-line-numbers
     .-- Source mode  '^' = server, '=' = peer, '#' = local clock.
   / .- Source state '*' = current best, '+' = combined, '-' = not combined,
@@ -347,6 +354,7 @@ flowchart LR
   ^- 40.119.6.228                  3  10   377   396  -6626us[-6629us] +/-   37ms
   ^- 17.253.126.253                1  10   377   447  -4726us[-4729us] +/- 7672us
   ```
+
   ::: warning
   这里的 `-v` 是用来 print 上面那一大坨提示信息的. 第一列和第二列的符号含义分别是：
   - `*` 表示我们正在从这个源同步信号.
@@ -355,12 +363,15 @@ flowchart LR
   - `?` 表示这个源无法连接. 任何一个源最开始都是这个状态，接收到三个以上的连续信号之后才能摆脱这一状态.
   - `x` 表示一个坏的源.
   - `~` 表示一个不稳定的源.
-  :::
-  第三个命令用来查看当前的时间同步源信息：
+    :::
+    第三个命令用来查看当前的时间同步源信息：
+
   ```bash:no-line-numbers
   chronyc -n tracking
   ```
+
   输出结果应该是一些时间同步的信息，比如当前时间、和源之间的延迟之类，
+
   ```plaintext:no-line-numbers
   Reference ID    : 47505300 (GPS)
   Stratum         : 1
@@ -383,9 +394,11 @@ flowchart LR
 ::::
 
 ---
+
 树莓派 5 的有些定义不一样，针对这个我们需要做下面的修改：
 
 - `/boot/firmware/config.txt` 文件末尾增加：
+
   ```plaintext
     # PPS on GPIO18 (physical pin 12)
     dtoverlay=pps-gpio,gpiopin=18
@@ -397,14 +410,17 @@ flowchart LR
     enable_uart=1
     init_uart_baud=9600
   ```
+
 - 然后确保 PPS 模块加载：输入命令
   ```bash
   grep -q '^pps-gpio$' /etc/modules || echo 'pps-gpio' | sudo tee -a /etc/modules
   ```
 - 最关键的是把 gpsd 的 DEVICES 从 `/dev/ttyS0` 改掉，
+
   ```bash
   sudo vi /etc/default/gpsd
   ```
+
   DEVICES 改成：
 
   ```plaintext
@@ -417,6 +433,7 @@ flowchart LR
 ## GPS 系统初始化与时间同步
 
 我把上面的内容写成了脚本：
+
 ```bash title="setup.sh" :collapsed-lines
 #!/bin/bash
 
@@ -443,7 +460,7 @@ if [[ "$pi_choice" == "2" ]]; then
     echo ">> Selected: Raspberry Pi 5"
     TARGET_PI="5"
     SERIAL_PORT="/dev/ttyAMA0"
-    
+
     # Check for Bookworm/Pi5 specific config path
     if [ -f "/boot/firmware/config.txt" ]; then
         CONFIG_FILE="/boot/firmware/config.txt"
@@ -494,7 +511,7 @@ static routers=$ROUTER_IP
 static domain_name_servers=$DNS_IP
 EOF
         echo "Static IP configuration added."
-        
+
         # Try to restart networking (compatible with different OS versions)
         service networking restart 2>/dev/null || systemctl restart NetworkManager 2>/dev/null
         echo "Network service restarted."

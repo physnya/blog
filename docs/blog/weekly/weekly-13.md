@@ -3,7 +3,7 @@ changelog: false
 title: 流水账 Week 13
 createTime: 2024/12/15 17:47:24
 tags:
-  - Life
+ - Life
 permalink: /posts/ugwpnsm5/
 ---
 
@@ -19,7 +19,7 @@ permalink: /posts/ugwpnsm5/
 
 放一张剧场版中歌剧王春季天皇赏卫冕的图片~
 
-::: demo-wrapper img no-padding
+::: window img no-padding
 ![](https://p.sda1.dev/20/22cc75ee40c1749ac558791c077fcb3a/屏幕截图.png)
 :::
 
@@ -71,7 +71,7 @@ remark-it 是基于 remarkjs 的幻灯片模板，实现“写 markdown，用 ht
 
 附上一张木星与月亮的合照：
 
-::: demo-wrapper img no-padding
+::: window img no-padding
 ![](https://p.sda1.dev/20/145a6072405d5fe73265150e88080957/微信图片_20241215173642.jpg)
 :::
 

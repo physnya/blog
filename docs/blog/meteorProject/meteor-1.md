@@ -27,7 +27,7 @@ permalink: /posts/dyzf1tgp/
 
 摄像头使用的是 Hikvision 的产品，大致如下图：
 
-::: demo-wrapper img no-padding
+::: window img no-padding
 
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0l000d7w33fgtgs9j4apbtrDIYxAIFxDda1DGxPDwUzAa==.png)
 
@@ -49,7 +49,7 @@ permalink: /posts/dyzf1tgp/
 
 用下面这样一台路机连接电脑和摄像头：
 
-::: demo-wrapper img no-padding
+::: window img no-padding
 
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0l000d7w33fgtnwsy4idoyxDIYxAIFxDda1DGxPDwUzAa==.jpg)
 
@@ -354,4 +354,4 @@ GMN 项目基本情况
   - 研究了流星体流的引力聚焦效应 (Gravitational focusing)，帮助理解流星群的演化 (_Moorhead et al. 2020_).
 - 特定流星群的物理性质：
   - 利用低成本监测站获得了白昼白羊座流星雨 (Daytime Arietids) 的首批科学结果，分析了该流星群流星体的抗压强度 (_Vida et al. 2018_).
-:::
+    :::

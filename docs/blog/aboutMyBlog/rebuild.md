@@ -4,7 +4,7 @@ title: 重构笔记
 permalink: /posts/rebulid/
 createTime: 2025/2/23 08:08:17
 tags:
-  - blog
+ - blog
 ---
 
 最近站点整体经历了一次完全的重构，系统从 Hexo 切换到 VuePress，所以写一些在重构过程中踩到的坑作为记录.
@@ -82,7 +82,7 @@ cannot read properties of undefined
 
 因为 VuePress 插件 [@vuepress/plugin-active-header-links@next](https://ecosystem.vuejs.press/zh/plugins/development/active-header-links.html) 的原因，我站点的所有 h2 标题都被改写成链接，同时启动了滚动事件监听，当页面滚动至某个 _标题锚点_ 后，如果存在对应的 _标题链接_ ，那么该插件会将路由 Hash 更改为该 _标题锚点_. 这导致我站 View 数大量偏高，在部署完成的一周之内，View 数达到了惊人的 3k：
 
-::: demo-wrapper img
+::: window img
 
 <img src='https://vip.123pan.cn/1845440081/ymjew503t0n000d7w32y4yobcmw0gdzsDIYxAIFxDda1DGxPDwUzAa==.png' style='zoom:60%'>
 

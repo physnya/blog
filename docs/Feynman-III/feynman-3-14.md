@@ -1,11 +1,12 @@
 ---
 author:
-  name: physnya
-  url: https://physnya.top/
+ name: physnya
+ url: https://physnya.top/
 title: 札记 14
 createTime: 2024/12/16 17:27:04
 permalink: /Feynman-III/kclbcctr/
 ---
+
 ## 2024-12-16
 
 快要到期末了，现在说说之后两周的计划：首先我们已经上到了第十八章，这甚至比去年的进度更快. 第二十章我们不一定会讲，但是非常重要，因为它是算符的有关内容，但是我们其实已经在之前的课程中镶嵌了这里的部分内容. 第二十一章将不讲 Feynman 的内容，因为他的那节课实际上和自己的课程并无联系——所以我们讲点《其 他 内 容》（当然这不会考）.
@@ -28,8 +29,8 @@ permalink: /Feynman-III/kclbcctr/
 
 ::: details 补一幅图
 感谢韩学长的后脑勺友情出镜.
-::: demo-wrapper img no-padding
-  ![](https://p.sda1.dev/20/0f03f58046d2442b45428ee7871ebc62/微信图片_20241218152623_1_.jpg)
+::: window img no-padding
+![](https://p.sda1.dev/20/0f03f58046d2442b45428ee7871ebc62/微信图片_20241218152623_1_.jpg)
 :::
 
 假设重粒子$A$，自旋 -$s\in\mathbb{N}$，这是我们想要求出的. 假设过程 1 是真空中产生了两个$A$粒子，向$z$轴正负方向飞行.
@@ -65,21 +66,25 @@ permalink: /Feynman-III/kclbcctr/
 为了构造赝标量，我们至少还要一个矢量，它们会构成一个空间四面体，所以我们把过程 2 改成过程 3. 现在左右两边的矢量（一个$\vec{k}_A$和两个$\vec{k}_\varphi$）都有一个平面，它们关于某一个$y$轴的夹角是$\varphi_1$、$\varphi_2$——当然最后有作用的应该是它们的差.
 
 对过程 1 进行宇称变换，因为 boson 的统计性质，交换会产生螺旋度上的一个负号，
+
 $$
 \begin{aligned}
 a_m\ket{s,m}_{+z}\ket{s,m}_{-z}&\overset{\text{unitary}}{\longrightarrow}a_{-m}\ket{s,-m}_{-z}\ket{s,-m}_{+z}\\
 &\overset{\text{boson}}{\longrightarrow}a_{-m}\ket{s,-m}_{+z}\ket{s,-m}_{-z}
 \end{aligned}
 $$
+
 如果宇称守恒，则$a_m=a_{-m}$应该成立，否则两者不相等. 接下来的问题就是如何从四粒子末态中观测到这里的$\neq$号.
 
 过程 3 和改版的过程 2 当然是不变的，分别有$_{\vec{k}_1}\braket{s,0|s,m}_{-z}$、$_{\vec{k}_3}\braket{s,0|s,m}_{+z}$. 总概率幅是：
+
 $$
 \begin{aligned}
 &\sum_{m=-s}^{+s}a_m\times_{\vec{k}_3}\braket{s,0|s,m}_{+z}\times_{\vec{k}_1}\braket{s,0|s,m}_{-z}\\
 &\propto\sum_{m=-s}^{+s}a_mP_s^{m}(\cos\phi_1)P_s^m(\cos\phi_2)
 \end{aligned}
 $$
+
 我们略去这里《简 单》的计算，会得到如果宇称不守恒，最后的关联函数会多出一项奇函数项（$\sin$），否则将全是$\cos[m(\phi_1-\phi_2)]$.
 
 ### 量子纠缠
@@ -89,9 +94,11 @@ $$
 量子纠缠来源于张量积，比如说一对电子，它们能产生一组基础态$\ket{++}$、$\ket{+-}$、$\ket{-+}$、$\ket{--}$. 但是一定有一些态不属于它们，而是它们的线性组合——这就是纠缠态.
 
 一个很特殊的情况是反对称组合：
+
 $$
 \frac{\ket{+-}-\ket{-+}}{\sqrt2}
 $$
+
 （这应该被刻进 DNA 里！）
 
 一种具体的情形是这两个电子是由一个 Higgs 粒子衰变而成（虽然这个概率超级小），两个电子在之后相距很远，但是我们看到一个的自旋就能立马知道另一个的自旋——这是很经典的，也很好理解.
@@ -106,7 +113,7 @@ $$
 
 下课之后的问题：
 
-* [上节课](/Feynman-III/rsa3he1a/)讲到，为了得到一个“真正的张量”，我们要用全反对称张量进行缩并，得到一个旋转不变的量.
+- [上节课](/Feynman-III/rsa3he1a/)讲到，为了得到一个“真正的张量”，我们要用全反对称张量进行缩并，得到一个旋转不变的量.
 
   那么，为什么一定要用全反对称张量$\begin{pmatrix}0&-1\\1&0\end{pmatrix}$，而不能使用其他的张量呢？实际上，如果用$\begin{pmatrix}0&2\\1&0\end{pmatrix}$做缩并，得到的量还是旋转不变量.
 

@@ -3,6 +3,7 @@ title: Observational Cosmology
 permalink: /astro-front/lesson-2-observational-cosmology/
 createTime: 2025/09/23 15:12:09
 ---
+
 ::: right
 
 —— Lessons Learned & Frontiers Ahead
@@ -15,11 +16,11 @@ createTime: 2025/09/23 15:12:09
 
 我们目前有很多国际上的大型观测天文学项目：
 
-* DES：multi-probe cosmology
-* DESI：dynamical dark energy
-* Euclid：Q1 quick data release
-* ACT：CMB power spectrum
-* KiDS：cosmic shear
+- DES：multi-probe cosmology
+- DESI：dynamical dark energy
+- Euclid：Q1 quick data release
+- ACT：CMB power spectrum
+- KiDS：cosmic shear
 
 This is a big party！
 
@@ -48,7 +49,7 @@ erDiagram
 
 沿着历史的发展，人们开始能够使用望远镜来辅助自己的观测. 这时人们发现星体的运动和之前的简单旋转不太一样，比如火星出现了周期性的退行. 人们需要修改自己的模型，于是提出了本轮和均轮 (epicycle). 到这个时候，本轮和均轮使得理论变得越来越复杂.
 
-::: demo-wrapper img no-padding
+::: window img no-padding
 
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0m000d7w33ghlhkvjep93a0DIYxAIFxDda1DGxPDwUzAa==.png)
 
@@ -61,9 +62,11 @@ Tycho's argument: parallax (1600s)：Tycho 发明了用角秒来描述星体距�
 之后 Galileo 得到了新的观测数据、Kepler 得到了星体的运行定律，再加上 Newton 的新理论出现，日心说终于得到认可. 同时，人们的观念进化了，我们现在知道，不管是地球还是太阳，都不是宇宙中特殊的观察者. 这构成了现代宇宙学的基础，所以我们说，这时现代宇宙学的开端.
 
 第一条宇宙学定律是 Newton 的引力定律：
+
 $$
 F=-G\frac{m_1m_2}{r^2}
 $$
+
 当然，到 1915 年，Einstein 创造了广义相对论. 不过 Newton 的定律仍然在大多数的情况下适用.
 
 ::: tip
@@ -90,7 +93,7 @@ Lemaitre & Gamov 提出大爆炸理论 (1927)，预测早期的光子频率越�
 
 1998 年，人们利用造父变星作为新的宇宙标准尺度，发现现在的宇宙正在加速膨胀：
 
-::: demo-wrapper img no-padding
+::: window img no-padding
 
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0n000d7w33hc8tl67ubocelDIYxAIFxDda1DGxPDwUzAa==.png)
 
@@ -100,15 +103,15 @@ Lemaitre & Gamov 提出大爆炸理论 (1927)，预测早期的光子频率越�
 
 不管是地心说还是现代宇宙模型，其中的逻辑并没有变化：
 
-* 基于观测数据合理推测建模
-* 发现异常
-* 加入新的理论修正来描述异常
-* 宇宙模型复杂化
-* 会有一个新的 Copernican Model 吗？
+- 基于观测数据合理推测建模
+- 发现异常
+- 加入新的理论修正来描述异常
+- 宇宙模型复杂化
+- 会有一个新的 Copernican Model 吗？
 
 就像现在，我们发现了暗能量和暗物质，对现有的模型做了很多修正. 但是这是否让理论变得更加复杂了？
 
-::: demo-wrapper img no-padding
+::: window img no-padding
 
 ![](https://vip.123pan.cn/1845440081/ymjew503t0m000d7w32xwbplu6dkn8euDIYxAIFxDda1DGxPDwUzAa==.png)
 
@@ -118,19 +121,19 @@ Lemaitre & Gamov 提出大爆炸理论 (1927)，预测早期的光子频率越�
 
 ### Distance Ladder
 
-* Distance Ladder: Parallax
+- Distance Ladder: Parallax
 
   用地球在不同季节的不同位置，观察星空中同一颗星的不同位置，来测量星体距离我们的距离、星体之间的相对距离.
 
   Gaia Mission 卫星就是做这个工作的. 但是这个方法只能测量不太远的星体，测量范围甚至没有超出银河系.
 
-* Distance Ladder: Variable Stars
+- Distance Ladder: Variable Stars
 
   用变星来测量距离，变星的亮度随着引力坍缩和核反应膨胀而周期性变化，这个周期和亮度在地球上可以测量，所以可以用亮度随距离的变化来测量距离.
 
   这样的方法的测量范围取决于我们用到的变星位置.
 
-* Distance Ladder: Galaxy Properties
+- Distance Ladder: Galaxy Properties
 
   利用星系的位置关系来测量距离.
 

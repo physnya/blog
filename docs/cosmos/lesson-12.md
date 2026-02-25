@@ -3,6 +3,7 @@ title: Lesson 12 中微子脱耦 & 暴涨
 permalink: /cosmos/lesson-12/
 createTime: 2025/5/6 11:59:21
 ---
+
 ::: warning
 
 上一次课程因为与实验课冲突，我没有参加，需要根据其他同学的笔记进行整理，可能会晚不少时间上传.
@@ -24,9 +25,11 @@ createTime: 2025/5/6 11:59:21
 之后的分界点是 $0.5\text{ MeV}$，在这个点之前，$e$ 是相对论性的，之后速度下降变为非相对论性，在这个过程中电子和光子一直都是热平衡的，不过反应 $e^++e^-\longleftrightarrow\gamma+\gamma$ 的能量变低，平衡大幅向右移动，正负电子对大量湮灭，这使得光子体系的能量升高 ($T_\gamma$ 升高)，与之平衡的电子气温度也升高 (当然，升高之后还是以 $1/a$ 的模式降温).
 
 上节课我们从热力学角度推导了几个统计量 (对于相对论性粒子，非相对论性粒子的贡献在低阶近似下可以忽略)：
+
 $$
 \rho(T)=\mathcal{N}\cdot\frac{1}{2}a_BT^4\,,\quad S(T)=\mathcal{N}\cdot\frac{2}{3}a_BT^3\,,\quad P(T)=\frac{1}{3}\rho(T)
 $$
+
 其中，$\mathcal{N}$ 是所谓的“简并度”，对于不同的 particle types，有不同的值，上节课有讲到过.
 
 熵密度 $S(T)$ 守恒，也就是 $\mathcal{N}T^3a^3=\text{const}$. (对于一个与外界没有热量交换的系统)
@@ -36,29 +39,38 @@ $$
 (1) 对于电子 - 光子体系，在中微子退耦时刻，$T_\nu=T_\gamma=T_{\text{dec}}$.
 
 (2) 在之后的一个时刻，$t_*\gg t_{\text{dec}}$，同时温度 $T(t_*)\ll0.5\text{ MeV}$，这时有一个守恒的方程：
+
 $$
 \mathcal{N}(t_{\text{dec}})T_{\text{dec}}^3a^3(t_{\text{dec}})=\mathcal{N}(t_*)T^3_\gamma(t_*)a^3(t_*)
 $$
+
 具体计算简并度：
+
 $$
 \begin{aligned}
 \mathcal{N}(t_{\text{dec}})&=2+1\times2\times2\times\frac{7}{8}=\frac{11}{2}\\
 \mathcal{N}(t_*)&=2
 \end{aligned}
 $$
+
 (3) After $t>t_\text{dec}$，$T_\nu\propto1/a$，对于中微子，
+
 $$
 T_\text{dec}a(t_{\text{dec}})=T_\nu(t_*)a(t_*)
 $$
+
 代入上面的守恒方程，得到
+
 $$
 \frac{T_\nu(t_*)}{T_\gamma(t_*)}=\left[\frac{\mathcal{N}(t_*)}{\mathcal{N}(t_{\text{dec}})}\right]^{1/3}=\left(\frac{4}{11}\right)^{1/3}\approx\frac{1}{1.4}
 $$
+
 (4) After $t>t_*$，$T_\gamma\propto1/a$，$T_\nu\propto1/a$，一直到今天.
 
 因此，中微子的微波背景辐射 C$\nu$B 温度 (虽然非常难测量) 大约是 CMB 的 $1/1.4$，原因就在于 $0.5\text{ MeV}$ 时正负电子大量湮灭注入的能量只给了光子，但是早前中微子已经脱耦，没有得到这一部分能量.
 
 宇宙辐射能量密度：
+
 $$
 \begin{aligned}
 \rho_{R,0}&=\rho_{\gamma,0}+\rho_{\nu,0}\\\\
@@ -68,6 +80,7 @@ $$
 &\approx1.681\rho_{\gamma,0}
 \end{aligned}
 $$
+
 其中后面一长串就是中微子的贡献.
 
 ## Inflation
@@ -79,6 +92,7 @@ $$
 (1) Flatness Problem (平坦性问题)：严格来讲这并不是大爆炸理论的致命问题，或许我们不应该叫它疑难，而是应该叫它问题.
 
 我们先来考虑物质为主导的宇宙 (因为那时暗能量的作用还完全不明显，辐射甚至没有脱耦)，考虑一个以物质为主导的宇宙的平坦性：
+
 $$
 \begin{aligned}
 \Omega(t)&=\frac{\rho_m(t)}{\rho_{c}(t)}=\frac{\Omega_m\left(\frac{3H_0^2}{8\pi G}\right)\left(\frac{a}{a_0}\right)^3}{\frac{3H^2(t)}{8\pi G}}\\
@@ -86,14 +100,19 @@ $$
 &=\left[1+\frac{\Omega_K}{\Omega_m}\left(\frac{a}{a_0}\right)\right]^{-1}
 \end{aligned}
 $$
+
 其中用到：
+
 $$
 \frac{H^2}{H_0^2}=E^2(t)=\Omega_m\left(\frac{a}{a_0}\right)^{-3}+\Omega_K\left(\frac{a}{a_0}\right)^{-2}
 $$
+
 则：
+
 $$
 |\Omega(t)-1|=\left|1+\frac{\Omega_m}{\Omega_K}\frac{a_0}{a}\right|^{-1}\underset{\sim}{\propto} a
 $$
+
 假设 $\Omega_m=0.9$，$\Omega_K=0.1$，我们发现，红移越大，上面的量急剧趋于 $0$，这意味着宇宙的初始条件是极度平坦的 -- 这似乎并不显然.
 
 ::: tip
@@ -105,9 +124,11 @@ $$
 (2) Horizon Problem (视界疑难)：这下就是疑难了，这个问题相较于平坦性问题要严重许多.
 
 CMB 是高度均匀的. 但是均匀就意味着热平衡，那么在 CMB 形成的时间内，宇宙中我们现在能够看到的最远两点必须发生一些相互作用.
+
 $$
 d_H(t_{\text{rec}})\approx\frac{H_0^{-1}}{\Omega_m^{1/2}(1+z_{\text{rec}})^{3/2}}\approx1\degree/\text{whole sky}
 $$
+
 也就是说，in principle, $T_{\text{CMB}}$ is isotropic only within $1\degree$. 大爆炸理论的预言应该要求 CMB 极度各向异性！
 
 ::: tip
@@ -125,9 +146,11 @@ $$
 那时的物理学家想不出这个 GUT 有什么问题，但是又找不到磁单极子，这意味着磁单极子在宇宙中的密度低得超乎想象.
 
 GUT 的能标在 $10^{15}\text{ GeV}$ 左右，能量降低时的对称性自发破缺产生磁单极子. 若假设“相变”在一个视界体积内产生 1 个磁单极子，则：
+
 $$
 \frac{n_\text{MP}}{n_\gamma}\sim10^{-4}\,,\quad m_{\text{MP}}\sim T_{\text{GUT}}
 $$
+
 (质量比核子高 $15$ 个数量级，密度也比核子高了 $1$ 个数量级) 我们可以依照这两个条件来计算 $\Omega_{\text{MP}}$，发现 $\Omega_{\text{MP}}\sim10^{19}\gg1$，荒谬至极.
 
 ::: tip
@@ -154,7 +177,7 @@ $SU(5)$ 在后面预言的质子衰变被实验所排除. 但是这并不意味�
 
 考虑在暴涨前的一个区域，暴涨变大的是物理尺度，从这个角度来看，问题 (1) 就被解决了.
 
-::: demo-wrapper img no-padding
+::: window img no-padding
 
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0m000d7w33g6v2nbj7j8z54DIYxAIFxDda1DGxPDwUzAa==.jpg)
 
@@ -176,7 +199,7 @@ $SU(5)$ 在后面预言的质子衰变被实验所排除. 但是这并不意味�
 
 1981 年 Alan Guth 提出了暴涨，现在被称为 "old inflation"，他考虑的是下面的这种真空能分布：
 
-::: demo-wrapper img no-padding
+::: window img no-padding
 
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0l000d7w33fd4fmvgrwtllmDIYxAIFxDda1DGxPDwUzAa==.jpg)
 

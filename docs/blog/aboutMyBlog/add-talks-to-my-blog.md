@@ -1,13 +1,14 @@
 ---
 title: 为 blog 添加「动态」页面
 tags:
-  - blog
-  - GoToSocial
-  - WebDevelopment
+ - blog
+ - GoToSocial
+ - WebDevelopment
 createTime: 2025/06/16 13:09:07
 permalink: /posts/uyakgssl/
 changelog: false
 ---
+
 刚刚过去的期末周虽然非常紧张刺激，但是似乎我的松弛感和拖延症并没有因为考试的临近而改善，而是催促着我在期末周每天抽出时间来写一个新的板块.
 
 想要在 blog 中建立「动态」页面是我早就在谋划的待办事项，毕竟 [老的 blog](https://archive1.physnya.top) 中就有基于 Artitalk 建立的页面. 当时是将数据存放在 LeanCloud 上，然后在访问时调用，实现类似于 QQ 动态的效果. 但是国内 LeanCloud 国际版的访问速度十分感人，而且 Artitalk 毕竟是一个不再维护的项目，用起来完全不顺手，所以这一次我准备从头制作出这样的效果.
@@ -32,9 +33,9 @@ changelog: false
 
 首先，为了方便地调用 API，我们需要经过几重身份验证.[^1]
 
-登录你所使用的实例的设置界面：``https://example.org/settings/user/profile``，选择 ``Applications``，进入应用设置面板.
+登录你所使用的实例的设置界面：`https://example.org/settings/user/profile`，选择 `Applications`，进入应用设置面板.
 
-:::: demo-wrapper img no-padding
+:::: window img no-padding
 
 ::: center
 
@@ -44,11 +45,11 @@ changelog: false
 
 ::::
 
-点击 ``New Application`` 创建一个应用，然后进入应用的设置面板，会要求指定应用的权限、应用名称等，按照指示和自己的需求填写即可.
+点击 `New Application` 创建一个应用，然后进入应用的设置面板，会要求指定应用的权限、应用名称等，按照指示和自己的需求填写即可.
 
 创建好的应用会有一个 client ID 和一个 client secret，点击按钮会显示，将它们复制下来记到一个记事本里面：
 
-:::: demo-wrapper img no-padding
+:::: window img no-padding
 
 ::: center
 
@@ -64,7 +65,7 @@ changelog: false
 https://example.org/oauth/authorize?client_id=YOUR_CLIENT_ID&redirect_uri=urn:ietf:wg:oauth:2.0:oob&response_type=code&scope=read+write+push
 ```
 
-其中 ``YOUR_CLIENT_ID`` 字段换成刚刚得到的那一串，``example.org`` 填写自己所用实例的域名，最后的 ``scope`` 按照设置时给的权限来填写.
+其中 `YOUR_CLIENT_ID` 字段换成刚刚得到的那一串，`example.org` 填写自己所用实例的域名，最后的 `scope` 按照设置时给的权限来填写.
 
 将上述 URL 粘贴到浏览器后，会进入一个登录页面，输入自己账户的用户名和密码进行登录.
 
@@ -78,9 +79,9 @@ https://example.org/oauth/authorize?client_id=YOUR_CLIENT_ID&redirect_uri=urn:ie
 点击「允许」，进入新的页面，有类似这样的内容：
 
 > Here's your out-of-band token with scope "read write push", use it wisely:
-> ``YOUR_AUTHORIZATION_TOKEN``
+> `YOUR_AUTHORIZATION_TOKEN`
 
-复制这个新生成的 ``YOUR_AUTHORIZATION_TOKEN``，同样存放在某个记事本中. 在这一步得到的令牌是「带外授权令牌」，只能使用一次，所以要利用这个令牌生成可以持续使用的 API 密钥. 向实例发送下面的 ``POST`` 请求：
+复制这个新生成的 `YOUR_AUTHORIZATION_TOKEN`，同样存放在某个记事本中. 在这一步得到的令牌是「带外授权令牌」，只能使用一次，所以要利用这个令牌生成可以持续使用的 API 密钥. 向实例发送下面的 `POST` 请求：
 
 ```bash
 curl \
@@ -97,22 +98,22 @@ curl \
 
 这里，
 
-* ``YOUR_CLIENT_ID`` 是第一步得到的 client ID；
-* ``YOUR_CLIENT_SECRET`` 是第一步得到的 client secret；
-* ``YOUR_AUTHORIZATION_TOKEN`` 是第二步得到的 ``YOUR_AUTHORIZATION_TOKEN``.
+- `YOUR_CLIENT_ID` 是第一步得到的 client ID；
+- `YOUR_CLIENT_SECRET` 是第一步得到的 client secret；
+- `YOUR_AUTHORIZATION_TOKEN` 是第二步得到的 `YOUR_AUTHORIZATION_TOKEN`.
 
-发送请求后，将会得到类似下面的 ``json`` 格式响应：
+发送请求后，将会得到类似下面的 `json` 格式响应：
 
 ```json
 {
-  "access_token": "YOUR_ACCESS_TOKEN",
-  "created_at": 1719577950,
-  "scope": "read",
-  "token_type": "Bearer"
+	"access_token": "YOUR_ACCESS_TOKEN",
+	"created_at": 1719577950,
+	"scope": "read",
+	"token_type": "Bearer"
 }
 ```
 
-这里的 ``YOUR_ACCESS_TOKEN`` 就是可以反复使用的凭据.
+这里的 `YOUR_ACCESS_TOKEN` 就是可以反复使用的凭据.
 
 在得到凭据之后，可以通过下面的方法验证凭据是否可用：
 
@@ -124,9 +125,9 @@ curl \
   'https://example.org/api/v1/accounts/verify_credentials'
 ```
 
-将之前得到的 ``YOUR_ACCESS_TOKEN`` 作为请求头.
+将之前得到的 `YOUR_ACCESS_TOKEN` 作为请求头.
 
-如果成功，则会得到用户资料的 ``json`` 响应.
+如果成功，则会得到用户资料的 `json` 响应.
 
 :::
 
@@ -134,13 +135,13 @@ curl \
 
 因为我使用的 VuePress 是一个静态站点生成工具，所以要求它每次在被访问时都调用一次 API 然后渲染在页面上肯定不太现实.
 
-因此我想出来的方法是，在每一次 ``git commit`` 的时候拉取数据，存在 ``public/`` 文件夹 (也就是会部署在网站根目录的那个静态资源文件夹) 里面，每次显示的时候从这个文件里调用数据即可.
+因此我想出来的方法是，在每一次 `git commit` 的时候拉取数据，存在 `public/` 文件夹 (也就是会部署在网站根目录的那个静态资源文件夹) 里面，每次显示的时候从这个文件里调用数据即可.
 
 > 当然不得不说这个方法建立在站点更新速度和我在联邦宇宙发布动态的频率相匹配的基础上，如果网站很长时间不更新，动态也不会更新，这似乎是一个激励我更新的方式.
 >
 > 虽然但是，似乎也可以只更新动态… 是我多虑了.
 
-为了实现这个「在 ``git commit`` 之前完成的操作」，需要用到 husky[^2]：
+为了实现这个「在 `git commit` 之前完成的操作」，需要用到 husky[^2]：
 
 > husky 是一个设置 git hooks 的工具，允许你在项目中植入你设定的 git hooks，在 git 提交代码的前后，你预设的 git hooks 可以得到执行，以对代码、文件等进行预设的检查，或者运行一些脚本.
 
@@ -158,9 +159,9 @@ pnpm add --save-dev husky
 pnpm exec husky init
 ```
 
-这时，``.husky/`` 文件夹中会有一个 ``pre-commit`` 文件，``package.json`` 中也会多出 ``prepare`` 命令.
+这时，`.husky/` 文件夹中会有一个 `pre-commit` 文件，`package.json` 中也会多出 `prepare` 命令.
 
-之后添加新的 git hooks，只需要修改 ``pre-commit`` 文件即可，比如这里向其中添加了一个新的钩子：
+之后添加新的 git hooks，只需要修改 `pre-commit` 文件即可，比如这里向其中添加了一个新的钩子：
 
 ```sh title="pre-commit"
 #!/bin/sh
@@ -172,7 +173,7 @@ pnpm precommit
 
 ### API fetch 脚本
 
-现在需要一个脚本来调用之前得到的 API. 在 DeepSeek 老师的帮助下，我写出了如下 ``fetch-talks.cjs`` 以及 ``pre-commit.cjs``：
+现在需要一个脚本来调用之前得到的 API. 在 DeepSeek 老师的帮助下，我写出了如下 `fetch-talks.cjs` 以及 `pre-commit.cjs`：
 
 ::: code-tabs
 
@@ -186,9 +187,9 @@ pnpm precommit
 
 :::
 
-> API 密钥和应用名称等，存放在根目录下的 ``.env`` 文件中，并在 ``.gitignore`` 中将这个文件忽略，保证安全性.
+> API 密钥和应用名称等，存放在根目录下的 `.env` 文件中，并在 `.gitignore` 中将这个文件忽略，保证安全性.
 
-在 ``package.json`` 中添加新的命令：
+在 `package.json` 中添加新的命令：
 
 ```json title="package.json"
 "scripts": {
@@ -209,7 +210,7 @@ pnpm precommit
 
 @[code vue title="Talks.vue" :collapsed-lines](../../.vuepress/components/Talks.vue)
 
-将 ``.vue`` 文件放在 ``.vuepress/`` 的 ``components/`` 目录下，并在 ``client.ts`` 中注册：
+将 `.vue` 文件放在 `.vuepress/` 的 `components/` 目录下，并在 `client.ts` 中注册：
 
 ```ts title="client.ts"
 import { defineClientConfig } from 'vuepress/client'
@@ -222,9 +223,9 @@ export default defineClientConfig({
 
 ```
 
-之后在 markdown 文件中引用组件只需要写 ``<Talks />`` 即可.
+之后在 markdown 文件中引用组件只需要写 `<Talks />` 即可.
 
-在 ``docs/`` 目录下新建一个 markdown 文件，引用上面写好的组件，完成！
+在 `docs/` 目录下新建一个 markdown 文件，引用上面写好的组件，完成！
 
 示例地址：[「动态」](/talks/)
 
@@ -235,4 +236,5 @@ export default defineClientConfig({
 这篇文章也算是这学期的一个结束罢，虽然是自己兴趣爱好方面的东西. 希望出成绩之后我还能保持这样的好心态...
 
 [^1]: 本节参考文献：[使用 API 进行身份验证 - GoToSocial 文档](https://docs.gotosocial.org/zh-cn/latest/api/authentication/).
+
 [^2]: 这名字翻译过来是「哈士奇」…

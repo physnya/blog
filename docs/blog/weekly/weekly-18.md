@@ -4,7 +4,7 @@ title: 流水账 Week 18
 permalink: /posts/wh7e8b6j/
 createTime: 2025/03/10 17:05:41
 tags:
-  - Life
+ - Life
 ---
 
 上周周日参加天文协会例会，到 11 点多才回到宿舍，之后电脑被舍友借去用到 12 点，干脆把流水账拖到周一更新了.
@@ -41,7 +41,7 @@ tags:
 
 由于最近加入系科协，所以现在准备自学一点 Linux 知识，周一的时候花了一下午时间装了一个 VMware，开一个 Ubuntu 22.04 的虚拟机.
 
-::: demo-wrapper img no-padding
+::: window img no-padding
 
 <img src="https://vip.123pan.cn/1845440081/yk6baz03t0m000d7w33g6ao3sspcw739DIYxAIFxDda1DGxPDwUzAa==.png">
 

@@ -3,8 +3,8 @@ changelog: false
 title: 流水账 Week 15
 createTime: 2025/01/27 00:24:12
 tags:
-  - Life
-  - WebDevelopment
+ - Life
+ - WebDevelopment
 permalink: /posts/a8n8h73w/
 ---
 
@@ -32,7 +32,7 @@ permalink: /posts/a8n8h73w/
 
 :::: details 放一点记录
 
-::: demo-wrapper img no-padding
+::: window img no-padding
 
 ![单簧管](https://vip.123pan.cn/1845440081/ymjew503t0l000d6xujz7kdtm9119860DIYxAIFxDda1DGxPDwUzAa==.jpg)
 

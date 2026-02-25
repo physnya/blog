@@ -3,13 +3,17 @@ title: Lesson 4 宇宙中的距离
 createTime: 2025/03/10 21:52:56
 permalink: /cosmos/lesson-4/
 ---
+
 ## 宇宙的几何
 
 先简单地回顾一下上周讲到的三种膨胀宇宙度规：
+
 $$
 \text{d}s^2=-c^2\text{d}t^2+a^2(t)\left[\text{d}\vec{x}^2+\frac{k(\vec{x}\cdot\text{d}\vec{x})^2}{1-k|\vec{x}|^2}\right]
 $$
+
 当然还有球坐标形式：
+
 $$
 \text{d}s^2=-c^2\text{d}t^2+a^2(t)\left[\frac{\text{d}r^2}{1-kr^2}-r^2\text{d}\Omega^2\right]
 $$
@@ -64,10 +68,10 @@ Alas, there is no sign of repetition in CMB or galaxy surveys. 现有的观测�
 >
 > 我们之前说过，CMB 的涨落量级是 $\frac{\delta T}{T}\sim10^{-4},10^{-5}$，而光强的效应强度是 $\frac{\delta T}{T}\sim\left(\frac{v}{c}\right)$.
 >
-> * 地球绕日约 $30\text{km/s}$，大约 $10^{-4}$ 级别的影响；
-> * 太阳绕银河系中心约 $215\text{km/s}$，$10^{-3}$ 级别影响；
-> * 银河系绕本星系团 (local group) 中心约 $600\text{km/s}$；
-> * 本星系团相对“CMB frame”约 $627\text{km/s}$.
+> - 地球绕日约 $30\text{km/s}$，大约 $10^{-4}$ 级别的影响；
+> - 太阳绕银河系中心约 $215\text{km/s}$，$10^{-3}$ 级别影响；
+> - 银河系绕本星系团 (local group) 中心约 $600\text{km/s}$；
+> - 本星系团相对“CMB frame”约 $627\text{km/s}$.
 >
 > 当然上述几个速度不是同向叠加，所以最终的速度大约是 $370\text{km/s}$ 左右.
 >
@@ -86,42 +90,58 @@ Alas, there is no sign of repetition in CMB or galaxy surveys. 现有的观测�
 当然，标准尺方法对应的是一个静止的宇宙，我们测量的是物理距离. 在膨胀宇宙中，我们可能可以看到现在到达我们眼睛的光，但是这时候宇宙已经膨胀了一段时间，所以要乘上尺度因子 —— 但是所有距离均膨胀，所以图形完全相似，最终的张角不变.
 
 angular distance 是
+
 $$
 d_A=\left(\frac{a(t)}{a_0}\right)a_0r
 $$
+
 光度距离 (luminosity distance)：标准烛光测量，我们假定选定的烛光在所有情况下的光度一样，
 
 亮度：
+
 $$
 L=\frac{\Delta E}{\Delta t}
 $$
+
 流量：
+
 $$
 F=\frac{\Delta E}{\Delta t\Delta A}=\frac{L}{4\pi r^2}
 $$
+
 所以
+
 $$
 d_L=\sqrt{\frac{L}{4\pi F}}=r
 $$
+
 这就是静止宇宙下测量的公式.
 
 对于膨胀的宇宙，我们仍然沿用原来的公式的话，会得到
+
 $$
 d_L=\sqrt{\frac{L}{4\pi F_{\text{obs}}}}
 $$
+
 但是这里我们不知道要不要乘因子. 为简单，考虑单频率光，则我们能够写出流量：
+
 $$
 F_\text{obs}=\frac{\Delta E_{\text{obs}}}{\Delta t_\text{obs}4\pi (a_0r)^2}=\frac{h\nu_\text{obs}\Delta N_\text{obs}}{\Delta t_\text{obs}}
 $$
+
 但是，
+
 $$
 \lambda_\text{obs}=\lambda_\text{em}(\frac{a_0}{a(t)})\,,\quad\nu_\text{obs}=\nu_\text{em}(\frac{a(t)}{a_0})\\\\
 \Delta N_\text{obs}=\Delta N_\text{em}\,,\quad A_\text{obs}=4\pi(a_0r)^2
 $$
+
 接收面积会变大、光子频率减少，将这些因素考虑到一起，我们应该得到
+
 $$
 d_L=\left(\frac{a_0}{a(t)}\right)a_0r
 $$
+
 我们怎么记忆两种方法下的公式呢？
 
 > 事实上，角距离在光发出的时刻位形就已经确定，于是我们得到的距离就是当时 (光发出时) 的距离，因此为 $a(t)r$.
@@ -130,21 +150,26 @@ $$
 
 公式肯定是不变的，重要的是 $r$ 应该是什么：坐标距离 or 投影到 $\vec{x}$ 的距离. 或者是 $\psi_\text{com}$ (comoving)，为发光体与观测者在共同时刻的径向距离？
 
-::: demo-wrapper img no-padding
+::: window img no-padding
 
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0l000d7w33fccf0gu9qj1k1DIYxAIFxDda1DGxPDwUzAa==.jpg)
 
 :::
 
 答案其实就是 $r$ (坐标距离). 原因在于，发出的光在切空间的张角和实际上的张角相同，同时和投影在坐标面上的张角也相同，所以
+
 $$
 \text{d}s^2=-c^2\text{d}t^2+a^2(t)\left[\frac{\text{d}r^2}{1-kr^2}+r^2\text{d}\theta^2+r^2\sin^2\theta\text{d}\phi^2\right]
 $$
+
 在共动时刻，$\text{d}t=0$，$\text{d}r=0$，$\text{d}\phi=0$，$\text{d}\theta=\Delta\theta$，所以
+
 $$
 d_A=\frac{l}{\Delta\theta}=a(t)r
 $$
+
 而对于光度距离，图上的这个 ring 实际上是一个二维球面，光沿径向射出，切向的这部分永远不会改变，最后还是在投影空间中计算二维球面的面积，还是 $4\pi r^2$. 所以最终
+
 $$
 \text{d}s^2=a^2(t)r^2\text{d}\Omega^2\Longrightarrow d_L=\left(\frac{a(t)}{a_0}\right)a(t)r
 $$

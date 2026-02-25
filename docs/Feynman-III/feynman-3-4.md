@@ -1,11 +1,12 @@
 ---
 author:
-  name: physnya
-  url: https://physnya.top/
+ name: physnya
+ url: https://physnya.top/
 title: 札记 4
 createTime: 2024/11/14 00:57:18
 permalink: /Feynman-III/1wkgdymv/
 ---
+
 ## 2024-11-13
 
 ==记住 Pauli 矩阵!!!!!==
@@ -13,53 +14,62 @@ permalink: /Feynman-III/1wkgdymv/
 上节课讲到反对易括号，并且说明了，在不引起歧义的情况下，会把$\delta_{ij}I_n$中的单位矩阵略去不写.
 
 真正重要的是“对易子（对易括号，commutation）”，在我们之后的学习中更加常用：
+
 $$
 [A,B]=AB-BA
 $$
+
 这刻画了矩阵乘法的不交换性，显然具有明确的物理意义，这就能看出为什么这个量如此重要. 而前面讲的反对易括号，可以理解为进行了一种 fermion 的交换作用.
 
 三维空间的旋转具有不可交换性，这也可以用对易括号描述. 一个有关对易括号的重要命题：
+
 $$
 [\sigma_i,\sigma_j]=2i\varepsilon_{ijk}\sigma_k
 $$
+
 问题：为什么这里有一个$i$？
 
 > 因为$\sigma$是 Hermitian 矩阵，很容易证明 Hermitian 矩阵的对易括号一定不是 Hermitian 矩阵.
 
 课堂练习：求$\sigma_2$、$\sigma_3$的对易子.
 
->$$
+> $$
 > \sigma_2=\begin{pmatrix}
 > 0&-i\\i&0
 > \end{pmatrix}\,,\quad\sigma_3=\begin{pmatrix}
 > 1&0\\0&-1
 > \end{pmatrix}
->$$
+> $$
 >
 > 得到
->$$
+>
+> $$
 > \sigma_2\sigma_3=\begin{pmatrix}
 > 0&i\\i&0
 > \end{pmatrix}\,,\quad\sigma_3\sigma_2=\begin{pmatrix}
 > 0&-i\\-i&0
 > \end{pmatrix}
->$$
+> $$
+>
 > 最后
->$$
+>
+> $$
 > [\sigma_2,\sigma_3]=2\begin{pmatrix}
 > 0&i\\i&0
 > \end{pmatrix}
->$$
+> $$
 
 这是相当重要的. 一个结论是，$\sigma_i\sigma_j=\frac{1}{2}(\{\sigma_i,\sigma_j\}+[\sigma_i,\sigma_j])$，代入前面讲到过的结论，得到$\sigma_i\sigma_j=\delta_{ij}+i\varepsilon_{ijk}\sigma_k$.
 
 对于任意的$\vec{A},\vec{B}\in\R^3$，有
+
 $$
 \begin{aligned}
 (\vec{A}\cdot\vec{\sigma})(\vec{B}\cdot\vec{\sigma})&=A_i\sigma_iB_j\sigma_j=\delta_{ij}A_iB_j+i\varepsilon_{ijk}A_iB_j\sigma_k\\\\
 &=\vec{A}\cdot\vec{B}+i(\vec{A}\times\vec{B})\cdot\vec{\sigma}
 \end{aligned}
 $$
+
 接下来就能讲讲物理的内容. 考虑空间旋转和角动量$J_i$，显然对易括号$[J_i,J_j]=i\varepsilon_{ijk}J_k$.
 
 问题：为什么对易括号的 RHS 没有系数 2？
@@ -71,21 +81,28 @@ $$
 当然我们在知道如何计算$J$与矢量的对易子之后，我们就能计算它与并矢的对易子.
 
 我们希望对$[\frac{1}{2}\sigma_i,\frac{1}{2}\sigma_j]=i\varepsilon_{ijk}(\frac{1}{2}\sigma_k)$做指数映射之后得到第 6 章中求出的自旋-1/2 粒子在三维空间中旋转的表示矩阵.
+
 $$
 D_i^{1/2}(\phi)=e^{[i\phi\sigma_i/2]}
 $$
+
 计算：
+
 $$
 e^A=\sum_{i=0}^\infty\frac{1}{i!}A^i
 $$
+
 所以
+
 $$
 \begin{aligned}
 e^{i\phi\sigma_1/2}&=\sum_{n=0}^\infty\frac{1}{n!}(i\phi\sigma_1/2)^n\\\\
 &=\sum_{i=0}^\infty(\frac{i\phi}{2})^n\frac{1}{n!}\sigma_1^n
 \end{aligned}
 $$
+
 因为$\sigma_1^{2n+1}=\sigma_1$，$\sigma_1^{2n}=I_2$，最后结果为
+
 $$
 \begin{aligned}
 D^{1/2}_1(\phi)&=\sum_{n=0}^\infty[(\frac{i\phi}{2})^{2n+1}\frac{\sigma_1}{(2n+1)!}+(\frac{i\phi}{2})^{2n}\frac{I_2}{(2n)!}]\\\\
@@ -95,6 +112,7 @@ D^{1/2}_1(\phi)&=\sum_{n=0}^\infty[(\frac{i\phi}{2})^{2n+1}\frac{\sigma_1}{(2n+1
 \end{pmatrix}
 \end{aligned}
 $$
+
 其他与这个一样，希望课后大家能去做一下练习.
 
 ==Pauli 矩阵是三维旋转的不变量.==
@@ -106,21 +124,27 @@ $$
 将任何三个二阶矩阵放在一起写成$\vec{A}=(A_1,A_2,A_3)$，都可以叫做一个三维矢量，但是为了说明$\vec{\sigma}$是特殊的，我们至少要做一次这样的计算.
 
 考虑在三维空间中绕着$x$轴的旋转，则
+
 $$
 \sigma'_i=R_{ij}\sigma_j\,,\quad R_{ij}=\begin{pmatrix}
 1&&\\&\cos\theta&\sin\theta\\&-\sin\theta&\cos\theta
 \end{pmatrix}
 $$
+
 但是$\vec{\sigma}$是二位旋量空间中间的量，一定也可以使用二维的旋转表示矩阵表达它的旋转，得到
+
 $$
 \sigma''_i=D_x^{1/2}(\theta)\sigma_i[D_x^{1/2}(\theta)]^\dagger
 $$
+
 经过计算发现$\sigma''_i(-\theta)=\sigma_i'(\theta)$，这说明我们同时做这两个旋转就会得到原来的不变结果.
 
 也就是：
+
 $$
 R_{ij}D\sigma_i D^\dagger=\sigma_j
 $$
+
 如果将 Pauli 矩阵$\sigma_i$同时 看作三维空间的矢量和二维旋量空间的 2 阶张量，那么$\sigma_i$是空间旋转变换的不变量．
 
 其实$\sigma$还能被拓展为四维协变的形式：$\sigma_\mu=(I_2,\sigma_i)$.
@@ -142,6 +166,7 @@ $$
 中微子振荡：中微子有所谓的“味”（flavour），这是它的一种本征态，但是不是质量的本征态. 振荡的表现是，中微子在传播的过程中会变化（从电子型变成中子型之类）.
 
 中子和质子在某种意义上具有一种对称性，可以这样看：
+
 $$
 \begin{aligned}
 &\braket{n,\pi^+|p^+}\\\\
@@ -149,6 +174,7 @@ $$
 &\braket{p^+,\pi^-|n}
 \end{aligned}
 $$
+
 这看起来就是一个矢量$\begin{pmatrix}p\\n\end{pmatrix}$！这种对称性被称为 isospin（同位旋）.
 
 ---
@@ -170,7 +196,7 @@ $$
 附上一张图片，以便自己之后再回忆今天讲到的内容（虽然我不一定能看懂）
 
 ::: details 板书
-::: demo-wrapper img no-padding
+::: window img no-padding
 ![板书](https://p.sda1.dev/20/b9a1256e624e9706d4a1c34d8f5c2810/1aab30fda862a0665d7ce23543c51d6.jpg)
 :::
 这图片有 1MB，加载可能会很慢.
