@@ -26,7 +26,11 @@
   },
   "statistical-mechanics": {
     "lesson-1-introduction": 1806,
-    "index": 16
+    "index": 109
+  },
+  "star-planet": {
+    "lesson-1-introduction-light": 1620,
+    "index": 110
   },
   "self-learn-GR": {
     "chapter-3": 10240,
@@ -360,7 +364,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 524499,
-  "lastUpdated": "2026-02-25T14:32:09.614Z",
-  "fileCount": 329
+  "total": 526322,
+  "lastUpdated": "2026-02-26T14:10:50.927Z",
+  "fileCount": 331
 }

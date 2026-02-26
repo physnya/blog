@@ -19,6 +19,7 @@ export const navbar = defineNavbarConfig([
 			{ text: "天体物理统计方法", link: "/astro-statistic/README.md" },
 			{ text: "数理方程", link: "/equation-m-p/README.md" },
 			{ text: "统计力学", link: "/statistical-mechanics/README.md" },
+			{ text: "恒星与行星", link: "/star-planet/README.md" },
 			{
 				text: "自学笔记",
 				items: [{ text: "广义相对论", link: "/self-learn-GR/README.md" }],
