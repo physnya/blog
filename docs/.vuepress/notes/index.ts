@@ -14,6 +14,7 @@ import astroStatistic from "./astro-statistic.ts"
 import equationMP from "./equation-m-p.ts";
 import statisticalMechanics from "./statistical-mechanics.ts";
 import starPlanet from "./star-planet.ts";
+import GR from "./GR.ts";
 
 export const notes = defineCollections([
 	FeynmanIII,
@@ -31,4 +32,5 @@ export const notes = defineCollections([
 	equationMP,
 	statisticalMechanics,
 	starPlanet,
+	GR,
 ]);

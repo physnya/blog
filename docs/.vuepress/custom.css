@@ -137,6 +137,7 @@ blockquote::before {
 
 .vp-doc table {
 	place-items: center;
+	margin: 0 auto;
 }
 
 .vp-timeline-line {
