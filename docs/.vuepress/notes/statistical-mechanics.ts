@@ -9,6 +9,7 @@ export default defineCollection({
       link: "/statistical-mechanics/",
       items: [
         "lesson-1",
+        "lesson-2",
       ],
     },
   ],
