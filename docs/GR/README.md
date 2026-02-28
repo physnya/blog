@@ -6,3 +6,5 @@ permalink: /GR/
 这里是广义相对论笔记.
 
 广义相对论的课堂和之前的 [高等微积分](/integral/) 很像，老师在黑板上推导，这让我比较能够 follow 整个进度😋.
+
+总字数：<WordCount type="GR" />

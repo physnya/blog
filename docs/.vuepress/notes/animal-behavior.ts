@@ -1,18 +1,17 @@
 import { defineCollection } from "vuepress-theme-plume";
 
 export default defineCollection({
-  dir: "GR",
+  dir: "animal-behavior",
   sidebar: [
     {
-      text: "广义相对论",
+      text: "动物行为学",
       collapsed: false,
-      link: "/GR/",
+      link: "/animal-behavior/",
       items: [
         "lesson-1",
-        "lesson-2",
       ],
     },
   ],
-  title: '广义相对论',
+  title: '动物行为学',
   type: "doc",
 });

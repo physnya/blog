@@ -73,6 +73,10 @@
     "lesson-1-introduction": 1759,
     "index": 134
   },
+  "probability": {
+    "lesson-1-introduction": 1017,
+    "index": 62
+  },
   "physics-front": {
     "lesson-9": 910,
     "lesson-8": 1382,
@@ -343,9 +347,14 @@
     "lesson-1": 1557,
     "index": 310
   },
+  "animal-behavior": {
+    "lesson-1-introduction": 856,
+    "index": 94
+  },
   "GR": {
+    "lesson-2-metric": 2399,
     "lesson-1-lorentz-transformation": 1850,
-    "index": 59
+    "index": 62
   },
   "Feynman-III": {
     "zpmh77r9": 3189,
@@ -369,7 +378,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 529749,
-  "lastUpdated": "2026-02-27T07:40:59.873Z",
-  "fileCount": 334
+  "total": 534180,
+  "lastUpdated": "2026-02-28T14:50:38.488Z",
+  "fileCount": 339
 }
