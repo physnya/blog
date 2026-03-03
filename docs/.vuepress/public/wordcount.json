@@ -74,6 +74,7 @@
     "index": 134
   },
   "probability": {
+    "lesson-2": 782,
     "lesson-1-introduction": 1017,
     "index": 62
   },
@@ -352,6 +353,7 @@
     "index": 94
   },
   "GR": {
+    "lesson-3": 1277,
     "lesson-2-metric": 2399,
     "lesson-1-lorentz-transformation": 1850,
     "index": 62
@@ -378,7 +380,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 534180,
-  "lastUpdated": "2026-02-28T14:50:38.488Z",
-  "fileCount": 339
+  "total": 536239,
+  "lastUpdated": "2026-03-03T07:55:06.238Z",
+  "fileCount": 341
 }
