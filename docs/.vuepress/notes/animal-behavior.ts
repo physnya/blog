@@ -9,6 +9,7 @@ export default defineCollection({
       link: "/animal-behavior/",
       items: [
         "lesson-1",
+        "lesson-2",
       ],
     },
   ],
