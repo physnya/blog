@@ -9,6 +9,7 @@ export default defineCollection({
       link: "/star-planet/",
       items: [
         "lesson-1",
+        "lesson-2",
       ],
     },
   ],

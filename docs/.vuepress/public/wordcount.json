@@ -25,11 +25,13 @@
     "index": 88
   },
   "statistical-mechanics": {
+    "lesson-3-relations": 1136,
     "lesson-2-laws": 1518,
     "lesson-1-introduction": 1806,
     "index": 109
   },
   "star-planet": {
+    "lesson-2-equation-of-state": 912,
     "lesson-1-introduction-light": 1620,
     "index": 110
   },
@@ -381,7 +383,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 536958,
-  "lastUpdated": "2026-03-03T16:07:37.251Z",
-  "fileCount": 342
+  "total": 539006,
+  "lastUpdated": "2026-03-05T13:53:06.713Z",
+  "fileCount": 344
 }
