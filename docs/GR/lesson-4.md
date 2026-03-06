@@ -19,7 +19,7 @@ $$
 $$
 \begin{aligned}
 &\frac{\partial}{\partial x'^\sigma}\left(\frac{\partial x'^\mu}{\partial x^\nu}\frac{\partial x^\nu}{\partial x'^\rho}\right) = 0\\\\
-\Longrightarrow&\frac{\partial^2x'^\textcolor{red}{\mu}}{\partial x^\kappa\partial x^\nu}\frac{\partial x^\kappa}{\partial x'^\textcolor{red}{\sigma}}\frac{\partial x^\nu}{\partial x'^\textcolor{red}{\rho}} + \frac{\partial x'^\textcolor{red}{\mu}}{\partial x^\nu}\frac{\partial^2x^\nu}{\partial x'^\textcolor{red}{\sigma}\partial x'^\textcolor{red}{\rho}} = 0
+\Longrightarrow&\frac{\partial^2x'^{\textcolor{red}{\mu}}}{\partial x^\kappa\partial x^\nu}\frac{\partial x^\kappa}{\partial x'^{\textcolor{red}{\sigma}}}\frac{\partial x^\nu}{\partial x'^{\textcolor{red}{\rho}}} + \frac{\partial x'^{\textcolor{red}{\mu}}}{\partial x^\nu}\frac{\partial^2x^\nu}{\partial x'^{\textcolor{red}{\sigma}}\partial x'^{\textcolor{red}{\rho}}} = 0
 \end{aligned}
 $$
 (标红色的是自由的指标) 可以引入一个新的导数，
@@ -61,7 +61,7 @@ $$
 
 但是没有任何现象说时空有挠率，也没有现象需要用时空有挠来解释，因此我们不应该做这种纯粹的数学游戏.  正所谓：
 
-```
+```:no-line-numbers
 Pluralitas non est ponenda sine necessitate.
 ```
 
