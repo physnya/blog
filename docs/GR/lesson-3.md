@@ -116,6 +116,6 @@ $$
 \Gamma^\mu{}_{\rho\sigma} &= \frac{\partial x^\mu}{\partial\xi^\alpha}\frac{\partial^2\xi^\alpha}{\partial x^\rho\partial x^\sigma}\\\\
 \Longrightarrow \Gamma'^\nu{}_{\kappa\lambda}&= \frac{\partial x'^\nu}{\partial\xi^\alpha}\frac{\partial^2\xi^\alpha}{\partial x'^\kappa\partial x'^\lambda} = \frac{\partial x'^\nu}{\partial x^\mu}\frac{\partial x^\mu}{\partial\xi^\alpha}\frac{\partial}{\partial x'^\kappa}\left(\frac{\partial\xi^\alpha}{\partial x^\sigma}\frac{\partial x^\sigma}{\partial x'^\lambda}	\right)\\\\
 &= \frac{\partial x'^\nu}{\partial x^\mu}\frac{\partial x^\mu}{\partial\xi^\alpha}\left(\frac{\partial^2x^\sigma}{\partial x'^\kappa\partial x'^\lambda}\frac{\partial\xi^\alpha}{\partial x^\sigma}+\frac{\partial x^\sigma}{\partial x'^\lambda}\frac{\partial^2\xi^\alpha}{\partial x^\sigma \partial x^\rho}\frac{\partial x^\rho}{\partial x'^\kappa} \right)\\\\
-&= \frac{\partial x'^\nu}{\partial x^\mu}\frac{\partial x^\sigma}{\partial x'^\lambda}\frac{\partial x^\rho}{\partial x'^\kappa}\Gamma^\mu{}_{\sigma\rho} + \frac{\partial x'^\nu}{\partial x^\mu}\frac{\partial^2x^\sigma}{\partial x'^\kappa\partial x'^\lambda}
+&= \frac{\partial x'^\nu}{\partial x^\mu}\frac{\partial x^\sigma}{\partial x'^\lambda}\frac{\partial x^\rho}{\partial x'^\kappa}\Gamma^\mu{}_{\sigma\rho} + \frac{\partial x'^\nu}{\partial x^\mu}\frac{\partial^2x^\sigma}{\partial x'^\kappa\partial x'^\lambda}\frac{\partial x^\mu}{\partial x^\sigma}
 \end{aligned}
 $$
