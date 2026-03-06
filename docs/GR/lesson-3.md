@@ -94,7 +94,7 @@ $$
 $$
 对于度规，
 $$
-g'_{\rho\sigma} = g_{\mu\nu}\frac{\partial x^\mu}{\partial x'^\rho}\frac{\partial x^\nu}{\partial x’^\sigma}
+g'_{\rho\sigma} = g_{\mu\nu}\frac{\partial x^\mu}{\partial x'^\rho}\frac{\partial x^\nu}{\partial x'^\sigma}
 $$
 对于加速度：
 $$

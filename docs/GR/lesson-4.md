@@ -86,7 +86,8 @@ $$
 其中，
 $$
 \begin{aligned}
-\Gamma^\mu{}_{\mu\lambda} &= \frac{1}{2}g^{\mu\rho}(g_{\rho\mu,\lambda}+g_{\rho\lambda,\mu}-g_{\mu\lambda,\rho}) = \frac{1}{2}g^{\mu\rho}g_{\rho\mu,\lambda} = \frac{1}{\sqrt{g}}\frac{\partial\sqrt{g}}{\partial x^\lambda} =\frac{\partial}{\partial x^\lambda}\ln\sqrt{g},\quad g = -\det(g_{\mu\nu})
+\Gamma^\mu{}_{\mu\lambda} &= \frac{1}{2}g^{\mu\rho}(g_{\rho\mu,\lambda}+g_{\rho\lambda,\mu}-g_{\mu\lambda,\rho}) = \frac{1}{2}g^{\mu\rho}g_{\rho\mu,\lambda} \\\\
+&= \frac{1}{\sqrt{g}}\frac{\partial\sqrt{g}}{\partial x^\lambda} =\boxed{\frac{\partial}{\partial x^\lambda}\ln\sqrt{g}},\quad g = -\det(g_{\mu\nu})
 \end{aligned}
 $$
 代入协变散度表达式，得到
