@@ -25,6 +25,7 @@
     "index": 88
   },
   "statistical-mechanics": {
+    "lesson-5-landau-phase-transition": 803,
     "lesson-4-law-3": 1023,
     "lesson-3-relations": 1136,
     "lesson-2-laws": 1518,
@@ -32,6 +33,7 @@
     "index": 109
   },
   "star-planet": {
+    "lesson-3-lane-emden-equ": 1193,
     "lesson-2-equation-of-state": 912,
     "lesson-1-introduction-light": 1620,
     "index": 110
@@ -387,7 +389,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 544454,
-  "lastUpdated": "2026-03-10T13:00:15.983Z",
-  "fileCount": 348
+  "total": 546450,
+  "lastUpdated": "2026-03-12T13:54:03.655Z",
+  "fileCount": 350
 }
