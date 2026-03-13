@@ -4,7 +4,7 @@ createTime: 2026/03/12 21:53:24
 permalink: /star-planet/lesson-3-lane-emden-equ/
 ---
 上节课讲的是 EoS. 我们知道下面这些 EoS：
-
+xx
 * $P = \displaystyle{\frac{\rho k_BT}{\mu m}}$，这是 ideal gas EoS
 
 * 对于非相对论和相对论的电子气，有
