@@ -25,6 +25,7 @@
     "index": 88
   },
   "statistical-mechanics": {
+    "lesson-6-landau-phase-transition-2": 875,
     "lesson-5-landau-phase-transition": 803,
     "lesson-4-law-3": 1023,
     "lesson-3-relations": 1136,
@@ -360,6 +361,7 @@
     "index": 94
   },
   "GR": {
+    "lesson-6-schwarzschild": 1646,
     "lesson-5-einstein-equation": 1571,
     "lesson-4-covariance": 1828,
     "lesson-3": 1284,
@@ -389,7 +391,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 546451,
-  "lastUpdated": "2026-03-13T00:54:44.760Z",
-  "fileCount": 350
+  "total": 548972,
+  "lastUpdated": "2026-03-13T07:12:03.805Z",
+  "fileCount": 352
 }
