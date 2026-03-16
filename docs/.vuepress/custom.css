@@ -1,5 +1,4 @@
-@import url("https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkaibright/dist/LXGWBright-Regular/result.css");
-@import url("https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.min.css");
+@import url("/fonts/LXGWBrightGB-Regular/result.css");
 @import url("https://cdn.jsdelivr.net/npm/@fontsource/cascadia-code@4.2.1/index.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@1,1..1000&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,1..1000;1,1..1000&display=swap');
@@ -75,7 +74,7 @@
 /* --- 微调 --- */
 
 :root {
-	--vp-font-family-base: "LXGW Bright", sans-serif;
+	--vp-font-family-base: "LXGW Bright GB", sans-serif;
 	--vp-font-family-mono: "Cascadia code";
 	font-optical-sizing: auto;
 	--vp-custom-block-font-size: 17px;
@@ -104,7 +103,7 @@ pre::-webkit-scrollbar {
 
 :root:where(:lang(zh)),
 :root:where(:lang(zh-CN)) {
-	--vp-font-family-base: "Ysabeau Infant", "LXGW Bright", sans-serif;
+	--vp-font-family-base: "Ysabeau Infant", "LXGW Bright GB", sans-serif;
 }
 
 html {
