@@ -25,6 +25,7 @@
     "index": 88
   },
   "statistical-mechanics": {
+    "lesson-8-independent-particle-distribution": 1077,
     "lesson-7-statistical-mechanics-intro": 483,
     "lesson-6-landau-phase-transition-2": 875,
     "lesson-5-landau-phase-transition": 803,
@@ -364,6 +365,8 @@
     "index": 94
   },
   "GR": {
+    "lesson-9-schwarzschild-black-hole": 847,
+    "lesson-8-schwarzschild-black-hole": 1022,
     "lesson-7-killing-vector-and-lie-derivative": 1621,
     "lesson-6-schwarzschild": 1646,
     "lesson-5-einstein-equation": 1571,
@@ -395,7 +398,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 554478,
-  "lastUpdated": "2026-03-19T13:53:35.552Z",
-  "fileCount": 356
+  "total": 557424,
+  "lastUpdated": "2026-03-24T07:30:02.739Z",
+  "fileCount": 359
 }
