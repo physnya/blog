@@ -15,7 +15,6 @@ import equationMP from "./equation-m-p.ts";
 import statisticalMechanics from "./statistical-mechanics.ts";
 import starPlanet from "./star-planet.ts";
 import GR from "./GR.ts";
-import probability from "./probability.ts";
 import animalBehavior from "./animal-behavior.ts";
 
 export const notes = defineCollections([
@@ -35,6 +34,5 @@ export const notes = defineCollections([
 	statisticalMechanics,
 	starPlanet,
 	GR,
-	probability,
     animalBehavior,
 ]);

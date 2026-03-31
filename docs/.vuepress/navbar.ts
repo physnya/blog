@@ -21,7 +21,6 @@ export const navbar = defineNavbarConfig([
 			{ text: "统计力学", link: "/statistical-mechanics/README.md" },
 			{ text: "恒星与行星", link: "/star-planet/README.md" },
 			{ text: "广义相对论", link: "/GR/README.md" },
-			{ text: "概率论与随机过程", link: "/probability/README,md" },
             { text: "动物行为学", link: "/animal-behavior/README.md" },
 			{
 				text: "自学笔记",
