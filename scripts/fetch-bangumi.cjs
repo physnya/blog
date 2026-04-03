@@ -23,6 +23,9 @@ const COLLECTION_TYPE_KEY = ["", "planTo", "completed", "ing"];
 const LIMIT = 100;
 const USER_AGENT = "physnya/blog (https://github.com/physnya/blog)";
 const BANGUMI_USER_NAME = process.env.BANGUMI_USER_NAME;
+const USE_SYSTEM_PROXY = ["1", "true", "yes", "on"].includes(
+	(process.env.USE_SYSTEM_PROXY || "").toLowerCase()
+);
 const OUTPUT_DIR = path.resolve(__dirname, "../docs/.vuepress/public");
 const OUTPUT_FILE = path.join(OUTPUT_DIR, "bangumi.json");
 
@@ -39,17 +42,25 @@ async function fetchBangumis(s_type) {
         let currentPage = 0;
         do {
             try {
-                const res = await axios.get(
-                    `${BASE_URL}/v0/users/${BANGUMI_USER_NAME}/collections?subject_type=${s_type}&type=${type}&limit=${LIMIT}&offset=${
-                        currentPage * LIMIT
-                    }`,
-                    {
-                        headers: {
-                            "User-Agent": USER_AGENT,
-                            "Content-Type": "application/json",
-                        },
-                    }
-                );
+				const requestConfig = {
+					headers: {
+						"User-Agent": USER_AGENT,
+						"Content-Type": "application/json",
+					},
+					timeout: 15_000,
+				};
+
+				// 默认不读取 Shell 的 HTTP(S)_PROXY，避免本地代理没启动导致失败
+				if (!USE_SYSTEM_PROXY) {
+					requestConfig.proxy = false;
+				}
+
+				const res = await axios.get(
+					`${BASE_URL}/v0/users/${BANGUMI_USER_NAME}/collections?subject_type=${s_type}&type=${type}&limit=${LIMIT}&offset=${
+						currentPage * LIMIT
+					}`,
+					requestConfig
+				);
 
                 if (totalPage === 0) totalPage = Math.ceil(res.data.total / LIMIT);
 
@@ -68,7 +79,13 @@ async function fetchBangumis(s_type) {
                 currentPage++;
             } catch (err) {
                 logger.error("Error fetching data from bgm.tv");
-                logger.error(err);
+                logger.error(err.message);
+                if (err.code) {
+					logger.error(`Error code: ${err.code}`);
+				}
+				if (!USE_SYSTEM_PROXY) {
+					logger.error("Hint: set USE_SYSTEM_PROXY=1 if your network requires proxy.");
+				}
                 break;
             }
         } while (currentPage < totalPage);

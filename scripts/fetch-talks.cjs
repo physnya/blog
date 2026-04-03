@@ -11,6 +11,9 @@ dotenv.config();
 const INSTANCE = process.env.GTS_INSTANCE;
 const USER_ID = process.env.USER_ID;
 const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
+const USE_SYSTEM_PROXY = ["1", "true", "yes", "on"].includes(
+	(process.env.USE_SYSTEM_PROXY || "").toLowerCase()
+);
 const OUTPUT_DIR = path.resolve(__dirname, "../docs/.vuepress/public");
 const OUTPUT_FILE = path.join(OUTPUT_DIR, "talks.json");
 
@@ -35,7 +38,17 @@ async function fetchTalks() {
 				headers["Authorization"] = `Bearer ${ACCESS_TOKEN}`;
 			}
 
-			const response = await axios.get(url, { headers }); // 使用 axios.get
+			const requestConfig = {
+				headers,
+				timeout: 15_000,
+			};
+
+			// 默认不读取 Shell 的 HTTP(S)_PROXY，避免本地代理没启动导致失败
+			if (!USE_SYSTEM_PROXY) {
+				requestConfig.proxy = false;
+			}
+
+			const response = await axios.get(url, requestConfig);
 			const data = response.data;
 
 			if (!data || data.length === 0) break;
@@ -51,6 +64,12 @@ async function fetchTalks() {
 		return allToots;
 	} catch (error) {
 		console.error("Error fetching talks:", error.message);
+		if (error.code) {
+			console.error(`Error code: ${error.code}`);
+		}
+		if (!USE_SYSTEM_PROXY) {
+			console.error("Hint: set USE_SYSTEM_PROXY=1 if your network requires proxy.");
+		}
 		return [];
 	}
 }
