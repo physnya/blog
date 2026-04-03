@@ -38,6 +38,7 @@
     "index": 109
   },
   "star-planet": {
+    "lesson-6-homology": 581,
     "lesson-5-diffusion": 1202,
     "lesson-4-ignition-of-sun": 863,
     "lesson-3-lane-emden-equ": 1194,
@@ -373,6 +374,7 @@
     "lesson-4-covariance": 1828,
     "lesson-3": 1284,
     "lesson-2-metric": 2399,
+    "lesson-12-penrose-process-hawking-radiation": 1304,
     "lesson-11-rn-and-kerr-black-holes": 1303,
     "lesson-10-penrose-figure": 1297,
     "lesson-1-lorentz-transformation": 1850,
@@ -400,7 +402,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 563350,
-  "lastUpdated": "2026-04-02T12:53:10.944Z",
-  "fileCount": 363
+  "total": 565235,
+  "lastUpdated": "2026-04-03T07:47:55.543Z",
+  "fileCount": 365
 }
