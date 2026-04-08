@@ -33,6 +33,7 @@
     "lesson-4-law-3": 1023,
     "lesson-3-relations": 1136,
     "lesson-2-laws": 1518,
+    "lesson-13": 737,
     "lesson-11": 903,
     "lesson-1-introduction": 1806,
     "index": 109
@@ -357,6 +358,7 @@
     "index": 310
   },
   "animal-behavior": {
+    "lesson-7-pollen": 692,
     "lesson-6-eat": 675,
     "lesson-5-predator": 1319,
     "lesson-4-lecture": 2539,
@@ -374,6 +376,7 @@
     "lesson-4-covariance": 1828,
     "lesson-3": 1284,
     "lesson-2-metric": 2399,
+    "lesson-13-action": 1669,
     "lesson-12-penrose-process-hawking-radiation": 1304,
     "lesson-11-rn-and-kerr-black-holes": 1303,
     "lesson-10-penrose-figure": 1297,
@@ -402,7 +405,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 565235,
-  "lastUpdated": "2026-04-03T10:17:09.975Z",
-  "fileCount": 365
+  "total": 568333,
+  "lastUpdated": "2026-04-08T14:51:46.381Z",
+  "fileCount": 368
 }
