@@ -15,6 +15,7 @@ import WordCount from './components/WordCount.vue'
 import Bangumi from './components/Bangumi.vue'
 import AsideOutlineAfter from './components/AsideOutlineAfter.vue'
 import ColourPicker from './components/ColourPicker.vue'
+import HomeLatest from './components/HomeLatest.vue'
 import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
 
 export default defineClientConfig({
@@ -31,6 +32,7 @@ export default defineClientConfig({
     app.component('Bangumi', Bangumi)
     app.component('RepoCard', RepoCard)
     app.component('ColourPicker', ColourPicker)
+    app.component('home-latest', HomeLatest)
   },
 
   // inject custom layout components

@@ -36,6 +36,10 @@
 	--vp-code-block-bg: #f1f1f1;
 	--vp-c-divider: #f1f1f1;
 	--vp-c-bg-alt: #fbfaf5;
+	--vp-home-hero-name-background: linear-gradient(120deg, #4b7a93 0%, #84b9c8 56%, #c9a061 100%);
+	--vp-home-hero-name-color: transparent;
+	--vp-home-hero-text: var(--vp-c-text-1);
+	--vp-home-hero-tagline: var(--vp-c-text-2);
 }
 
 :root[data-theme="dark"] {
@@ -69,6 +73,10 @@
 	--vp-code-block-bg: #3e3e3e;
 	--vp-c-divider: #2c2c2c;
 	--vp-c-bg-alt: #2c2c2c;
+	--vp-home-hero-name-background: linear-gradient(120deg, #b9dde5 0%, #83b7c5 56%, #d5b57d 100%);
+	--vp-home-hero-name-color: transparent;
+	--vp-home-hero-text: var(--vp-c-text-1);
+	--vp-home-hero-tagline: var(--vp-c-text-2);
 }
 
 /* --- 微调 --- */
@@ -245,6 +253,38 @@ html.dark {
 
 .profile-info {
 	font-family: "Ysabeau";
+}
+
+.vp-home-doc-hero .image-container {
+	max-width: 280px;
+	margin-inline: auto;
+}
+
+.vp-home-doc-hero .image-bg {
+	background:
+		radial-gradient(circle at 30% 30%, rgba(132, 185, 200, 0.48), transparent 52%),
+		radial-gradient(circle at 78% 22%, rgba(201, 160, 97, 0.34), transparent 36%);
+	filter: blur(6px);
+}
+
+.vp-home-doc-hero .image-src img {
+	border-radius: 32px;
+	box-shadow: 0 28px 70px rgba(52, 75, 91, 0.16);
+}
+
+.vp-home-doc-hero .name,
+.vp-home-doc-hero .text {
+	font-size: clamp(2rem, 4.5vw, 3rem);
+	line-height: 1.08;
+}
+
+.vp-home-doc-hero .tagline {
+	font-size: clamp(1rem, 1.8vw, 1.15rem);
+	line-height: 1.8;
+}
+
+.vp-home-doc-hero .actions .vp-button {
+	font-size: 0.92rem;
 }
 
 .vp-repo-card {

@@ -9,6 +9,10 @@
     "node": "^18.20.0 || >=20.0.0"
   },
   "scripts": {
+    "predocs:dev": "node scripts/generate-home-data.cjs",
+    "predocs:dev-clean": "node scripts/generate-home-data.cjs",
+    "predocs:build": "node scripts/generate-home-data.cjs",
+    "predocs:preview": "node scripts/generate-home-data.cjs",
     "docs:dev": "vuepress dev docs --clean-cache",
     "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
     "docs:build": "vuepress build docs --clean-cache --clean-temp",
@@ -16,6 +20,7 @@
     "vp-update": "npx vp-update",
     "prepare": "husky install",
     "fetch-talks": "node scripts/fetch-talks.cjs",
+    "home-data": "node scripts/generate-home-data.cjs",
     "precommit": "node scripts/pre-commit.cjs",
     "wordcount": "node scripts/wordcount.cjs",
     "dev": "pnpm docs:dev",
