@@ -11,7 +11,7 @@ article: false
 aside: false
 ---
 
-<script setup lang="js">
+<script setup>
     import { useRoutes, useRouter } from 'vuepress/client'
     const router = useRouter()
     const routes = useRoutes()
