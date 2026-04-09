@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-04-09T11:35:38.943Z",
+  "generatedAt": "2026-04-09T16:23:27.685Z",
   "counts": {
-    "notes": 290,
+    "notes": 291,
     "posts": 54,
     "talks": 109,
     "bangumi": 507
   },
   "latest": {
     "note": {
-      "path": "/animal-behavior/lesson-7-pollen/",
-      "title": "Lesson 7 传粉的力量",
-      "excerpt": "今天请王老师来讲一讲植物. 花由花柄、花被、雄蕊群和雌蕊群等等组成. 被子植物指的是将胚珠完全包裹在子房内部的植物. 一种挺水植物水茱萸，花形成两两并生的形态，花的形态比较特别...",
-      "isoDate": "2026-04-08T14:49:31.000Z",
-      "collectionTitle": "动物行为学",
-      "collectionPath": "/animal-behavior/"
+      "path": "/star-planet/lesson-7-evolution/",
+      "title": "Lesson 7 Evolution",
+      "excerpt": "演化路程：首先在主序星序列，然后向 HR 图的右上角，也就是逐渐走向 RGB (Red Giant Branch)，之后经历氦闪，耗尽氦之后以 CNO 元素为主，进入 CNO...",
+      "isoDate": "2026-04-09T16:21:43.000Z",
+      "collectionTitle": "恒星与行星",
+      "collectionPath": "/star-planet/"
     },
     "post": {
       "path": "/blog/65g96cv9/",
