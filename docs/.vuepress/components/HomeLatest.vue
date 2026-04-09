@@ -38,7 +38,6 @@
 		<div class="latest-shell">
 			<div class="latest-heading">
 				<div>
-					<p class="latest-kicker">Latest</p>
 					<h2>Recent Update</h2>
 				</div>
 			</div>
@@ -76,8 +75,8 @@
 					</h3>
 					<p class="card-excerpt">{{ homeData.latest.note?.excerpt }}</p>
 					<div class="card-links">
-						<a :href="homeData.latest.note?.path">open note</a>
-						<a :href="homeData.latest.note?.collectionPath">more related notes</a>
+						<a :href="homeData.latest.note?.path">阅读</a>
+						<a :href="homeData.latest.note?.collectionPath">更多</a>
 					</div>
 				</article>
 
@@ -101,8 +100,8 @@
 						>
 					</div>
 					<div class="card-links">
-						<a :href="homeData.latest.post?.path">read post</a>
-						<a href="/blog/">more blog posts</a>
+						<a :href="homeData.latest.post?.path">阅读</a>
+						<a href="/blog/">更多</a>
 					</div>
 				</article>
 
@@ -146,7 +145,7 @@
 						>
 							查看原文
 						</a>
-						<a href="/talks/">动态页</a>
+						<a href="/talks/">动态</a>
 					</div>
 				</article>
 
@@ -262,14 +261,6 @@
 		flex-direction: column;
 		gap: 0.6rem;
 		margin-bottom: 1rem;
-	}
-
-	.latest-kicker {
-		margin: 0;
-		font-size: 0.76rem;
-		letter-spacing: 0.22em;
-		text-transform: uppercase;
-		color: var(--vp-c-brand-2);
 	}
 
 	.latest-heading h2 {

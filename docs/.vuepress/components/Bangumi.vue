@@ -144,8 +144,8 @@
 		data() {
 			return {
 				bangumiData: [],
-				currentCategory: "book",
-				currentStatus: "planTo",
+				currentCategory: "anime",
+				currentStatus: "ing",
 				currentPage: 1,
 				itemsPerPage: 10,
 				categories: {

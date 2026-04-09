@@ -257,11 +257,12 @@ function collectLatestBangumi() {
 
 	const bangumi = JSON.parse(readText(bangumiFile));
 	const items = [];
+	const preferredItems = [];
 
 	for (const [categoryKey, statuses] of Object.entries(bangumi)) {
 		for (const [statusKey, list] of Object.entries(statuses)) {
 			for (const item of list) {
-				items.push({
+				const normalizedItem = {
 					title: item.subject.name_cn || item.subject.name,
 					subtitle: item.subject.name_cn && item.subject.name_cn !== item.subject.name ? item.subject.name : "",
 					excerpt: truncate(stripMarkdown(item.subject.short_summary || "暂无简介"), 96),
@@ -271,16 +272,23 @@ function collectLatestBangumi() {
 					score: item.subject.score || null,
 					category: BANGUMI_CATEGORY_LABELS[categoryKey] || categoryKey,
 					status: BANGUMI_STATUS_LABELS[statusKey] || statusKey,
-				});
+				};
+
+				items.push(normalizedItem);
+
+				if (categoryKey === "anime" && statusKey === "ing") {
+					preferredItems.push(normalizedItem);
+				}
 			}
 		}
 	}
 
 	items.sort((a, b) => Date.parse(b.isoDate) - Date.parse(a.isoDate));
+	preferredItems.sort((a, b) => Date.parse(b.isoDate) - Date.parse(a.isoDate));
 
 	return {
 		count: items.length,
-		latest: items[0] || null,
+		latest: preferredItems[0] || items[0] || null,
 	};
 }
 
