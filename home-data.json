@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-04-10T10:11:13.873Z",
+  "counts": {
+    "notes": 292,
+    "posts": 54,
+    "talks": 109,
+    "bangumi": 507
+  },
+  "latest": {
+    "note": {
+      "path": "/GR/lesson-14-noether-theorem/",
+      "title": "Lesson 14 Noether 定理",
+      "excerpt": "Hamiltonian 定义为 作用量表达为 在广义相对论中，如果假设 ，那么 做变分变的就是度规，因此是对 做变分. 对于一个标量场，其作用量为 为了方便计算，后面利用简单的...",
+      "isoDate": "2026-04-10T18:08:32.000Z",
+      "collectionTitle": "广义相对论",
+      "collectionPath": "/GR/"
+    },
+    "post": {
+      "path": "/blog/65g96cv9/",
+      "title": "流星监控项目 II - 树莓派配置",
+      "excerpt": "本文正在长期更新阶段. 我们对于边缘站点考虑用树莓派 5 进行数据的初步处理，但是我手上只有一台树莓派 4B. 鉴于这两代之间的 gpio (General Purpose I...",
+      "isoDate": "2026-01-20T14:39:17.000Z",
+      "section": "meteorProject",
+      "tags": [
+        "work",
+        "SRT",
+        "meteor"
+      ]
+    },
+    "talk": {
+      "path": "https://scg.owu.one/@physnya/statuses/01KMTJJ2Y8A03QRWM8DHWFYM1T",
+      "title": "最近一条动态",
+      "excerpt": "#P5R 真没想到 P5R 第一个满 coop 的会是吉田... 最开始到站前广场就很好奇这里为什么会有一个街头演讲者，mona 还提醒会对战斗有帮助，后来学会打工，认识吉田之后就没有错过任何一次周日的演讲了. 不得不说这是塑造得非常好的一位「协助者」，作为落魄但是仍然坚持着努力的前政治家，一直坚守着自己的信念从未放弃过，在 P5R 这部高中生作为主角的游戏中让我看到了一个中年人的努力与执着. （...",
+      "isoDate": "2026-03-28T15:56:15.688Z",
+      "stats": {
+        "replies": 0,
+        "reblogs": 0,
+        "favourites": 1
+      }
+    },
+    "bangumi": {
+      "title": "元祖！BanG Dream Chan",
+      "subtitle": "元祖！バンドリちゃん",
+      "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
+      "isoDate": "2026-04-10T01:13:14.000Z",
+      "path": "https://bgm.tv/subject/540449",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_rP1Cp.jpg",
+      "score": 6.9,
+      "category": "动画",
+      "status": "ing"
+    }
+  }
+}
