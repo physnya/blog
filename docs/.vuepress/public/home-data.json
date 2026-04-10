@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-04-09T16:23:27.685Z",
+  "generatedAt": "2026-04-10T10:09:27.256Z",
   "counts": {
-    "notes": 291,
+    "notes": 292,
     "posts": 54,
     "talks": 109,
     "bangumi": 507
   },
   "latest": {
     "note": {
-      "path": "/star-planet/lesson-7-evolution/",
-      "title": "Lesson 7 Evolution",
-      "excerpt": "演化路程：首先在主序星序列，然后向 HR 图的右上角，也就是逐渐走向 RGB (Red Giant Branch)，之后经历氦闪，耗尽氦之后以 CNO 元素为主，进入 CNO...",
-      "isoDate": "2026-04-09T16:21:43.000Z",
-      "collectionTitle": "恒星与行星",
-      "collectionPath": "/star-planet/"
+      "path": "/GR/lesson-14-noether-theorem/",
+      "title": "Lesson 14 Noether 定理",
+      "excerpt": "Hamiltonian 定义为 作用量表达为 在广义相对论中，如果假设 ，那么 做变分变的就是度规，因此是对 做变分. 对于一个标量场，其作用量为 为了方便计算，后面利用简单的...",
+      "isoDate": "2026-04-10T10:08:32.000Z",
+      "collectionTitle": "广义相对论",
+      "collectionPath": "/GR/"
     },
     "post": {
       "path": "/blog/65g96cv9/",
@@ -39,13 +39,13 @@
       }
     },
     "bangumi": {
-      "title": "春夏秋冬代行者 春之舞",
-      "subtitle": "春夏秋冬代行者 春の舞",
-      "excerpt": "「让春天绽放吧。为所有人带来春天。」 所谓的「四季代行者」，指的是凭藉四季诸神赐予的特殊力量，使季节在各地流转的现人神。 人们习以为常的四季更迭，正是仰赖他们不懈的努力才得以维系。 然而，自从...",
-      "isoDate": "2026-04-06T07:49:17.000Z",
-      "path": "https://bgm.tv/subject/551455",
-      "image": "https://lain.bgm.tv/r/400/pic/cover/l/50/36/551455_w1O6C.jpg",
-      "score": 6,
+      "title": "元祖！BanG Dream Chan",
+      "subtitle": "元祖！バンドリちゃん",
+      "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
+      "isoDate": "2026-04-10T01:13:14.000Z",
+      "path": "https://bgm.tv/subject/540449",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_rP1Cp.jpg",
+      "score": 6.9,
       "category": "动画",
       "status": "ing"
     }
