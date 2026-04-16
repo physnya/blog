@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-04-10T10:09:27.256Z",
+  "generatedAt": "2026-04-16T06:23:38.356Z",
   "counts": {
-    "notes": 292,
+    "notes": 293,
     "posts": 54,
     "talks": 109,
-    "bangumi": 507
+    "bangumi": 508
   },
   "latest": {
     "note": {
-      "path": "/GR/lesson-14-noether-theorem/",
-      "title": "Lesson 14 Noether 定理",
-      "excerpt": "Hamiltonian 定义为 作用量表达为 在广义相对论中，如果假设 ，那么 做变分变的就是度规，因此是对 做变分. 对于一个标量场，其作用量为 为了方便计算，后面利用简单的...",
-      "isoDate": "2026-04-10T10:08:32.000Z",
+      "path": "/GR/lesson-15-gravitational-wave/",
+      "title": "Lesson 15 引力波",
+      "excerpt": "为了计算，首先我们要对 Einstein 方程做 linear expansion. 这件事情有两个特点：简单，这是为数不多的 Einstein 能亲自解决的问题；同时这是一个...",
+      "isoDate": "2026-04-16T06:22:32.000Z",
       "collectionTitle": "广义相对论",
       "collectionPath": "/GR/"
     },
@@ -39,13 +39,13 @@
       }
     },
     "bangumi": {
-      "title": "元祖！BanG Dream Chan",
-      "subtitle": "元祖！バンドリちゃん",
-      "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
-      "isoDate": "2026-04-10T01:13:14.000Z",
-      "path": "https://bgm.tv/subject/540449",
-      "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_rP1Cp.jpg",
-      "score": 6.9,
+      "title": "春夏秋冬代行者 春之舞",
+      "subtitle": "春夏秋冬代行者 春の舞",
+      "excerpt": "「让春天绽放吧。为所有人带来春天。」 所谓的「四季代行者」，指的是凭藉四季诸神赐予的特殊力量，使季节在各地流转的现人神。 人们习以为常的四季更迭，正是仰赖他们不懈的努力才得以维系。 然而，自从...",
+      "isoDate": "2026-04-13T18:39:25.000Z",
+      "path": "https://bgm.tv/subject/551455",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/50/36/551455_w1O6C.jpg",
+      "score": 6,
       "category": "动画",
       "status": "ing"
     }
