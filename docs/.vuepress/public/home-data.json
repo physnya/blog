@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-04-16T06:23:38.356Z",
+  "generatedAt": "2026-04-17T01:48:57.094Z",
   "counts": {
-    "notes": 293,
+    "notes": 295,
     "posts": 54,
     "talks": 109,
     "bangumi": 508
   },
   "latest": {
     "note": {
-      "path": "/GR/lesson-15-gravitational-wave/",
-      "title": "Lesson 15 引力波",
-      "excerpt": "为了计算，首先我们要对 Einstein 方程做 linear expansion. 这件事情有两个特点：简单，这是为数不多的 Einstein 能亲自解决的问题；同时这是一个...",
-      "isoDate": "2026-04-16T06:22:32.000Z",
-      "collectionTitle": "广义相对论",
-      "collectionPath": "/GR/"
+      "path": "/statistical-mechanics/lesson-16/",
+      "title": "Lesson 16 习题课",
+      "excerpt": "第七次作业 配分函数 离散的能量： (直接相加) 准连续 (比如理想气体)： (相空间体积积分) 由配分函数得到物理量， 一般来说，记 和 更方便一点. (对气体来说) 等容热...",
+      "isoDate": "2026-04-17T01:47:21.000Z",
+      "collectionTitle": "统计力学",
+      "collectionPath": "/statistical-mechanics/"
     },
     "post": {
       "path": "/blog/65g96cv9/",
@@ -39,13 +39,13 @@
       }
     },
     "bangumi": {
-      "title": "春夏秋冬代行者 春之舞",
-      "subtitle": "春夏秋冬代行者 春の舞",
-      "excerpt": "「让春天绽放吧。为所有人带来春天。」 所谓的「四季代行者」，指的是凭藉四季诸神赐予的特殊力量，使季节在各地流转的现人神。 人们习以为常的四季更迭，正是仰赖他们不懈的努力才得以维系。 然而，自从...",
-      "isoDate": "2026-04-13T18:39:25.000Z",
-      "path": "https://bgm.tv/subject/551455",
-      "image": "https://lain.bgm.tv/r/400/pic/cover/l/50/36/551455_w1O6C.jpg",
-      "score": 6,
+      "title": "元祖！BanG Dream Chan",
+      "subtitle": "元祖！バンドリちゃん",
+      "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
+      "isoDate": "2026-04-16T16:37:36.000Z",
+      "path": "https://bgm.tv/subject/540449",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_rP1Cp.jpg",
+      "score": 6.9,
       "category": "动画",
       "status": "ing"
     }
