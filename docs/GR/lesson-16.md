@@ -1,3 +1,8 @@
+---
+title: Lesson 16 引力波的功率
+createTime: 2026/04/17 15:06:56
+permalink: /GR/lesson-16-power-of-gravitational-waves/
+---
 继续说引力波.
 
 仍然回忆电磁场的 lagrangian，

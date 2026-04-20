@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T17:50:22.364Z",
+  "generatedAt": "2026-04-20T18:06:22.621Z",
   "counts": {
     "notes": 296,
     "posts": 54,
@@ -8,10 +8,10 @@
   },
   "latest": {
     "note": {
-      "path": "/GR/lesson-16/",
-      "title": "lesson-16",
+      "path": "/GR/lesson-16-power-of-gravitational-waves/",
+      "title": "Lesson 16 引力波的功率",
       "excerpt": "继续说引力波. 仍然回忆电磁场的 lagrangian， Langrange 方程是 代入，两个方程 (规范条件和 Lagrange 方程) 分别是 于是解得 无源的情况下，...",
-      "isoDate": "2026-04-17T07:06:56.285Z",
+      "isoDate": "2026-04-17T07:06:56.000Z",
       "collectionTitle": "广义相对论",
       "collectionPath": "/GR/"
     },
