@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-04-17T01:48:57.094Z",
+  "generatedAt": "2026-04-20T17:50:22.364Z",
   "counts": {
-    "notes": 295,
+    "notes": 296,
     "posts": 54,
-    "talks": 109,
+    "talks": 110,
     "bangumi": 508
   },
   "latest": {
     "note": {
-      "path": "/statistical-mechanics/lesson-16/",
-      "title": "Lesson 16 习题课",
-      "excerpt": "第七次作业 配分函数 离散的能量： (直接相加) 准连续 (比如理想气体)： (相空间体积积分) 由配分函数得到物理量， 一般来说，记 和 更方便一点. (对气体来说) 等容热...",
-      "isoDate": "2026-04-17T01:47:21.000Z",
-      "collectionTitle": "统计力学",
-      "collectionPath": "/statistical-mechanics/"
+      "path": "/GR/lesson-16/",
+      "title": "lesson-16",
+      "excerpt": "继续说引力波. 仍然回忆电磁场的 lagrangian， Langrange 方程是 代入，两个方程 (规范条件和 Lagrange 方程) 分别是 于是解得 无源的情况下，...",
+      "isoDate": "2026-04-17T07:06:56.285Z",
+      "collectionTitle": "广义相对论",
+      "collectionPath": "/GR/"
     },
     "post": {
       "path": "/blog/65g96cv9/",
@@ -28,24 +28,24 @@
       ]
     },
     "talk": {
-      "path": "https://scg.owu.one/@physnya/statuses/01KMTJJ2Y8A03QRWM8DHWFYM1T",
+      "path": "https://scg.owu.one/@physnya/statuses/01KPNWMY0DXSC8EJCV6151R02S",
       "title": "最近一条动态",
-      "excerpt": "#P5R 真没想到 P5R 第一个满 coop 的会是吉田... 最开始到站前广场就很好奇这里为什么会有一个街头演讲者，mona 还提醒会对战斗有帮助，后来学会打工，认识吉田之后就没有错过任何一次周日的演讲了. 不得不说这是塑造得非常好的一位「协助者」，作为落魄但是仍然坚持着努力的前政治家，一直坚守着自己的信念从未放弃过，在 P5R 这部高中生作为主角的游戏中让我看到了一个中年人的努力与执着. （...",
-      "isoDate": "2026-03-28T15:56:15.688Z",
+      "excerpt": "哎呀怎么又要期中考试了，我不是才刚开学吗？还我前半学期的时间...",
+      "isoDate": "2026-04-20T16:47:46.191Z",
       "stats": {
-        "replies": 0,
+        "replies": 1,
         "reblogs": 0,
         "favourites": 1
       }
     },
     "bangumi": {
-      "title": "元祖！BanG Dream Chan",
-      "subtitle": "元祖！バンドリちゃん",
-      "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
-      "isoDate": "2026-04-16T16:37:36.000Z",
-      "path": "https://bgm.tv/subject/540449",
-      "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_rP1Cp.jpg",
-      "score": 6.9,
+      "title": "主播女孩重度依赖",
+      "subtitle": "NEEDY GIRL OVERDOSE",
+      "excerpt": "订阅突破1000万人的TOP级主播少女超绝最可爱天使酱——人称「超天酱」，没有一天看不到她活跃的身影。互联网、电视节目、LIVE……她总是活在粉丝们的欢呼声中。 有一个3位少女组成的主播组合将...",
+      "isoDate": "2026-04-20T17:15:02.000Z",
+      "path": "https://bgm.tv/subject/606263",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/8d/c7/606263_3fRrj.jpg",
+      "score": 5,
       "category": "动画",
       "status": "ing"
     }

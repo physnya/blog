@@ -19,9 +19,9 @@ $$
 $$
 \lambda_{32} = \frac{hc}{E_{32}} = \frac{hc}{\displaystyle{E_0\left(\frac{1}{4}-\frac{1}{9}\right)}} \approx 656\text{ nm}
 $$
-这是著名的 $\ce{H}\alpha$ 谱线，或者叫 $\ce{HI}$ 谱线.
+这是著名的 $\text{H}\alpha$ 谱线，或者叫 $\text{HI}$ 谱线.
 
-一些分子存在振动自由度的吸收谱线，以 $\ce{CO}$ 为例，其振动能级为
+一些分子存在振动自由度的吸收谱线，以 $\text{CO}$ 为例，其振动能级为
 $$
 E_v = \left(\frac{1}{2}+v\right)\hbar\omega
 $$
@@ -43,7 +43,7 @@ $$
 
 ::: tip
 
-分子天文学家不会去观测对称分子的谱线，因为它们受到选择定则的影响，不会有一些特定的转动或者振动模式，因此研究得比较多的是不对称的 $\ce{CO}$ 而不是对称的 $\ce{O2}$ 或者 $\ce{H2}$.
+分子天文学家不会去观测对称分子的谱线，因为它们受到选择定则的影响，不会有一些特定的转动或者振动模式，因此研究得比较多的是不对称的 $\text{CO}$ 而不是对称的 $\text{O}^2$ 或者 $\text{H}^2$.
 
 :::
 
@@ -55,7 +55,7 @@ $$
 $$
 \frac{n_i}{n} = \frac{g_i}{Z}e^{-E_i/k_BT},\qquad Z = \sum_ig_ie^{-E_i/k_BT}
 $$
-接下来考虑一个具体的电离过程 $\ce{A<-->A+ + e-}$，
+接下来考虑一个具体的电离过程 $\text{A}\longleftrightarrow \text{A}^+ + e^-$，
 $$
 \frac{n_{A^+,0}}{n_{A,0}} = \frac{g_{A^+,0}}{g_{A,0}}\exp\left[-\left.\left(E_{\text{ion}}+\frac{p^2}{2m_e}\right)\right/k_BT\right]\cdot g_{\text{free}}
 $$
@@ -67,7 +67,7 @@ $$
 $$
 \frac{n_{A^+,0}}{n_{A,0}} = \frac{g_{A^+,0}}{g_{A,0}} \frac{2}{n_eh^3}\int4\pi p^2\exp\left[-\left.\left(E_{\text{ion}}+\frac{p^2}{2m_e}\right)\right/k_BT\right]\text{d}^3\vec{p}
 $$
-对于 $\ce{H}$，
+对于 $\text{H}$，
 $$
 n_e\frac{n_{\text{II},0}}{n_{\text{I},0}} = \frac{g_{\text{II},0}g_e}{g_{\text{I},0}} \left(\frac{2\pi m_ek_BT}{h^2}\right)^{3/2}e^{-E_{\text{ion}}/k_BT},\quad g_e =2
 $$
@@ -82,7 +82,7 @@ $$
 > $$
 > \frac{n_An_B}{n_{AB}} = \frac{Z_AZ_B}{Z_{AB}}\left(2\pi\frac{m_A+m_B}{m_{AB}}\frac{k_BT}{h^2}\right)^{3/2}e^{-\Delta E/k_BT}
 > $$
-> for $\ce{A + B <--> AB}$.
+> for $\text{A + B} \longleftrightarrow \text{AB}$.
 
 ---
 
