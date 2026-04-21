@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-04-20T18:19:44.192Z",
+  "generatedAt": "2026-04-21T07:07:56.824Z",
   "counts": {
-    "notes": 296,
+    "notes": 297,
     "posts": 54,
-    "talks": 110,
+    "talks": 111,
     "bangumi": 508
   },
   "latest": {
     "note": {
-      "path": "/GR/lesson-16-power-of-gravitational-waves/",
-      "title": "Lesson 16 引力波的功率",
-      "excerpt": "继续说引力波. 仍然回忆电磁场的 lagrangian， Langrange 方程是 代入，两个方程 (规范条件和 Lagrange 方程) 分别是 于是解得 无源的情况下，...",
-      "isoDate": "2026-04-17T07:06:56.000Z",
+      "path": "/GR/lesson-17-power-of-gravitational-waves-2/",
+      "title": "Lesson 17 引力波的功率 (2)",
+      "excerpt": "其中后面的 仅仅是二阶部分，因为其包含的是 的内容. 下面来看一下引力波的能量，也就是研究 的性质. 对于真空情况， (因为能动张量的零阶是零)，只有二阶项： 我们之前解得的引...",
+      "isoDate": "2026-04-21T07:07:56.000Z",
       "collectionTitle": "广义相对论",
       "collectionPath": "/GR/"
     },
@@ -28,12 +28,12 @@
       ]
     },
     "talk": {
-      "path": "https://scg.owu.one/@physnya/statuses/01KPNWMY0DXSC8EJCV6151R02S",
+      "path": "https://scg.owu.one/@physnya/statuses/01KPP3AM2MFGD9BRFE81C9P578",
       "title": "最近一条动态",
-      "excerpt": "哎呀怎么又要期中考试了，我不是才刚开学吗？还我前半学期的时间...",
-      "isoDate": "2026-04-20T16:47:46.191Z",
+      "excerpt": "括号一般是用来表达当前的心情的. 比如现在: 氦闪.",
+      "isoDate": "2026-04-20T18:44:28.379Z",
       "stats": {
-        "replies": 1,
+        "replies": 0,
         "reblogs": 0,
         "favourites": 1
       }
