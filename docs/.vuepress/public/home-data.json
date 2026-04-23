@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-04-21T07:07:56.824Z",
+  "generatedAt": "2026-04-23T13:57:48.724Z",
   "counts": {
-    "notes": 297,
+    "notes": 298,
     "posts": 54,
-    "talks": 111,
+    "talks": 112,
     "bangumi": 508
   },
   "latest": {
     "note": {
-      "path": "/GR/lesson-17-power-of-gravitational-waves-2/",
-      "title": "Lesson 17 引力波的功率 (2)",
-      "excerpt": "其中后面的 仅仅是二阶部分，因为其包含的是 的内容. 下面来看一下引力波的能量，也就是研究 的性质. 对于真空情况， (因为能动张量的零阶是零)，只有二阶项： 我们之前解得的引...",
-      "isoDate": "2026-04-21T07:07:56.000Z",
-      "collectionTitle": "广义相对论",
-      "collectionPath": "/GR/"
+      "path": "/star-planet/lesson-9-birth-i/",
+      "title": "Lesson 9 Birth (I)",
+      "excerpt": "我们之前在第一次作业里说过，核反应能量 ，这里的 是一个正常大小的数量，也就是核反应会以正向循环的方式指数级地放大，最后产生某种爆炸. 但是这真的现实吗？如果认为所有的能量都由...",
+      "isoDate": "2026-04-23T13:57:39.000Z",
+      "collectionTitle": "恒星与行星",
+      "collectionPath": "/star-planet/"
     },
     "post": {
       "path": "/blog/65g96cv9/",
@@ -28,14 +28,14 @@
       ]
     },
     "talk": {
-      "path": "https://scg.owu.one/@physnya/statuses/01KPP3AM2MFGD9BRFE81C9P578",
+      "path": "https://scg.owu.one/@physnya/statuses/01KPREGG89142D3SR261QNXZQF",
       "title": "最近一条动态",
-      "excerpt": "括号一般是用来表达当前的心情的. 比如现在: 氦闪.",
-      "isoDate": "2026-04-20T18:44:28.379Z",
+      "excerpt": "💯",
+      "isoDate": "2026-04-21T16:38:24.265Z",
       "stats": {
-        "replies": 0,
+        "replies": 1,
         "reblogs": 0,
-        "favourites": 1
+        "favourites": 0
       }
     },
     "bangumi": {
