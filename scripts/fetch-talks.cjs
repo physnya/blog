@@ -53,8 +53,10 @@ async function fetchTalks() {
 
 			if (!data || data.length === 0) break;
 
-			// 过滤转帖和回复
-			const filtered = data.filter((toot) => !toot.reblog && !toot.in_reply_to_id);
+			// Keep original talks and self-thread replies, but skip boosts and replies to other accounts.
+			const filtered = data.filter(
+				(toot) => !toot.reblog && (!toot.in_reply_to_account_id || toot.in_reply_to_account_id === USER_ID)
+			);
 			allToots = [...allToots, ...filtered];
 
 			lastId = data[data.length - 1].id;

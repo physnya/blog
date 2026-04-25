@@ -23,7 +23,7 @@
 
 		<div v-else>
 			<div
-				v-if="filteredToots.length === 0"
+				v-if="displayThreads.length === 0"
 				class="empty"
 			>
 				<p>
@@ -39,10 +39,16 @@
 
 			<div v-else>
 				<div
-					v-for="toot in pagedToots"
+					v-for="toot in pagedThreads"
 					:key="toot.id"
-					class="toot-card"
+					:class="['toot-card', { pinned: toot.pinned }]"
 				>
+					<div
+						v-if="toot.pinned"
+						class="pinned-label"
+					>
+						<span class="vpi-pin"></span> pinned
+					</div>
 					<div class="toot-header">
 						<img
 							:src="toot.account.avatar"
@@ -121,6 +127,96 @@
 							</a>
 						</span>
 					</div>
+
+					<div
+						v-if="toot.replies.length"
+						class="reply-list"
+					>
+						<div
+							v-for="reply in toot.replies"
+							:key="reply.id"
+							class="toot-card reply-card"
+						>
+							<div class="toot-header">
+								<img
+									:src="reply.account.avatar"
+									alt="头像"
+									class="avatar"
+									no-view
+								/>
+								<div class="account-info">
+									<a
+										:href="mastodonProfile"
+										target="_blank"
+										class="mastodonProfile"
+									>
+										<span class="display-name">{{ reply.account.display_name }}</span>
+									</a>
+									<span class="username"
+										>@{{ reply.account.username }}@{{ instanceDomain }}</span
+									>
+								</div>
+								<div class="toot-date">
+									<a
+										:href="reply.uri"
+										target="_blank"
+									>
+										{{ formatDate(reply.created_at) }}
+									</a>
+								</div>
+							</div>
+
+							<div
+								class="toot-content"
+								v-html="reply.content"
+							></div>
+
+							<div
+								v-if="reply.media_attachments.length"
+								class="media-grid"
+							>
+								<div
+									v-for="media in reply.media_attachments"
+									:key="media.id"
+									class="media-item"
+								>
+									<img
+										v-if="media.type === 'image'"
+										:src="media.url"
+										:alt="media.description || '图片'"
+										class="media-image"
+									/>
+								</div>
+							</div>
+
+							<div class="toot-stats">
+								<span class="stat-item">
+									<a
+										:href="reply.uri"
+										target="_blank"
+									>
+										<span class="vpi-reply"></span> {{ reply.replies_count }}
+									</a>
+								</span>
+								<span class="stat-item">
+									<a
+										:href="reply.uri"
+										target="_blank"
+									>
+										<span class="vpi-reblog"></span> {{ reply.reblogs_count }}
+									</a>
+								</span>
+								<span class="stat-item">
+									<a
+										:href="reply.uri"
+										target="_blank"
+									>
+										<span class="vpi-star"></span> {{ reply.favourites_count }}
+									</a>
+								</span>
+							</div>
+						</div>
+					</div>
 				</div>
 
 				<div
@@ -172,19 +268,77 @@
 			};
 		},
 		computed: {
-			// 过滤转帖和回复
+			ownAccountId() {
+				const ownToot = this.toots.find((toot) => toot.account && toot.account.id);
+				return ownToot ? ownToot.account.id : null;
+			},
+			// 过滤转帖和回复给其他人的动态
 			filteredToots() {
-				return this.toots.filter((toot) => !toot.reblog && !toot.in_reply_to_id);
+				return this.toots.filter((toot) => {
+					if (toot.reblog) return false;
+					if (!toot.in_reply_to_id) return true;
+					return !toot.in_reply_to_account_id || toot.in_reply_to_account_id === this.ownAccountId;
+				});
+			},
+			displayThreads() {
+				const tootMap = new Map();
+				const childToParent = new Map();
+
+				this.filteredToots.forEach((toot) => {
+					tootMap.set(toot.id, {
+						...toot,
+						replies: [],
+					});
+				});
+
+				tootMap.forEach((toot) => {
+					if (toot.in_reply_to_id && tootMap.has(toot.in_reply_to_id)) {
+						childToParent.set(toot.id, toot.in_reply_to_id);
+					}
+				});
+
+				const findThreadRootId = (toot) => {
+					let rootId = toot.in_reply_to_id;
+					while (rootId && childToParent.has(rootId)) {
+						rootId = childToParent.get(rootId);
+					}
+					return rootId;
+				};
+
+				const roots = [];
+				tootMap.forEach((toot) => {
+					if (!toot.in_reply_to_id || !tootMap.has(toot.in_reply_to_id)) {
+						roots.push(toot);
+						return;
+					}
+
+					const root = tootMap.get(findThreadRootId(toot));
+					if (root) {
+						root.replies.push(toot);
+					}
+				});
+
+				const byCreatedAtDesc = (a, b) => Date.parse(b.created_at) - Date.parse(a.created_at);
+				const byCreatedAtAsc = (a, b) => Date.parse(a.created_at) - Date.parse(b.created_at);
+
+				roots.forEach((toot) => {
+					toot.replies.sort(byCreatedAtAsc);
+				});
+
+				return roots.sort((a, b) => {
+					if (a.pinned !== b.pinned) return a.pinned ? -1 : 1;
+					return byCreatedAtDesc(a, b);
+				});
 			},
 			// 当前页显示的动态
-			pagedToots() {
+			pagedThreads() {
 				const start = (this.currentPage - 1) * this.itemsPerPage;
 				const end = start + this.itemsPerPage;
-				return this.filteredToots.slice(start, end);
+				return this.displayThreads.slice(start, end);
 			},
 			// 总页数
 			totalPages() {
-				return Math.ceil(this.filteredToots.length / this.itemsPerPage);
+				return Math.ceil(this.displayThreads.length / this.itemsPerPage);
 			},
 		},
 		mounted() {
@@ -262,6 +416,37 @@
 		box-shadow:
 			0 8px 32px rgba(31, 38, 135, 0.08),
 			inset 0 1px 2px rgba(255, 255, 255, 0.6);
+	}
+
+	.toot-card.pinned {
+		border-color: rgba(49, 130, 206, 0.45);
+	}
+
+	.pinned-label {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.4rem;
+		margin-bottom: 0.9rem;
+		color: #3182ce;
+		font-size: 0.9rem;
+		font-weight: 600;
+	}
+
+	.reply-list {
+		margin-top: 1.2rem;
+		padding-left: 1.2rem;
+		border-left: 2px solid rgba(49, 130, 206, 0.28);
+	}
+
+	.reply-card {
+		margin-bottom: 1rem;
+		box-shadow:
+			0 4px 18px rgba(31, 38, 135, 0.06),
+			inset 0 1px 2px rgba(255, 255, 255, 0.45);
+	}
+
+	.reply-card:last-child {
+		margin-bottom: 0;
 	}
 
 	.toot-header {
@@ -565,5 +750,9 @@
 
 	.vpi-reblog {
 		--icon: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Ik0xMCAyMnYtNC4xbDguNzc1LTguNzI1bDQuMDUgNC4wNzVMMTQuMSAyMnptOS45MjUtOC43bC0xLjI1LTEuMjI1ek0xMiAyMGgxLjI1bDQuMDUtNC4wNWwtLjYyNS0uNjI1bC0uNjI1LS42MjVMMTIgMTguNzV6bTQuNjc1LTQuNjc1bC0uNjI1LS42MjV6bC42MjUuNjI1ek0xMC43NSA5LjI1bC0xLjQtMS40MjVMMTEuMTc1IDZoLTMuMzVxLS4yMjUuNjUtLjcgMS4xMjVUNiA3LjgyNXY4LjM1cS44NzUuMzI1IDEuNDM4IDEuMDg4VDggMTlxMCAxLjI1LS44NzUgMi4xMjVUNSAyMnQtMi4xMjUtLjg3NVQyIDE5cTAtLjk3NS41NjMtMS43MjVUNCAxNi4yVjcuODI1UTMuMTI1IDcuNSAyLjU2MyA2LjczN1QyIDVxMC0xLjI1Ljg3NS0yLjEyNVQ1IDJxLjk3NSAwIDEuNzM4LjU2M1Q3LjgyNSA0aDMuMzVMOS4zNSAyLjE3NUwxMC43NS43NUwxNSA1ek0xOSAycTEuMjUgMCAyLjEyNS44NzVUMjIgNXQtLjg3NSAyLjEyNVQxOSA4dC0yLjEyNS0uODc1VDE2IDV0Ljg3NS0yLjEyNVQxOSAyTTUgMjBxLjQyNSAwIC43MTMtLjI4OFQ2IDE5dC0uMjg4LS43MTJUNSAxOHQtLjcxMi4yODhUNCAxOXQuMjg4LjcxM1Q1IDIwTTUgNnEuNDI1IDAgLjcxMy0uMjg4VDYgNXQtLjI4OC0uNzEyVDUgNHQtLjcxMi4yODhUNCA1dC4yODguNzEzVDUgNm0xNCAwcS40MjUgMCAuNzEzLS4yODhUMjAgNXQtLjI4OC0uNzEyVDE5IDR0LS43MTIuMjg4VDE4IDV0LjI4OC43MTNUMTkgNm0wLTEiLz48L3N2Zz4=);
+	}
+
+	.vpi-pin {
+		--icon: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Im0xNyAxMmwzIDNsLTEuNSAxLjVsLTIuMjUtMi4yNUwxMyAxNy41VjIyaC0ydi00LjVsLTMuMjUtMy4yNUw1LjUgMTYuNUw0IDE1bDMtM2gxMHptLTEuNS0xMEwxNyAzaC0yLjI1bC0yLjUgMi41bC00LTFMMTIgOC4yNUw4LjI1IDEybDMuNSAzLjVsNS43NS01Ljc1TDE3LjUgN0wxOSAzLjVMMTcuNSAyeiIvPjwvc3ZnPg==);
 	}
 </style>
