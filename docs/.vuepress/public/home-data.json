@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-04-23T13:57:48.724Z",
+  "generatedAt": "2026-04-25T18:12:41.848Z",
   "counts": {
-    "notes": 298,
+    "notes": 299,
     "posts": 54,
-    "talks": 112,
+    "talks": 113,
     "bangumi": 508
   },
   "latest": {
     "note": {
-      "path": "/star-planet/lesson-9-birth-i/",
-      "title": "Lesson 9 Birth (I)",
-      "excerpt": "我们之前在第一次作业里说过，核反应能量 ，这里的 是一个正常大小的数量，也就是核反应会以正向循环的方式指数级地放大，最后产生某种爆炸. 但是这真的现实吗？如果认为所有的能量都由...",
-      "isoDate": "2026-04-23T13:57:39.000Z",
-      "collectionTitle": "恒星与行星",
-      "collectionPath": "/star-planet/"
+      "path": "/GR/lesson-18-hawking-radiation/",
+      "title": "Lesson 18 Hawking 辐射",
+      "excerpt": "我们上节课说了引力波的探测. 在 Michaelson 干涉仪中，两个方向分别是 其中前面的负号来源于某面镜子上反射的半波损失. 接收端收到的场强分布是 光强 . 这是没有广义...",
+      "isoDate": "2026-04-25T18:11:39.000Z",
+      "collectionTitle": "广义相对论",
+      "collectionPath": "/GR/"
     },
     "post": {
       "path": "/blog/65g96cv9/",
@@ -28,24 +28,24 @@
       ]
     },
     "talk": {
-      "path": "https://scg.owu.one/@physnya/statuses/01KPREGG89142D3SR261QNXZQF",
+      "path": "https://scg.owu.one/@physnya/statuses/01KQ1NR1QFYFW200JAN6V5BPT8",
       "title": "最近一条动态",
-      "excerpt": "💯",
-      "isoDate": "2026-04-21T16:38:24.265Z",
+      "excerpt": "挑战杯答辩搞完了，告一段落，现在只想好好睡一觉... 我说 GPT 的好处就是在我美美睡觉的时候让它写毛概小论文",
+      "isoDate": "2026-04-25T06:38:01.464Z",
       "stats": {
         "replies": 1,
         "reblogs": 0,
-        "favourites": 0
+        "favourites": 1
       }
     },
     "bangumi": {
-      "title": "主播女孩重度依赖",
-      "subtitle": "NEEDY GIRL OVERDOSE",
-      "excerpt": "订阅突破1000万人的TOP级主播少女超绝最可爱天使酱——人称「超天酱」，没有一天看不到她活跃的身影。互联网、电视节目、LIVE……她总是活在粉丝们的欢呼声中。 有一个3位少女组成的主播组合将...",
-      "isoDate": "2026-04-20T17:15:02.000Z",
-      "path": "https://bgm.tv/subject/606263",
-      "image": "https://lain.bgm.tv/r/400/pic/cover/l/8d/c7/606263_3fRrj.jpg",
-      "score": 5,
+      "title": "淡岛百景",
+      "subtitle": "淡島百景",
+      "excerpt": "淡岛歌剧学校里，梦想着站上舞台的少女们自全国各地齐聚而来。憧憬着歌舞剧明星而入学的新生・若菜。背负着挚友的思念努力学习的舍长・绢枝。散发出压倒性存在感的，美丽特待生・绘美。憧憬她、嫉妒她，并不...",
+      "isoDate": "2026-04-25T17:09:23.000Z",
+      "path": "https://bgm.tv/subject/493724",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/bd/33/493724_V6lXx.jpg",
+      "score": 7.3,
       "category": "动画",
       "status": "ing"
     }
