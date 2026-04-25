@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-04-25T19:28:25.542Z",
+  "counts": {
+    "notes": 299,
+    "posts": 54,
+    "talks": 113,
+    "bangumi": 508
+  },
+  "latest": {
+    "note": {
+      "path": "/GR/lesson-18-hawking-radiation/",
+      "title": "Lesson 18 Hawking 辐射",
+      "excerpt": "我们上节课说了引力波的探测. 在 Michaelson 干涉仪中，两个方向分别是 其中前面的负号来源于某面镜子上反射的半波损失. 接收端收到的场强分布是 光强 . 这是没有广义...",
+      "isoDate": "2026-04-26T02:11:39.000Z",
+      "collectionTitle": "广义相对论",
+      "collectionPath": "/GR/"
+    },
+    "post": {
+      "path": "/blog/65g96cv9/",
+      "title": "流星监控项目 II - 树莓派配置",
+      "excerpt": "本文正在长期更新阶段. 我们对于边缘站点考虑用树莓派 5 进行数据的初步处理，但是我手上只有一台树莓派 4B. 鉴于这两代之间的 gpio (General Purpose I...",
+      "isoDate": "2026-01-20T14:39:17.000Z",
+      "section": "meteorProject",
+      "tags": [
+        "work",
+        "SRT",
+        "meteor"
+      ]
+    },
+    "talk": {
+      "path": "https://scg.owu.one/@physnya/statuses/01KQ1NR1QFYFW200JAN6V5BPT8",
+      "title": "最近一条动态",
+      "excerpt": "挑战杯答辩搞完了，告一段落，现在只想好好睡一觉... 我说 GPT 的好处就是在我美美睡觉的时候让它写毛概小论文",
+      "isoDate": "2026-04-25T06:38:01.464Z",
+      "stats": {
+        "replies": 1,
+        "reblogs": 0,
+        "favourites": 1
+      }
+    },
+    "bangumi": {
+      "title": "淡岛百景",
+      "subtitle": "淡島百景",
+      "excerpt": "淡岛歌剧学校里，梦想着站上舞台的少女们自全国各地齐聚而来。憧憬着歌舞剧明星而入学的新生・若菜。背负着挚友的思念努力学习的舍长・绢枝。散发出压倒性存在感的，美丽特待生・绘美。憧憬她、嫉妒她，并不...",
+      "isoDate": "2026-04-25T17:09:23.000Z",
+      "path": "https://bgm.tv/subject/493724",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/bd/33/493724_V6lXx.jpg",
+      "score": 7.3,
+      "category": "动画",
+      "status": "ing"
+    }
+  }
+}
