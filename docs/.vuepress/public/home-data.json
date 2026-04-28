@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-28T11:21:45.859Z",
+  "generatedAt": "2026-04-28T11:24:48.533Z",
   "counts": {
     "notes": 300,
     "posts": 54,
-    "talks": 0,
+    "talks": 113,
     "bangumi": 508
   },
   "latest": {
@@ -27,7 +27,17 @@
         "meteor"
       ]
     },
-    "talk": null,
+    "talk": {
+      "path": "https://scg.owu.one/@physnya/statuses/01KQ1NR1QFYFW200JAN6V5BPT8",
+      "title": "最近一条动态",
+      "excerpt": "挑战杯答辩搞完了，告一段落，现在只想好好睡一觉... 我说 GPT 的好处就是在我美美睡觉的时候让它写毛概小论文",
+      "isoDate": "2026-04-25T06:38:01.464Z",
+      "stats": {
+        "replies": 1,
+        "reblogs": 0,
+        "favourites": 2
+      }
+    },
     "bangumi": {
       "title": "淡岛百景",
       "subtitle": "淡島百景",
