@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-04-25T19:27:42.442Z",
+  "generatedAt": "2026-04-28T11:21:45.859Z",
   "counts": {
-    "notes": 299,
+    "notes": 300,
     "posts": 54,
-    "talks": 113,
+    "talks": 0,
     "bangumi": 508
   },
   "latest": {
     "note": {
-      "path": "/GR/lesson-18-hawking-radiation/",
-      "title": "Lesson 18 Hawking 辐射",
-      "excerpt": "我们上节课说了引力波的探测. 在 Michaelson 干涉仪中，两个方向分别是 其中前面的负号来源于某面镜子上反射的半波损失. 接收端收到的场强分布是 光强 . 这是没有广义...",
-      "isoDate": "2026-04-25T18:11:39.000Z",
+      "path": "/GR/lesson-19-unruh-effect/",
+      "title": "Lesson 19 Hawking 辐射 (Unruh Effect)",
+      "excerpt": "ergosphere 的 . 同时，有一个全局的 Killing vector， ，它在 时是 timelike， 是 spacelike. Penrose 想到了一个过程，即...",
+      "isoDate": "2026-04-28T11:19:09.000Z",
       "collectionTitle": "广义相对论",
       "collectionPath": "/GR/"
     },
@@ -27,17 +27,7 @@
         "meteor"
       ]
     },
-    "talk": {
-      "path": "https://scg.owu.one/@physnya/statuses/01KQ1NR1QFYFW200JAN6V5BPT8",
-      "title": "最近一条动态",
-      "excerpt": "挑战杯答辩搞完了，告一段落，现在只想好好睡一觉... 我说 GPT 的好处就是在我美美睡觉的时候让它写毛概小论文",
-      "isoDate": "2026-04-25T06:38:01.464Z",
-      "stats": {
-        "replies": 1,
-        "reblogs": 0,
-        "favourites": 1
-      }
-    },
+    "talk": null,
     "bangumi": {
       "title": "淡岛百景",
       "subtitle": "淡島百景",
@@ -45,7 +35,7 @@
       "isoDate": "2026-04-25T17:09:23.000Z",
       "path": "https://bgm.tv/subject/493724",
       "image": "https://lain.bgm.tv/r/400/pic/cover/l/bd/33/493724_V6lXx.jpg",
-      "score": 7.3,
+      "score": 7.4,
       "category": "动画",
       "status": "ing"
     }
