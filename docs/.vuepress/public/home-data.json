@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-04-28T11:24:48.533Z",
+  "generatedAt": "2026-04-29T03:28:25.815Z",
   "counts": {
-    "notes": 300,
+    "notes": 301,
     "posts": 54,
-    "talks": 113,
+    "talks": 114,
     "bangumi": 508
   },
   "latest": {
     "note": {
-      "path": "/GR/lesson-19-unruh-effect/",
-      "title": "Lesson 19 Hawking 辐射 (Unruh Effect)",
-      "excerpt": "ergosphere 的 . 同时，有一个全局的 Killing vector， ，它在 时是 timelike， 是 spacelike. Penrose 想到了一个过程，即...",
-      "isoDate": "2026-04-28T11:19:09.000Z",
-      "collectionTitle": "广义相对论",
-      "collectionPath": "/GR/"
+      "path": "/statistical-mechanics/lesson-17/",
+      "title": "Lesson 17 光子气体",
+      "excerpt": "Bose Einstein 凝聚 以液 为例. 这是一种 boson，相变温度在 左右，在 时为正常液体 ，相变之后变为超流体 . 超流态有很多独特的性质，比如喷泉效应和量子化...",
+      "isoDate": "2026-04-29T03:26:23.000Z",
+      "collectionTitle": "统计力学",
+      "collectionPath": "/statistical-mechanics/"
     },
     "post": {
       "path": "/blog/65g96cv9/",
@@ -28,14 +28,14 @@
       ]
     },
     "talk": {
-      "path": "https://scg.owu.one/@physnya/statuses/01KQ1NR1QFYFW200JAN6V5BPT8",
+      "path": "https://scg.owu.one/@physnya/statuses/01KQAP6YZ7FQPPCMHWCKK2T311",
       "title": "最近一条动态",
-      "excerpt": "挑战杯答辩搞完了，告一段落，现在只想好好睡一觉... 我说 GPT 的好处就是在我美美睡觉的时候让它写毛概小论文",
-      "isoDate": "2026-04-25T06:38:01.464Z",
+      "excerpt": "周一的时候很闲，去了一趟什刹海，这里也发一下好了",
+      "isoDate": "2026-04-28T18:39:20.040Z",
       "stats": {
-        "replies": 1,
+        "replies": 0,
         "reblogs": 0,
-        "favourites": 2
+        "favourites": 1
       }
     },
     "bangumi": {
