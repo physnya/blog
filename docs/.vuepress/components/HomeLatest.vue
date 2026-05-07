@@ -110,6 +110,32 @@
 						<span class="card-type">Talk</span>
 						<time>{{ formatDate(homeData.latest.talk?.isoDate) }}</time>
 					</div>
+
+					<div class="home-talk-header">
+						<img
+							v-if="homeData.latest.talk?.account.avatar"
+							:src="homeData.latest.talk?.account.avatar"
+							:alt="homeData.latest.talk?.account.displayName || '头像'"
+							class="home-talk-avatar"
+							no-view
+						/>
+						<div class="home-talk-account">
+							<a
+								:href="homeData.latest.talk?.account.profile || homeData.latest.talk?.path"
+								target="_blank"
+								rel="noreferrer"
+								class="home-talk-display"
+							>
+								{{ homeData.latest.talk?.account.displayName }}
+							</a>
+							<span class="home-talk-username">
+								@{{ homeData.latest.talk?.account.username }}@{{
+									homeData.latest.talk?.account.instanceDomain
+								}}
+							</span>
+						</div>
+					</div>
+
 					<h3>
 						<a
 							:href="homeData.latest.talk?.path"
@@ -122,6 +148,25 @@
 						</a>
 					</h3>
 					<p class="card-excerpt">{{ homeData.latest.talk?.excerpt }}</p>
+					<div
+						v-if="homeData.latest.talk?.media.length"
+						class="home-talk-media-grid"
+					>
+						<a
+							v-for="media in homeData.latest.talk?.media"
+							:key="media.id"
+							:href="media.url"
+							target="_blank"
+							rel="noreferrer"
+							class="home-talk-media-item"
+						>
+							<img
+								:src="media.previewUrl"
+								:alt="media.description"
+								class="home-talk-media-image"
+							/>
+						</a>
+					</div>
 					<div class="talk-stats">
 						<span class="talk-stat-item">
 							<span class="vpi-reply"></span> {{ homeData.latest.talk?.stats.replies }}
@@ -329,6 +374,10 @@
 		overflow: hidden;
 	}
 
+	.talk-card {
+		gap: 0.58rem;
+	}
+
 	.latest-card:hover {
 		transform: translateY(-3px);
 		box-shadow:
@@ -413,7 +462,75 @@
 	}
 
 	.talk-card .card-excerpt {
-		min-height: 7.4rem;
+		line-height: 1.58;
+	}
+
+	.home-talk-header {
+		display: flex;
+		align-items: center;
+		gap: 0.72rem;
+		min-width: 0;
+	}
+
+	.home-talk-avatar {
+		width: 44px;
+		height: 44px;
+		flex: 0 0 44px;
+		border-radius: 50%;
+		border: 2px solid #f8f9fa;
+		box-shadow: 0 0.5px 1.5px
+			rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
+		object-fit: cover;
+	}
+
+	.home-talk-account {
+		display: flex;
+		flex: 1;
+		min-width: 0;
+		flex-direction: column;
+	}
+
+	.home-talk-display {
+		overflow: hidden;
+		color: var(--vp-c-text-1);
+		font-size: 0.92rem;
+		font-weight: 700;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.home-talk-username {
+		overflow: hidden;
+		color: var(--vp-c-text-2);
+		font-size: 0.78rem;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.home-talk-media-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(86px, 1fr));
+		gap: 0.45rem;
+		margin-top: -0.2rem;
+	}
+
+	.home-talk-media-item {
+		display: block;
+		border-radius: 10px;
+		overflow: hidden;
+		background: #f8fafc;
+		transition: transform 0.3s;
+	}
+
+	.home-talk-media-item:hover {
+		transform: scale(1.03);
+	}
+
+	.home-talk-media-image {
+		display: block;
+		width: 100%;
+		aspect-ratio: 1 / 1;
+		object-fit: cover;
 	}
 
 	.card-links {

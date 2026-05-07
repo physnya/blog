@@ -235,6 +235,22 @@ function collectLatestTalk() {
 				title: "最近一条动态",
 				excerpt: truncate(stripMarkdown(talks[0].text || talks[0].content || ""), 200),
 				isoDate: normalizeDate(talks[0].created_at),
+				account: {
+					displayName: talks[0].account?.display_name || talks[0].account?.username || "",
+					username: talks[0].account?.username || "",
+					instanceDomain: talks[0].account?.url ? new URL(talks[0].account.url).hostname : "",
+					profile: talks[0].account?.url || "",
+					avatar: talks[0].account?.avatar || talks[0].account?.avatar_static || "",
+				},
+				media: (talks[0].media_attachments || [])
+					.filter((media) => media.type === "image")
+					.slice(0, 4)
+					.map((media) => ({
+						id: media.id,
+						url: media.url,
+						previewUrl: media.preview_url || media.url,
+						description: media.description || "图片",
+					})),
 				stats: {
 					replies: talks[0].replies_count || 0,
 					reblogs: talks[0].reblogs_count || 0,
