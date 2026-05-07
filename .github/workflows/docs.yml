@@ -40,6 +40,8 @@ jobs:
       - name: Install dependencies
         if: steps.pnpm-cache.outputs.cache-hit != 'true'
         run: pnpm install
+        env:
+            PNPM_FETCH_TIMEOUT: 60000
 
       - name: Build VuePress site
         run: |
