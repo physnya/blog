@@ -196,20 +196,26 @@ function collectLatestNote() {
 
 function collectLatestPost() {
 	const files = walkMarkdownFiles(path.join(DOCS_DIR, "blog")).filter((filePath) => path.basename(filePath) !== "README.md");
-	const posts = files.map((filePath) => {
-		const raw = readText(filePath);
-		const { data, content } = matter(raw);
-		const sectionName = path.basename(path.dirname(filePath));
+	const posts = files
+		.map((filePath) => {
+			const raw = readText(filePath);
+			const { data, content } = matter(raw);
+			const sectionName = path.basename(path.dirname(filePath));
 
-		return {
-			path: data.permalink || defaultPermalink(filePath),
-			title: data.title || extractTitle(content, filePath),
-			excerpt: data.excerpt || getExcerpt(content),
-			isoDate: resolveItemDate(filePath, data),
-			section: sectionName,
-			tags: Array.isArray(data.tags) ? data.tags.slice(0, 3) : [],
-		};
-	});
+			if (data.draft === true) {
+				return null;
+			}
+
+			return {
+				path: data.permalink || defaultPermalink(filePath),
+				title: data.title || extractTitle(content, filePath),
+				excerpt: data.excerpt || getExcerpt(content),
+				isoDate: resolveItemDate(filePath, data),
+				section: sectionName,
+				tags: Array.isArray(data.tags) ? data.tags.slice(0, 3) : [],
+			};
+		})
+		.filter(Boolean);
 
 	posts.sort((a, b) => Date.parse(b.isoDate) - Date.parse(a.isoDate));
 
