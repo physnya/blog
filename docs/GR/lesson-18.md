@@ -129,7 +129,7 @@ L = \int\mathcal{L}\text{d}^3x = \frac{1}{2}\int\text{d}^3k\left(\dot{\phi}_{\ve
 $$
 这说明，一个标量场等价于很多谐振子的集合. 下一步仍然是量子化谐振子，以及求升降算符，略去过程，我们最终会得到
 $$
-a_{\vec{k}} = \sqrt{\frac{\omega_{\vec{k}}}{2}}\left(\phi_{\vec{k}}+\frac{\text{i}\pi_\vec{k}}{\omega_{\vec{k}}}\right),\quad a_{\vec{k}}^\dagger = \sqrt{\frac{\omega_{\vec{k}}}{2}}\left(\phi_{\vec{k}}-\frac{\text{i}\pi_\vec{k}}{\omega_{\vec{k}}}\right)
+a_{\vec{k}} = \sqrt{\frac{\omega_{\vec{k}}}{2}}\left(\phi_{\vec{k}}+\frac{\text{i}\pi_{\vec{k}}}{\omega_{\vec{k}}}\right),\quad a_{\vec{k}}^\dagger = \sqrt{\frac{\omega_{\vec{k}}}{2}}\left(\phi_{\vec{k}}-\frac{\text{i}\pi_{\vec{k}}}{\omega_{\vec{k}}}\right)
 $$
 
 > 这里 $\pi$ 是正则动量.

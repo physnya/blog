@@ -1,30 +1,29 @@
 {
-  "generatedAt": "2026-05-07T06:09:47.822Z",
+  "generatedAt": "2026-05-08T18:12:12.559Z",
   "counts": {
-    "notes": 301,
-    "posts": 54,
+    "notes": 302,
+    "posts": 55,
     "talks": 114,
-    "bangumi": 508
+    "bangumi": 509
   },
   "latest": {
     "note": {
-      "path": "/statistical-mechanics/lesson-17/",
-      "title": "Lesson 17 光子气体",
-      "excerpt": "Bose Einstein 凝聚 以液 为例. 这是一种 boson，相变温度在 左右，在 时为正常液体 ，相变之后变为超流体 . 超流态有很多独特的性质，比如喷泉效应和量子化...",
-      "isoDate": "2026-04-29T03:26:23.000Z",
-      "collectionTitle": "统计力学",
-      "collectionPath": "/statistical-mechanics/"
+      "path": "/star-planet/lesson-10-birth-ii/",
+      "title": "Lesson 10 Birth (II)",
+      "excerpt": "Star Formation：最开始是一团气体，然后 collapse，整个气团拥有一个整体的能量和角动量，在坍缩的过程中，因为角动量守恒，整个气团的转动速度会越来越大；这个时...",
+      "isoDate": "2026-05-08T13:48:34.000Z",
+      "collectionTitle": "恒星与行星",
+      "collectionPath": "/star-planet/"
     },
     "post": {
-      "path": "/blog/65g96cv9/",
-      "title": "流星监控项目 II - 树莓派配置",
-      "excerpt": "本文正在长期更新阶段. 我们对于边缘站点考虑用树莓派 5 进行数据的初步处理，但是我手上只有一台树莓派 4B. 鉴于这两代之间的 gpio (General Purpose I...",
-      "isoDate": "2026-01-20T06:39:17.000Z",
-      "section": "meteorProject",
+      "path": "/blog/life/xinglong/",
+      "title": "兴隆天文台记录",
+      "excerpt": "记录一下观测的基本流程. 准备工作：首先拍本底，一般拍五幅本底、五幅平场. 对于光谱拍摄，还要拍定标灯，拍两幅，这一步主要是去除光路中的一些污染. 在开始阶段，拍摄标准星，标准...",
+      "isoDate": "2026-05-08T17:41:13.000Z",
+      "section": "life",
       "tags": [
-        "work",
-        "SRT",
-        "meteor"
+        "note",
+        "Life"
       ]
     },
     "talk": {
@@ -66,13 +65,13 @@
       }
     },
     "bangumi": {
-      "title": "淡岛百景",
-      "subtitle": "淡島百景",
-      "excerpt": "淡岛歌剧学校里，梦想着站上舞台的少女们自全国各地齐聚而来。憧憬着歌舞剧明星而入学的新生・若菜。背负着挚友的思念努力学习的舍长・绢枝。散发出压倒性存在感的，美丽特待生・绘美。憧憬她、嫉妒她，并不...",
-      "isoDate": "2026-04-25T17:09:23.000Z",
-      "path": "https://bgm.tv/subject/493724",
-      "image": "https://lain.bgm.tv/r/400/pic/cover/l/bd/33/493724_V6lXx.jpg",
-      "score": 7.4,
+      "title": "玲音",
+      "subtitle": "Serial Experiments Lain",
+      "excerpt": "岩仓玲音的同学四方田千砂自杀了。没有任何前兆的自杀事件让同学们不知所措，一周后，玲音收到了千砂的短信。明明已死的千砂居然以手机短信和玲音开始了交流。回到家，玲音用爸爸给她的电脑开始与千砂联系。...",
+      "isoDate": "2026-05-08T17:37:07.000Z",
+      "path": "https://bgm.tv/subject/2582",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/7e/83/2582_9JJ3u.jpg",
+      "score": 7.8,
       "category": "动画",
       "status": "ing"
     }
