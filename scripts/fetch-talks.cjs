@@ -16,6 +16,7 @@ const USE_SYSTEM_PROXY = ["1", "true", "yes", "on"].includes(
 );
 const OUTPUT_DIR = path.resolve(__dirname, "../docs/.vuepress/public");
 const OUTPUT_FILE = path.join(OUTPUT_DIR, "talks.json");
+const MAX_TALKS = 80;
 
 // 获取动态数据
 async function fetchTalks() {
@@ -61,9 +62,15 @@ async function fetchTalks() {
 
 			lastId = data[data.length - 1].id;
 			console.log(`Fetched page ${i + 1}: ${filtered.length} items`);
+
+			if (allToots.length >= MAX_TALKS) {
+				break;
+			}
 		}
 
-		return allToots;
+		return allToots
+			.sort((a, b) => Date.parse(b.created_at) - Date.parse(a.created_at))
+			.slice(0, MAX_TALKS);
 	} catch (error) {
 		console.error("Error fetching talks:", error.message);
 		if (error.code) {

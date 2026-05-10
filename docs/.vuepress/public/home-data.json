@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-05-08T18:33:00.051Z",
+  "generatedAt": "2026-05-10T17:20:39.301Z",
   "counts": {
     "notes": 302,
     "posts": 54,
-    "talks": 114,
+    "talks": 71,
     "bangumi": 509
   },
   "latest": {
@@ -28,10 +28,10 @@
       ]
     },
     "talk": {
-      "path": "https://scg.owu.one/@physnya/statuses/01KQAP6YZ7FQPPCMHWCKK2T311",
+      "path": "https://scg.owu.one/@physnya/statuses/01KR4JM6S1EMQBYWNBY8XXETGB",
       "title": "最近一条动态",
-      "excerpt": "周一的时候很闲，去了一趟什刹海，这里也发一下好了",
-      "isoDate": "2026-04-28T18:39:20.040Z",
+      "excerpt": "从晚上八点到早上近四点，完整跟跑一次天文观测任务 比梅西耶马拉松还是轻松不少 () 但是依旧很累",
+      "isoDate": "2026-05-08T19:56:54.946Z",
       "account": {
         "displayName": "physnya (ヘリウム—フラッシュ！",
         "username": "physnya",
@@ -39,40 +39,21 @@
         "profile": "https://scg.owu.one/@physnya",
         "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01KPP1TAV7M13JWG6BK3QG1S83.png"
       },
-      "media": [
-        {
-          "id": "01KQAP6B61T26GKD25WFH11PEX",
-          "url": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01KQAP6B61T26GKD25WFH11PEX.jpeg",
-          "previewUrl": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01KQAP6B61T26GKD25WFH11PEX.jpeg",
-          "description": "图片"
-        },
-        {
-          "id": "01KQAP6FKTPRT3EEG21QC4QZBE",
-          "url": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01KQAP6FKTPRT3EEG21QC4QZBE.jpeg",
-          "previewUrl": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01KQAP6FKTPRT3EEG21QC4QZBE.jpeg",
-          "description": "图片"
-        },
-        {
-          "id": "01KQAP6N34ABQ5T6JK28QB3GWQ",
-          "url": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01KQAP6N34ABQ5T6JK28QB3GWQ.jpeg",
-          "previewUrl": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/small/01KQAP6N34ABQ5T6JK28QB3GWQ.jpeg",
-          "description": "图片"
-        }
-      ],
+      "media": [],
       "stats": {
         "replies": 0,
         "reblogs": 0,
-        "favourites": 2
+        "favourites": 0
       }
     },
     "bangumi": {
-      "title": "玲音",
-      "subtitle": "Serial Experiments Lain",
-      "excerpt": "岩仓玲音的同学四方田千砂自杀了。没有任何前兆的自杀事件让同学们不知所措，一周后，玲音收到了千砂的短信。明明已死的千砂居然以手机短信和玲音开始了交流。回到家，玲音用爸爸给她的电脑开始与千砂联系。...",
-      "isoDate": "2026-05-08T17:37:07.000Z",
-      "path": "https://bgm.tv/subject/2582",
-      "image": "https://lain.bgm.tv/r/400/pic/cover/l/7e/83/2582_9JJ3u.jpg",
-      "score": 7.8,
+      "title": "上伊那牡丹，酒醉身姿似百合花般",
+      "subtitle": "上伊那ぼたん、酔へる姿は百合の花",
+      "excerpt": "上伊那牡丹在升上大学后住进了学生宿舍。 当她与宿舍成员一同前往秩父参加芝樱祭时，在长椅上看见了独自喝着酒的舍监・砺波伊吹。 伊吹那副把Highball喝得格外美味的模样吸引了牡丹，让她忍不住心...",
+      "isoDate": "2026-05-10T16:47:26.000Z",
+      "path": "https://bgm.tv/subject/543360",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/30/1b/543360_tZvht.jpg",
+      "score": 7.6,
       "category": "动画",
       "status": "ing"
     }
