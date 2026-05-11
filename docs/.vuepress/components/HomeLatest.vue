@@ -121,7 +121,9 @@
 						/>
 						<div class="home-talk-account">
 							<a
-								:href="homeData.latest.talk?.account.profile || homeData.latest.talk?.path"
+								:href="
+									homeData.latest.talk?.account.profile || homeData.latest.talk?.path
+								"
 								target="_blank"
 								rel="noreferrer"
 								class="home-talk-display"
@@ -291,7 +293,7 @@
 			linear-gradient(180deg, rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0));
 		content: "";
 		pointer-events: none;
-        border-radius: 5px;
+		border-radius: 5px;
 	}
 
 	.latest-heading,
@@ -356,7 +358,7 @@
 	.stat-chip strong {
 		font-family: "Ysabeau", var(--vp-font-family-base);
 		font-size: 1.08rem;
-		font-weight: 600;
+		font-weight: 500;
 	}
 
 	.latest-grid {
@@ -494,7 +496,7 @@
 		overflow: hidden;
 		color: var(--vp-c-text-1);
 		font-size: 0.92rem;
-		font-weight: 700;
+		font-weight: 500;
 		text-overflow: ellipsis;
 		white-space: nowrap;
 	}

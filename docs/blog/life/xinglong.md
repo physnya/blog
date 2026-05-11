@@ -5,9 +5,10 @@ tags:
   - note
   - Life
 createTime: 2026/05/09 01:41:13
-feed: false
-draft: true
+permalink: /blog/pcvjbm6e/
 ---
+## 2.16 m 望远镜观测记录
+
 记录一下观测的基本流程.
 
 准备工作：首先拍本底，一般拍五幅本底、五幅平场. 对于光谱拍摄，还要拍定标灯，拍两幅，这一步主要是去除光路中的一些污染.
@@ -19,3 +20,45 @@ draft: true
 导星：是一个偏置的导星，导星镜视场并不是完全和望远镜重合，但是其中的小孔基本上是对应望远镜的狭缝中央的，可以通过这个性质来对准目标. 当然有时候并不能对准，就要手动调整望远镜.
 
 恒星时：选择恒星时比较接近的目标来拍摄，尽量实现一个晚上把目标拍全.
+
+---
+
+观测过程中有必要写观测记录，大概是下面这种样子：
+
+:::: window
+
+::: center
+
+Telescope: 2.16m $\quad$ Date: 2026.05.08 $\quad$ Inst. Setting Note: $\text{BFOSC G4 2.3'' slif}$
+
+:::
+
+| File # |  Object   |   UT    |     ExpTime     | SNR quality | Airmass | Comments               |
+| :----: | :-------: | :-----: | :-------------: | :---------: | :-----: | ---------------------- |
+|   19   | SN2026kie | $14:00$ | $1500\text{ s}$ |     30      |  1.18   |                        |
+|   22   | SN2026fvx | $14:40$ | $2100\text{ s}$ |     60      |  1.12   |                        |
+|   25   | SN2026jlm | $15:40$ | $3000\text{ s}$ |     40      |  1.13   |                        |
+|   26   | SN2026kid | $16:30$ | $3000\text{ s}$ |     30      |  1.04   | $1800\text{ s}$ 云层   |
+|   28   | AT2026lmp | $17:30$ | $3000\text{ s}$ |     30      |  1.10   | 仅 $3\text{ min}$ 可见 |
+
+::::
+
+因为八号这天后半夜上云，所以到一点以后拍的几张基本上都是有云的，comments 里面有体现. 一晚上的观测是从八点多昏影快要结束开始拍平场，到第二天三点多天文晨光快要开始的时候收工.
+
+## LAMOST 参观
+
+九号下午参观兴隆天文台的 LAMOST 望远镜 (又名郭守敬望远镜). 复制一点从百科上抄来的内容：
+
+> **大天区面积多目标光纤光谱天文望远镜** (英语：**L**arge Sky **A**rea **M**ulti-**O**bject Fiber **S**pectroscopy **T**elescope，**LAMOST**)，是位于[中国](https://zh.wikipedia.org/wiki/中国)[河北省](https://zh.wikipedia.org/wiki/河北省)的[国家天文台](https://zh.wikipedia.org/wiki/中国科学院国家天文台)[兴隆观测站](https://zh.wikipedia.org/wiki/興隆觀測站)的一种大型中星仪式反射[施密特望远镜](https://zh.wikipedia.org/wiki/施密特攝星儀)。LAMOST 和传统天文[望远镜](https://zh.wikipedia.org/wiki/望远镜)的不同之处是，它可以对较大的[天区](https://zh.wikipedia.org/w/index.php?title=天区&action=edit&redlink=1)范围（20[平方度](https://zh.wikipedia.org/wiki/平方度)）内的 4000 个目标的[光谱](https://zh.wikipedia.org/wiki/光谱)进行长时间的跟踪积分记录（积分时间可至 1.5 小时），在 1.5 小时曝光时间内以 1 纳米的光谱分辨率可以观测到 20.5 等的暗弱天体的光谱。该望远镜由[中国科学院](https://zh.wikipedia.org/wiki/中国科学院)承建，计划对 1000 万颗[银河系](https://zh.wikipedia.org/wiki/银河系)[恒星](https://zh.wikipedia.org/wiki/恒星)以及数百万个星系进行为期 5 年的[光谱巡天](https://zh.wikipedia.org/wiki/天體光譜學)。 该项目预算为 2.35 亿元[人民币](https://zh.wikipedia.org/wiki/人民币)。
+
+::: window img no-padding
+
+![这是当天拍的一个 LAMOST 的图](https://vip.123pan.cn/1845440081/yk6baz03t0m000ddvikn8v9kw98sgdv9DIYxAIFxDda1DGxPDwUzAa==.jpg)
+
+:::
+
+整座望远镜由三栋楼组成，第一栋楼 (最右边那个) 是反射镜 MA，将天体的光反射到主镜系统中. 这块镜子由 24 块小镜子组成，每块镜都是球面镜，同时利用「主动光学」技术，也就是随着温度、气压等的变化，镜后面的小型机械会给镜子施加 $\text{nN}$ 级别的力，使得镜子发生一定量的形变，以达到所有镜子共焦的目的.
+
+从 MA 反射的光到达最左边那栋楼，也就是反射镜 MB 处. MB 也是多面镜子组成的球面镜，有 37 块，采用与前者类似的技术，它负责把光传到中间那栋楼的焦面上.
+
+中间楼的焦面是一个直径 $1.75\text{ m}$ 的大圆，上面插入 4000 根光纤，每一根都配备两个串联在一起的步进电机，这使得每一根光纤都有 $33\text{ mm}$ 直径的运动范围，望远镜同时分析 4000 颗星的数据. 工作人员告诉我们今年年底会更新一次设备，升级到 8000 根光纤，而且把现有的从国外进口的光纤材料换为国内自主制造的材料.

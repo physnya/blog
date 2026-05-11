@@ -82,6 +82,8 @@
 
 :root {
 	--vp-font-family-base:
+        "Palatino Linotype",
+        Palatino,
 		"LXGW Bright GB",
 		"PingFang SC",
 		"Hiragino Sans GB",
@@ -339,6 +341,10 @@ html.dark {
 		color-mix(in srgb, var(--vp-c-bg-soft) 100%, transparent),
 		color-mix(in srgb, var(--vp-c-bg) 40%, transparent)
 	) !important;
+}
+
+.tag-list {
+    font-style: italic;
 }
 
 /* --- Twikoo 相关 --- */

@@ -277,7 +277,10 @@
 				return this.toots.filter((toot) => {
 					if (toot.reblog) return false;
 					if (!toot.in_reply_to_id) return true;
-					return !toot.in_reply_to_account_id || toot.in_reply_to_account_id === this.ownAccountId;
+					return (
+						!toot.in_reply_to_account_id ||
+						toot.in_reply_to_account_id === this.ownAccountId
+					);
 				});
 			},
 			displayThreads() {
@@ -318,8 +321,10 @@
 					}
 				});
 
-				const byCreatedAtDesc = (a, b) => Date.parse(b.created_at) - Date.parse(a.created_at);
-				const byCreatedAtAsc = (a, b) => Date.parse(a.created_at) - Date.parse(b.created_at);
+				const byCreatedAtDesc = (a, b) =>
+					Date.parse(b.created_at) - Date.parse(a.created_at);
+				const byCreatedAtAsc = (a, b) =>
+					Date.parse(a.created_at) - Date.parse(b.created_at);
 
 				roots.forEach((toot) => {
 					toot.replies.sort(byCreatedAtAsc);
@@ -393,7 +398,7 @@
 		margin-bottom: 1.5rem;
 		color: var(--vp-c-text-1);
 		font-size: 1.5rem;
-		font-weight: 600;
+		font-weight: 500;
 	}
 
 	.toot-card {
@@ -406,7 +411,10 @@
 			inset 0 1px 2px rgba(255, 255, 255, 0.6);
 		padding: 1.2rem;
 		margin-bottom: 1.5rem;
-		transition: transform 0.3s, box-shadow 0.3s, backdrop-filter 0.3s ease-in-out;
+		transition:
+			transform 0.3s,
+			box-shadow 0.3s,
+			backdrop-filter 0.3s ease-in-out;
 		border: 0.5px solid
 			rgba(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
 	}
@@ -429,7 +437,7 @@
 		margin-bottom: 0.9rem;
 		color: #3182ce;
 		font-size: 0.9rem;
-		font-weight: 600;
+		font-weight: 500;
 	}
 
 	.reply-list {
@@ -472,7 +480,7 @@
 	}
 
 	.display-name {
-		font-weight: 700;
+		font-weight: 500;
 		font-size: 1.1rem;
 		display: block;
 		color: var(--vp-c-text-1);
@@ -591,9 +599,11 @@
 		border-radius: 8px;
 		cursor: pointer;
 		font-size: 1rem;
-		font-weight: 600;
+		font-weight: 500;
 		transition: background 0.3s;
-		box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+		box-shadow:
+			0 4px 6px rgba(50, 50, 93, 0.11),
+			0 1px 3px rgba(0, 0, 0, 0.08);
 	}
 
 	.pagination-button:hover:not(:disabled) {
@@ -678,7 +688,7 @@
 
 	.empty a {
 		color: #3182ce;
-		font-weight: 600;
+		font-weight: 500;
 		text-decoration: none;
 	}
 

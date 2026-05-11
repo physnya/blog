@@ -320,9 +320,11 @@
 		border-radius: 8px;
 		cursor: pointer;
 		font-size: 1rem;
-		font-weight: 600;
+		font-weight: 500;
 		transition: background 0.3s;
-		box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+		box-shadow:
+			0 4px 6px rgba(50, 50, 93, 0.11),
+			0 1px 3px rgba(0, 0, 0, 0.08);
 	}
 
 	.btn:hover {
@@ -333,7 +335,9 @@
 	.btn.active {
 		background: var(--vp-code-block-bg);
 		color: var(--vp-c-text-1);
-		box-shadow: 0 2px 3px rgba(50, 50, 93, 0.5), 0 0.5px 1.5px rgba(0, 0, 0, 0.08);
+		box-shadow:
+			0 2px 3px rgba(50, 50, 93, 0.5),
+			0 0.5px 1.5px rgba(0, 0, 0, 0.08);
 		border: 1px solid
 			rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
 	}
@@ -346,9 +350,11 @@
 		border-radius: 8px;
 		cursor: pointer;
 		font-size: 1rem;
-		font-weight: 600;
+		font-weight: 500;
 		transition: background 0.3s;
-		box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+		box-shadow:
+			0 4px 6px rgba(50, 50, 93, 0.11),
+			0 1px 3px rgba(0, 0, 0, 0.08);
 	}
 
 	.card-flex {
@@ -376,7 +382,10 @@
 	}
 
 	.card:hover {
-		transition: transform 0.3s, box-shadow 0.3s, backdrop-filter 0.3s ease-in-out;
+		transition:
+			transform 0.3s,
+			box-shadow 0.3s,
+			backdrop-filter 0.3s ease-in-out;
 		transform: translateY(-3px);
 		border: 0.5px solid
 			rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
@@ -408,7 +417,7 @@
 		font-size: 1.3rem;
 		margin-bottom: 10px;
 		color: var(--vp-c-text-1);
-		font-weight: 600;
+		font-weight: 500;
 	}
 
 	.card-meta {
@@ -481,9 +490,11 @@
 		border-radius: 8px;
 		cursor: pointer;
 		font-size: 1rem;
-		font-weight: 600;
+		font-weight: 500;
 		transition: background 0.3s;
-		box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+		box-shadow:
+			0 4px 6px rgba(50, 50, 93, 0.11),
+			0 1px 3px rgba(0, 0, 0, 0.08);
 	}
 
 	.pagination-button:hover:not(:disabled) {

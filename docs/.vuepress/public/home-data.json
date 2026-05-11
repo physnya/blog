@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-05-10T17:20:39.301Z",
+  "generatedAt": "2026-05-11T08:10:40.205Z",
   "counts": {
     "notes": 302,
-    "posts": 54,
+    "posts": 55,
     "talks": 71,
     "bangumi": 509
   },
@@ -16,15 +16,14 @@
       "collectionPath": "/star-planet/"
     },
     "post": {
-      "path": "/blog/65g96cv9/",
-      "title": "流星监控项目 II - 树莓派配置",
-      "excerpt": "本文正在长期更新阶段. 我们对于边缘站点考虑用树莓派 5 进行数据的初步处理，但是我手上只有一台树莓派 4B. 鉴于这两代之间的 gpio (General Purpose I...",
-      "isoDate": "2026-01-20T06:39:17.000Z",
-      "section": "meteorProject",
+      "path": "/blog/pcvjbm6e/",
+      "title": "兴隆天文台记录",
+      "excerpt": "2.16 m 望远镜观测记录 记录一下观测的基本流程. 准备工作：首先拍本底，一般拍五幅本底、五幅平场. 对于光谱拍摄，还要拍定标灯，拍两幅，这一步主要是去除光路中的一些污染....",
+      "isoDate": "2026-05-08T17:41:13.000Z",
+      "section": "life",
       "tags": [
-        "work",
-        "SRT",
-        "meteor"
+        "note",
+        "Life"
       ]
     },
     "talk": {
@@ -47,13 +46,13 @@
       }
     },
     "bangumi": {
-      "title": "上伊那牡丹，酒醉身姿似百合花般",
-      "subtitle": "上伊那ぼたん、酔へる姿は百合の花",
-      "excerpt": "上伊那牡丹在升上大学后住进了学生宿舍。 当她与宿舍成员一同前往秩父参加芝樱祭时，在长椅上看见了独自喝着酒的舍监・砺波伊吹。 伊吹那副把Highball喝得格外美味的模样吸引了牡丹，让她忍不住心...",
-      "isoDate": "2026-05-10T16:47:26.000Z",
-      "path": "https://bgm.tv/subject/543360",
-      "image": "https://lain.bgm.tv/r/400/pic/cover/l/30/1b/543360_tZvht.jpg",
-      "score": 7.6,
+      "title": "春夏秋冬代行者 春之舞",
+      "subtitle": "春夏秋冬代行者 春の舞",
+      "excerpt": "「让春天绽放吧。为所有人带来春天。」 所谓的「四季代行者」，指的是凭藉四季诸神赐予的特殊力量，使季节在各地流转的现人神。 人们习以为常的四季更迭，正是仰赖他们不懈的努力才得以维系。 然而，自从...",
+      "isoDate": "2026-05-10T17:52:28.000Z",
+      "path": "https://bgm.tv/subject/551455",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/50/36/551455_w1O6C.jpg",
+      "score": 5.6,
       "category": "动画",
       "status": "ing"
     }
