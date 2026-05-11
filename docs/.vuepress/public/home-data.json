@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-05-11T08:10:40.205Z",
+  "generatedAt": "2026-05-11T10:45:11.618Z",
   "counts": {
-    "notes": 302,
+    "notes": 303,
     "posts": 55,
     "talks": 71,
     "bangumi": 509
   },
   "latest": {
     "note": {
-      "path": "/star-planet/lesson-10-birth-ii/",
-      "title": "Lesson 10 Birth (II)",
-      "excerpt": "Star Formation：最开始是一团气体，然后 collapse，整个气团拥有一个整体的能量和角动量，在坍缩的过程中，因为角动量守恒，整个气团的转动速度会越来越大；这个时...",
-      "isoDate": "2026-05-08T13:48:34.000Z",
-      "collectionTitle": "恒星与行星",
-      "collectionPath": "/star-planet/"
+      "path": "/GR/lesson-20-black-hole-entropy/",
+      "title": "Lesson 20 黑洞熵",
+      "excerpt": "这节课因为去兴隆观测站参加观测天文学的观测实习了所以没时间去，感谢 lzy 同学提供的笔记. 量子场论本身不要求有空间关联，而相对论使得含有时间演化的场论一定有空间关联，这是非...",
+      "isoDate": "2026-05-11T10:44:34.000Z",
+      "collectionTitle": "广义相对论",
+      "collectionPath": "/GR/"
     },
     "post": {
       "path": "/blog/pcvjbm6e/",
