@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-05-11T10:45:11.618Z",
+  "generatedAt": "2026-05-12T07:24:31.559Z",
   "counts": {
-    "notes": 303,
+    "notes": 304,
     "posts": 55,
     "talks": 71,
-    "bangumi": 509
+    "bangumi": 510
   },
   "latest": {
     "note": {
-      "path": "/GR/lesson-20-black-hole-entropy/",
-      "title": "Lesson 20 黑洞熵",
-      "excerpt": "这节课因为去兴隆观测站参加观测天文学的观测实习了所以没时间去，感谢 lzy 同学提供的笔记. 量子场论本身不要求有空间关联，而相对论使得含有时间演化的场论一定有空间关联，这是非...",
-      "isoDate": "2026-05-11T10:44:34.000Z",
+      "path": "/GR/lesson-21-path-integral/",
+      "title": "Lesson 21 路径积分",
+      "excerpt": "上节课我们推导了 Hawking temperature， ；还有 BH 熵 . 下一步我们要搞清楚这两个量的解释. 黑洞有一个视界，但是外面的观测者能够看到黑洞内部的熵，这是...",
+      "isoDate": "2026-05-12T07:23:35.000Z",
       "collectionTitle": "广义相对论",
       "collectionPath": "/GR/"
     },

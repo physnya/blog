@@ -73,7 +73,7 @@ $$
 &|0\rangle_B\quad\text{Boulwave:}
 \end{aligned}\,\left\{\begin{aligned}
 &u = -4GMe^{-\tilde u/4GM}\\\\
-&v = _4GMe^{\tilde v/4GM}
+&v = +4GMe^{\tilde v/4GM}
 \end{aligned}\right.\xrightarrow{\text{Unruh}}\,\begin{aligned}
 &|0\rangle_{\text{Minkowski}}\\\\
 &|0\rangle_{\text{Kindler}}
