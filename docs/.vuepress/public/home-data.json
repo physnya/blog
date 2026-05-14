@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-05-14T11:16:00.976Z",
+  "generatedAt": "2026-05-14T13:49:30.094Z",
   "counts": {
-    "notes": 305,
+    "notes": 306,
     "posts": 55,
     "talks": 71,
     "bangumi": 510
   },
   "latest": {
     "note": {
-      "path": "/animal-behavior/lesson-11-learning-and-remember/",
-      "title": "Lesson 11 学习与记忆",
-      "excerpt": "动物的学习分为关联学习和非关联学习. 动物的记忆，首先可以从时间上来区分，有短时记忆和长时记忆. 社会学习：一个个体可能需要很多次的试错才能学习到一个技能或者行为，但是它的同伴...",
-      "isoDate": "2026-05-13T10:49:23.000Z",
-      "collectionTitle": "动物行为学",
-      "collectionPath": "/animal-behavior/"
+      "path": "/star-planet/lesson-11-dynamics/",
+      "title": "Lesson 11 Dynamics",
+      "excerpt": "继续来说 exoplanet 的探测方法. 我们说到 microlensing，也就是微引力透镜效应. 考虑一个行星穿过我们和恒星之间的连线，我们与行星和恒星之间的距离分别是...",
+      "isoDate": "2026-05-14T13:48:09.000Z",
+      "collectionTitle": "恒星与行星",
+      "collectionPath": "/star-planet/"
     },
     "post": {
       "path": "/blog/pcvjbm6e/",
