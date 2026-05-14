@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-05-12T07:24:31.559Z",
+  "generatedAt": "2026-05-14T11:16:00.976Z",
   "counts": {
-    "notes": 304,
+    "notes": 305,
     "posts": 55,
     "talks": 71,
     "bangumi": 510
   },
   "latest": {
     "note": {
-      "path": "/GR/lesson-21-path-integral/",
-      "title": "Lesson 21 路径积分",
-      "excerpt": "上节课我们推导了 Hawking temperature， ；还有 BH 熵 . 下一步我们要搞清楚这两个量的解释. 黑洞有一个视界，但是外面的观测者能够看到黑洞内部的熵，这是...",
-      "isoDate": "2026-05-12T07:23:35.000Z",
-      "collectionTitle": "广义相对论",
-      "collectionPath": "/GR/"
+      "path": "/animal-behavior/lesson-11-learning-and-remember/",
+      "title": "Lesson 11 学习与记忆",
+      "excerpt": "动物的学习分为关联学习和非关联学习. 动物的记忆，首先可以从时间上来区分，有短时记忆和长时记忆. 社会学习：一个个体可能需要很多次的试错才能学习到一个技能或者行为，但是它的同伴...",
+      "isoDate": "2026-05-13T10:49:23.000Z",
+      "collectionTitle": "动物行为学",
+      "collectionPath": "/animal-behavior/"
     },
     "post": {
       "path": "/blog/pcvjbm6e/",
