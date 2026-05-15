@@ -5,8 +5,9 @@
   "description": "This is physnya's personal blog & notebook.",
   "author": "physnya <676266673@qq.com>",
   "license": "MIT",
+  "packageManager": "pnpm@11.1.2",
   "engines": {
-    "node": "^18.20.0 || >=20.0.0"
+    "node": "^22.18.0"
   },
   "scripts": {
     "predocs:dev": "node scripts/generate-home-data.cjs",
@@ -62,8 +63,5 @@
     "@fullcalendar/vue3": "^6.1.20",
     "@vuepress/plugin-feed": "2.0.0-rc.130",
     "mermaid": "^11.15.0"
-  },
-  "resolutions": {
-    "vite": "^8.0.0-beta.16"
   }
 }

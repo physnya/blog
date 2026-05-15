@@ -17,31 +17,19 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
-          version: 10
-          run_install: true
+          version: 11.1.2
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version-file: .nvmrc
           cache: pnpm
-
-      - name: Cache node modules
-        id: pnpm-cache
-        uses: actions/cache@v3
-        with:
-          path: ~/.pnpm-store
-          key: node-cache-${{ runner.os }}-pnpm-${{ hashFiles('pnpm-lock.yaml') }}
-          restore-keys: |
-            node-cache-${{ runner.os }}-pnpm-
-            node-cache-${{ runner.os }}-
-            node-cache-
+          cache-dependency-path: pnpm-lock.yaml
       
       - name: Install dependencies
-        if: steps.pnpm-cache.outputs.cache-hit != 'true'
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
         env:
-            PNPM_FETCH_TIMEOUT: 60000
+          PNPM_FETCH_TIMEOUT: 60000
 
       - name: Build VuePress site
         run: |
