@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-05-15T07:10:19.375Z",
+  "counts": {
+    "notes": 307,
+    "posts": 55,
+    "talks": 71,
+    "bangumi": 510
+  },
+  "latest": {
+    "note": {
+      "path": "/GR/lesson-22-path-integral-II/",
+      "title": "Lesson 22 路径积分 (II)",
+      "excerpt": "回顾一下：对于 Schwarzschild 黑洞， 之后定义 于是得到 . 现在还在黑洞外面，要跟踪一个自由落入的观测者，要使用下述变换后的坐标， (Rindler Space...",
+      "isoDate": "2026-05-15T15:07:38.000Z",
+      "collectionTitle": "广义相对论",
+      "collectionPath": "/GR/"
+    },
+    "post": {
+      "path": "/blog/pcvjbm6e/",
+      "title": "兴隆天文台记录",
+      "excerpt": "2.16 m 望远镜观测记录 记录一下观测的基本流程. 准备工作：首先拍本底，一般拍五幅本底、五幅平场. 对于光谱拍摄，还要拍定标灯，拍两幅，这一步主要是去除光路中的一些污染....",
+      "isoDate": "2026-05-09T01:41:13.000Z",
+      "section": "life",
+      "tags": [
+        "note",
+        "Life"
+      ]
+    },
+    "talk": {
+      "path": "https://scg.owu.one/@physnya/statuses/01KR4JM6S1EMQBYWNBY8XXETGB",
+      "title": "最近一条动态",
+      "excerpt": "从晚上八点到早上近四点，完整跟跑一次天文观测任务 比梅西耶马拉松还是轻松不少 () 但是依旧很累",
+      "isoDate": "2026-05-08T19:56:54.946Z",
+      "account": {
+        "displayName": "physnya (ヘリウム—フラッシュ！",
+        "username": "physnya",
+        "instanceDomain": "scg.owu.one",
+        "profile": "https://scg.owu.one/@physnya",
+        "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01KPP1TAV7M13JWG6BK3QG1S83.png"
+      },
+      "media": [],
+      "stats": {
+        "replies": 0,
+        "reblogs": 0,
+        "favourites": 0
+      }
+    },
+    "bangumi": {
+      "title": "元祖！BanG Dream Chan",
+      "subtitle": "元祖！バンドリちゃん",
+      "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
+      "isoDate": "2026-05-14T19:33:02.000Z",
+      "path": "https://bgm.tv/subject/540449",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_Kr6a7.jpg",
+      "score": 6.9,
+      "category": "动画",
+      "status": "ing"
+    }
+  }
+}
