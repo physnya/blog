@@ -1,5 +1,5 @@
 ---
-title: Lesson 21 路径积分
+title: Lesson 21 路径积分 (I)
 createTime: 2026/05/12 15:23:35
 permalink: /GR/lesson-21-path-integral/
 ---
