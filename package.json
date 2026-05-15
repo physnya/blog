@@ -36,9 +36,9 @@
     "@vuepress/plugin-markdown-chart": "2.0.0-rc.128",
     "@vueuse/core": "^13.9.0",
     "@vueuse/integrations": "^13.9.0",
-    "axios": "^1.15.0",
+    "axios": "^1.16.1",
     "bcrypt-ts": "^6.0.0",
-    "dotenv": "^17.4.1",
+    "dotenv": "^17.4.2",
     "focus-trap": "^7.8.0",
     "glob": "^10.5.0",
     "gray-matter": "^4.0.3",
@@ -48,20 +48,20 @@
     "mark.js": "^8.11.1",
     "minisearch": "^6.3.0",
     "sass-embedded": "^1.99.0",
-    "twikoo": "^1.7.7",
+    "twikoo": "^1.7.9",
     "typescript": "^5.9.3",
     "vite-plugin-font": "^5.1.2",
-    "vue": "^3.5.32",
+    "vue": "^3.5.34",
     "vuepress": "2.0.0-rc.28",
-    "vuepress-theme-plume": "1.0.0-rc.193"
+    "vuepress-theme-plume": "1.0.0-rc.200"
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.20",
     "@fullcalendar/daygrid": "^6.1.20",
     "@fullcalendar/interaction": "^6.1.20",
     "@fullcalendar/vue3": "^6.1.20",
-    "@vuepress/plugin-feed": "2.0.0-rc.128",
-    "mermaid": "^11.14.0"
+    "@vuepress/plugin-feed": "2.0.0-rc.130",
+    "mermaid": "^11.15.0"
   },
   "resolutions": {
     "vite": "^8.0.0-beta.16"

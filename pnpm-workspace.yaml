@@ -1,3 +1,8 @@
+allowBuilds:
+  cn-font-split: false
+  esbuild: false
+  koffi: false
+  protobufjs: false
 onlyBuiltDependencies:
   - cn-font-split
   - esbuild
