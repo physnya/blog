@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-05-15T04:07:32.449Z",
+  "generatedAt": "2026-05-19T07:08:35.667Z",
   "counts": {
-    "notes": 306,
+    "notes": 308,
     "posts": 55,
     "talks": 71,
     "bangumi": 510
   },
   "latest": {
     "note": {
-      "path": "/star-planet/lesson-11-dynamics/",
-      "title": "Lesson 11 Dynamics",
-      "excerpt": "继续来说 exoplanet 的探测方法. 我们说到 microlensing，也就是微引力透镜效应. 考虑一个行星穿过我们和恒星之间的连线，我们与行星和恒星之间的距离分别是...",
-      "isoDate": "2026-05-14T13:48:09.000Z",
-      "collectionTitle": "恒星与行星",
-      "collectionPath": "/star-planet/"
+      "path": "/GR/lesson-23-cosmology/",
+      "title": "Lesson 23 宇宙学入门",
+      "excerpt": "从这节课开始我们谈论宇宙学. 我们知道人类很喜欢把自己找到的理论用在整个宇宙上，比如从领悟得来的佛教，或者是 Newton 在太阳系中找到的引力理论. Einstein 方程：...",
+      "isoDate": "2026-05-19T07:08:23.000Z",
+      "collectionTitle": "广义相对论",
+      "collectionPath": "/GR/"
     },
     "post": {
       "path": "/blog/pcvjbm6e/",
