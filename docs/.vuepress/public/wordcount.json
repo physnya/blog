@@ -2,7 +2,7 @@
   "timeline": 1111,
   "talks": 117,
   "random": 71,
-  "links": 868,
+  "links": 867,
   "bangumi": 44,
   "about": 304,
   "README": 36,
@@ -49,6 +49,7 @@
     "lesson-4-ignition-of-sun": 863,
     "lesson-3-lane-emden-equ": 1194,
     "lesson-2-equation-of-state": 912,
+    "lesson-12-resonance": 822,
     "lesson-11-dynamics": 878,
     "lesson-10-birth-ii": 1006,
     "lesson-1-introduction-light": 1620,
@@ -384,6 +385,7 @@
     "lesson-5-einstein-equation": 1571,
     "lesson-4-covariance": 1828,
     "lesson-3": 1284,
+    "lesson-24-bbn": 1503,
     "lesson-23-cosmology": 1675,
     "lesson-22-path-integral-II": 1428,
     "lesson-21-path-integral": 2605,
@@ -424,7 +426,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 592157,
-  "lastUpdated": "2026-05-19T07:08:35.465Z",
-  "fileCount": 387
+  "total": 594481,
+  "lastUpdated": "2026-05-22T07:08:46.349Z",
+  "fileCount": 389
 }

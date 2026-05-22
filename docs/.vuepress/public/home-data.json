@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-05-19T07:08:35.667Z",
+  "generatedAt": "2026-05-22T07:08:46.544Z",
   "counts": {
-    "notes": 308,
+    "notes": 310,
     "posts": 55,
     "talks": 71,
     "bangumi": 510
   },
   "latest": {
     "note": {
-      "path": "/GR/lesson-23-cosmology/",
-      "title": "Lesson 23 宇宙学入门",
-      "excerpt": "从这节课开始我们谈论宇宙学. 我们知道人类很喜欢把自己找到的理论用在整个宇宙上，比如从领悟得来的佛教，或者是 Newton 在太阳系中找到的引力理论. Einstein 方程：...",
-      "isoDate": "2026-05-19T07:08:23.000Z",
+      "path": "/GR/lesson-24-bbn/",
+      "title": "Lesson 24 原初核合成",
+      "excerpt": "广义相对论的最开始实验验证的尺度大约是 量级，也就是星系内的尺度；但是后面宇宙学至少需要银河系的尺度，也就是 左右，前者是 左右，后者达到了 量级. 整个宇宙的尺度，我们按照我...",
+      "isoDate": "2026-05-22T07:07:23.000Z",
       "collectionTitle": "广义相对论",
       "collectionPath": "/GR/"
     },
