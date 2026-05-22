@@ -54,7 +54,7 @@ s=\frac{\rho+p}{T} = \frac{2\pi^2}{45}g_{*s}T^3,\quad g_{*s}=g_* = \sum_{\text{b
 $$
 一开始 $\nu$，$\gamma$ 和 matter 是平衡的，最早是 $\nu$ 与其他两者 decouple，在这个时间段，同时也在发生 $e^++e^-\longleftrightarrow\gamma+\gamma$ 的反应，而温度再降低一点之后 $e$ 开始变成非相对论性，反应平衡大幅右移，产生一次再加热，这时候 $(e,\gamma)$ 体系和中微子体系的温度就产生了比较大的差异.
 
-> 这不是我们星系与宇宙吗，详见：[Lesson 12 中微子脱耦 & 暴涨](cosmos/lesson-12/).
+> 这不是我们星系与宇宙吗，详见：[Lesson 12 中微子脱耦 & 暴涨](/cosmos/lesson-12/).
 
 对于没有相互作用的粒子，
 $$
