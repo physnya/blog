@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-05-25T05:18:14.425Z",
+  "generatedAt": "2026-05-26T08:35:27.754Z",
   "counts": {
-    "notes": 310,
+    "notes": 311,
     "posts": 55,
-    "talks": 71,
+    "talks": 0,
     "bangumi": 510
   },
   "latest": {
     "note": {
-      "path": "/GR/lesson-24-bbn/",
-      "title": "Lesson 24 原初核合成",
-      "excerpt": "广义相对论的最开始实验验证的尺度大约是 量级，也就是星系内的尺度；但是后面宇宙学至少需要银河系的尺度，也就是 左右，前者是 左右，后者达到了 量级. 整个宇宙的尺度，我们按照我...",
-      "isoDate": "2026-05-22T07:07:23.000Z",
+      "path": "/GR/lesson-24-bbn-and-cmb/",
+      "title": "Lesson 25 原初核合成 & CMB",
+      "excerpt": "核反应 ，对于 有时间变化： (这里的 代表初态.) 我们上节课说是从 开始演化，但是这并不是很合理，比较合理的取值是从 开始演化，这是因为实际上从高能标开始演化，会存在不少...",
+      "isoDate": "2026-05-26T08:34:39.000Z",
       "collectionTitle": "广义相对论",
       "collectionPath": "/GR/"
     },
@@ -26,25 +26,7 @@
         "Life"
       ]
     },
-    "talk": {
-      "path": "https://scg.owu.one/@physnya/statuses/01KSAZQCA1JCA9R6S136X3PVT1",
-      "title": "最近一条动态",
-      "excerpt": "打完 P3R. #P3R 发现这俩我最喜欢的 coop 应该都是太阳，不知道为什么... 搜了一下，「太阳」在塔罗牌中应该是最正面的一张牌了：『太阳牌象征生命力、活力、成功与喜悦，是塔罗牌中最正面、最有力量的一张牌.』看来我至少还是比较积极正面来着 (? 「星」对应的早濑护我就觉得实在是写得太惨了，为了撑起家庭而放弃自己最喜欢的田径，走上平凡的工作岗位；即使这是大多数人的常态，但是作为虚构作品，我...",
-      "isoDate": "2026-05-23T17:56:58.818Z",
-      "account": {
-        "displayName": "physnya (ヘリウム—フラッシュ！",
-        "username": "physnya",
-        "instanceDomain": "scg.owu.one",
-        "profile": "https://scg.owu.one/@physnya",
-        "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01KPP1TAV7M13JWG6BK3QG1S83.png"
-      },
-      "media": [],
-      "stats": {
-        "replies": 0,
-        "reblogs": 0,
-        "favourites": 1
-      }
-    },
+    "talk": null,
     "bangumi": {
       "title": "玲音",
       "subtitle": "Serial Experiments Lain",
