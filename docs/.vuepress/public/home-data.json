@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-05-26T13:03:40.974Z",
+  "generatedAt": "2026-05-28T13:49:31.669Z",
   "counts": {
-    "notes": 312,
+    "notes": 313,
     "posts": 55,
     "talks": 71,
-    "bangumi": 510
+    "bangumi": 511
   },
   "latest": {
     "note": {
-      "path": "/animal-behavior/lesson-13-parental-care/",
-      "title": "Lesson 13 亲代抚育 (parental care)",
-      "excerpt": "当然大家主要是一种接受的角色. General Pattern 有几类：没有亲代抚育、由雌性单独提供亲代抚育、由雄性单独提供亲代抚育、双亲共同提供亲代抚育. 第一类主要是无脊椎...",
-      "isoDate": "2026-05-26T13:00:23.000Z",
-      "collectionTitle": "动物行为学",
-      "collectionPath": "/animal-behavior/"
+      "path": "/star-planet/lesson-13-tides/",
+      "title": "Lesson 13 Tides",
+      "excerpt": "沿用之前的符号命名，但是我们这节课要开始做近似. 考虑 ，同时利用下面的单位制： 这样，有效势能变为 用余弦定理得到 取倒数，得到 代入有效势能， 把常数项撇掉， 第二个近似是...",
+      "isoDate": "2026-05-28T13:47:24.000Z",
+      "collectionTitle": "恒星与行星",
+      "collectionPath": "/star-planet/"
     },
     "post": {
       "path": "/blog/pcvjbm6e/",
