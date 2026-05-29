@@ -23,9 +23,7 @@ const COLLECTION_TYPE_KEY = ["", "planTo", "completed", "ing"];
 const LIMIT = 100;
 const USER_AGENT = "physnya/blog (https://github.com/physnya/blog)";
 const BANGUMI_USER_NAME = process.env.BANGUMI_USER_NAME;
-const USE_SYSTEM_PROXY = ["1", "true", "yes", "on"].includes(
-	(process.env.USE_SYSTEM_PROXY || "").toLowerCase()
-);
+const USE_SYSTEM_PROXY = "1";
 const OUTPUT_DIR = path.resolve(__dirname, "../docs/.vuepress/public");
 const OUTPUT_FILE = path.join(OUTPUT_DIR, "bangumi.json");
 
@@ -52,7 +50,7 @@ async function fetchBangumis(s_type) {
 
 				// 默认不读取 Shell 的 HTTP(S)_PROXY，避免本地代理没启动导致失败
 				if (!USE_SYSTEM_PROXY) {
-					requestConfig.proxy = false;
+					requestConfig.proxy = true;
 				}
 
 				const res = await axios.get(
