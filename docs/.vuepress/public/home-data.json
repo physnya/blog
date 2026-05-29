@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-05-28T13:49:31.669Z",
+  "generatedAt": "2026-05-29T08:43:49.285Z",
   "counts": {
-    "notes": 313,
+    "notes": 314,
     "posts": 55,
     "talks": 71,
-    "bangumi": 511
+    "bangumi": 0
   },
   "latest": {
     "note": {
-      "path": "/star-planet/lesson-13-tides/",
-      "title": "Lesson 13 Tides",
-      "excerpt": "沿用之前的符号命名，但是我们这节课要开始做近似. 考虑 ，同时利用下面的单位制： 这样，有效势能变为 用余弦定理得到 取倒数，得到 代入有效势能， 把常数项撇掉， 第二个近似是...",
-      "isoDate": "2026-05-28T13:47:24.000Z",
-      "collectionTitle": "恒星与行星",
-      "collectionPath": "/star-planet/"
+      "path": "/GR/lesson-25-inflation/",
+      "title": "Lesson 26 暴涨",
+      "excerpt": "上节课最后说到一个问题，就是 CMB 的结果表明宇宙间各处存在相关性. 研究 co moving time， 有 ( ). 我们看到的光子来自 的时代，所以我们可观测宇宙的边界...",
+      "isoDate": "2026-05-29T08:38:32.000Z",
+      "collectionTitle": "广义相对论",
+      "collectionPath": "/GR/"
     },
     "post": {
       "path": "/blog/pcvjbm6e/",
@@ -45,16 +45,6 @@
         "favourites": 1
       }
     },
-    "bangumi": {
-      "title": "玲音",
-      "subtitle": "Serial Experiments Lain",
-      "excerpt": "岩仓玲音的同学四方田千砂自杀了。没有任何前兆的自杀事件让同学们不知所措，一周后，玲音收到了千砂的短信。明明已死的千砂居然以手机短信和玲音开始了交流。回到家，玲音用爸爸给她的电脑开始与千砂联系。...",
-      "isoDate": "2026-05-24T16:43:46.000Z",
-      "path": "https://bgm.tv/subject/2582",
-      "image": "https://lain.bgm.tv/r/400/pic/cover/l/7e/83/2582_9JJ3u.jpg",
-      "score": 7.8,
-      "category": "动画",
-      "status": "ing"
-    }
+    "bangumi": null
   }
 }
