@@ -10,4 +10,4 @@ docs/.vuepress/dist
 .env
 .hintrc
 .vscode
-.pnpm-store/
+.pnpm-store
