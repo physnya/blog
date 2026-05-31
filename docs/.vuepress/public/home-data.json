@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-05-29T08:43:49.285Z",
+  "generatedAt": "2026-05-31T06:41:27.582Z",
   "counts": {
     "notes": 314,
     "posts": 55,
     "talks": 71,
-    "bangumi": 0
+    "bangumi": 511
   },
   "latest": {
     "note": {
@@ -45,6 +45,16 @@
         "favourites": 1
       }
     },
-    "bangumi": null
+    "bangumi": {
+      "title": "玲音",
+      "subtitle": "Serial Experiments Lain",
+      "excerpt": "岩仓玲音的同学四方田千砂自杀了。没有任何前兆的自杀事件让同学们不知所措，一周后，玲音收到了千砂的短信。明明已死的千砂居然以手机短信和玲音开始了交流。回到家，玲音用爸爸给她的电脑开始与千砂联系。...",
+      "isoDate": "2026-05-24T16:43:46.000Z",
+      "path": "https://bgm.tv/subject/2582",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/7e/83/2582_9JJ3u.jpg",
+      "score": 7.8,
+      "category": "动画",
+      "status": "ing"
+    }
   }
 }
