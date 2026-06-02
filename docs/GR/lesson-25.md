@@ -1,7 +1,7 @@
 ---
 title: Lesson 25 原初核合成 & CMB
 createTime: 2026/05/26 16:34:39
-permalink: /GR/lesson-24-bbn-and-cmb/
+permalink: /GR/lesson-25-bbn-and-cmb/
 ---
 核反应 $1+2\longleftrightarrow 3+4$，对于 $n_1$ 有时间变化：
 $$

@@ -1,7 +1,7 @@
 ---
 title: Lesson 26 暴涨
 createTime: 2026/05/29 16:38:32
-permalink: /GR/lesson-25-inflation/
+permalink: /GR/lesson-26-inflation/
 ---
 上节课最后说到一个问题，就是 CMB 的结果表明宇宙间各处存在相关性. 研究 co-moving time，
 $$
