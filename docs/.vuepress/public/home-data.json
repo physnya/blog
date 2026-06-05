@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-06-02T13:42:28.237Z",
+  "generatedAt": "2026-06-05T13:05:53.071Z",
   "counts": {
-    "notes": 315,
+    "notes": 316,
     "posts": 55,
     "talks": 71,
     "bangumi": 511
   },
   "latest": {
     "note": {
-      "path": "/GR/lesson-27-inflation-corollaries/",
-      "title": "Lesson 27 暴涨理论的相关结论",
-      "excerpt": "进行一个抱歉，因为之前写 permalink 字段的时候失误了一下，因此现在最近三节课的网页链接要重新修改一次. 先说一下上节课没有推导出来的那个东西. 我们知道在 infla...",
-      "isoDate": "2026-06-02T13:27:53.000Z",
+      "path": "/GR/lesson-28-inflation-information/",
+      "title": "Lesson 28 暴涨前的涨落信息",
+      "excerpt": "一个标量场，分为一个各向同性的项和一个涨落， 度规也是一样，可以分成 在宇宙尺度上，时间并不是一个很好的对称性，所以我们从空间旋转的角度思考，而不是应用 Lorentz 表示....",
+      "isoDate": "2026-06-05T13:04:43.000Z",
       "collectionTitle": "广义相对论",
       "collectionPath": "/GR/"
     },
@@ -49,7 +49,7 @@
       "title": "元祖！BanG Dream Chan",
       "subtitle": "元祖！バンドリちゃん",
       "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
-      "isoDate": "2026-06-01T10:16:44.000Z",
+      "isoDate": "2026-06-04T18:07:05.000Z",
       "path": "https://bgm.tv/subject/540449",
       "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_Kr6a7.jpg",
       "score": 6.9,
