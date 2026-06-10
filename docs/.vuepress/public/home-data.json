@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-06-05T13:05:53.071Z",
+  "generatedAt": "2026-06-10T18:19:22.681Z",
   "counts": {
-    "notes": 316,
+    "notes": 317,
     "posts": 55,
     "talks": 71,
-    "bangumi": 511
+    "bangumi": 512
   },
   "latest": {
     "note": {
-      "path": "/GR/lesson-28-inflation-information/",
-      "title": "Lesson 28 暴涨前的涨落信息",
-      "excerpt": "一个标量场，分为一个各向同性的项和一个涨落， 度规也是一样，可以分成 在宇宙尺度上，时间并不是一个很好的对称性，所以我们从空间旋转的角度思考，而不是应用 Lorentz 表示....",
-      "isoDate": "2026-06-05T13:04:43.000Z",
+      "path": "/GR/lesson-29/",
+      "title": "Lesson 29 量子场论 & 广义相对论",
+      "excerpt": "说暴涨时期怎么给宇宙提供 initial condition. 上节课我们研究了一个标量场 的量子涨落，首先是写下作用量： 度规用的是 co moving 的版本， . 因此上...",
+      "isoDate": "2026-06-09T07:06:23.000Z",
       "collectionTitle": "广义相对论",
       "collectionPath": "/GR/"
     },
@@ -27,10 +27,10 @@
       ]
     },
     "talk": {
-      "path": "https://scg.owu.one/@physnya/statuses/01KSAZQCA1JCA9R6S136X3PVT1",
+      "path": "https://scg.owu.one/@physnya/statuses/01KTSBZW234B0BFN7GFX68TRZ7",
       "title": "最近一条动态",
-      "excerpt": "打完 P3R. #P3R 发现这俩我最喜欢的 coop 应该都是太阳，不知道为什么... 搜了一下，「太阳」在塔罗牌中应该是最正面的一张牌了：『太阳牌象征生命力、活力、成功与喜悦，是塔罗牌中最正面、最有力量的一张牌.』看来我至少还是比较积极正面来着 (? 「星」对应的早濑护我就觉得实在是写得太惨了，为了撑起家庭而放弃自己最喜欢的田径，走上平凡的工作岗位；即使这是大多数人的常态，但是作为虚构作品，我...",
-      "isoDate": "2026-05-23T17:56:58.818Z",
+      "excerpt": "姑且是买了一个小 VPS 然后在上面弄了一个 agent. 目前在用 discord 和它聊天，做了一个「每天从 arXiv 上找和我研究兴趣比较相关的文章然后总结一下发给我链接、摘要和推荐理由」的每日任务，以及报告一下 VPS 的服务状态. 最大的体会就是 DeepSeek 的 API 是真便宜，虽然我没跑什么需要特别多代码的任务，因此没有很多发言权，但是用了一个多星期，才花了不到十块，我觉得已...",
+      "isoDate": "2026-06-10T18:16:23.878Z",
       "account": {
         "displayName": "physnya (ヘリウム—フラッシュ！",
         "username": "physnya",
@@ -42,7 +42,7 @@
       "stats": {
         "replies": 0,
         "reblogs": 0,
-        "favourites": 1
+        "favourites": 0
       }
     },
     "bangumi": {
