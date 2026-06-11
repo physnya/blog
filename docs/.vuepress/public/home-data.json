@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-10T18:19:22.681Z",
+  "generatedAt": "2026-06-11T15:29:33.858Z",
   "counts": {
     "notes": 317,
     "posts": 55,
-    "talks": 71,
+    "talks": 70,
     "bangumi": 512
   },
   "latest": {
@@ -27,10 +27,10 @@
       ]
     },
     "talk": {
-      "path": "https://scg.owu.one/@physnya/statuses/01KTSBZW234B0BFN7GFX68TRZ7",
+      "path": "https://scg.owu.one/@physnya/statuses/01KTVMQMTPJH2JE7SKBVKXSSK4",
       "title": "最近一条动态",
-      "excerpt": "姑且是买了一个小 VPS 然后在上面弄了一个 agent. 目前在用 discord 和它聊天，做了一个「每天从 arXiv 上找和我研究兴趣比较相关的文章然后总结一下发给我链接、摘要和推荐理由」的每日任务，以及报告一下 VPS 的服务状态. 最大的体会就是 DeepSeek 的 API 是真便宜，虽然我没跑什么需要特别多代码的任务，因此没有很多发言权，但是用了一个多星期，才花了不到十块，我觉得已...",
-      "isoDate": "2026-06-10T18:16:23.878Z",
+      "excerpt": "过段时间可能会迁移到我自己的二级域名部署的 GoToSocial 服务上去？ 虽然现在应该是要好好复习期末考试的时候了但是一直在折腾莫名其妙的东西，唉真是.",
+      "isoDate": "2026-06-11T15:27:40.375Z",
       "account": {
         "displayName": "physnya (ヘリウム—フラッシュ！",
         "username": "physnya",
