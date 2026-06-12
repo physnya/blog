@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-06-11T15:29:33.858Z",
+  "generatedAt": "2026-06-12T07:26:53.785Z",
   "counts": {
-    "notes": 317,
+    "notes": 318,
     "posts": 55,
     "talks": 70,
     "bangumi": 512
   },
   "latest": {
     "note": {
-      "path": "/GR/lesson-29/",
-      "title": "Lesson 29 量子场论 & 广义相对论",
-      "excerpt": "说暴涨时期怎么给宇宙提供 initial condition. 上节课我们研究了一个标量场 的量子涨落，首先是写下作用量： 度规用的是 co moving 的版本， . 因此上...",
-      "isoDate": "2026-06-09T07:06:23.000Z",
+      "path": "/GR/lesson-30-review/",
+      "title": "Lesson 30 复习",
+      "excerpt": "Minkowski 度规： . Lorentz 变换做的是 原先的度规变成 . Lorentz 变换的要求是度规不变，也就是 这要求 ，而 是唯一被实验验证的那种变换. 之后我...",
+      "isoDate": "2026-06-12T07:25:48.000Z",
       "collectionTitle": "广义相对论",
       "collectionPath": "/GR/"
     },
@@ -42,14 +42,14 @@
       "stats": {
         "replies": 0,
         "reblogs": 0,
-        "favourites": 0
+        "favourites": 1
       }
     },
     "bangumi": {
       "title": "元祖！BanG Dream Chan",
       "subtitle": "元祖！バンドリちゃん",
       "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
-      "isoDate": "2026-06-04T18:07:05.000Z",
+      "isoDate": "2026-06-11T17:25:23.000Z",
       "path": "https://bgm.tv/subject/540449",
       "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_Kr6a7.jpg",
       "score": 6.9,
