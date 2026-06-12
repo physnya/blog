@@ -1,0 +1,1 @@
+import{Fr as e}from"./common-BPbsQUZs.js";export{e as createPacketServices};

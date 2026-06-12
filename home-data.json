@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-06-12T07:27:31.600Z",
+  "counts": {
+    "notes": 318,
+    "posts": 55,
+    "talks": 70,
+    "bangumi": 512
+  },
+  "latest": {
+    "note": {
+      "path": "/GR/lesson-30-review/",
+      "title": "Lesson 30 复习",
+      "excerpt": "Minkowski 度规： . Lorentz 变换做的是 原先的度规变成 . Lorentz 变换的要求是度规不变，也就是 这要求 ，而 是唯一被实验验证的那种变换. 之后我...",
+      "isoDate": "2026-06-12T15:25:48.000Z",
+      "collectionTitle": "广义相对论",
+      "collectionPath": "/GR/"
+    },
+    "post": {
+      "path": "/blog/pcvjbm6e/",
+      "title": "兴隆天文台记录",
+      "excerpt": "2.16 m 望远镜观测记录 记录一下观测的基本流程. 准备工作：首先拍本底，一般拍五幅本底、五幅平场. 对于光谱拍摄，还要拍定标灯，拍两幅，这一步主要是去除光路中的一些污染....",
+      "isoDate": "2026-05-09T01:41:13.000Z",
+      "section": "life",
+      "tags": [
+        "note",
+        "Life"
+      ]
+    },
+    "talk": {
+      "path": "https://scg.owu.one/@physnya/statuses/01KTVMQMTPJH2JE7SKBVKXSSK4",
+      "title": "最近一条动态",
+      "excerpt": "过段时间可能会迁移到我自己的二级域名部署的 GoToSocial 服务上去？ 虽然现在应该是要好好复习期末考试的时候了但是一直在折腾莫名其妙的东西，唉真是.",
+      "isoDate": "2026-06-11T15:27:40.375Z",
+      "account": {
+        "displayName": "physnya (ヘリウム—フラッシュ！",
+        "username": "physnya",
+        "instanceDomain": "scg.owu.one",
+        "profile": "https://scg.owu.one/@physnya",
+        "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01KPP1TAV7M13JWG6BK3QG1S83.png"
+      },
+      "media": [],
+      "stats": {
+        "replies": 0,
+        "reblogs": 0,
+        "favourites": 1
+      }
+    },
+    "bangumi": {
+      "title": "元祖！BanG Dream Chan",
+      "subtitle": "元祖！バンドリちゃん",
+      "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
+      "isoDate": "2026-06-11T17:25:23.000Z",
+      "path": "https://bgm.tv/subject/540449",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_Kr6a7.jpg",
+      "score": 6.9,
+      "category": "动画",
+      "status": "ing"
+    }
+  }
+}
