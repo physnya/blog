@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-06-12T07:26:53.785Z",
+  "generatedAt": "2026-06-17T21:38:07.682Z",
   "counts": {
     "notes": 318,
-    "posts": 55,
+    "posts": 56,
     "talks": 70,
     "bangumi": 512
   },
@@ -16,14 +16,14 @@
       "collectionPath": "/GR/"
     },
     "post": {
-      "path": "/blog/pcvjbm6e/",
-      "title": "兴隆天文台记录",
-      "excerpt": "2.16 m 望远镜观测记录 记录一下观测的基本流程. 准备工作：首先拍本底，一般拍五幅本底、五幅平场. 对于光谱拍摄，还要拍定标灯，拍两幅，这一步主要是去除光路中的一些污染....",
-      "isoDate": "2026-05-08T17:41:13.000Z",
-      "section": "life",
+      "path": "/blog/pf301x8q/",
+      "title": "简单深空摄影图像处理入门",
+      "excerpt": "最近观测天文学课的其中一个大作业是选择一个深空天体作为目标，写观测计划，并最终拿到数据之后做一个比较艺术性的摄影图片出来. 感觉这件事情其实是比较有意思的，虽然实际拍摄的过程是...",
+      "isoDate": "2026-06-17T21:36:32.000Z",
+      "section": "keepLearning",
       "tags": [
-        "note",
-        "Life"
+        "Keep-Learning",
+        "astronomy"
       ]
     },
     "talk": {

@@ -40,6 +40,7 @@ export default defineUserConfig({
       //   flowchart: true,
         annotation: true,
         timeline: true,
+        collapse: true,
       },
     
     // notes,
