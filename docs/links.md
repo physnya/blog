@@ -64,13 +64,12 @@ list:
     link: https://ttio.cc/
     avatar: https://ttio.cc/favicon.svg
   - name: Homeward Sky
-    desc: 鹏之徙于南冥，勿归斥鴳数韧蒿.
-      When the Roc seeks the Southern Sea’s deep, Return not to sparrows counting withered reeds.
-    link: https://pxwg.github.io/blog/
-    avatar: https://vip.123pan.cn/1845440081/ymjew503t0l000d7w32xex158cfca8dwDIYxAIFxDda1DGxPDwUzAa==.JPG
+    desc: Glimpses on the homeward way.
+    link: https://homeward-sky.top/
+    avatar: https://homeward-sky.top/icon.jpeg
   - name: 樟庭徊路
     link: https://vilstia.pages.dev/
-    avatar: https://vilstia.pages.dev/_astro/qinling.DlQS0Vko_ZBlyL1.webp
+    avatar: https://vilstia.pages.dev/_astro/qinlin.CEfhYiWR_Z8XFqE.webp
 ---
 
 如果你想要申请友链，请仔细阅读友链的申请规则，在符合规则之后再来本页面的评论区提出申请.

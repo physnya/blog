@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-17T21:38:07.682Z",
+  "generatedAt": "2026-07-04T12:09:59.795Z",
   "counts": {
     "notes": 318,
     "posts": 56,
-    "talks": 70,
+    "talks": 69,
     "bangumi": 512
   },
   "latest": {
@@ -27,10 +27,10 @@
       ]
     },
     "talk": {
-      "path": "https://scg.owu.one/@physnya/statuses/01KTVMQMTPJH2JE7SKBVKXSSK4",
+      "path": "https://scg.owu.one/@physnya/statuses/01KW3DMMY77TPNXYTJ5WB8J07W",
       "title": "最近一条动态",
-      "excerpt": "过段时间可能会迁移到我自己的二级域名部署的 GoToSocial 服务上去？ 虽然现在应该是要好好复习期末考试的时候了但是一直在折腾莫名其妙的东西，唉真是.",
-      "isoDate": "2026-06-11T15:27:40.375Z",
+      "excerpt": "已考完 TOEFL 完全没准备 w 希望能过港科大的分数线吧，至少两个客观部分似乎是过线了",
+      "isoDate": "2026-06-27T02:13:19.431Z",
       "account": {
         "displayName": "physnya (ヘリウム—フラッシュ！",
         "username": "physnya",
@@ -40,19 +40,19 @@
       },
       "media": [],
       "stats": {
-        "replies": 0,
+        "replies": 1,
         "reblogs": 0,
-        "favourites": 1
+        "favourites": 0
       }
     },
     "bangumi": {
-      "title": "元祖！BanG Dream Chan",
-      "subtitle": "元祖！バンドリちゃん",
-      "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
-      "isoDate": "2026-06-11T17:25:23.000Z",
-      "path": "https://bgm.tv/subject/540449",
-      "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_Kr6a7.jpg",
-      "score": 6.9,
+      "title": "玲音",
+      "subtitle": "Serial Experiments Lain",
+      "excerpt": "岩仓玲音的同学四方田千砂自杀了。没有任何前兆的自杀事件让同学们不知所措，一周后，玲音收到了千砂的短信。明明已死的千砂居然以手机短信和玲音开始了交流。回到家，玲音用爸爸给她的电脑开始与千砂联系。...",
+      "isoDate": "2026-07-01T19:26:15.000Z",
+      "path": "https://bgm.tv/subject/2582",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/7e/83/2582_9JJ3u.jpg",
+      "score": 7.8,
       "category": "动画",
       "status": "ing"
     }
