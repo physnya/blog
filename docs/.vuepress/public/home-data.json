@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T12:09:59.795Z",
+  "generatedAt": "2026-07-27T04:09:45.869Z",
   "counts": {
     "notes": 318,
     "posts": 56,
@@ -27,10 +27,10 @@
       ]
     },
     "talk": {
-      "path": "https://scg.owu.one/@physnya/statuses/01KW3DMMY77TPNXYTJ5WB8J07W",
+      "path": "https://scg.owu.one/@physnya/statuses/01KYDY9MJK22VRKXN72V85F3MB",
       "title": "最近一条动态",
-      "excerpt": "已考完 TOEFL 完全没准备 w 希望能过港科大的分数线吧，至少两个客观部分似乎是过线了",
-      "isoDate": "2026-06-27T02:13:19.431Z",
+      "excerpt": "电车真比油车好开啊",
+      "isoDate": "2026-07-26T00:48:12.373Z",
       "account": {
         "displayName": "physnya (ヘリウム—フラッシュ！",
         "username": "physnya",
@@ -40,19 +40,19 @@
       },
       "media": [],
       "stats": {
-        "replies": 1,
+        "replies": 0,
         "reblogs": 0,
         "favourites": 0
       }
     },
     "bangumi": {
-      "title": "玲音",
-      "subtitle": "Serial Experiments Lain",
-      "excerpt": "岩仓玲音的同学四方田千砂自杀了。没有任何前兆的自杀事件让同学们不知所措，一周后，玲音收到了千砂的短信。明明已死的千砂居然以手机短信和玲音开始了交流。回到家，玲音用爸爸给她的电脑开始与千砂联系。...",
-      "isoDate": "2026-07-01T19:26:15.000Z",
-      "path": "https://bgm.tv/subject/2582",
-      "image": "https://lain.bgm.tv/r/400/pic/cover/l/7e/83/2582_9JJ3u.jpg",
-      "score": 7.8,
+      "title": "元祖！BanG Dream Chan",
+      "subtitle": "元祖！バンドリちゃん",
+      "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
+      "isoDate": "2026-07-09T16:01:18.000Z",
+      "path": "https://bgm.tv/subject/540449",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_rP1Cp.jpg",
+      "score": 6.9,
       "category": "动画",
       "status": "ing"
     }
