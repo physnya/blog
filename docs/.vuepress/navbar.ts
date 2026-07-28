@@ -22,6 +22,7 @@ export const navbar = defineNavbarConfig([
 			{ text: "恒星与行星", link: "/star-planet/README.md" },
 			{ text: "广义相对论", link: "/GR/README.md" },
             { text: "动物行为学", link: "/animal-behavior/README.md" },
+            { text: "ICESUN 暑校", link: "/ss-yunnan/README.md" },
 			{
 				text: "自学笔记",
 				items: [{ text: "广义相对论", link: "/self-learn-GR/README.md" }],

@@ -16,6 +16,7 @@ import statisticalMechanics from "./statistical-mechanics.ts";
 import starPlanet from "./star-planet.ts";
 import GR from "./GR.ts";
 import animalBehavior from "./animal-behavior.ts";
+import ssYunnan from "./ss-yunnan.ts";
 
 export const notes = defineCollections([
 	FeynmanIII,
@@ -35,4 +36,5 @@ export const notes = defineCollections([
 	starPlanet,
 	GR,
     animalBehavior,
+    ssYunnan,
 ]);

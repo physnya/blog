@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-07-27T04:09:45.869Z",
+  "generatedAt": "2026-07-28T15:30:03.266Z",
   "counts": {
-    "notes": 318,
+    "notes": 320,
     "posts": 56,
     "talks": 69,
     "bangumi": 512
   },
   "latest": {
     "note": {
-      "path": "/GR/lesson-30-review/",
-      "title": "Lesson 30 复习",
-      "excerpt": "Minkowski 度规： . Lorentz 变换做的是 原先的度规变成 . Lorentz 变换的要求是度规不变，也就是 这要求 ，而 是唯一被实验验证的那种变换. 之后我...",
-      "isoDate": "2026-06-12T07:25:48.000Z",
-      "collectionTitle": "广义相对论",
-      "collectionPath": "/GR/"
+      "path": "/ss-yunnan/lecture-1-chemodynamics/",
+      "title": "Lecture 1 Chemodynamics and other",
+      "excerpt": "Prof. Chiaki Kobayashi, from the University of Hertfordshire 由于第一天不太适应加上听不太懂教授的发音，而且前半段试...",
+      "isoDate": "2026-07-28T03:12:34.000Z",
+      "collectionTitle": "ICESUN 暑校",
+      "collectionPath": "/ss-yunnan/"
     },
     "post": {
       "path": "/blog/pf301x8q/",
