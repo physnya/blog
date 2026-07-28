@@ -1,5 +1,10 @@
 overrides:
+  glob: ^13.0.6
+  katex: ^0.16.47
   vite: ^8.0.0-beta.16
+
+allowedDeprecatedVersions:
+  whatwg-encoding: '*'
 
 allowBuilds:
   '@parcel/watcher': true
