@@ -3,6 +3,7 @@ title: Lecture 1 Chemodynamics and other
 createTime: 2026/07/28 11:12:34
 permalink: /ss-yunnan/lecture-1-chemodynamics/
 ---
+
 ::: right
 
 Prof. Chiaki Kobayashi, from the University of Hertfordshire
@@ -70,9 +71,11 @@ mindmap
 ### Chemical Enrichment
 
 ($f_g$ 是气体分数)
+
 $$
 \frac{\mathrm{d}(Zf_g)}{\mathrm{d}t} = \underbrace{E_{\text{SW}}+E_{\text{SNcc}}+E_{\text{SNIa}}}_{\text{Metal ejection rates}}\underbrace{\underset{\text{decreased by star evolution}}{\underline{-Z\psi}}\underset{\text{inflow}}{\underline{+Z_{\text{inflow}}}}\underset{\text{outflow}}{\underline{-ZR_{\text{outflow}}}}}_{\text{Galaxy Evolution}}
 $$
+
 Initial Mass Function (IMF)：一般而言这是一个 power law，它是一个经验性的概率分布函数，描述恒星的质量分布. 一般而言它来源于恒星的光度分布，然后再用恒星演化模型来导出.
 
 > Is IMF universal？
@@ -80,28 +83,32 @@ Initial Mass Function (IMF)：一般而言这是一个 power law，它是一个�
 ### Ejection rates from SWs and SNe
 
 一颗星，初始质量 $m$，lifetime $\tau_m$，剩下的质量 $w_m$，在时刻 $(t-\tau_m)$ 出生、在时刻 $t$ 死亡. 终止质量 ($\tau_m=t$) 为 $m_t$.
+
 $$
 E=\int_{m_t}^{m_u}(1-w_m)\psi(t-\tau_m)\phi(m)\mathrm{d}m
 $$
+
 大于终止质量的星体是死掉的星体. SNe 由 nucleosynthesis yields (核合成产率) $p_{zm}$ 给出，
+
 $$
 E_{Z,\text{cc}} = \int_{m_t}^{m_u}p_{zm}\psi(t-\tau_m)\phi(m)\mathrm{d}m
 $$
+
 同理，SW 也是一样.
 
 ### Galactic terms
 
-* Star formation rate: $\psi\propto f_g$
-* Inflow rate: $R_{\text{in}}\propto e^{-t/\tau}$ or $te^{-t/\tau}$
-* Outflow rate: $R_{\text{out}}\propto\psi$ (SN-driven) or $\psi=0$ for $t>t_w$ (AGN-driven)
+- Star formation rate: $\psi\propto f_g$
+- Inflow rate: $R_{\text{in}}\propto e^{-t/\tau}$ or $te^{-t/\tau}$
+- Outflow rate: $R_{\text{out}}\propto\psi$ (SN-driven) or $\psi=0$ for $t>t_w$ (AGN-driven)
 
 ## Numerical Solutions
 
 这里有三种模型：
 
-* Closed：封闭的状态
-* Infall：系统不断吸收气体，气体向中心塌缩
-* Outflow：气体塌缩的同时还存在 ejection，失去 metal
+- Closed：封闭的状态
+- Infall：系统不断吸收气体，气体向中心塌缩
+- Outflow：气体塌缩的同时还存在 ejection，失去 metal
 
 初始情况都是 $f_{g,0}=1$. 三种模型的演化曲线有很大的差异. 我们只讨论 one-zone model 情况下的结论，从观测数据来看，$[\text{O}/\text{Fe}]$ - $[\text{Fe}/\text{H}]$ 关系有一个开始时比较慢、之后比较快的下降，拟合最好的模型是 infall model.
 
@@ -119,228 +126,227 @@ $$
 
 - GPT's Explanation
 
-The **Neutron Star Merger (NSM)** model is currently the leading explanation for the production of the heaviest **r-process** elements (e.g. Au, Pt, Th, U), especially after the discovery of the kilonova associated with GW170817. However, it faces several challenges, and a number of alternative or complementary models have been proposed.
+  The **Neutron Star Merger (NSM)** model is currently the leading explanation for the production of the heaviest **r-process** elements (e.g. Au, Pt, Th, U), especially after the discovery of the kilonova associated with GW170817. However, it faces several challenges, and a number of alternative or complementary models have been proposed.
 
-A useful way to organize them is:
+  A useful way to organize them is:
 
-```text
-Origin of heavy r-process elements
-│
-├── Neutron Star Mergers (standard model)
-│
-├── Magnetorotational Supernovae
-│
-├── Collapsars (Hypernovae)
-│
-├── Electron-Capture Supernovae
-│
-├── Neutrino-driven Winds
-│
-└── Exotic Models
-    ├── Quark nova
-    ├── Primordial black holes
-    └── Others
-```
+  ```text :no-line-numbers
+  Origin of heavy r-process elements
+  │
+  ├── Neutron Star Mergers (standard model)
+  │
+  ├── Magnetorotational Supernovae
+  │
+  ├── Collapsars (Hypernovae)
+  │
+  ├── Electron-Capture Supernovae
+  │
+  ├── Neutrino-driven Winds
+  │
+  └── Exotic Models
+      ├── Quark nova
+      ├── Primordial black holes
+      └── Others
+  ```
 
-Below are the major competing models.
+  Below are the major competing models.
 
----
+  ***
 
-*Magnetorotational Supernovae (Jet Supernovae)*
+  _Magnetorotational Supernovae (Jet Supernovae)_
 
-The basic idea is a rapidly rotating massive star with an extremely strong magnetic field collapses.
+  The basic idea is a rapidly rotating massive star with an extremely strong magnetic field collapses.
 
-Instead of producing a roughly spherical explosion, rotation and magnetic fields launch bipolar relativistic jets.
+  Instead of producing a roughly spherical explosion, rotation and magnetic fields launch bipolar relativistic jets.
 
-```text
-Massive star
+  ```text :no-line-numbers
+  Massive star
       ↓
-Core collapse
+  Core collapse
       ↓
-Rapid rotation
-+ Strong magnetic field
+  Rapid rotation
+  + Strong magnetic field
       ↓
-Jet explosion
+  Jet explosion
       ↓
-Neutron-rich ejecta
+  Neutron-rich ejecta
       ↓
-r-process
-```
+  r-process
+  ```
 
-> **Advantages**
->
-> Very early in Galactic history. Unlike neutron star mergers, so no binary evolution and merger delay. Therefore they naturally explain extremely metal-poor stars and large star-to-star scatter in Eu abundances.
+  > **Advantages**
+  >
+  > Very early in Galactic history. Unlike neutron star mergers, so no binary evolution and merger delay. Therefore they naturally explain extremely metal-poor stars and large star-to-star scatter in Eu abundances.
 
-> **Problems**
->
-> Very rare.
->
-> Requires rapid rotation and magnetic field. Both conditions are uncommon. Simulations still disagree about whether enough neutron-rich material is ejected.
+  > **Problems**
+  >
+  > Very rare.
+  >
+  > Requires rapid rotation and magnetic field. Both conditions are uncommon. Simulations still disagree about whether enough neutron-rich material is ejected.
 
----
+  ***
 
-*Collapsars*
+  _Collapsars_
 
-Currently the strongest competitor. The basic idea is a very massive star $M\gtrsim25\sim30,M_\odot$ collapses directly into a black hole. An accretion disk forms.
+  Currently the strongest competitor. The basic idea is a very massive star $M\gtrsim25\sim30,M_\odot$ collapses directly into a black hole. An accretion disk forms.
 
-```text
-Massive star
+  ```text :no-line-numbers
+  Massive star
       ↓
-Black hole
+  Black hole
       ↓
-Accretion disk
+  Accretion disk
       ↓
-Disk wind
+  Disk wind
       ↓
-r-process
-```
+  r-process
+  ```
 
-This is closely related to
+  This is closely related to
+  - Hypernovae
+  - Long Gamma-Ray Bursts (GRBs)
 
-- Hypernovae
-- Long Gamma-Ray Bursts (GRBs)
+  > **Advantages**
+  >
+  > Produces enormous r-process mass. Typically $0.05-0.3,M_\odot$ per event, much larger than many core-collapse supernovae. Occurs immediately after star formation.
+  >
+  > Can explain
+  >
+  > - early Eu enrichment
+  > - high [Eu/Fe]
+  > - Galactic chemical evolution.
 
-> **Advantages**
->
-> Produces enormous r-process mass. Typically $0.05-0.3,M_\odot$ per event, much larger than many core-collapse supernovae. Occurs immediately after star formation.
->
-> Can explain
->
-> - early Eu enrichment
-> - high [Eu/Fe]
-> - Galactic chemical evolution.
+  > **Problems**
+  >
+  > Event rate is uncertain. Need enough collapsars without overproducing GRBs.
 
-> **Problems**
->
-> Event rate is uncertain. Need enough collapsars without overproducing GRBs.
+  ***
 
-------
+  _Neutrino-driven Winds_
 
-*Neutrino-driven Winds*
+  This was the "classical" model before neutron star mergers became popular.
 
-This was the "classical" model before neutron star mergers became popular.
+  After core collapse,
 
-After core collapse,
-
-```text
-Proto-neutron star
+  ```text :no-line-numbers
+  Proto-neutron star
       ↓
-Neutrino heating
+  Neutrino heating
       ↓
-Neutrino wind
+  Neutrino wind
       ↓
-Heavy nuclei
-```
+  Heavy nuclei
+  ```
 
-The idea was that neutrino winds become neutron rich.
+  The idea was that neutrino winds become neutron rich.
 
-> **Problems**
->
-> Modern simulations generally find $Y_e$ is too high.
->
-> The ejecta become proton-rich rather than neutron-rich.
->
-> Usually only produce Sr, Y, Zr instead of Au, Pt, U.
->
-> Thus today they are thought to produce the **weak r-process**, not the main r-process.
+  > **Problems**
+  >
+  > Modern simulations generally find $Y_e$ is too high.
+  >
+  > The ejecta become proton-rich rather than neutron-rich.
+  >
+  > Usually only produce Sr, Y, Zr instead of Au, Pt, U.
+  >
+  > Thus today they are thought to produce the **weak r-process**, not the main r-process.
 
-------
+  ***
 
-*Electron-Capture Supernovae (ECSNe)*
+  _Electron-Capture Supernovae (ECSNe)_
 
-Occurs in stars of roughly $8-10,M_\odot.$
+  Occurs in stars of roughly $8-10,M_\odot.$
 
-Core collapse begins when $e^-+{}^{24}\mathrm{Mg}$ or $e^-+{}^{20}\mathrm{Ne}$ captures reduce electron pressure.
+  Core collapse begins when $e^-+{}^{24}\mathrm{Mg}$ or $e^-+{}^{20}\mathrm{Ne}$ captures reduce electron pressure.
 
-> **Advantages**
->
-> More common than magnetorotational SNe.
+  > **Advantages**
+  >
+  > More common than magnetorotational SNe.
 
-> **Problems**
->
-> Ejecta are usually not neutron rich enough.
+  > **Problems**
+  >
+  > Ejecta are usually not neutron rich enough.
 
-Mostly produce light trans-iron elements rather than heavy r-process nuclei.
+  Mostly produce light trans-iron elements rather than heavy r-process nuclei.
 
-------
+  ***
 
-*Quark Nova*
+  _Quark Nova_
 
-Very speculative.
+  Very speculative.
 
-Idea
+  Idea
 
-```text
-Neutron star
+  ```text :no-line-numbers
+  Neutron star
       ↓
-Quark matter transition
+  Quark matter transition
       ↓
-Second explosion
+  Second explosion
       ↓
-Neutron-rich ejecta
-```
+  Neutron-rich ejecta
+  ```
 
-Could in principle create ideal r-process conditions.
+  Could in principle create ideal r-process conditions.
 
-No convincing observational evidence exists.
+  No convincing observational evidence exists.
 
-------
+  ***
 
-*Primordial Black Hole Scenarios*
+  _Primordial Black Hole Scenarios_
 
-Another speculative idea. Tiny primordial black holes interact with neutron stars. This can eject neutron-rich matter.
+  Another speculative idea. Tiny primordial black holes interact with neutron stars. This can eject neutron-rich matter.
 
-But current observational support is essentially absent.
+  But current observational support is essentially absent.
 
-------
+  ***
 
-*Why was NSM challenged?*
+  _Why was NSM challenged?_
 
-The biggest historical problem was **time delay**.
+  The biggest historical problem was **time delay**.
 
-Neutron star mergers require
+  Neutron star mergers require
 
-```text
-Massive binary
+  ```text :no-line-numbers
+  Massive binary
       ↓
-Two supernovae
+  Two supernovae
       ↓
-Binary inspiral
+  Binary inspiral
       ↓
-Merger
-```
+  Merger
+  ```
 
-The inspiral time may be $10^8-10^9\ \text{yr}.$
+  The inspiral time may be $10^8-10^9\ \text{yr}.$
 
-However, very metal-poor stars $[\mathrm{Fe}/\mathrm{H}]<-3$ already contain Eu and Ba, indicating r-process enrichment almost immediately after star formation.
+  However, very metal-poor stars $[\mathrm{Fe}/\mathrm{H}]<-3$ already contain Eu and Ba, indicating r-process enrichment almost immediately after star formation.
 
-This motivated prompt sources like magnetorotational supernovae or collapsars.
+  This motivated prompt sources like magnetorotational supernovae or collapsars.
 
-Today, population synthesis and the discovery of fast-merging binaries suggest that **some neutron star mergers can occur within only a few to tens of Myr**, reducing (though not completely eliminating) this tension.
+  Today, population synthesis and the discovery of fast-merging binaries suggest that **some neutron star mergers can occur within only a few to tens of Myr**, reducing (though not completely eliminating) this tension.
 
----
+  ***
 
-*Current Consensus*
+  _Current Consensus_
 
-Rather than a single source, most researchers now favor **multiple r-process sites**.
+  Rather than a single source, most researchers now favor **multiple r-process sites**.
 
-```text
-Heavy r-process
-│
-├── Neutron star mergers
-│      ✔ Main contributor today
-│
-├── Collapsars
-│      ✔ Possibly important in early galaxies
-│
-├── Magnetorotational SNe
-│      ✔ Rare but prompt
-│
-└── Ordinary CCSNe
-       ✔ Weak r-process only
-```
+  ```text :no-line-numbers
+  Heavy r-process
+  │
+  ├── Neutron star mergers
+  │      ✔ Main contributor today
+  │
+  ├── Collapsars
+  │      ✔ Possibly important in early galaxies
+  │
+  ├── Magnetorotational SNe
+  │      ✔ Rare but prompt
+  │
+  └── Ordinary CCSNe
+      ✔ Weak r-process only
+  ```
 
-The main debate today is **not whether neutron star mergers produce r-process elements** —— GW170817 established that they do —— but **whether they are sufficient to explain all Galactic r-process enrichment**, especially in the earliest generations of stars. Many recent Galactic chemical evolution models therefore combine neutron star mergers with a prompt source, most commonly collapsars or magnetorotational supernovae, to reproduce both the abundance patterns and the observed evolution of Eu with metallicity.
+  The main debate today is **not whether neutron star mergers produce r-process elements** —— GW170817 established that they do —— but **whether they are sufficient to explain all Galactic r-process enrichment**, especially in the earliest generations of stars. Many recent Galactic chemical evolution models therefore combine neutron star mergers with a prompt source, most commonly collapsars or magnetorotational supernovae, to reproduce both the abundance patterns and the observed evolution of Eu with metallicity.
 
 :::
 
@@ -348,23 +354,23 @@ The main debate today is **not whether neutron star mergers produce r-process el
 
 对于一个 UV 背景辐射，考虑一团正在冷却的气体，星体形成条件为
 
-* $\nabla\cdot\vec{v}<0$
-* $t_{\text{cool}}<t_{\text{dyn}}$
-* $t_{\text{dyn}}<t_{\text{sound}}$
+- $\nabla\cdot\vec{v}<0$
+- $t_{\text{cool}}<t_{\text{dyn}}$
+- $t_{\text{dyn}}<t_{\text{sound}}$
 
 有多个过程构成一个循环，进行元素的生成.
 
 这里有好几种模拟方法：
 
-* Direct summation —— $\mathcal{O}(N^2)$
+- Direct summation —— $\mathcal{O}(N^2)$
 
 $$
 m_i\frac{\mathrm{d}^2x_i}{\mathrm{d}t^2}=\sum_{j\neq i}Gm_im_j\frac{x_j-x_i}{|x_j-x_i|^3}
 $$
 
-* 网格数值法
-* ……
-* SPH Method (Smoothed-particle hydrodynamics，平滑粒子流体力学)：处理大尺度的流体模拟比较有效，不需要建立一个网格来进行计算.
+- 网格数值法
+- ……
+- SPH Method (Smoothed-particle hydrodynamics，平滑粒子流体力学)：处理大尺度的流体模拟比较有效，不需要建立一个网格来进行计算.
 
 ---
 
@@ -415,7 +421,7 @@ The scatter of $[X/\text{Fe}]$ at given $[\text{Fe}/\text{H}]$ is increased / de
 
 ## Reference
 
-* [https://arxiv.org/abs/2506.20436](https://arxiv.org/abs/2506.20436)
-* [https://arxiv.org/abs/2302.07255](https://arxiv.org/abs/2302.07255)
-* [https://arxiv.org/pdf/1802.03353v1](https://arxiv.org/pdf/1802.03353v1)
-* [https://arxiv.org/pdf/1012.5144](https://arxiv.org/pdf/1012.5144)
+- [https://arxiv.org/abs/2506.20436](https://arxiv.org/abs/2506.20436)
+- [https://arxiv.org/abs/2302.07255](https://arxiv.org/abs/2302.07255)
+- [https://arxiv.org/pdf/1802.03353v1](https://arxiv.org/pdf/1802.03353v1)
+- [https://arxiv.org/pdf/1012.5144](https://arxiv.org/pdf/1012.5144)
