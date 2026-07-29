@@ -18,7 +18,6 @@ export default defineUserConfig({
     ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css', integrity: 'sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X', crossorigin: 'anonymous' }],
     ['script', { src: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js', integrity: 'sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4', crossorigin: 'anonymous' }],
     ['script', { src: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js', integrity: 'sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa', crossorigin: 'anonymous' }],
-    ['script', { src: 'https://umami.physnya.top/script.js', 'data-website-id': 'c412eaae-10f9-4820-99bf-a6410154a744' }],
     ['script', { src: 'https://app.rybbit.io/api/script.js', 'data-site-id': '1153' }, 'defer'],
     ['link', { rel: 'prefetch', as: 'image', href: 'https://www.blogsclub.org/badge/physnya.top' }],
     ['link', { rel: 'me', href: 'https://mastodon.social/@physnya' }],
