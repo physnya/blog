@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-07-30T00:49:03.069Z",
+  "generatedAt": "2026-07-30T10:03:37.923Z",
   "counts": {
-    "notes": 321,
+    "notes": 322,
     "posts": 56,
     "talks": 69,
     "bangumi": 512
   },
   "latest": {
     "note": {
-      "path": "/ss-yunnan/lecture-3-computational-stellar-astrophysics-and-supernova-explosion-models/",
-      "title": "Lecture 3 Computational Stellar Astrophysics and Supernova Explosion Models",
-      "excerpt": "Prof. Friedrich Röpke, from Heidelberg University Computational fluid dynamics 我们选择使用流体力...",
-      "isoDate": "2026-07-29T14:48:34.000Z",
+      "path": "/ss-yunnan/lecture-4-evolution-explosion-and-nucleosynthesis-of-massive-stars/",
+      "title": "Lecture 4 Evolution, Explosion and Nucleosynthesis of Massive Stars",
+      "excerpt": "Prof. Marco Limongi, from University of Tokyo 我们建立了 Stellar Model，这个历史上的模型仅仅是一维的，它包含了 ,...",
+      "isoDate": "2026-07-30T09:33:23.000Z",
       "collectionTitle": "ICESUN 暑校",
       "collectionPath": "/ss-yunnan/"
     },
