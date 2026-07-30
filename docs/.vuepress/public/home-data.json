@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-07-29T04:06:35.420Z",
+  "generatedAt": "2026-07-30T00:49:03.069Z",
   "counts": {
-    "notes": 320,
+    "notes": 321,
     "posts": 56,
     "talks": 69,
     "bangumi": 512
   },
   "latest": {
     "note": {
-      "path": "/ss-yunnan/lecture-1-chemodynamics/",
-      "title": "Lecture 1 Chemodynamics and other",
-      "excerpt": "Prof. Chiaki Kobayashi, from the University of Hertfordshire 由于第一天不太适应加上听不太懂教授的发音，而且前半段试...",
-      "isoDate": "2026-07-28T03:12:34.000Z",
+      "path": "/ss-yunnan/lecture-3-computational-stellar-astrophysics-and-supernova-explosion-models/",
+      "title": "Lecture 3 Computational Stellar Astrophysics and Supernova Explosion Models",
+      "excerpt": "Prof. Friedrich Röpke, from Heidelberg University Computational fluid dynamics 我们选择使用流体力...",
+      "isoDate": "2026-07-29T14:48:34.000Z",
       "collectionTitle": "ICESUN 暑校",
       "collectionPath": "/ss-yunnan/"
     },

@@ -1,5 +1,5 @@
 ---
-title: Lecture 2 Computational Stellar Astrophysics and Supernova Explosion Models
+title: Lecture 3 Computational Stellar Astrophysics and Supernova Explosion Models
 createTime: 2026/07/29 22:48:34
 permalink: /ss-yunnan/lecture-3-computational-stellar-astrophysics-and-supernova-explosion-models/
 ---
