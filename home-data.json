@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-08-01T12:55:30.474Z",
+  "counts": {
+    "notes": 323,
+    "posts": 56,
+    "talks": 69,
+    "bangumi": 512
+  },
+  "latest": {
+    "note": {
+      "path": "/ss-yunnan/lecture-5-spectroscopic-observations-abundance-analysis-and-large-scale-surveys/",
+      "title": "Lecture 5 Spectroscopic Observations, Abundance Analysis and Large-Scale Surveys",
+      "excerpt": "从光谱我们可以直接得到的东西： 物理参数，比如 , , [Fe/H] 等 元素组成和丰度 Line of sight motion of a star (也就是「视线方向」的速...",
+      "isoDate": "2026-08-01T20:53:34.000Z",
+      "collectionTitle": "ICESUN 暑校",
+      "collectionPath": "/ss-yunnan/"
+    },
+    "post": {
+      "path": "/blog/pf301x8q/",
+      "title": "简单深空摄影图像处理入门",
+      "excerpt": "最近观测天文学课的其中一个大作业是选择一个深空天体作为目标，写观测计划，并最终拿到数据之后做一个比较艺术性的摄影图片出来. 感觉这件事情其实是比较有意思的，虽然实际拍摄的过程是...",
+      "isoDate": "2026-06-18T05:36:32.000Z",
+      "section": "keepLearning",
+      "tags": [
+        "Keep-Learning",
+        "astronomy"
+      ]
+    },
+    "talk": {
+      "path": "https://scg.owu.one/@physnya/statuses/01KYDY9MJK22VRKXN72V85F3MB",
+      "title": "最近一条动态",
+      "excerpt": "电车真比油车好开啊",
+      "isoDate": "2026-07-26T00:48:12.373Z",
+      "account": {
+        "displayName": "physnya (ヘリウム—フラッシュ！",
+        "username": "physnya",
+        "instanceDomain": "scg.owu.one",
+        "profile": "https://scg.owu.one/@physnya",
+        "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01KPP1TAV7M13JWG6BK3QG1S83.png"
+      },
+      "media": [],
+      "stats": {
+        "replies": 0,
+        "reblogs": 0,
+        "favourites": 0
+      }
+    },
+    "bangumi": {
+      "title": "元祖！BanG Dream Chan",
+      "subtitle": "元祖！バンドリちゃん",
+      "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
+      "isoDate": "2026-07-31T13:43:12.000Z",
+      "path": "https://bgm.tv/subject/540449",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_rP1Cp.jpg",
+      "score": 6.9,
+      "category": "动画",
+      "status": "ing"
+    }
+  }
+}

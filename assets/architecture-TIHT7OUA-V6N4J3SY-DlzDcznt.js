@@ -1,0 +1,1 @@
+import{Ut as e}from"./common-BgCfwe9l.js";export{e as createArchitectureServices};
