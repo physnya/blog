@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-07-30T10:03:37.923Z",
+  "generatedAt": "2026-08-01T12:54:51.650Z",
   "counts": {
-    "notes": 322,
+    "notes": 323,
     "posts": 56,
     "talks": 69,
     "bangumi": 512
   },
   "latest": {
     "note": {
-      "path": "/ss-yunnan/lecture-4-evolution-explosion-and-nucleosynthesis-of-massive-stars/",
-      "title": "Lecture 4 Evolution, Explosion and Nucleosynthesis of Massive Stars",
-      "excerpt": "Prof. Marco Limongi, from University of Tokyo 我们建立了 Stellar Model，这个历史上的模型仅仅是一维的，它包含了 ,...",
-      "isoDate": "2026-07-30T09:33:23.000Z",
+      "path": "/ss-yunnan/lecture-5-spectroscopic-observations-abundance-analysis-and-large-scale-surveys/",
+      "title": "Lecture 5 Spectroscopic Observations, Abundance Analysis and Large-Scale Surveys",
+      "excerpt": "从光谱我们可以直接得到的东西： 物理参数，比如 , , [Fe/H] 等 元素组成和丰度 Line of sight motion of a star (也就是「视线方向」的速...",
+      "isoDate": "2026-08-01T12:53:34.000Z",
       "collectionTitle": "ICESUN 暑校",
       "collectionPath": "/ss-yunnan/"
     },
@@ -49,7 +49,7 @@
       "title": "元祖！BanG Dream Chan",
       "subtitle": "元祖！バンドリちゃん",
       "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
-      "isoDate": "2026-07-09T16:01:18.000Z",
+      "isoDate": "2026-07-31T13:43:12.000Z",
       "path": "https://bgm.tv/subject/540449",
       "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_rP1Cp.jpg",
       "score": 6.9,
