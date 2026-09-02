@@ -188,7 +188,7 @@ main effects: photodissociation, efficient electron captures $\rightarrow$ runaw
 
 为什么 SNIa 被认为是白矮星的爆炸？
 
-* 它有特殊的谱线红移，$6150\,\AA$ 的谱线在喷流中出现，以 $10^4$ km/s 远离爆炸源，因此会有特征红移；
+* 它有特殊的谱线红移，$6150\,\text{\AA}$ 的谱线在喷流中出现，以 $10^4$ km/s 远离爆炸源，因此会有特征红移；
 * 另外爆炸后很短时间就无法观测到，有的例子短于 $4$ h.
 
 Combustion waves：一般处理作一个 sharp front，作为截断面，这种处理称为非连续性估计. 问题在于之前的理论从来没有包含过非连续性的解，因此这时候只能用积分形式的解法尝试求解.
