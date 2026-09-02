@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-09-02T13:33:29.706Z",
+  "counts": {
+    "notes": 323,
+    "posts": 56,
+    "talks": 69,
+    "bangumi": 512
+  },
+  "latest": {
+    "note": {
+      "path": "/ss-yunnan/lecture-5-spectroscopic-observations-abundance-analysis-and-large-scale-surveys/",
+      "title": "Lecture 5 Spectroscopic Observations, Abundance Analysis and Large-Scale Surveys",
+      "excerpt": "从光谱我们可以直接得到的东西： 物理参数，比如 , , [Fe/H] 等 元素组成和丰度 Line of sight motion of a star (也就是「视线方向」的速...",
+      "isoDate": "2026-08-01T20:53:34.000Z",
+      "collectionTitle": "ICESUN 暑校",
+      "collectionPath": "/ss-yunnan/"
+    },
+    "post": {
+      "path": "/blog/pf301x8q/",
+      "title": "简单深空摄影图像处理入门",
+      "excerpt": "最近观测天文学课的其中一个大作业是选择一个深空天体作为目标，写观测计划，并最终拿到数据之后做一个比较艺术性的摄影图片出来. 感觉这件事情其实是比较有意思的，虽然实际拍摄的过程是...",
+      "isoDate": "2026-06-18T05:36:32.000Z",
+      "section": "keepLearning",
+      "tags": [
+        "Keep-Learning",
+        "astronomy"
+      ]
+    },
+    "talk": {
+      "path": "https://scg.owu.one/@physnya/statuses/01M16Y1RY16YX6PXK5YW8ZKZ0Z",
+      "title": "最近一条动态",
+      "excerpt": "去保修 MacBook. 情况是 MagSafe3 口充不进电，店员判断说要换主板. 我保修期还剩一周多一点，想着换就换吧. 结果后来要换的时候说，我这种 M4 Pro 24GB 的主板已经没有存货了，要换成 48G 的，但是免费更换 (因为这件事是 Apple 的责任). 于是含泪血赚将近 7000... 太爽了",
+      "isoDate": "2026-08-29T14:16:19.137Z",
+      "account": {
+        "displayName": "physnya (ヘリウム—フラッシュ！",
+        "username": "physnya",
+        "instanceDomain": "scg.owu.one",
+        "profile": "https://scg.owu.one/@physnya",
+        "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01KPP1TAV7M13JWG6BK3QG1S83.png"
+      },
+      "media": [],
+      "stats": {
+        "replies": 0,
+        "reblogs": 0,
+        "favourites": 0
+      }
+    },
+    "bangumi": {
+      "title": "元祖！BanG Dream Chan",
+      "subtitle": "元祖！バンドリちゃん",
+      "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
+      "isoDate": "2026-08-23T06:12:30.000Z",
+      "path": "https://bgm.tv/subject/540449",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_rP1Cp.jpg",
+      "score": 6.9,
+      "category": "动画",
+      "status": "ing"
+    }
+  }
+}
