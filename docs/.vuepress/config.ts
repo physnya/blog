@@ -41,6 +41,7 @@ export default defineUserConfig({
         timeline: true,
         collapse: true,
       },
+      llmstxt: true,
     
     // notes,
     copyright: 'CC-BY-NC-SA-4.0',

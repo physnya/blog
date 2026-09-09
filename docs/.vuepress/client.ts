@@ -1,6 +1,7 @@
 import { defineClientConfig } from 'vuepress/client'
 import { h } from 'vue'
 import { Layout } from 'vuepress-theme-plume/client'
+import PageContextMenu from 'vuepress-theme-plume/features/PageContextMenu.vue'
 // import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
 // import NpmBadge from 'vuepress-theme-plume/features/NpmBadge.vue'
 // import NpmBadgeGroup from 'vuepress-theme-plume/features/NpmBadgeGroup.vue'
@@ -9,12 +10,12 @@ import { Layout } from 'vuepress-theme-plume/client'
 // import CustomComponent from './theme/components/Custom.vue'
 
 // import './theme/styles/custom.css'
+// @ts-expect-error CSS is handled by the VuePress bundler.
 import './custom.css'
 import Talks from './components/Talks.vue'
 import WordCount from './components/WordCount.vue'
 import Bangumi from './components/Bangumi.vue'
 import AsideOutlineAfter from './components/AsideOutlineAfter.vue'
-import ColourPicker from './components/ColourPicker.vue'
 import HomeLatest from './components/HomeLatest.vue'
 import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
 
@@ -31,7 +32,6 @@ export default defineClientConfig({
     app.component('WordCount', WordCount)
     app.component('Bangumi', Bangumi)
     app.component('RepoCard', RepoCard)
-    app.component('ColourPicker', ColourPicker)
     app.component('home-latest', HomeLatest)
   },
 
@@ -39,6 +39,7 @@ export default defineClientConfig({
   layouts: {
     Layout: () => h(Layout, null, {
       'aside-outline-after': () => h(AsideOutlineAfter),
+      'doc-title-after': () => h(PageContextMenu), 
     }),
   },
   
