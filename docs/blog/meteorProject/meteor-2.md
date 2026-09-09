@@ -66,7 +66,7 @@ flowchart LR
 
 其中树莓派上面引脚的编号按照下图所示：
 
-::: window img no-padding
+::: window
 
 ![树莓派 gpio 引脚编号图](https://vip.123pan.cn/1845440081/ymjew503t0n000d9jdotilro80epknwuDIYxAIFxDda1DGxPDwUzAa==.png)
 
@@ -243,7 +243,7 @@ flowchart LR
   ```
 
   应该看到类似这样的界面：
-  ::: window img no-padding
+  ::: window
   ![gpsmon 界面](https://vip.123pan.cn/1845440081/yk6baz03t0n000d9ri94uaujmmr4qrvgDIYxAIFxDda1DGxPDwUzAa==.png)
   :::
   (别来盒我 $Q\omega Q$)

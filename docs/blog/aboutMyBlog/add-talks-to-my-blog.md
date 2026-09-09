@@ -35,7 +35,7 @@ changelog: false
 
 登录你所使用的实例的设置界面：`https://example.org/settings/user/profile`，选择 `Applications`，进入应用设置面板.
 
-:::: window img no-padding
+:::: window
 
 ::: center
 
@@ -49,7 +49,7 @@ changelog: false
 
 创建好的应用会有一个 client ID 和一个 client secret，点击按钮会显示，将它们复制下来记到一个记事本里面：
 
-:::: window img no-padding
+:::: window
 
 ::: center
 

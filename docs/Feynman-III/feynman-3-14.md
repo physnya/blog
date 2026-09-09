@@ -29,7 +29,7 @@ permalink: /Feynman-III/kclbcctr/
 
 ::: details 补一幅图
 感谢韩学长的后脑勺友情出镜.
-::: window img no-padding
+::: window
 ![](https://p.sda1.dev/20/0f03f58046d2442b45428ee7871ebc62/微信图片_20241218152623_1_.jpg)
 :::
 

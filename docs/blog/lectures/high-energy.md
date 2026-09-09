@@ -155,7 +155,7 @@ DiVincenzo 准则：
 
 > 近期 Google 团队首次实现了量子计算机错误率低于传统计算机.
 
-::: window img no-padding
+::: window
 
 ![](https://vip.123pan.cn/1845440081/ymjew503t0l000d7w32x9qigpdr40v6vDIYxAIFxDda1DGxPDwUzAa==.jpg)
 

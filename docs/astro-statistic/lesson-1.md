@@ -272,7 +272,7 @@ Frequentists v.s. Bayesian：Laplace 利用当时的轨道数据来推算土星�
 
 这节课最终的目的：就是理解这样的图片 $\downarrow$
 
-::: window img no-padding
+::: window
 
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0n000d7w33hbzy24ulfnyfeDIYxAIFxDda1DGxPDwUzAa==.png)
 

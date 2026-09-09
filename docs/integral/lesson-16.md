@@ -218,7 +218,7 @@ $$
 
    ::: details 链式法则的画图方法
 
-   ::: window img no-padding
+   ::: window
    ![一阶导和二阶导](https://p.sda1.dev/20/9e4e0f8113c6a5da19f0c47b8deeebbc/9e49ab8b1333df6abca8f86312d842d.jpg)
    ![三阶导](https://p.sda1.dev/20/0c426e8a2c7aacd879652c1aa1009526/40dd8d8d06b93c921e9b392f21adb5b.jpg)
    :::

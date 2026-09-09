@@ -59,7 +59,7 @@ $$
 
 下面是我们今年测得的一次引力波事件的数据：
 
-::: window img no-padding
+::: window
 
 ![](https://vip.123pan.cn/1845440081/ymjew503t0n000d7w32ybxrlk7a53knsDIYxAIFxDda1DGxPDwUzAa==.png)
 
@@ -98,7 +98,7 @@ $$
 
 > 为什么这个探测器的灵敏度曲线图会有在特定频率出现的 Strain Noise 处理能力峰值？(如图)
 >
-> ::: window img no-padding
+> ::: window
 >
 > ![](https://vip.123pan.cn/1845440081/ymjew503t0m000d7w32xwlinvwumwluwDIYxAIFxDda1DGxPDwUzAa==.png)
 >

@@ -150,7 +150,7 @@ $$
 
 公式肯定是不变的，重要的是 $r$ 应该是什么：坐标距离 or 投影到 $\vec{x}$ 的距离. 或者是 $\psi_\text{com}$ (comoving)，为发光体与观测者在共同时刻的径向距离？
 
-::: window img no-padding
+::: window
 
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0l000d7w33fccf0gu9qj1k1DIYxAIFxDda1DGxPDwUzAa==.jpg)
 

@@ -49,7 +49,7 @@ erDiagram
 
 沿着历史的发展，人们开始能够使用望远镜来辅助自己的观测. 这时人们发现星体的运动和之前的简单旋转不太一样，比如火星出现了周期性的退行. 人们需要修改自己的模型，于是提出了本轮和均轮 (epicycle). 到这个时候，本轮和均轮使得理论变得越来越复杂.
 
-::: window img no-padding
+::: window
 
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0m000d7w33ghlhkvjep93a0DIYxAIFxDda1DGxPDwUzAa==.png)
 
@@ -93,7 +93,7 @@ Lemaitre & Gamov 提出大爆炸理论 (1927)，预测早期的光子频率越�
 
 1998 年，人们利用造父变星作为新的宇宙标准尺度，发现现在的宇宙正在加速膨胀：
 
-::: window img no-padding
+::: window
 
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0n000d7w33hc8tl67ubocelDIYxAIFxDda1DGxPDwUzAa==.png)
 
@@ -111,7 +111,7 @@ Lemaitre & Gamov 提出大爆炸理论 (1927)，预测早期的光子频率越�
 
 就像现在，我们发现了暗能量和暗物质，对现有的模型做了很多修正. 但是这是否让理论变得更加复杂了？
 
-::: window img no-padding
+::: window
 
 ![](https://vip.123pan.cn/1845440081/ymjew503t0m000d7w32xwbplu6dkn8euDIYxAIFxDda1DGxPDwUzAa==.png)
 

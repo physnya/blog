@@ -41,7 +41,7 @@ tags:
 
 由于最近加入系科协，所以现在准备自学一点 Linux 知识，周一的时候花了一下午时间装了一个 VMware，开一个 Ubuntu 22.04 的虚拟机.
 
-::: window img no-padding
+::: window
 
 <img src="https://vip.123pan.cn/1845440081/yk6baz03t0m000d7w33g6ao3sspcw739DIYxAIFxDda1DGxPDwUzAa==.png">
 

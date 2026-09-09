@@ -2,11 +2,12 @@
 changelog: false
 title: 兴隆天文台记录
 tags:
-  - note
-  - Life
+ - note
+ - Life
 createTime: 2026/05/09 01:41:13
 permalink: /blog/pcvjbm6e/
 ---
+
 ## 2.16 m 望远镜观测记录
 
 记录一下观测的基本流程.
@@ -51,7 +52,7 @@ Telescope: 2.16m $\quad$ Date: 2026.05.08 $\quad$ Inst. Setting Note: $\text{BFO
 
 > **大天区面积多目标光纤光谱天文望远镜** (英语：**L**arge Sky **A**rea **M**ulti-**O**bject Fiber **S**pectroscopy **T**elescope，**LAMOST**)，是位于[中国](https://zh.wikipedia.org/wiki/中国)[河北省](https://zh.wikipedia.org/wiki/河北省)的[国家天文台](https://zh.wikipedia.org/wiki/中国科学院国家天文台)[兴隆观测站](https://zh.wikipedia.org/wiki/興隆觀測站)的一种大型中星仪式反射[施密特望远镜](https://zh.wikipedia.org/wiki/施密特攝星儀)。LAMOST 和传统天文[望远镜](https://zh.wikipedia.org/wiki/望远镜)的不同之处是，它可以对较大的[天区](https://zh.wikipedia.org/w/index.php?title=天区&action=edit&redlink=1)范围（20[平方度](https://zh.wikipedia.org/wiki/平方度)）内的 4000 个目标的[光谱](https://zh.wikipedia.org/wiki/光谱)进行长时间的跟踪积分记录（积分时间可至 1.5 小时），在 1.5 小时曝光时间内以 1 纳米的光谱分辨率可以观测到 20.5 等的暗弱天体的光谱。该望远镜由[中国科学院](https://zh.wikipedia.org/wiki/中国科学院)承建，计划对 1000 万颗[银河系](https://zh.wikipedia.org/wiki/银河系)[恒星](https://zh.wikipedia.org/wiki/恒星)以及数百万个星系进行为期 5 年的[光谱巡天](https://zh.wikipedia.org/wiki/天體光譜學)。 该项目预算为 2.35 亿元[人民币](https://zh.wikipedia.org/wiki/人民币)。
 
-::: window img no-padding
+::: window
 
 ![这是当天拍的一个 LAMOST 的图](https://vip.123pan.cn/1845440081/yk6baz03t0m000ddvikn8v9kw98sgdv9DIYxAIFxDda1DGxPDwUzAa==.jpg)
 

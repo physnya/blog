@@ -177,7 +177,7 @@ $SU(5)$ 在后面预言的质子衰变被实验所排除. 但是这并不意味�
 
 考虑在暴涨前的一个区域，暴涨变大的是物理尺度，从这个角度来看，问题 (1) 就被解决了.
 
-::: window img no-padding
+::: window
 
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0m000d7w33g6v2nbj7j8z54DIYxAIFxDda1DGxPDwUzAa==.jpg)
 
@@ -199,7 +199,7 @@ $SU(5)$ 在后面预言的质子衰变被实验所排除. 但是这并不意味�
 
 1981 年 Alan Guth 提出了暴涨，现在被称为 "old inflation"，他考虑的是下面的这种真空能分布：
 
-::: window img no-padding
+::: window
 
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0l000d7w33fd4fmvgrwtllmDIYxAIFxDda1DGxPDwUzAa==.jpg)
 

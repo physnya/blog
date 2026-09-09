@@ -88,7 +88,7 @@ $$
 
 > 两带电粒子交换光子：
 >
-> ::: window img no-padding
+> ::: window
 >
 > ![](https://p.sda1.dev/21/ba1efe57605b19e1043ae076327fada5/微信图片_20241225170903.jpg)
 >
@@ -145,7 +145,7 @@ $$
 
 ### Weinberg 定理
 
-::: window img no-padding
+::: window
 
 ![](https://p.sda1.dev/21/558deeca4ef2fa6a6c294196c40377ac/微信图片_20241225170858.jpg)
 

@@ -70,7 +70,7 @@ $$
 
 下图 $\sigma$ 表示是否活化、$s$ 表示是否与反应物结合：
 
-:::: window img no-padding
+:::: window
 ::: flex center
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0l000d7w33fs23bwmxzpwt3DIYxAIFxDda1DGxPDwUzAa==.png)
 :::

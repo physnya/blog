@@ -70,7 +70,7 @@ Zwicky 在 1930s 就提出，星系质量应该比当时认为的 $10^9M_{\odot}
 
 强引力透镜，比如星系的暗物质晕产生的引力透镜效应.
 
-:::: window img no-padding
+:::: window
 
 ::: flex center
 
@@ -96,7 +96,7 @@ Zwicky 在 1930s 就提出，星系质量应该比当时认为的 $10^9M_{\odot}
 
 目前的模型达到的效果是：
 
-:::: window img no-padding
+:::: window
 
 ::: flex center
 

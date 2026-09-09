@@ -32,7 +32,7 @@ permalink: /posts/xxzg0cka/
 
 :::: details 做了一个 31A 的图标
 
-::: window img no-padding
+::: window
 
 <img src="https://vip.123pan.cn/1845440081/ymjew503t0n000d7w32y6np4u0tz6fxxDIYxAIFxDda1DGxPDwUzAa==.png" />
 
@@ -52,7 +52,7 @@ Day 3 / 4 是焊工实习，简单来说就是学了 3 种焊接的方式，然�
 
 我对我氩弧焊的焊缝还是很满意的，15 min 之内就焊完了，拿了一次满分~
 
-::: window img no-padding
+::: window
 
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0m000d7w33g9yfwoof4v60fDIYxAIFxDda1DGxPDwUzAa==.jpg)
 
@@ -80,7 +80,7 @@ Day 3 / 4 是焊工实习，简单来说就是学了 3 种焊接的方式，然�
 
 :::: details 指尖陀螺
 
-::: window img no-padding
+::: window
 
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0m000d7w33g9yfzluf4yckuDIYxAIFxDda1DGxPDwUzAa==.jpg)
 

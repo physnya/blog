@@ -85,7 +85,7 @@ tags:
 
 运行的效果 (mac 上使用书店的 wifi 能够访问)：
 
-::: window img no-padding
+::: window
 
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0n000d7w33hd6enr4om8jooDIYxAIFxDda1DGxPDwUzAa==.png)
 

@@ -196,7 +196,7 @@ $$
 附上一张图片，以便自己之后再回忆今天讲到的内容（虽然我不一定能看懂）
 
 ::: details 板书
-::: window img no-padding
+::: window
 ![板书](https://p.sda1.dev/20/b9a1256e624e9706d4a1c34d8f5c2810/1aab30fda862a0665d7ce23543c51d6.jpg)
 :::
 这图片有 1MB，加载可能会很慢.

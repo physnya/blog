@@ -27,7 +27,7 @@ permalink: /posts/dyzf1tgp/
 
 摄像头使用的是 Hikvision 的产品，大致如下图：
 
-::: window img no-padding
+::: window
 
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0l000d7w33fgtgs9j4apbtrDIYxAIFxDda1DGxPDwUzAa==.png)
 
@@ -49,7 +49,7 @@ permalink: /posts/dyzf1tgp/
 
 用下面这样一台路机连接电脑和摄像头：
 
-::: window img no-padding
+::: window
 
 ![](https://vip.123pan.cn/1845440081/yk6baz03t0l000d7w33fgtnwsy4idoyxDIYxAIFxDda1DGxPDwUzAa==.jpg)
 

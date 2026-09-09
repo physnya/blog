@@ -3,6 +3,7 @@ title: Lecture 2 AGB stars
 createTime: 2026/07/28 11:12:34
 permalink: /ss-yunnan/lecture-2-agb-stars/
 ---
+
 ::: right
 
 Prof. Amanda Karakas, from Monash University
@@ -22,9 +23,11 @@ Prof. Amanda Karakas, from Monash University
 Metallicity：就是所有重于 He 元素的其他元素之总和.
 
 H 是宇宙中最 abundant 的元素. 当一颗恒星开始进行 pp-chain 反应时，它就进入了主序星序列. pp-chain 的完整反应将四个 H 原子核合成为一个 $^4\text{He}$，这个过程的能量很容易用质量变化来计算. 如果一颗恒星仅仅有 H 和 He，那么它的能量来源就只能是 pp-chain 反应；但是更重质量的恒星 (或者说更大多数的) 含有 C 或者 O 等等更重元素的气体，它们有更多的可能反应. 举个例子，在我们的太阳中 $z_{\text{CNO}}\approx 0.65z_\odot$. 这使得 CNO 循环反应可能发生.
+
 $$
 \epsilon_{pp} \approx \epsilon_0^{pp}(T/T_6)^4,\quad \epsilon_{\text{CNO}}\approx\epsilon^{\text{CNO}}_0(T/T_6)^{20}
 $$
+
 明显可以看出 CNO 循环对于温度的幂次高了很多. 在 $1.2M_\odot$ 质量左右，CNO 提供的能量开始大于 pp-chain.
 
 主序星阶段末尾，H 被耗尽，越大的恒星这个过程进行得就越快；并且这个变化是相当显著的，$5M_\odot$ 的恒星氦闪前的时间 (主序星阶段) 仅有 $80$ Myr 左右，而太阳的时间则有 $1$ Gyr. 这表明年轻的星系可能包含更重的星，而老的星系反之.
@@ -32,9 +35,11 @@ $$
 > 完了这里全是恒星与行星讲的东西...
 
 RGB：针对我们的太阳，在 RGB 阶段会膨胀到 $150$ 倍半径. 最终中心温度会达到能使得 He 开始燃烧，这需要 $10^8$ K. 之后进入稳定的 He 燃烧阶段，主要的反应是 triple-$\alpha$ 反应，产生 $^{12}\text{C}$；接下来有一个要求稍高一点温度和密度的反应，可以生成 $^{16}\text{O}$. 我们有
+
 $$
 \epsilon_{3\alpha}\propto T^{40}
 $$
+
 这造成一个巨大的 divergence，因此会产生很强的 convection.
 
 first dredge up (也就是从主序星阶段到巨星分支前端的第一个 mixing event)：表面同位素比变化，$^{12}\text{C}/^{13}\text{C}\downarrow$，……
@@ -81,7 +86,7 @@ Thermal Pulse Cycle:
 
 这产生一个在恒星内部周期性的演化，如下图：
 
-::: window img no-padding
+::: window
 
 ![](https://1845440081.cdn.123clouddisk.com/1845440081/ymjew503t0l000dehyo2fwq6wjwqdjd8DIYxAIFxDda1DGxPDwUzAa==.png)
 
@@ -99,11 +104,11 @@ Hot bottom burning：这个过程也是一个中子捕获过程，它在 envelop
 
 总结一下 AGB 的组成：
 
-* C/O $>1$：$1.5\sim4.5M_\odot$ for [Fe/H] $\approx 0\longrightarrow$ C stars, ……
+- C/O $>1$：$1.5\sim4.5M_\odot$ for [Fe/H] $\approx 0\longrightarrow$ C stars, ……
 
   这些 AGB 一般是 s-process rich.
 
-* C/O $<1$：other masses compared to the former class; [Fe/H] $\approx 0$
+- C/O $<1$：other masses compared to the former class; [Fe/H] $\approx 0$
 
   For $M>4.5M_\odot$，在对流 envelope (Li, $^{13}$C, $^{14}$N, Na, $^{26}$Al) 中存在一个 H-burning 区域，s-process rich (?)
 
@@ -115,7 +120,7 @@ AGB 很多都是 dusty (灰蒙蒙的)，因为它们的星风会带出很多物�
 
 ::: tip
 
-*Summary - fate of low and intermediate-mass stars*
+_Summary - fate of low and intermediate-mass stars_
 
 - Stars experience core H and He fusion before ascending the giant branch for the second time.
 - This is known as the asymptotic giant branch or AGB.
@@ -132,15 +137,19 @@ AGB 很多都是 dusty (灰蒙蒙的)，因为它们的星风会带出很多物�
 一个 lead-in 的问题是，比 Fe 重的元素来自于哪里？从昨天的 lecture 我们已经知道是中子捕获过程，而其中的慢中子捕获 (s-process) 是一个重要部分. 我们想知道什么样的恒星能够发生 s-process. 在观测上，能够发现 AGB stars 中的 [s/Fe] $\geqslant+1.0$，也就是说它们有很高的重元素含量；在 post-AGB 阶段的恒星有时也能发现大量的重元素.
 
 中子源：第一个发现的中子提供反应是
+
 $$
 ^{14}\text{N}(\alpha,\gamma)^{18}\text{F}(\beta^+\nu)^{18}\text{O}(\alpha,\gamma)^{22}\text{Ne}(\alpha,n)^{25}\text{Mg}
 $$
+
 ::: warning
 
 显然我并不是很能理解这种核反应的写法... 查了一下之后发现意思是这样，
+
 $$
 ^AX(a,b)^BY\Longrightarrow {}^AX+a\longrightarrow {}^BY+b
 $$
+
 因此上面那一长串表示一串核反应的缩写.
 
 另外，$^{18}\text{F}\to {}^{18}\text{O}$ 的那个反应，是一个 $\beta$ 衰变，右边产生一个 $\beta$ 和一个中微子，所以没打逗号.
@@ -154,17 +163,20 @@ Non-canonical mixing processes：很多不同的机制，比如 2025 年有人�
 /Definition/ (stellar yields)
 
 > 恒星抛射出的质量 $\Delta M$；更精确地说，净 (net) 产率 (yield) 是指对于不同的物质 $k$，在恒星 lifetime 中积分出来的总抛出质量：
+>
 > $$
 > M_{\text{net},k} =\int_{\text{lifetime}}[X_k(t)-X_k(0)]\frac{\mathrm{d}M}{\mathrm{d}t}\mathrm{d}t
 > $$
+>
 > 而总产率则包含了上面被减去的初始星风产率 $X_k(0)$ (因为 stellar yield 的成分不只有星风)，
+>
 > $$
 > M_{k} =\int_{\text{lifetime}}X_k(t)\frac{\mathrm{d}M}{\mathrm{d}t}\mathrm{d}t
 > $$
 
 ::: tip
 
-*Summary* (This is a summary for the former 3 lectures)
+_Summary_ (This is a summary for the former 3 lectures)
 
 - AGB stars are dust and element factories in galaxies.
 - They are a major source of carbon, nitrogen and elements heavier than iron.
@@ -190,7 +202,7 @@ import numpy as np
 Load data, initial composition
 """
 df = pd.read_csv("init_composition.dat", sep="\\s+")
-n_species = df.shape[0] #number of species 
+n_species = df.shape[0] #number of species
 
 """
 Arrays
@@ -204,9 +216,9 @@ dmc = np.zeros(size)
 xenv = np.zeros((size, n_species))
 L = np.zeros(size)
 R = np.zeros(size)
-header = ['timestep', 'M_c (Msun)', 'M_tot (Msun)', 'R (Rsun)', 
+header = ['timestep', 'M_c (Msun)', 'M_tot (Msun)', 'R (Rsun)',
           'L (Lsun)', 'X_surf_H', 'X_surf_He', 'X_surf_12C', 'X_surf_13C',
-          'X_surf_14N', 'X_surf_15N', 'X_surf_16O', 'X_surf_17O', 'X_surf_18O', 
+          'X_surf_14N', 'X_surf_15N', 'X_surf_16O', 'X_surf_17O', 'X_surf_18O',
           'X_surf_Sr', 'X_surf_Ba', 'X_surf_Pb']
 
 """
@@ -214,12 +226,12 @@ Helper functions
 """
 def to_X(log_ratio, Asun, x): #convert abundance to X (mass fraction)
     At_x = df['At(i)'].loc[df['species'] == x].values[0] #find At(x), atomic mass of species x
-    X_x_sun = 10**(Asun-12.0) * Xsun * At_x 
+    X_x_sun = 10**(Asun-12.0) * Xsun * At_x
     return X_x_sun * 10**(log_ratio)
 
 def to_A(row, x, i): #convert mass fraction to A (abundance)
     At_x = df['At(i)'].loc[df['species'] == x].values[0] #find At(x), atomic mass of species x
-    Y_x = xenv[row,i] / At_x 
+    Y_x = xenv[row,i] / At_x
     return np.log10(Y_x/Xsun) + 12.0
 
 def ratio(row, x1, x2, i1, i2, isotopic = True, n1 = 0, n2 = 0): #convert abundance to X (mass fraction)
@@ -245,7 +257,7 @@ def AGB_radius(curr_mtot, curr_L): #calculate current AGB star radius
     return 1.125*np.power(curr_mtot,-0.33) * (np.power(curr_L,0.4) + 0.383*np.power(curr_L,0.76))
 
 def tau_ip(curr_mtot): #calculate interpulse period, this will be the timestep
-    tau_ip = 4.50*(1.689 - curr_mtot) 
+    tau_ip = 4.50*(1.689 - curr_mtot)
     return 10**tau_ip # years
 
 def min_core(curr_mtot): #calculate the core-mass at the first thermal pulse
@@ -266,7 +278,7 @@ def mcmin_func(curr_mtot): # calculate min core mass for dredge-up (valid to 4Ms
 def core_growth(i): #core mass growth
     L_H = radiated_L(mc[i]) #Lsun, radiated luminosity
     X = xenv[i,0] #current H mass fraction in envelope
-    return q*(L_H/X)*dt 
+    return q*(L_H/X)*dt
 
 def mass_loss(i): #calculate mass lost through stellar winds
     L_i = radiated_L(mc[i])
@@ -275,7 +287,7 @@ def mass_loss(i): #calculate mass lost through stellar winds
     R[i] = R_i
     logP = -2.07 + 1.94*np.log10(R_i) - 0.9*np.log10(mtot[i])
     P = 10**(logP) #period, days
-    
+
     if P < 500:
         return 10**(-11.4 + 0.0125*P)
     else:
@@ -316,8 +328,8 @@ time = 0 #yr, total time taken in TP-AGB phase
 dt = tau_ip(mc[0]) #yr, initial timestep
 #
 xenv[0] = df['X(i)'] #initial envelope mass fractions
-#         H    He    12C   13C  14N   15N   16O   17O   18O   
-xinter = [0.0, 0.75, 0.22, 0.0, 7E-7, 7E-7, 0.01, 4E-7, 4E-7, 
+#         H    He    12C   13C  14N   15N   16O   17O   18O
+xinter = [0.0, 0.75, 0.22, 0.0, 7E-7, 7E-7, 0.01, 4E-7, 4E-7,
           to_X(2.4,2.88,'sr'), to_X(2.7,2.18,'ba'), to_X(2.2,2.04,'pb')] #intershell mass fractions
           #Sr                   Ba                      Pb
 
@@ -332,26 +344,26 @@ n_TDU = 0 #number of TDU episodes
 while menv[i] >= menv_min:
     i += 1
     dmc[i-1] = core_growth(i-1)
-    
+
     if mc[i-1] >= mc_min:
         lambda_i = lambda_*(1.0 - np.exp(-((n_TDU+1)/3.0)))  #dredge-up, increasing until lambda_max is reached
         n_TDU += 1
     else:
         lambda_i = 0 #no dredge up
-        
-    dm_dredge[i-1] = lambda_i*dmc[i-1] #dredged-up mass --> move to previous loop 
+
+    dm_dredge[i-1] = lambda_i*dmc[i-1] #dredged-up mass --> move to previous loop
     mc[i] = mc[i-1] + dmc[i-1] - dm_dredge[i-1] #new core mass
     mtot[i] = mtot[i-1] - mass_loss(i-1)*dt #mass loss through stellar wind
     menv[i] = mtot[i] - mc[i] #new envelope mass
-    
+
     for j in range(n_species): #update envelope composition
         dx = dm_dredge[i-1]*xinter[j]
         oldx = xenv[i-1,j]*(menv[i]-dm_dredge[i-1])
         xenv[i,j] = (oldx + dx) / menv[i]
-    
+
     time += dt
     m_dredge += dm_dredge[i-1]
-    
+
     #update dt with new core mass
     dt = tau_ip(mc[i])
     #print('new dt =', dt)
@@ -365,9 +377,9 @@ print("Total M_dredge: ", m_dredge)
 print("TP-AGB phase duration (yr): ", time-dt) #exclude last iteration, overshoot
 
 print("Number of TDU episodes: ", n_TDU-1) #exclude last iteration, overshoot
-	  
+
 print('Final C/O: ', ratio(i-1, 'c', 'n', 2, 6, isotopic = False, n1 = 2, n2 = 3))
-	  
+
 print('Final C12/C13: ', ratio(i-1, 'c12', 'c13', 2, 3))
 
 print('Final N14/N15: ',ratio(i-1, 'n14', 'n15', 4, 5))
@@ -413,43 +425,49 @@ with open(filename, "w") as file:
 一些问题：
 
 - The code is set up to run a $3M_\odot$ AGB model. Try changing the maximum $\lambda$ parameter - how do your outputted quantities change?
-  
+
   修改 `lambda_` 这个参数的值到 `0.7`，发现 TDU 周期个数从 24 个增加到了 32 个，且同位素比变化 (比如 `C12/C13` 从 `1` 左右增加到 `3` 附近)、最终重元素产率也增加.
+
 - What happens if you change the mass to $2M_\odot$? Does your model become carbon rich? Why or why not.
-  
+
   这种情况 `C/O` 已经降低到小于 $1$，并不算 carbon rich.
-- Real AGB stars that are enriched in s-process elements tend to be carbon rich, where C/O $>1$ and show Sr and Ba abundances that are a factor of $10$ (or more) above the solar values. Consider the $2M_\odot$ case. 
-  
+
+- Real AGB stars that are enriched in s-process elements tend to be carbon rich, where C/O $>1$ and show Sr and Ba abundances that are a factor of $10$ (or more) above the solar values. Consider the $2M_\odot$ case.
+
   What do you need to change in the code to allow the model to reproduce these observations?
-  
+
   似乎仅仅通过调整 `lambda_` 到一个非常变态的值也无法达到 C/O $>10$，还会导致非物理的结果. 因此在调节 `lambda_` 的同时还必须调整 `mc_min`. 但是观察 `min_core()` 这个函数，它决定 `mc[0]`，因此最低不能低于这个值. 在 $M=2M_\odot$ 的情况下，Amanda 已经设定好，核的最小质量不能小于 $0.53$.
 
   > 我这么说是因为我踩了这个坑，然后发现更低的质量完全无法影响 `C/O` 的值，去问 Amanda 之后她说这个值被定死了... 当然这是一个开放性的问题，她也说为什么不尝试改一下这个函数呢？
 
   我选择设定 `mc_min` 为 $0.55$，`lambda_` 为 $0.9$，这时候 `C/O` 已经能够飙到 $13$ 以上了.
+
 - What happens if you change the mass to $1M_\odot$ or $1.5M_\odot$? Try changing parameters to ensure your star become C-rich.
-  
+
   $1.5M_\odot$ 的情况下还能用上一题设定的那两个参数，`C/O` 大概是 $10$；$1M_\odot$ 情况下，只有 `mc_min` 调到底才行，也就是 $0.53$，甚至 $0.54$ 都只能达到 `C/O` $\approx 4.4$.
-  
+
   > 当然，C-rich 条件只是 C/O $>1$ 而已，所以要使得 C-rich 并没有那么严苛的条件，一般而言只用降低一些 `mc_min` 就能轻易达到.
-- There are S-type AGB stars with initial masses as low as $1M_\odot$. S-type AGB stars have $0.5 \lesssim$ C/O  $\lesssim1$, with detected lines of the radioactive element technetium (Tc) which can be made by the s-process. The detection of Tc can be considered a tracer for the s-process so we would expect to find enhancements in Sr, Ba and Pb, if we could observe those elements. 
-  
+
+- There are S-type AGB stars with initial masses as low as $1M_\odot$. S-type AGB stars have $0.5 \lesssim$ C/O $\lesssim1$, with detected lines of the radioactive element technetium (Tc) which can be made by the s-process. The detection of Tc can be considered a tracer for the s-process so we would expect to find enhancements in Sr, Ba and Pb, if we could observe those elements.
+
   What do you need to do to your $1M_\odot$ (or $1.5M_\odot$) models to match these observations?
 
   这个问题我和同学试了很多个 `mc_min` 和 `lambda_` 的参数都没有成功，因为总是会得到 $A$(Sr) (以及另外的重元素) 最终产率和这两个参数都不是单调关系的结论. 但是这个问题又显然不是这么复杂的那种. 因此回到酒店之后我用 codex 把这两个参数和重元素产率的三维关系图给画出来了，如下：
 
-  ::: window img no-padding
+  ::: window
 
   ![](https://1845440081.cdn.123clouddisk.com/1845440081/ymjew503t0l000dei9utekzkbzxwouoaDIYxAIFxDda1DGxPDwUzAa==.png)
 
   :::
 
   这图已经很明显了：那些凸起来的锯齿明显是因为模拟代码是一个不连续的 toy model，因此仅凭调参肯定会出现 bug；但是大体上已经能够看出趋势.
+
 - Mass-loss is also highly uncertain. Going back to the $3M_\odot$ model, try changing the mass-loss rate by increasing it by a factor of $10$, and then reducing it by a factor of $10$. How do the surface compositions change?
-  
+
   明显，增大 `mass_loss()` 之后 C/O 变少 (其他也相应变化)，TDU 开始的时间后移、周期数变少，另外重元素产率也相应降低. 但是每一个 TDU episode 内部的过程没有很大区别.
 
   减小为原来 $1/10$，TDU 周期数暴增到 $86$，和上面完全相反.
+
 - How do you think the stellar yields would change as a result of changing i) the amount of TDU, ii) the mass-loss rate on the AGB?
-  
+
   从之前 lecture 中讲到的定义来看就是：TDU 更多 / 更慢的 mass loss 会导致更高 stellar yield. 因为这两种情况 AGB star 都有更多时间来抛出物质，积分的区域变大了.
