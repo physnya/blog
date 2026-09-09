@@ -35,10 +35,10 @@ list:
     desc: Hello World!
     link: https://sccube.link
     avatar: https://s.scc.moe/avatar-s
-  - name: eRrion 的小屋
+  - name: 相空间札记
     desc:
     link: https://mr-errion.github.io/
-    avatar: https://mr-errion.github.io/img/avatar.jpg
+    avatar: https://mr-errion.github.io/favicon.png
   - name: Whitney
     desc: Yuri save ACGN!
     link: https://www.phymani.me
