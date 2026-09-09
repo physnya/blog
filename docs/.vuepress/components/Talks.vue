@@ -387,368 +387,188 @@
 </script>
 
 <style scoped>
-	.talks-container {
-		max-width: 800px;
-		margin: 0 auto;
-		padding: 1.5rem;
-	}
-
-	.page-title {
-		text-align: center;
-		margin-bottom: 1.5rem;
-		color: var(--vp-c-text-1);
-		font-size: 1.5rem;
-		font-weight: 500;
-	}
-
-	.toot-card {
-		background: rgba(255, 255, 255, 0.1);
-		-webkit-backdrop-filter: blur(1.5px);
-		backdrop-filter: blur(1.5px);
-		border-radius: 12px;
-		box-shadow:
-			0 8px 32px rgba(31, 38, 135, 0.08),
-			inset 0 1px 2px rgba(255, 255, 255, 0.6);
-		padding: 1.2rem;
-		margin-bottom: 1.5rem;
-		transition:
-			transform 0.3s,
-			box-shadow 0.3s,
-			backdrop-filter 0.3s ease-in-out;
-		border: 0.5px solid
-			rgba(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
-	}
-
-	.toot-card:hover {
-		transform: translateY(-3px);
-		box-shadow:
-			0 8px 32px rgba(31, 38, 135, 0.08),
-			inset 0 1px 2px rgba(255, 255, 255, 0.6);
-	}
-
-	.toot-card.pinned {
-		border-color: rgba(49, 130, 206, 0.45);
-	}
-
-	.pinned-label {
-		display: inline-flex;
-		align-items: center;
-		gap: 0.4rem;
-		margin-bottom: 0.9rem;
-		color: #3182ce;
-		font-size: 0.9rem;
-		font-weight: 500;
-	}
-
-	.reply-list {
-		margin-top: 1.2rem;
-		padding-left: 1.2rem;
-		border-left: 2px solid rgba(49, 130, 206, 0.28);
-	}
-
-	.reply-card {
-		margin-bottom: 1rem;
-		box-shadow:
-			0 4px 18px rgba(31, 38, 135, 0.06),
-			inset 0 1px 2px rgba(255, 255, 255, 0.45);
-	}
-
-	.reply-card:last-child {
-		margin-bottom: 0;
-	}
-
-	.toot-header {
-		display: flex;
-		align-items: center;
-		margin-bottom: 1.5rem;
-		position: relative;
-	}
-
-	.avatar {
-		width: 60px;
-		height: 60px;
-		border-radius: 50%;
-		margin-right: 1.2rem;
-		border: 3px solid #f8f9fa;
-		box-shadow: 0 0.5px 1.5px
-			rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
-		cursor: default;
-	}
-
-	.account-info {
-		flex: 1;
-	}
-
-	.display-name {
-		font-weight: 500;
-		font-size: 1.1rem;
-		display: block;
-		color: var(--vp-c-text-1);
-		margin-bottom: 0.2rem;
-	}
-
-	.mastodonProfile {
-		text-decoration: none;
-		color: var(--vp-c-text-1);
-	}
-
-	a::after {
-		display: none !important;
-	}
-
-	.username {
-		color: var(--vp-c-text-2);
-		font-size: 0.95rem;
-	}
-
-	.toot-date {
-		position: absolute;
-		top: 0;
-		right: 0;
-		color: var(--vp-c-text-2);
-		font-size: 0.9rem;
-	}
-
-	.toot-date a {
-		text-decoration: none;
-		color: var(--vp-c-text-2);
-	}
-
-	.toot-content {
-		line-height: 1.7;
-		color: var(--vp-c-text-1);
-		font-size: 1rem;
-		margin-bottom: 1.5rem;
-	}
-
-	.toot-content :deep(a) {
-		color: #3182ce;
-		text-decoration: none;
-		border-bottom: 1px solid #bee3f8;
-		transition: all 0.2s;
-	}
-
-	.toot-content :deep(a:hover) {
-		color: #2b6cb0;
-		border-bottom-color: #3182ce;
-	}
-
-	.media-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-		gap: 15px;
-		margin: 1.8rem 0;
-	}
-
-	.media-item {
-		border-radius: 10px;
-		overflow: hidden;
-		background: #f8fafc;
-		cursor: pointer;
-		transition: transform 0.3s;
-	}
-
-	.media-item:hover {
-		transform: scale(1.03);
-	}
-
-	.media-image {
-		width: 100%;
-		height: auto;
-		display: block;
-		aspect-ratio: 1/1;
-		object-fit: cover;
-	}
-
-	.toot-stats {
-		display: flex;
-		gap: 1.8rem;
-		padding-top: 1.2rem;
-		border-top: 1px solid #edf2f7;
-		color: #718096;
-		font-size: 0.95rem;
-	}
-
-	.stat-item {
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-	}
-
-	.stat-item a {
-		color: var(--vp-c-text-2);
-		text-decoration: none;
-	}
-
-	.pagination {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		gap: 1.8rem;
-		margin-top: 3rem;
-		padding: 1.2rem 0;
-	}
-
-	.pagination-button {
-		padding: 0.8rem 2rem;
-		background: rgba(255, 255, 255, 0.05);
-		-webkit-backdrop-filter: blur(1.5px);
-		backdrop-filter: blur(1.5px);
-		color: var(--vp-c-text-1);
-		border: none;
-		border-radius: 8px;
-		cursor: pointer;
-		font-size: 1rem;
-		font-weight: 500;
-		transition: background 0.3s;
-		box-shadow:
-			0 4px 6px rgba(50, 50, 93, 0.11),
-			0 1px 3px rgba(0, 0, 0, 0.08);
-	}
-
-	.pagination-button:hover:not(:disabled) {
-		background: var(--vp-code-block-bg);
-		transform: translateY(-2px);
-	}
-
-	.pagination-button:disabled {
-		background: var(--vp-code-block-bg);
-		cursor: not-allowed;
-		opacity: 0.7;
-		transform: none;
-	}
-
-	.page-info {
-		color: var(--vp-c-text-2);
-		font-size: 1rem;
-		font-weight: 500;
-	}
-
-	/* 加载状态 */
-	.loading {
-		text-align: center;
-		padding: 3rem;
-		color: var(--vp-c-text-2);
-	}
-
-	.spinner {
-		width: 50px;
-		height: 50px;
-		border: 5px solid rgba(49, 130, 206, 0.2);
-		border-top: 5px solid #3182ce;
-		border-radius: 50%;
-		margin: 0 auto 1.5rem;
-		animation: spin 1s linear infinite;
-	}
-
-	@keyframes spin {
-		0% {
-			transform: rotate(0deg);
-		}
-		100% {
-			transform: rotate(360deg);
-		}
-	}
-
-	/* 错误状态 */
-	.error {
-		text-align: center;
-		padding: 3rem;
-		background: #fff5f5;
-		border-radius: 12px;
-		color: #e53e3e;
-		margin: 2rem 0;
-	}
-
-	.retry-btn {
-		margin-top: 1.5rem;
-		padding: 0.7rem 1.5rem;
-		background: #e53e3e;
-		color: white;
-		border: none;
-		border-radius: 6px;
-		cursor: pointer;
-		font-size: 1rem;
-		transition: background 0.2s;
-	}
-
-	.retry-btn:hover {
-		background: #c53030;
-	}
-
-	/* 空状态 */
-	.empty {
-		text-align: center;
-		padding: 3rem;
-		background: #f0f9ff;
-		border-radius: 12px;
-		color: #3182ce;
-		margin: 2rem 0;
-	}
-
-	.empty a {
-		color: #3182ce;
-		font-weight: 500;
-		text-decoration: none;
-	}
-
-	.empty a:hover {
-		text-decoration: underline;
-	}
-
-	/* 响应式设计 */
-	@media (max-width: 768px) {
-		.talks-container {
-			padding: 1.2rem;
-		}
-
-		.page-title {
-			font-size: 2rem;
-		}
-
-		.toot-card {
-			padding: 1.3rem;
-		}
-
-		.avatar {
-			width: 50px;
-			height: 50px;
-		}
-
-		.toot-date {
-			position: static;
-			margin-top: 0.5rem;
-			font-size: 0.85rem;
-		}
-
-		.media-grid {
-			grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-		}
-
-		.pagination {
-			flex-direction: column;
-			gap: 1.2rem;
-		}
-	}
-
-	@media (max-width: 480px) {
-		.toot-header {
-			flex-direction: column;
-			align-items: flex-start;
-		}
-
-		.avatar {
-			margin-bottom: 1rem;
-		}
-
-		.toot-content {
-			font-size: 1.05rem;
-		}
-
-		.media-grid {
-			grid-template-columns: 1fr;
-		}
-	}
+.talks-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.toot-card {
+    padding: 1.3rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid var(--paper-rule);
+    border-radius: 2px;
+    background: var(--paper-surface);
+    box-shadow: 0 3px 8px var(--paper-shadow-color);
+}
+.toot-card.pinned {
+    border-top: 3px solid var(--paper-accent);
+}
+.pinned-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-bottom: 0.9rem;
+    color: var(--paper-accent);
+    font-size: 0.75rem;
+}
+.reply-list {
+    margin-top: 1.2rem;
+    padding-left: 0.8rem;
+    border-left: 2px solid var(--paper-rule);
+}
+.reply-card {
+    padding: 0.8rem;
+    box-shadow: none;
+    background: var(--vp-c-bg);
+}
+.reply-card:last-child {
+    margin-bottom: 0;
+}
+.toot-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 0.7rem;
+    margin-bottom: 1.1rem;
+}
+.avatar {
+    width: 44px;
+    height: 44px;
+    flex: 0 0 44px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.account-info {
+    flex: 1;
+    min-width: 0;
+}
+.display-name {
+    display: block;
+    color: var(--vp-c-text-1);
+    font-size: 0.9rem;
+}
+.username {
+    display: block;
+    color: var(--vp-c-text-2);
+    font-size: 0.7rem;
+    overflow-wrap: anywhere;
+}
+.mastodonProfile, .toot-date a, .stat-item a {
+    color: inherit;
+    text-decoration: none;
+}
+.toot-date {
+    width: 100%;
+    color: var(--vp-c-text-2);
+    font-size: 0.7rem;
+}
+.toot-content {
+    margin-bottom: 1.1rem;
+    color: var(--vp-c-text-1);
+    font-size: 0.9rem;
+    line-height: 1.85;
+    overflow-wrap: anywhere;
+}
+.toot-content :deep(a) {
+    color: var(--vp-c-brand-1);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(150px, 100%), 1fr));
+    gap: 0.6rem;
+    margin: 1rem 0;
+}
+.media-item {
+    overflow: hidden;
+    border: 1px solid var(--paper-rule);
+    background: var(--vp-c-bg-soft);
+}
+.media-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+.toot-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid var(--paper-rule);
+    color: var(--vp-c-text-2);
+    font-size: 0.75rem;
+}
+.stat-item, .stat-item a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    margin-top: 2rem;
+}
+.pagination-button, .retry-btn {
+    min-height: 44px;
+    padding: 0.45rem 0.9rem;
+    border: 1px solid var(--paper-rule);
+    border-radius: 2px;
+    background: var(--paper-surface);
+    color: var(--vp-c-text-1);
+    font: inherit;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.pagination-button:hover:not(:disabled), .retry-btn:hover {
+    border-color: var(--vp-c-brand-1);
+    background: var(--vp-c-bg-soft);
+}
+.pagination-button:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+}
+.page-info {
+    color: var(--vp-c-text-2);
+    font-size: 0.75rem;
+}
+.loading, .error, .empty {
+    padding: 2rem 1rem;
+    color: var(--vp-c-text-2);
+    text-align: center;
+}
+.error {
+    border: 1px solid var(--paper-accent);
+    color: var(--paper-accent);
+}
+.spinner {
+    width: 32px;
+    height: 32px;
+    margin: 0 auto 1rem;
+    border: 2px solid var(--paper-rule);
+    border-top-color: var(--vp-c-brand-1);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (max-width: 639px) {
+    .toot-card {
+        padding: 0.9rem;
+    }
+    .reply-list {
+        padding-left: 0.5rem;
+    }
+    .reply-card {
+        padding: 0.65rem;
+    }
+    .display-name {
+        overflow-wrap: anywhere;
+    }
+}
 
 	.vpi-reply {
 		--icon: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJjdXJyZW50Q29sb3IiIGQ9Im04IDE3bC02LTZsNi02bDEuNDI1IDEuNGwtNC42IDQuNmw0LjYgNC42em0xMiAydi00cTAtMS4yNS0uODc1LTIuMTI1VDE3IDEyaC02LjE3NWwzLjYgMy42TDEzIDE3bC02LTZsNi02bDEuNDI1IDEuNGwtMy42IDMuNkgxN3EyLjA3NSAwIDMuNTM4IDEuNDYzVDIyIDE1djR6Ii8+PC9zdmc+);

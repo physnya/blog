@@ -15,6 +15,7 @@ export default defineThemeConfig({
   aside: true, // 页内侧边栏， 默认显示在右侧
   outline: [2, 3], // 页内大纲， 默认显示 h2, h3
   sidebarScrollbar: false,
+  readAid: 'left', // 在当前阅读段落旁显示标记
 
   /**
    * 文章版权信息

@@ -1,5 +1,5 @@
 <template>
-	<div id="app">
+	<div class="bangumi-library">
 		<div class="container">
 			<details class="hint-container details">
 				<summary>类型 / 状态</summary>
@@ -12,6 +12,7 @@
 								:key="key"
 								class="btn"
 								:class="{ active: currentCategory === key }"
+                                :aria-pressed="currentCategory === key"
 								@click="changeCategory(key)"
 							>
 								{{ category.name }}
@@ -25,6 +26,7 @@
 							<button
 								class="btn status-btn planTo"
 								:class="{ active: currentStatus === 'planTo' }"
+                                :aria-pressed="currentStatus === 'planTo'"
 								@click="changeStatus('planTo')"
 							>
 								planTo
@@ -32,6 +34,7 @@
 							<button
 								class="btn status-btn ing"
 								:class="{ active: currentStatus === 'ing' }"
+                                :aria-pressed="currentStatus === 'ing'"
 								@click="changeStatus('ing')"
 							>
 								ing
@@ -39,6 +42,7 @@
 							<button
 								class="btn status-btn completed"
 								:class="{ active: currentStatus === 'completed' }"
+                                :aria-pressed="currentStatus === 'completed'"
 								@click="changeStatus('completed')"
 							>
 								completed
@@ -64,7 +68,8 @@
 						>
 							<div class="card-img">
 								<img
-									:src="item.subject.images.common"
+									loading="lazy"
+                                    :src="item.subject.images.common"
 									:alt="item.subject.name"
 								/>
 							</div>
@@ -257,304 +262,153 @@
 </script>
 
 <style scoped>
-	a {
-		text-decoration: none;
-		color: var(--vp-c-text-1);
-		font-size: 24px;
-		font-weight: 550;
-	}
-
-	a::after {
-		display: none !important;
-	}
-
-	.container {
-		max-width: 1200px;
-		margin: 0 auto;
-	}
-
-	.subtitle {
-		font-size: 1.2rem;
-		margin-bottom: 20px;
-		color: var(--vp-c-text-1);
-	}
-
-	.filter-section {
-		background: var(--vp-c-default-soft);
-		border-radius: 12px;
-		padding: 1.2rem;
-		margin-bottom: 1.5rem;
-	}
-
-	.filter-group {
-		margin-bottom: 20px;
-	}
-
-	.filter-group h2 {
-		font-size: 1.4rem;
-		margin-bottom: 15px;
-		color: var(--vp-c-text-1);
-		display: flex;
-		align-items: center;
-	}
-
-	.filter-group h2 i {
-		margin-right: 10px;
-	}
-
-	.btn-group {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		gap: 1.8rem;
-		margin-top: 1rem;
-		padding: 1rem 0;
-		overflow: auto;
-	}
-
-	.btn {
-		padding: 0.8rem 2rem;
-		background: var(--vp-code-block-bg);
-		color: var(--vp-c-text-1);
-		border: none;
-		border-radius: 8px;
-		cursor: pointer;
-		font-size: 1rem;
-		font-weight: 500;
-		transition: background 0.3s;
-		box-shadow:
-			0 4px 6px rgba(50, 50, 93, 0.11),
-			0 1px 3px rgba(0, 0, 0, 0.08);
-	}
-
-	.btn:hover {
-		background: var(--vp-code-block-bg);
-		transform: translateY(-2px);
-	}
-
-	.btn.active {
-		background: var(--vp-code-block-bg);
-		color: var(--vp-c-text-1);
-		box-shadow:
-			0 2px 3px rgba(50, 50, 93, 0.5),
-			0 0.5px 1.5px rgba(0, 0, 0, 0.08);
-		border: 1px solid
-			rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
-	}
-
-	.status-btn {
-		padding: 0.8rem 2rem;
-		background: var(--vp-code-block-bg);
-		color: var(--vp-c-text-1);
-		border: none;
-		border-radius: 8px;
-		cursor: pointer;
-		font-size: 1rem;
-		font-weight: 500;
-		transition: background 0.3s;
-		box-shadow:
-			0 4px 6px rgba(50, 50, 93, 0.11),
-			0 1px 3px rgba(0, 0, 0, 0.08);
-	}
-
-	.card-flex {
-		display: flex;
-		gap: 25px;
-		margin-bottom: 10px;
-		flex-direction: column;
-		flex: auto;
-	}
-
-	.card {
-		background: rgba(255, 255, 255, 0.05);
-		-webkit-backdrop-filter: blur(1.5px);
-		backdrop-filter: blur(1.5px);
-		border-radius: 8px;
-		overflow: hidden;
-		box-shadow:
-			0 8px 32px rgba(31, 38, 135, 0.08),
-			inset 0 1px 2px rgba(255, 255, 255, 0.6);
-		height: 100%;
-		display: flex;
-		flex-direction: row;
-		border: 0.5px solid
-			rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
-	}
-
-	.card:hover {
-		transition:
-			transform 0.3s,
-			box-shadow 0.3s,
-			backdrop-filter 0.3s ease-in-out;
-		transform: translateY(-3px);
-		border: 0.5px solid
-			rgb(from var(--vp-code-block-bg) calc(1 - r) calc(1 - g) calc(1 - b));
-		box-shadow:
-			0 8px 32px rgba(31, 38, 135, 0.08),
-			inset 0 1px 2px rgba(255, 255, 255, 0.6);
-	}
-
-	.card-img {
-		padding: 50px 10px 50px 10px;
-		width: 10rem;
-	}
-
-	.card-img img {
-		height: 200px;
-		width: 200px;
-		object-fit: contain;
-	}
-
-	.card-content {
-		padding: 20px;
-		flex-grow: 1;
-		display: flex;
-		flex-direction: column;
-		width: 5rem;
-	}
-
-	.card-title {
-		font-size: 1.3rem;
-		margin-bottom: 10px;
-		color: var(--vp-c-text-1);
-		font-weight: 500;
-	}
-
-	.card-meta {
-		display: flex;
-		justify-content: space-between;
-		margin-bottom: 0px;
-		font-size: 0.85rem;
-		opacity: 0.85;
-		width: 75%;
-		overflow: auto;
-	}
-
-	.card-time {
-		display: inline-block;
-		padding: 0px 12px;
-		font-size: 0.8rem;
-		font-weight: 500;
-		margin-top: 10px;
-		text-align: center;
-	}
-
-	.card-score {
-		display: inline-block;
-		padding: 0px 12px;
-		font-size: 0.8rem;
-		font-weight: 500;
-		margin-top: 10px;
-		text-align: center;
-	}
-
-	.card-status {
-		display: inline-block;
-		padding: 0px 12px;
-		font-size: 0.8rem;
-		font-weight: 500;
-		margin-top: 10px;
-		text-align: center;
-	}
-
-	.line {
-		width: 0px;
-		border-right: 1.5px solid var(--vp-c-divider);
-	}
-
-	.card-summary {
-		font-size: 0.9rem;
-		margin-bottom: 15px;
-		flex-grow: 1;
-		overflow: hidden;
-		display: -webkit-box;
-		-webkit-line-clamp: 3;
-		line-clamp: 3;
-		-webkit-box-orient: vertical;
-	}
-
-	.pagination {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		gap: 1.8rem;
-		margin-top: 3rem;
-		padding: 1.2rem 0;
-	}
-
-	.pagination-button {
-		padding: 0.8rem 2rem;
-		background: var(--vp-code-block-bg);
-		color: var(--vp-c-text-1);
-		border: none;
-		border-radius: 8px;
-		cursor: pointer;
-		font-size: 1rem;
-		font-weight: 500;
-		transition: background 0.3s;
-		box-shadow:
-			0 4px 6px rgba(50, 50, 93, 0.11),
-			0 1px 3px rgba(0, 0, 0, 0.08);
-	}
-
-	.pagination-button:hover:not(:disabled) {
-		background: var(--vp-code-block-bg);
-		transform: translateY(-2px);
-	}
-
-	.pagination-button:disabled {
-		background: var(--vp-code-block-bg);
-		cursor: not-allowed;
-		opacity: 0.7;
-		transform: none;
-	}
-
-	.empty-state {
-		text-align: center;
-		padding: 50px 20px;
-		color: var(--vp-c-text-1);
-	}
-
-	.empty-state i {
-		font-size: 4rem;
-		margin-bottom: 20px;
-		opacity: 0.3;
-	}
-
-	.empty-state h3 {
-		font-size: 1.5rem;
-		margin-bottom: 10px;
-	}
-
-	footer {
-		text-align: center;
-		padding: 30px 0;
-		margin-top: 40px;
-		opacity: 0.7;
-		font-size: 0.9rem;
-	}
-
-	@media (max-width: 768px) {
-		.card-flex {
-			grid-template-columns: 1fr;
-		}
-
-		.btn-group {
-			justify-content: center;
-		}
-
-		h1 {
-			font-size: 2.2rem;
-		}
-	}
-
-	.fade-enter-active,
-	.fade-leave-active {
-		transition: opacity 0.5s;
-	}
-
-	.fade-enter,
-	.fade-leave-to {
-		opacity: 0;
-	}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a {
+    color: var(--vp-c-text-1);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--vp-c-brand-1);
+}
+.filter-section {
+    padding: 0.5rem 0;
+}
+.filter-group + .filter-group {
+    margin-top: 1.2rem;
+}
+.filter-group h2 {
+    margin: 0 0 0.7rem;
+    padding: 0;
+    border: 0;
+    font-size: 1rem;
+}
+.btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.btn, .pagination-button {
+    min-height: 44px;
+    padding: 0.45rem 0.9rem;
+    border: 1px solid var(--paper-rule);
+    border-radius: 2px;
+    background: var(--paper-surface);
+    color: var(--vp-c-text-1);
+    font: inherit;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background-color 160ms, border-color 160ms;
+}
+.btn:hover, .pagination-button:hover:not(:disabled) {
+    background: var(--vp-c-bg-soft);
+    border-color: var(--vp-c-brand-1);
+}
+.btn.active {
+    background: var(--vp-c-brand-1);
+    border-color: var(--vp-c-brand-1);
+    color: var(--paper-surface);
+}
+.pagination-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.45;
+}
+.card-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
+    padding: 1.2rem;
+    border: 1px solid var(--paper-rule);
+    background: var(--paper-surface);
+    box-shadow: 0 3px 8px var(--paper-shadow-color);
+    transition: border-color 180ms;
+}
+.card:hover {
+    border-color: var(--vp-c-brand-1);
+}
+.card-img {
+    flex: 0 0 6rem;
+    padding: 0.25rem;
+    border: 1px solid var(--paper-rule);
+    box-shadow: 2px 3px 0 var(--paper-rule);
+}
+.card-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+}
+.card-content {
+    min-width: 0;
+    flex: 1;
+}
+.card-title {
+    margin: 0 0 0.7rem;
+    font-size: 1.15rem;
+    font-weight: 500;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+.card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.8rem;
+    color: var(--vp-c-text-2);
+    font-size: 0.7rem;
+    line-height: 1.7;
+}
+.line {
+    border-right: 1px solid var(--paper-rule);
+}
+.card-summary {
+    margin: 0.8rem 0 0;
+    font-size: 0.85rem;
+    color: var(--vp-c-text-2);
+    overflow-wrap: anywhere;
+}
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    margin-top: 2rem;
+}
+.page-info {
+    color: var(--vp-c-text-2);
+    font-size: 0.75rem;
+}
+.empty-state {
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--vp-c-text-2);
+}
+.fade-enter-active, .fade-leave-active {
+    transition: opacity 180ms;
+}
+.fade-enter-from, .fade-leave-to {
+    opacity: 0;
+}
+@media (max-width: 639px) {
+    .card {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    .card-img {
+        flex-basis: auto;
+        width: 5rem;
+    }
+    .card-meta {
+        font-size: 0.72rem;
+    }
+}
 </style>
