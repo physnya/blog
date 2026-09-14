@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-09-14T18:22:43.199Z",
+  "counts": {
+    "notes": 325,
+    "posts": 56,
+    "talks": 69,
+    "bangumi": 512
+  },
+  "latest": {
+    "note": {
+      "path": "/compact-object/",
+      "title": "Introduction",
+      "excerpt": "考核方式： 课堂参与、 个人课堂阅读报告 (20 min，每个人一次，读文献)、 4 次作业、 期末展示、 期末考核. 天文上常用 Gauss 制，一般在 Python 中用...",
+      "isoDate": "2026-09-15T02:14:38.000Z",
+      "collectionTitle": "黑洞与致密天体",
+      "collectionPath": "/compact-object/"
+    },
+    "post": {
+      "path": "/blog/pf301x8q/",
+      "title": "简单深空摄影图像处理入门",
+      "excerpt": "最近观测天文学课的其中一个大作业是选择一个深空天体作为目标，写观测计划，并最终拿到数据之后做一个比较艺术性的摄影图片出来. 感觉这件事情其实是比较有意思的，虽然实际拍摄的过程是...",
+      "isoDate": "2026-06-18T05:36:32.000Z",
+      "section": "keepLearning",
+      "tags": [
+        "Keep-Learning",
+        "astronomy"
+      ]
+    },
+    "talk": {
+      "path": "https://scg.owu.one/@physnya/statuses/01M24RZ5YGTASEYEYHGAXGAXVC",
+      "title": "最近一条动态",
+      "excerpt": "括号一般是用来表达当前的心情的. 比如现在: 复活... 其实是因为开学了.",
+      "isoDate": "2026-09-10T04:24:44.241Z",
+      "account": {
+        "displayName": "physnya (复活...",
+        "username": "physnya",
+        "instanceDomain": "scg.owu.one",
+        "profile": "https://scg.owu.one/@physnya",
+        "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01KPP1TAV7M13JWG6BK3QG1S83.png"
+      },
+      "media": [],
+      "stats": {
+        "replies": 0,
+        "reblogs": 0,
+        "favourites": 2
+      }
+    },
+    "bangumi": {
+      "title": "元祖！BanG Dream Chan",
+      "subtitle": "元祖！バンドリちゃん",
+      "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
+      "isoDate": "2026-09-04T03:52:43.000Z",
+      "path": "https://bgm.tv/subject/540449",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_rP1Cp.jpg",
+      "score": 6.9,
+      "category": "动画",
+      "status": "ing"
+    }
+  }
+}
