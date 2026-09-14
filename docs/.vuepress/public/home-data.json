@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-14T04:15:07.330Z",
+  "generatedAt": "2026-09-14T18:19:43.776Z",
   "counts": {
-    "notes": 324,
+    "notes": 325,
     "posts": 56,
     "talks": 69,
     "bangumi": 512
   },
   "latest": {
     "note": {
-      "path": "/astro-physics/lesson-1/",
+      "path": "/compact-object/",
       "title": "Introduction",
-      "excerpt": "「上下四方曰宇，古往今来曰宙.」人类宇宙观的革新与天文学的发展紧密联系. 天体物理学指的是应用物理学的理论、方法和技术，研究天体的形态、结构和化学组成、物理状态和演化规律的学科...",
-      "isoDate": "2026-09-14T01:54:44.000Z",
-      "collectionTitle": "天体物理",
-      "collectionPath": "/astro-physics/"
+      "excerpt": "考核方式： 课堂参与、 个人课堂阅读报告 (20 min，每个人一次，读文献)、 4 次作业、 期末展示、 期末考核. 天文上常用 Gauss 制，一般在 Python 中用...",
+      "isoDate": "2026-09-14T18:14:38.000Z",
+      "collectionTitle": "黑洞与致密天体",
+      "collectionPath": "/compact-object/"
     },
     "post": {
       "path": "/blog/pf301x8q/",

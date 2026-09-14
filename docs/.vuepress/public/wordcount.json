@@ -265,6 +265,7 @@
     "lesson-1": 1748,
     "index": 131
   },
+  "compact-object": 1027,
   "posts": {
     "3bozxpa4": 3221,
     "3sl1qun7": 5849,
@@ -360,6 +361,10 @@
     "lesson-1-introduction": 2760,
     "index": 117
   },
+  "astro-physics": {
+    "lesson-1": 491,
+    "index": 47
+  },
   "astro-front": {
     "lesson-9-exoplanet": 1053,
     "lesson-8-shape-of-cosmic-explosions": 1687,
@@ -443,7 +448,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 616430,
-  "lastUpdated": "2026-09-09T10:22:21.058Z",
-  "fileCount": 404
+  "total": 617995,
+  "lastUpdated": "2026-09-14T18:19:43.674Z",
+  "fileCount": 408
 }

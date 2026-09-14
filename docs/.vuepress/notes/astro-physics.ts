@@ -4,7 +4,7 @@ export default defineCollection({
   dir: "astro-physics",
   sidebar: [
     {
-      text: "天体物理前沿讲座",
+      text: "天体物理",
       collapsed: false,
       link: "/astro-physics/",
       items: [
