@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-09T10:22:21.130Z",
+  "generatedAt": "2026-09-14T04:15:07.330Z",
   "counts": {
-    "notes": 323,
+    "notes": 324,
     "posts": 56,
     "talks": 69,
     "bangumi": 512
   },
   "latest": {
     "note": {
-      "path": "/ss-yunnan/lecture-5-spectroscopic-observations-abundance-analysis-and-large-scale-surveys/",
-      "title": "Lecture 5 Spectroscopic Observations, Abundance Analysis and Large-Scale Surveys",
-      "excerpt": "从光谱我们可以直接得到的东西： 物理参数，比如 , , [Fe/H] 等 元素组成和丰度 Line of sight motion of a star (也就是「视线方向」的速...",
-      "isoDate": "2026-08-01T12:53:34.000Z",
-      "collectionTitle": "ICESUN 暑校",
-      "collectionPath": "/ss-yunnan/"
+      "path": "/astro-physics/lesson-1/",
+      "title": "Introduction",
+      "excerpt": "「上下四方曰宇，古往今来曰宙.」人类宇宙观的革新与天文学的发展紧密联系. 天体物理学指的是应用物理学的理论、方法和技术，研究天体的形态、结构和化学组成、物理状态和演化规律的学科...",
+      "isoDate": "2026-09-14T01:54:44.000Z",
+      "collectionTitle": "天体物理",
+      "collectionPath": "/astro-physics/"
     },
     "post": {
       "path": "/blog/pf301x8q/",
@@ -27,12 +27,12 @@
       ]
     },
     "talk": {
-      "path": "https://scg.owu.one/@physnya/statuses/01M16Y1RY16YX6PXK5YW8ZKZ0Z",
+      "path": "https://scg.owu.one/@physnya/statuses/01M24RZ5YGTASEYEYHGAXGAXVC",
       "title": "最近一条动态",
-      "excerpt": "去保修 MacBook. 情况是 MagSafe3 口充不进电，店员判断说要换主板. 我保修期还剩一周多一点，想着换就换吧. 结果后来要换的时候说，我这种 M4 Pro 24GB 的主板已经没有存货了，要换成 48G 的，但是免费更换 (因为这件事是 Apple 的责任). 于是含泪血赚将近 7000... 太爽了",
-      "isoDate": "2026-08-29T14:16:19.137Z",
+      "excerpt": "括号一般是用来表达当前的心情的. 比如现在: 复活... 其实是因为开学了.",
+      "isoDate": "2026-09-10T04:24:44.241Z",
       "account": {
-        "displayName": "physnya (ヘリウム—フラッシュ！",
+        "displayName": "physnya (复活...",
         "username": "physnya",
         "instanceDomain": "scg.owu.one",
         "profile": "https://scg.owu.one/@physnya",
@@ -42,7 +42,7 @@
       "stats": {
         "replies": 0,
         "reblogs": 0,
-        "favourites": 0
+        "favourites": 2
       }
     },
     "bangumi": {
