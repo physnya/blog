@@ -25,6 +25,7 @@ export const navbar = defineNavbarConfig([
             { text: "ICESUN 暑校", link: "/ss-yunnan/README.md" },
             { text: "天体物理", link: "/astro-physics/README.md" },
             { text: "黑洞与致密天体", link: "/compact-object/README.md" },
+            { text: "数值分析", link: "/numerical-analysis/README.md" },
 			{
 				text: "自学笔记",
 				items: [{ text: "广义相对论", link: "/self-learn-GR/README.md" }],

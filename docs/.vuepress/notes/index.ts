@@ -19,6 +19,7 @@ import animalBehavior from "./animal-behavior.ts";
 import ssYunnan from "./ss-yunnan.ts";
 import astroPhysics from "./astro-physics.ts";
 import compactObject from "./compact-object.ts";
+import numericalAnalysis from "./numerical-analysis.ts";
 
 export const notes = defineCollections([
 	FeynmanIII,
@@ -41,4 +42,5 @@ export const notes = defineCollections([
     ssYunnan,
     astroPhysics,
     compactObject,
+    numericalAnalysis,
 ]);

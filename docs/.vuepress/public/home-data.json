@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-14T18:19:43.776Z",
+  "generatedAt": "2026-09-16T08:58:59.513Z",
   "counts": {
-    "notes": 325,
+    "notes": 326,
     "posts": 56,
-    "talks": 69,
+    "talks": 70,
     "bangumi": 512
   },
   "latest": {
     "note": {
-      "path": "/compact-object/",
-      "title": "Introduction",
-      "excerpt": "考核方式： 课堂参与、 个人课堂阅读报告 (20 min，每个人一次，读文献)、 4 次作业、 期末展示、 期末考核. 天文上常用 Gauss 制，一般在 Python 中用...",
-      "isoDate": "2026-09-14T18:14:38.000Z",
-      "collectionTitle": "黑洞与致密天体",
-      "collectionPath": "/compact-object/"
+      "path": "/numerical-analysis/lesson-1-introduction/",
+      "title": "概论",
+      "excerpt": "为什么要分析计算结果？ 计算机算出的仅仅只是数值解，而不是精确解. 因此不能盲目采用，需要用不同的方法来具体分析. 误差类型： 模型误差：例如假设地球是一个球，忽略了一些次要因...",
+      "isoDate": "2026-09-16T07:32:34.000Z",
+      "collectionTitle": "数值分析",
+      "collectionPath": "/numerical-analysis/"
     },
     "post": {
       "path": "/blog/pf301x8q/",
@@ -27,10 +27,10 @@
       ]
     },
     "talk": {
-      "path": "https://scg.owu.one/@physnya/statuses/01M24RZ5YGTASEYEYHGAXGAXVC",
+      "path": "https://scg.owu.one/@physnya/statuses/01M2JJZXQD9AAM58Z43HB7ESX3",
       "title": "最近一条动态",
-      "excerpt": "括号一般是用来表达当前的心情的. 比如现在: 复活... 其实是因为开学了.",
-      "isoDate": "2026-09-10T04:24:44.241Z",
+      "excerpt": "弄了一个 Elk 做客户端，自己部署的估计更稳一点，唯一缺陷就是只能内网访问了，但是每天挂着 tailscale 所以也没差吧.",
+      "isoDate": "2026-09-15T13:09:39.182Z",
       "account": {
         "displayName": "physnya (复活...",
         "username": "physnya",
@@ -42,7 +42,7 @@
       "stats": {
         "replies": 0,
         "reblogs": 0,
-        "favourites": 2
+        "favourites": 1
       }
     },
     "bangumi": {

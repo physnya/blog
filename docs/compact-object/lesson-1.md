@@ -1,6 +1,6 @@
 ---
 title: Introduction
-permalink: /compact-object/
+permalink: /compact-object/lesson-1-introduction/
 createTime: 2026/09/15 02:14:38
 ---
 考核方式：$10\%$ 课堂参与、$15\%$ 个人课堂阅读报告 (20 min，每个人一次，读文献)、$30\%$ 4 次作业、$15\%$ 期末展示、$30\%$ 期末考核.

@@ -120,6 +120,10 @@
     "lesson-1-introduction": 1892,
     "index": 83
   },
+  "numerical-analysis": {
+    "lesson-1-introduction": 1312,
+    "index": 97
+  },
   "integral": {
     "ih4mtv5k": 1731,
     "4n9oqj6x": 2015,
@@ -265,7 +269,10 @@
     "lesson-1": 1748,
     "index": 131
   },
-  "compact-object": 1027,
+  "compact-object": {
+    "lesson-1-introduction": 1029,
+    "index": 78
+  },
   "posts": {
     "3bozxpa4": 3221,
     "3sl1qun7": 5849,
@@ -448,7 +455,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 617995,
-  "lastUpdated": "2026-09-14T18:19:43.674Z",
-  "fileCount": 408
+  "total": 619484,
+  "lastUpdated": "2026-09-16T08:58:59.350Z",
+  "fileCount": 410
 }
