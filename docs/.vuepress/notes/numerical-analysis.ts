@@ -9,6 +9,7 @@ export default defineCollection({
 			link: "/numerical-analysis/",
 			items: [
 				"lesson-1",
+                "lesson-2",
 			],
 		},
 	],
