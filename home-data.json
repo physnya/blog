@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-09-18T06:54:04.040Z",
+  "counts": {
+    "notes": 327,
+    "posts": 56,
+    "talks": 70,
+    "bangumi": 512
+  },
+  "latest": {
+    "note": {
+      "path": "/numerical-analysis/lesson-2-linear-algebra/",
+      "title": "线性代数复习",
+      "excerpt": "没讲什么比较新的内容，所以半节课都在看文章... 上比较一般的范数定义是 范数 ( )， 对于矩阵而言，我们一般用 Frobenius 范数： 对于 上的函数， 设 是 上的一...",
+      "isoDate": "2026-09-18T14:51:23.000Z",
+      "collectionTitle": "数值分析",
+      "collectionPath": "/numerical-analysis/"
+    },
+    "post": {
+      "path": "/blog/pf301x8q/",
+      "title": "简单深空摄影图像处理入门",
+      "excerpt": "最近观测天文学课的其中一个大作业是选择一个深空天体作为目标，写观测计划，并最终拿到数据之后做一个比较艺术性的摄影图片出来. 感觉这件事情其实是比较有意思的，虽然实际拍摄的过程是...",
+      "isoDate": "2026-06-18T05:36:32.000Z",
+      "section": "keepLearning",
+      "tags": [
+        "Keep-Learning",
+        "astronomy"
+      ]
+    },
+    "talk": {
+      "path": "https://scg.owu.one/@physnya/statuses/01M2PPWW83WJJFKPRA3HJE72RV",
+      "title": "最近一条动态",
+      "excerpt": "为了给隐形眼镜备用，去配了一副框架眼镜，结果戴上之后感觉简直天旋地转. 不过同学说第一次戴框架都是这个感觉？我上下楼梯都不敢抬头了.",
+      "isoDate": "2026-09-17T03:34:51.397Z",
+      "account": {
+        "displayName": "physnya (复活...",
+        "username": "physnya",
+        "instanceDomain": "scg.owu.one",
+        "profile": "https://scg.owu.one/@physnya",
+        "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01KPP1TAV7M13JWG6BK3QG1S83.png"
+      },
+      "media": [],
+      "stats": {
+        "replies": 1,
+        "reblogs": 0,
+        "favourites": 1
+      }
+    },
+    "bangumi": {
+      "title": "元祖！BanG Dream Chan",
+      "subtitle": "元祖！バンドリちゃん",
+      "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
+      "isoDate": "2026-09-04T03:52:43.000Z",
+      "path": "https://bgm.tv/subject/540449",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_rP1Cp.jpg",
+      "score": 6.9,
+      "category": "动画",
+      "status": "ing"
+    }
+  }
+}
