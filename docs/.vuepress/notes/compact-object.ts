@@ -9,6 +9,7 @@ export default defineCollection({
 			link: "/compact-object/",
 			items: [
 				"lesson-1",
+                "lesson-2",
 			],
 		},
 	],

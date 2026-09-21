@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-09-18T06:52:48.961Z",
+  "generatedAt": "2026-09-21T14:18:29.068Z",
   "counts": {
-    "notes": 327,
+    "notes": 328,
     "posts": 56,
     "talks": 70,
     "bangumi": 512
   },
   "latest": {
     "note": {
-      "path": "/numerical-analysis/lesson-2-linear-algebra/",
-      "title": "线性代数复习",
-      "excerpt": "没讲什么比较新的内容，所以半节课都在看文章... 上比较一般的范数定义是 范数 ( )， 对于矩阵而言，我们一般用 Frobenius 范数： 对于 上的函数， 设 是 上的一...",
-      "isoDate": "2026-09-18T06:51:23.000Z",
-      "collectionTitle": "数值分析",
-      "collectionPath": "/numerical-analysis/"
+      "path": "/compact-object/lesson-2-star-structure-and-evolution/",
+      "title": "恒星的结构和演化",
+      "excerpt": "建立恒星的方程，我们通常考虑质量守恒、静力学平衡、能量守恒和反应几个角度. 质量守恒： 静力学平衡： 而压力来源于气体的热压力和光子的辐射压. 对于气体热压力，可以用理想气体方...",
+      "isoDate": "2026-09-21T14:16:32.000Z",
+      "collectionTitle": "黑洞与致密天体",
+      "collectionPath": "/compact-object/"
     },
     "post": {
       "path": "/blog/pf301x8q/",
