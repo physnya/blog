@@ -29,8 +29,8 @@ try {
 
 	execSync("git add docs/.vuepress/public/home-data.json", { stdio: "inherit" });
 
-	console.log("✅ Pre-commit hook completed successfully");
+	console.log("✔︎ Pre-commit hook completed successfully");
 } catch (error) {
-	console.error("❌ Pre-commit hook failed:", error.message);
+	console.error("✘ Pre-commit hook failed:", error.message);
 	process.exit(1);
 }
