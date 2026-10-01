@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-23T19:14:11.318Z",
+  "generatedAt": "2026-10-01T04:43:32.241Z",
   "counts": {
-    "notes": 328,
+    "notes": 329,
     "posts": 56,
     "talks": 70,
     "bangumi": 512
   },
   "latest": {
     "note": {
-      "path": "/compact-object/lesson-2-star-structure-and-evolution/",
-      "title": "恒星的结构和演化",
-      "excerpt": "建立恒星的方程，我们通常考虑质量守恒、静力学平衡、能量守恒和反应几个角度. 质量守恒： 静力学平衡： 而压力来源于气体的热压力和光子的辐射压. 对于气体热压力，可以用理想气体方...",
-      "isoDate": "2026-09-21T14:16:32.000Z",
+      "path": "/compact-object/lesson-3/",
+      "title": "lesson-3",
+      "excerpt": "白矮星 第一颗人类认证的白矮星是天狼星的伴星：它有 K，相对地，天狼星本身只有 K. 因此我们能够推测这个伴星一定具有非常小的发光面积. 为了建立白矮星的方程，我们仍然从上节课...",
+      "isoDate": "2026-09-28T13:45:47.894Z",
       "collectionTitle": "黑洞与致密天体",
       "collectionPath": "/compact-object/"
     },
@@ -49,7 +49,7 @@
       "title": "元祖！BanG Dream Chan",
       "subtitle": "元祖！バンドリちゃん",
       "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
-      "isoDate": "2026-09-04T03:52:43.000Z",
+      "isoDate": "2026-09-25T09:28:54.000Z",
       "path": "https://bgm.tv/subject/540449",
       "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_rP1Cp.jpg",
       "score": 6.9,
