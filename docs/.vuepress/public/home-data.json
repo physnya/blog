@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T04:43:32.241Z",
+  "generatedAt": "2026-10-01T18:43:33.638Z",
   "counts": {
     "notes": 329,
     "posts": 56,
@@ -8,10 +8,10 @@
   },
   "latest": {
     "note": {
-      "path": "/compact-object/lesson-3/",
-      "title": "lesson-3",
-      "excerpt": "白矮星 第一颗人类认证的白矮星是天狼星的伴星：它有 K，相对地，天狼星本身只有 K. 因此我们能够推测这个伴星一定具有非常小的发光面积. 为了建立白矮星的方程，我们仍然从上节课...",
-      "isoDate": "2026-09-28T13:45:47.894Z",
+      "path": "/compact-object/lesson-3-white-dwarf/",
+      "title": "白矮星",
+      "excerpt": "第一颗人类认证的白矮星是天狼星的伴星：它有 K，相对地，天狼星本身只有 K. 因此我们能够推测这个伴星一定具有非常小的发光面积. 为了建立白矮星的方程，我们仍然从上节课的思路出...",
+      "isoDate": "2026-10-01T18:42:27.000Z",
       "collectionTitle": "黑洞与致密天体",
       "collectionPath": "/compact-object/"
     },
@@ -52,7 +52,7 @@
       "isoDate": "2026-09-25T09:28:54.000Z",
       "path": "https://bgm.tv/subject/540449",
       "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_rP1Cp.jpg",
-      "score": 6.9,
+      "score": 6.8,
       "category": "动画",
       "status": "ing"
     }
