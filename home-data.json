@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-10-01T18:44:09.784Z",
+  "counts": {
+    "notes": 329,
+    "posts": 56,
+    "talks": 70,
+    "bangumi": 512
+  },
+  "latest": {
+    "note": {
+      "path": "/compact-object/lesson-3-white-dwarf/",
+      "title": "白矮星",
+      "excerpt": "第一颗人类认证的白矮星是天狼星的伴星：它有 K，相对地，天狼星本身只有 K. 因此我们能够推测这个伴星一定具有非常小的发光面积. 为了建立白矮星的方程，我们仍然从上节课的思路出...",
+      "isoDate": "2026-10-02T02:42:27.000Z",
+      "collectionTitle": "黑洞与致密天体",
+      "collectionPath": "/compact-object/"
+    },
+    "post": {
+      "path": "/blog/pf301x8q/",
+      "title": "简单深空摄影图像处理入门",
+      "excerpt": "最近观测天文学课的其中一个大作业是选择一个深空天体作为目标，写观测计划，并最终拿到数据之后做一个比较艺术性的摄影图片出来. 感觉这件事情其实是比较有意思的，虽然实际拍摄的过程是...",
+      "isoDate": "2026-06-18T05:36:32.000Z",
+      "section": "keepLearning",
+      "tags": [
+        "Keep-Learning",
+        "astronomy"
+      ]
+    },
+    "talk": {
+      "path": "https://scg.owu.one/@physnya/statuses/01M2PPWW83WJJFKPRA3HJE72RV",
+      "title": "最近一条动态",
+      "excerpt": "为了给隐形眼镜备用，去配了一副框架眼镜，结果戴上之后感觉简直天旋地转. 不过同学说第一次戴框架都是这个感觉？我上下楼梯都不敢抬头了.",
+      "isoDate": "2026-09-17T03:34:51.397Z",
+      "account": {
+        "displayName": "physnya (复活...",
+        "username": "physnya",
+        "instanceDomain": "scg.owu.one",
+        "profile": "https://scg.owu.one/@physnya",
+        "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01KPP1TAV7M13JWG6BK3QG1S83.png"
+      },
+      "media": [],
+      "stats": {
+        "replies": 1,
+        "reblogs": 0,
+        "favourites": 1
+      }
+    },
+    "bangumi": {
+      "title": "元祖！BanG Dream Chan",
+      "subtitle": "元祖！バンドリちゃん",
+      "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
+      "isoDate": "2026-09-25T09:28:54.000Z",
+      "path": "https://bgm.tv/subject/540449",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_rP1Cp.jpg",
+      "score": 6.8,
+      "category": "动画",
+      "status": "ing"
+    }
+  }
+}
