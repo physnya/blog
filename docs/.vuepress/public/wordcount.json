@@ -271,6 +271,7 @@
     "index": 131
   },
   "compact-object": {
+    "lesson-4-double-star-system": 1091,
     "lesson-3-white-dwarf": 778,
     "lesson-2-star-structure-and-evolution": 412,
     "lesson-1-introduction": 1029,
@@ -372,6 +373,7 @@
     "index": 117
   },
   "astro-physics": {
+    "lesson-2": 789,
     "lesson-1": 491,
     "index": 47
   },
@@ -458,7 +460,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 620768,
-  "lastUpdated": "2026-10-01T18:43:33.500Z",
-  "fileCount": 413
+  "total": 622648,
+  "lastUpdated": "2026-10-12T14:45:39.290Z",
+  "fileCount": 415
 }

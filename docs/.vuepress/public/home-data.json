@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-01T18:43:33.638Z",
+  "generatedAt": "2026-10-12T14:45:39.445Z",
   "counts": {
-    "notes": 329,
+    "notes": 331,
     "posts": 56,
     "talks": 70,
     "bangumi": 512
   },
   "latest": {
     "note": {
-      "path": "/compact-object/lesson-3-white-dwarf/",
-      "title": "白矮星",
-      "excerpt": "第一颗人类认证的白矮星是天狼星的伴星：它有 K，相对地，天狼星本身只有 K. 因此我们能够推测这个伴星一定具有非常小的发光面积. 为了建立白矮星的方程，我们仍然从上节课的思路出...",
-      "isoDate": "2026-10-01T18:42:27.000Z",
+      "path": "/compact-object/lesson-4-double-star-system/",
+      "title": "双星系统",
+      "excerpt": "Pre 1：用白矮星来探测系外行星的成分 为什么用白矮星？ 因为白矮星的光谱非常「干净」，它的光谱中并没有太多金属成分对我们的测量造成污染；同时白矮星非常「敏感」，有系外行星的...",
+      "isoDate": "2026-10-12T14:43:49.000Z",
       "collectionTitle": "黑洞与致密天体",
       "collectionPath": "/compact-object/"
     },
@@ -27,10 +27,10 @@
       ]
     },
     "talk": {
-      "path": "https://scg.owu.one/@physnya/statuses/01M2PPWW83WJJFKPRA3HJE72RV",
+      "path": "https://scg.owu.one/@physnya/statuses/01M4E7DAEB2Z2A17RRZ35G3AYQ",
       "title": "最近一条动态",
-      "excerpt": "为了给隐形眼镜备用，去配了一副框架眼镜，结果戴上之后感觉简直天旋地转. 不过同学说第一次戴框架都是这个感觉？我上下楼梯都不敢抬头了.",
-      "isoDate": "2026-09-17T03:34:51.397Z",
+      "excerpt": "忘记在这边发了, 昨天过生日, 我也是步入 20s 了 hh",
+      "isoDate": "2026-10-08T17:01:41.195Z",
       "account": {
         "displayName": "physnya (复活...",
         "username": "physnya",
@@ -42,7 +42,7 @@
       "stats": {
         "replies": 1,
         "reblogs": 0,
-        "favourites": 1
+        "favourites": 3
       }
     },
     "bangumi": {
@@ -52,7 +52,7 @@
       "isoDate": "2026-09-25T09:28:54.000Z",
       "path": "https://bgm.tv/subject/540449",
       "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_rP1Cp.jpg",
-      "score": 6.8,
+      "score": 6.7,
       "category": "动画",
       "status": "ing"
     }

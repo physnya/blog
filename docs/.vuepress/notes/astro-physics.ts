@@ -9,6 +9,7 @@ export default defineCollection({
       link: "/astro-physics/",
       items: [
         "lesson-1",
+        "lesson-3",
       ],
     },
   ],
