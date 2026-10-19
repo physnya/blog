@@ -10,6 +10,7 @@ export default defineCollection({
       items: [
         "lesson-1",
         "lesson-3",
+        "lesson-4",
       ],
     },
   ],

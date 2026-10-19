@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-12T14:45:39.445Z",
+  "generatedAt": "2026-10-19T10:02:08.879Z",
   "counts": {
-    "notes": 331,
+    "notes": 330,
     "posts": 56,
     "talks": 70,
     "bangumi": 512
   },
   "latest": {
     "note": {
-      "path": "/compact-object/lesson-4-double-star-system/",
-      "title": "双星系统",
-      "excerpt": "Pre 1：用白矮星来探测系外行星的成分 为什么用白矮星？ 因为白矮星的光谱非常「干净」，它的光谱中并没有太多金属成分对我们的测量造成污染；同时白矮星非常「敏感」，有系外行星的...",
-      "isoDate": "2026-10-12T14:43:49.000Z",
-      "collectionTitle": "黑洞与致密天体",
-      "collectionPath": "/compact-object/"
+      "path": "/astro-physics/lesson-4-star-structure/",
+      "title": "恒星结构",
+      "excerpt": "恒星形成的 Jeans 判据：根据前面所讨论，常密度的球形气体云的引力势能为 如果进一步近似为等温的气体云，其内能为 . 根据 Virial 定理，当 时，气体云会塌缩，这时候...",
+      "isoDate": "2026-10-19T10:00:08.000Z",
+      "collectionTitle": "天体物理",
+      "collectionPath": "/astro-physics/"
     },
     "post": {
       "path": "/blog/pf301x8q/",
@@ -42,7 +42,7 @@
       "stats": {
         "replies": 1,
         "reblogs": 0,
-        "favourites": 3
+        "favourites": 5
       }
     },
     "bangumi": {

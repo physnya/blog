@@ -120,11 +120,6 @@
     "lesson-1-introduction": 1892,
     "index": 83
   },
-  "numerical-analysis": {
-    "lesson-2-linear-algebra": 94,
-    "lesson-1-introduction": 1312,
-    "index": 97
-  },
   "integral": {
     "ih4mtv5k": 1731,
     "4n9oqj6x": 2015,
@@ -373,6 +368,7 @@
     "index": 117
   },
   "astro-physics": {
+    "lesson-4-star-structure": 850,
     "lesson-2": 789,
     "lesson-1": 491,
     "index": 47
@@ -460,7 +456,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 622648,
-  "lastUpdated": "2026-10-12T14:45:39.290Z",
-  "fileCount": 415
+  "total": 621995,
+  "lastUpdated": "2026-10-19T10:02:08.717Z",
+  "fileCount": 413
 }
