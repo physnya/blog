@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-10-21T16:27:15.586Z",
+  "counts": {
+    "notes": 331,
+    "posts": 56,
+    "talks": 0,
+    "bangumi": 512
+  },
+  "latest": {
+    "note": {
+      "path": "/compact-object/lesson-5-general-relativity-effect/",
+      "title": "广义相对论的观测效应",
+      "excerpt": "广义相对论的可观测效应 我们的核心讨论是，什么时候必须用广义相对论. 狭义相对论效应回顾 光速不变原理. 这引入了 Lorentz 因子， 时间延缓效应： . 长度收缩效应：...",
+      "isoDate": "2026-10-20T01:04:34.000Z",
+      "collectionTitle": "黑洞与致密天体",
+      "collectionPath": "/compact-object/"
+    },
+    "post": {
+      "path": "/blog/pf301x8q/",
+      "title": "简单深空摄影图像处理入门",
+      "excerpt": "最近观测天文学课的其中一个大作业是选择一个深空天体作为目标，写观测计划，并最终拿到数据之后做一个比较艺术性的摄影图片出来. 感觉这件事情其实是比较有意思的，虽然实际拍摄的过程是...",
+      "isoDate": "2026-06-18T05:36:32.000Z",
+      "section": "keepLearning",
+      "tags": [
+        "Keep-Learning",
+        "astronomy"
+      ]
+    },
+    "talk": null,
+    "bangumi": {
+      "title": "元祖！BanG Dream Chan",
+      "subtitle": "元祖！バンドリちゃん",
+      "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
+      "isoDate": "2026-09-25T09:28:54.000Z",
+      "path": "https://bgm.tv/subject/540449",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_rP1Cp.jpg",
+      "score": 6.7,
+      "category": "动画",
+      "status": "ing"
+    }
+  }
+}
