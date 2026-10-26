@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-10-19T10:02:08.879Z",
+  "generatedAt": "2026-10-26T14:12:54.568Z",
   "counts": {
-    "notes": 330,
+    "notes": 333,
     "posts": 56,
     "talks": 70,
     "bangumi": 512
   },
   "latest": {
     "note": {
-      "path": "/astro-physics/lesson-4-star-structure/",
-      "title": "恒星结构",
-      "excerpt": "恒星形成的 Jeans 判据：根据前面所讨论，常密度的球形气体云的引力势能为 如果进一步近似为等温的气体云，其内能为 . 根据 Virial 定理，当 时，气体云会塌缩，这时候...",
-      "isoDate": "2026-10-19T10:00:08.000Z",
-      "collectionTitle": "天体物理",
-      "collectionPath": "/astro-physics/"
+      "path": "/compact-object/lesson-6-supernova-and-neutron-star/",
+      "title": "超新星 & 中子星",
+      "excerpt": "在中国古代曾经观察到过好几次超新星的爆发事件. 中子星在观测上的最早确认是在 1960s，得益于射电望远镜的发达，发现脉冲星. 大质量恒星在生命晚期的结构类似洋葱，其不同元素形...",
+      "isoDate": "2026-10-26T14:12:29.000Z",
+      "collectionTitle": "黑洞与致密天体",
+      "collectionPath": "/compact-object/"
     },
     "post": {
       "path": "/blog/pf301x8q/",
@@ -42,7 +42,7 @@
       "stats": {
         "replies": 1,
         "reblogs": 0,
-        "favourites": 5
+        "favourites": 6
       }
     },
     "bangumi": {

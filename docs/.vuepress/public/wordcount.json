@@ -266,6 +266,8 @@
     "index": 131
   },
   "compact-object": {
+    "lesson-6-supernova-and-neutron-star": 516,
+    "lesson-5-general-relativity-effect": 778,
     "lesson-4-double-star-system": 1091,
     "lesson-3-white-dwarf": 778,
     "lesson-2-star-structure-and-evolution": 412,
@@ -368,6 +370,7 @@
     "index": 117
   },
   "astro-physics": {
+    "lesson-5-nuclear-synthesis": 886,
     "lesson-4-star-structure": 850,
     "lesson-2": 789,
     "lesson-1": 491,
@@ -456,7 +459,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 621995,
-  "lastUpdated": "2026-10-19T10:02:08.717Z",
-  "fileCount": 413
+  "total": 624175,
+  "lastUpdated": "2026-10-26T14:12:54.424Z",
+  "fileCount": 416
 }
