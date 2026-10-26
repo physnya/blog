@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-10-26T14:13:30.566Z",
+  "counts": {
+    "notes": 333,
+    "posts": 56,
+    "talks": 70,
+    "bangumi": 512
+  },
+  "latest": {
+    "note": {
+      "path": "/compact-object/lesson-6-supernova-and-neutron-star/",
+      "title": "超新星 & 中子星",
+      "excerpt": "在中国古代曾经观察到过好几次超新星的爆发事件. 中子星在观测上的最早确认是在 1960s，得益于射电望远镜的发达，发现脉冲星. 大质量恒星在生命晚期的结构类似洋葱，其不同元素形...",
+      "isoDate": "2026-10-26T22:12:29.000Z",
+      "collectionTitle": "黑洞与致密天体",
+      "collectionPath": "/compact-object/"
+    },
+    "post": {
+      "path": "/blog/pf301x8q/",
+      "title": "简单深空摄影图像处理入门",
+      "excerpt": "最近观测天文学课的其中一个大作业是选择一个深空天体作为目标，写观测计划，并最终拿到数据之后做一个比较艺术性的摄影图片出来. 感觉这件事情其实是比较有意思的，虽然实际拍摄的过程是...",
+      "isoDate": "2026-06-18T05:36:32.000Z",
+      "section": "keepLearning",
+      "tags": [
+        "Keep-Learning",
+        "astronomy"
+      ]
+    },
+    "talk": {
+      "path": "https://scg.owu.one/@physnya/statuses/01M4E7DAEB2Z2A17RRZ35G3AYQ",
+      "title": "最近一条动态",
+      "excerpt": "忘记在这边发了, 昨天过生日, 我也是步入 20s 了 hh",
+      "isoDate": "2026-10-08T17:01:41.195Z",
+      "account": {
+        "displayName": "physnya (复活...",
+        "username": "physnya",
+        "instanceDomain": "scg.owu.one",
+        "profile": "https://scg.owu.one/@physnya",
+        "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01KPP1TAV7M13JWG6BK3QG1S83.png"
+      },
+      "media": [],
+      "stats": {
+        "replies": 1,
+        "reblogs": 0,
+        "favourites": 6
+      }
+    },
+    "bangumi": {
+      "title": "元祖！BanG Dream Chan",
+      "subtitle": "元祖！バンドリちゃん",
+      "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
+      "isoDate": "2026-09-25T09:28:54.000Z",
+      "path": "https://bgm.tv/subject/540449",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_rP1Cp.jpg",
+      "score": 6.7,
+      "category": "动画",
+      "status": "ing"
+    }
+  }
+}

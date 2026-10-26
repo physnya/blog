@@ -1,0 +1,1 @@
+import{Rt as e}from"./common-DqiPSaHM.js";export{e as createArchitectureServices};
