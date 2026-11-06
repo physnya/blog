@@ -1,0 +1,1 @@
+import{Rt as e}from"./common-Cr6zXFOV.js";export{e as createArchitectureServices};

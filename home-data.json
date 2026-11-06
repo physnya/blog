@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-11-06T12:32:18.404Z",
+  "counts": {
+    "notes": 335,
+    "posts": 57,
+    "talks": 70,
+    "bangumi": 512
+  },
+  "latest": {
+    "note": {
+      "path": "/compact-object/lesson-7-pulsars/",
+      "title": "脉冲星",
+      "excerpt": "Pre 1: Kerr Neumann Perturbations 我们的问题是一个被扰动的黑洞会释放辐射，而这个微扰会如何改动它的辐射复频率. 计算的方法是对 Einstei...",
+      "isoDate": "2026-11-06T20:26:32.000Z",
+      "collectionTitle": "黑洞与致密天体",
+      "collectionPath": "/compact-object/"
+    },
+    "post": {
+      "path": "/posts/tde-lecture/",
+      "title": "Tidal Disruption Events",
+      "excerpt": "这是我去 wxf 老师组会听北大的 yyh 老师讲的报告时记录的笔记，留作备份. 由于我之前并没有接触过 TDE 相关的内容，因此听得不是很明白，勉强记下来一些. Genera...",
+      "isoDate": "2026-11-06T20:28:34.000Z",
+      "section": "lectures",
+      "tags": [
+        "astronomy",
+        "lecture",
+        "tidal-disruption-events"
+      ]
+    },
+    "talk": {
+      "path": "https://scg.owu.one/@physnya/statuses/01M4E7DAEB2Z2A17RRZ35G3AYQ",
+      "title": "最近一条动态",
+      "excerpt": "忘记在这边发了, 昨天过生日, 我也是步入 20s 了 hh",
+      "isoDate": "2026-10-08T17:01:41.195Z",
+      "account": {
+        "displayName": "physnya (复活...",
+        "username": "physnya",
+        "instanceDomain": "scg.owu.one",
+        "profile": "https://scg.owu.one/@physnya",
+        "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01KPP1TAV7M13JWG6BK3QG1S83.png"
+      },
+      "media": [],
+      "stats": {
+        "replies": 1,
+        "reblogs": 0,
+        "favourites": 6
+      }
+    },
+    "bangumi": {
+      "title": "元祖！BanG Dream Chan",
+      "subtitle": "元祖！バンドリちゃん",
+      "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
+      "isoDate": "2026-09-25T09:28:54.000Z",
+      "path": "https://bgm.tv/subject/540449",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_rP1Cp.jpg",
+      "score": 6.7,
+      "category": "动画",
+      "status": "ing"
+    }
+  }
+}
