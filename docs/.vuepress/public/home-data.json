@@ -1,29 +1,30 @@
 {
-  "generatedAt": "2026-11-02T07:10:19.022Z",
+  "generatedAt": "2026-11-06T12:30:58.409Z",
   "counts": {
-    "notes": 334,
-    "posts": 56,
+    "notes": 335,
+    "posts": 57,
     "talks": 70,
     "bangumi": 512
   },
   "latest": {
     "note": {
-      "path": "/astro-physics/lesson-6-polytropic-model/",
-      "title": "辐射转移与多方模型",
-      "excerpt": "辐射转移方程 用 描述介质发射和吸收系数之比，称为源函数， 为辐射转移方程. 也就是经过任何距离，光强 都会向 接近. 在任意方向上，辐射转移方程加上一个深度和三角函数： 这个...",
-      "isoDate": "2026-11-02T07:09:28.000Z",
-      "collectionTitle": "天体物理",
-      "collectionPath": "/astro-physics/"
+      "path": "/compact-object/lesson-7-pulsars/",
+      "title": "脉冲星",
+      "excerpt": "Pre 1: Kerr Neumann Perturbations 我们的问题是一个被扰动的黑洞会释放辐射，而这个微扰会如何改动它的辐射复频率. 计算的方法是对 Einstei...",
+      "isoDate": "2026-11-06T12:26:32.000Z",
+      "collectionTitle": "黑洞与致密天体",
+      "collectionPath": "/compact-object/"
     },
     "post": {
-      "path": "/blog/pf301x8q/",
-      "title": "简单深空摄影图像处理入门",
-      "excerpt": "最近观测天文学课的其中一个大作业是选择一个深空天体作为目标，写观测计划，并最终拿到数据之后做一个比较艺术性的摄影图片出来. 感觉这件事情其实是比较有意思的，虽然实际拍摄的过程是...",
-      "isoDate": "2026-06-17T21:36:32.000Z",
-      "section": "keepLearning",
+      "path": "/posts/tde-lecture/",
+      "title": "Tidal Disruption Events",
+      "excerpt": "这是我去 wxf 老师组会听北大的 yyh 老师讲的报告时记录的笔记，留作备份. 由于我之前并没有接触过 TDE 相关的内容，因此听得不是很明白，勉强记下来一些. Genera...",
+      "isoDate": "2026-11-06T12:28:34.000Z",
+      "section": "lectures",
       "tags": [
-        "Keep-Learning",
-        "astronomy"
+        "astronomy",
+        "lecture",
+        "tidal-disruption-events"
       ]
     },
     "talk": {
