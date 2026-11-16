@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-11-06T12:30:58.409Z",
+  "generatedAt": "2026-11-16T18:16:15.837Z",
   "counts": {
-    "notes": 335,
+    "notes": 338,
     "posts": 57,
     "talks": 70,
-    "bangumi": 512
+    "bangumi": 511
   },
   "latest": {
     "note": {
-      "path": "/compact-object/lesson-7-pulsars/",
-      "title": "脉冲星",
-      "excerpt": "Pre 1: Kerr Neumann Perturbations 我们的问题是一个被扰动的黑洞会释放辐射，而这个微扰会如何改动它的辐射复频率. 计算的方法是对 Einstei...",
-      "isoDate": "2026-11-06T12:26:32.000Z",
-      "collectionTitle": "黑洞与致密天体",
-      "collectionPath": "/compact-object/"
+      "path": "/astro-physics/lesson-7-star-dying/",
+      "title": "恒星末期演化",
+      "excerpt": "大多数 Wolf Rayet 星会因为强烈的星风将外层物质剥离，最终形成壳层剥离超新星. 脉动变星：具有周期 光度关系，通过测量它们的光变周期可以估算它们的光度，从而得到它们的...",
+      "isoDate": "2026-11-16T18:15:25.000Z",
+      "collectionTitle": "天体物理",
+      "collectionPath": "/astro-physics/"
     },
     "post": {
       "path": "/posts/tde-lecture/",
@@ -28,10 +28,10 @@
       ]
     },
     "talk": {
-      "path": "https://scg.owu.one/@physnya/statuses/01M4E7DAEB2Z2A17RRZ35G3AYQ",
+      "path": "https://scg.owu.one/@physnya/statuses/01M7JR5Q5M6NCEVJDTD3JPKSMK",
       "title": "最近一条动态",
-      "excerpt": "忘记在这边发了, 昨天过生日, 我也是步入 20s 了 hh",
-      "isoDate": "2026-10-08T17:01:41.195Z",
+      "excerpt": "用机械键盘就会很想打字，但是实际上并没有那么多需要打字的场景... 需要打字的场景通常是在上课，上课是必定不可能带一把三四斤重的键盘到教室的. 所以说这就构成了一个很让人手痒的局面 —— 或许我应该做一些产出，可惜我并没有相应的才华. 总之先写一些帖子肯定是不错的.",
+      "isoDate": "2026-11-16T17:58:41.088Z",
       "account": {
         "displayName": "physnya (复活...",
         "username": "physnya",
@@ -41,19 +41,19 @@
       },
       "media": [],
       "stats": {
-        "replies": 1,
+        "replies": 0,
         "reblogs": 0,
-        "favourites": 6
+        "favourites": 0
       }
     },
     "bangumi": {
-      "title": "元祖！BanG Dream Chan",
-      "subtitle": "元祖！バンドリちゃん",
-      "excerpt": "ガールズバンド世界を席巻した あの「バンドリちゃん」が帰ってきた！？ ポップでキュートなバンドメンバー大集結、 アバンギャルドな魅力いっぱいの痛快ガールズバンドコメディ！ こっちにおいでよバン...",
-      "isoDate": "2026-09-25T09:28:54.000Z",
-      "path": "https://bgm.tv/subject/540449",
-      "image": "https://lain.bgm.tv/r/400/pic/cover/l/07/4f/540449_rP1Cp.jpg",
-      "score": 6.7,
+      "title": "淡岛百景",
+      "subtitle": "淡島百景",
+      "excerpt": "淡岛歌剧学校里，梦想着站上舞台的少女们自全国各地齐聚而来。憧憬着歌舞剧明星而入学的新生・若菜。背负着挚友的思念努力学习的舍长・绢枝。散发出压倒性存在感的，美丽特待生・绘美。憧憬她、嫉妒她，并不...",
+      "isoDate": "2026-11-07T17:41:18.000Z",
+      "path": "https://bgm.tv/subject/493724",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/bd/33/493724_V6lXx.jpg",
+      "score": 7.7,
       "category": "动画",
       "status": "ing"
     }

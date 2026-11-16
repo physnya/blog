@@ -266,6 +266,8 @@
     "index": 131
   },
   "compact-object": {
+    "lesson-9-black-holes": 3248,
+    "lesson-8-frb-grb": 968,
     "lesson-7-pulsars": 737,
     "lesson-6-supernova-and-neutron-star": 516,
     "lesson-5-general-relativity-effect": 778,
@@ -372,6 +374,7 @@
     "index": 117
   },
   "astro-physics": {
+    "lesson-7-star-dying": 665,
     "lesson-6-polytropic-model": 1046,
     "lesson-5-nuclear-synthesis": 886,
     "lesson-4-star-structure": 850,
@@ -462,7 +465,7 @@
     "956bau6f": 1844,
     "index": 296
   },
-  "total": 627351,
-  "lastUpdated": "2026-11-06T12:30:58.265Z",
-  "fileCount": 419
+  "total": 632232,
+  "lastUpdated": "2026-11-16T18:16:15.685Z",
+  "fileCount": 422
 }
