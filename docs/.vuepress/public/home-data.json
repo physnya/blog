@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-16T18:16:15.837Z",
+  "generatedAt": "2026-11-20T14:02:06.272Z",
   "counts": {
     "notes": 338,
     "posts": 57,
-    "talks": 70,
+    "talks": 68,
     "bangumi": 511
   },
   "latest": {
@@ -28,10 +28,10 @@
       ]
     },
     "talk": {
-      "path": "https://scg.owu.one/@physnya/statuses/01M7JR5Q5M6NCEVJDTD3JPKSMK",
+      "path": "https://scg.owu.one/@physnya/statuses/01M7QVEXAQM8TKE3P74A47F9C9",
       "title": "最近一条动态",
-      "excerpt": "用机械键盘就会很想打字，但是实际上并没有那么多需要打字的场景... 需要打字的场景通常是在上课，上课是必定不可能带一把三四斤重的键盘到教室的. 所以说这就构成了一个很让人手痒的局面 —— 或许我应该做一些产出，可惜我并没有相应的才华. 总之先写一些帖子肯定是不错的.",
-      "isoDate": "2026-11-16T17:58:41.088Z",
+      "excerpt": "考试考完了但是觉得自己考得依托... 不过其实按照这个课的评分标准来说，期中只要及格，期末九十分以上的话也是能考到 A 的. 当然我并没有期末九十分的把握，按照今天的情况估计是能够比及格线稍微高一点的吧 (高一点吗？)",
+      "isoDate": "2026-11-18T17:32:20.185Z",
       "account": {
         "displayName": "physnya (复活...",
         "username": "physnya",
@@ -41,7 +41,7 @@
       },
       "media": [],
       "stats": {
-        "replies": 0,
+        "replies": 2,
         "reblogs": 0,
         "favourites": 0
       }
