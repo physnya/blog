@@ -36,7 +36,7 @@ list:
     link: https://sccube.link
     avatar: https://s.scc.moe/avatar-s
   - name: 相空间札记
-    desc:
+    desc: null
     link: https://mr-errion.github.io/
     avatar: https://mr-errion.github.io/favicon.png
   - name: Whitney
@@ -54,7 +54,7 @@ list:
   - name: sqzr2319
     desc: 愿群星于道路中寻见你.
     link: https://sqzr2319.github.io
-    avatar: https://sqzr2319.github.io/img/sqzr2319.png 
+    avatar: https://sqzr2319.github.io/img/sqzr2319.png
   - name: Weichky's Blog
     desc: 物不可穷也，故受之以未济.
     link: https://blog.weichky.com
@@ -70,6 +70,7 @@ list:
   - name: 樟庭徊路
     link: https://vilstia.pages.dev/
     avatar: https://vilstia.pages.dev/_astro/qinlin.CEfhYiWR_Z8XFqE.webp
+createTime: 2025/09/07 01:57:54
 ---
 
 如果你想要申请友链，请仔细阅读友链的申请规则，在符合规则之后再来本页面的评论区提出申请.
