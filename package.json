@@ -53,6 +53,7 @@
     "vite-plugin-font": "^5.1.2",
     "vue": "^3.5.46",
     "vuepress": "2.0.0-rc.32",
+    "vuepress-plugin-md-power": "1.0.0-rc.219",
     "vuepress-theme-plume": "1.0.0-rc.219"
   },
   "dependencies": {
