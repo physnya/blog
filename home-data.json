@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-11-21T10:06:32.475Z",
+  "counts": {
+    "notes": 338,
+    "posts": 57,
+    "talks": 68,
+    "bangumi": 511
+  },
+  "latest": {
+    "note": {
+      "path": "/astro-physics/lesson-7-star-dying/",
+      "title": "恒星末期演化",
+      "excerpt": "大多数 Wolf Rayet 星会因为强烈的星风将外层物质剥离，最终形成壳层剥离超新星. 脉动变星：具有周期 光度关系，通过测量它们的光变周期可以估算它们的光度，从而得到它们的...",
+      "isoDate": "2026-11-17T02:15:25.000Z",
+      "collectionTitle": "天体物理",
+      "collectionPath": "/astro-physics/"
+    },
+    "post": {
+      "path": "/posts/tde-lecture/",
+      "title": "Tidal Disruption Events",
+      "excerpt": "这是我去 wxf 老师组会听北大的 yyh 老师讲的报告时记录的笔记，留作备份. 由于我之前并没有接触过 TDE 相关的内容，因此听得不是很明白，勉强记下来一些. Genera...",
+      "isoDate": "2026-11-06T20:28:34.000Z",
+      "section": "lectures",
+      "tags": [
+        "astronomy",
+        "lecture",
+        "tidal-disruption-events"
+      ]
+    },
+    "talk": {
+      "path": "https://scg.owu.one/@physnya/statuses/01M7QVEXAQM8TKE3P74A47F9C9",
+      "title": "最近一条动态",
+      "excerpt": "考试考完了但是觉得自己考得依托... 不过其实按照这个课的评分标准来说，期中只要及格，期末九十分以上的话也是能考到 A 的. 当然我并没有期末九十分的把握，按照今天的情况估计是能够比及格线稍微高一点的吧 (高一点吗？)",
+      "isoDate": "2026-11-18T17:32:20.185Z",
+      "account": {
+        "displayName": "physnya (复活...",
+        "username": "physnya",
+        "instanceDomain": "scg.owu.one",
+        "profile": "https://scg.owu.one/@physnya",
+        "avatar": "https://scg.owu.one/fileserver/01S7TWZEND5J9SQ9XRCDCR3VCJ/attachment/original/01KPP1TAV7M13JWG6BK3QG1S83.png"
+      },
+      "media": [],
+      "stats": {
+        "replies": 2,
+        "reblogs": 0,
+        "favourites": 0
+      }
+    },
+    "bangumi": {
+      "title": "淡岛百景",
+      "subtitle": "淡島百景",
+      "excerpt": "淡岛歌剧学校里，梦想着站上舞台的少女们自全国各地齐聚而来。憧憬着歌舞剧明星而入学的新生・若菜。背负着挚友的思念努力学习的舍长・绢枝。散发出压倒性存在感的，美丽特待生・绘美。憧憬她、嫉妒她，并不...",
+      "isoDate": "2026-11-07T17:41:18.000Z",
+      "path": "https://bgm.tv/subject/493724",
+      "image": "https://lain.bgm.tv/r/400/pic/cover/l/bd/33/493724_V6lXx.jpg",
+      "score": 7.7,
+      "category": "动画",
+      "status": "ing"
+    }
+  }
+}
